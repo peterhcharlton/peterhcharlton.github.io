@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Peter Charlton</title>
-    <link>https://peterhcharlton.github.io/event/</link>
-      <atom:link href="https://peterhcharlton.github.io/event/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
+    <title>wearables | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/wearables/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
+    <description>wearables</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://peterhcharlton.github.io/event/</link>
+      <title>wearables</title>
+      <link>https://peterhcharlton.github.io/tag/wearables/</link>
     </image>
     
     <item>
@@ -29,6 +29,16 @@
     </item>
     
     <item>
+      <title>Respiratory rate algorithms for wearables</title>
+      <link>https://peterhcharlton.github.io/project/rr-wearables/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/rr-wearables/</guid>
+      <description>&lt;p&gt;The project aims to provide an algorithm to estimate respiratory rate from wearable photoplethysmogram (PPG) signals for use in daily life.&lt;/p&gt;
+&lt;p&gt;Further details on the project are available &lt;a href=&#34;https://peterhcharlton.github.io/RRest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Realising the potential of wearables for health monitoring</title>
       <link>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</link>
       <pubDate>Thu, 18 Mar 2021 11:00:00 +0000</pubDate>
@@ -42,6 +52,14 @@
 &lt;/div&gt;
  --&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Extraction of respiratory signals from the electrocardiogram and photoplethysmogram: technical and physiological determinants</title>
+      <link>https://peterhcharlton.github.io/publication/resp_sig_extraction/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/resp_sig_extraction/</guid>
+      <description></description>
     </item>
     
   </channel>

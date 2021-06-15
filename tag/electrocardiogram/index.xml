@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Peter Charlton</title>
-    <link>https://peterhcharlton.github.io/publication/</link>
-      <atom:link href="https://peterhcharlton.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>electrocardiogram | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/electrocardiogram/index.xml" rel="self" type="application/rss+xml" />
+    <description>electrocardiogram</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Publications</title>
-      <link>https://peterhcharlton.github.io/publication/</link>
+      <title>electrocardiogram</title>
+      <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://peterhcharlton.github.io/publication/resp_sig_extraction/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/resp_sig_extraction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An assessment of algorithms to estimate respiratory rate from the electrocardiogram and photoplethysmogram</title>
-      <link>https://peterhcharlton.github.io/publication/rr_algs_assessment/</link>
-      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/rr_algs_assessment/</guid>
       <description></description>
     </item>
     

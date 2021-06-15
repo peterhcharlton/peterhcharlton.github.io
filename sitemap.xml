@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2021-03-18T11:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</loc>
-    <lastmod>2021-03-18T11:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/project/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/project/rr-wearables/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</loc>
     <lastmod>2021-03-18T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/academic/</loc>
@@ -21,9 +45,6 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/getting-started/</loc>
@@ -41,25 +62,22 @@
     <loc>https://peterhcharlton.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2016-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication/example/</loc>
-    <lastmod>2016-03-30T00:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/resp_sig_extraction/</loc>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2016-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/rr_algs_assessment/</loc>
     <lastmod>2016-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/admin/</loc>

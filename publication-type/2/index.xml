@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/publication-type/2/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 30 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>Extraction of respiratory signals from the electrocardiogram and photoplethysmogram: technical and physiological determinants</title>
+      <link>https://peterhcharlton.github.io/publication/resp_sig_extraction/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/resp_sig_extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An assessment of algorithms to estimate respiratory rate from the electrocardiogram and photoplethysmogram</title>
-      <link>https://peterhcharlton.github.io/publication/example/</link>
+      <link>https://peterhcharlton.github.io/publication/rr_algs_assessment/</link>
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/example/</guid>
+      <guid>https://peterhcharlton.github.io/publication/rr_algs_assessment/</guid>
       <description></description>
     </item>
     
