@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/publication/</link>
       <atom:link href="https://peterhcharlton.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://peterhcharlton.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Acquiring wearable photoplethysmography data in daily life: The PPG Diary Pilot Study</title>
+      <link>https://peterhcharlton.github.io/publication/ppg_diary/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/ppg_diary/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Extraction of respiratory signals from the electrocardiogram and photoplethysmogram: technical and physiological determinants</title>
