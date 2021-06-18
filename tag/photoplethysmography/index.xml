@@ -5,12 +5,62 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmography</title>
       <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
     </image>
+    
+    <item>
+      <title>Testing wearable devices</title>
+      <link>https://peterhcharlton.github.io/post/safer_wearables_testing/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/safer_wearables_testing/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://peterhcharlton.github.io/project/safer-wearables/&#34;&gt;SAFER Wearables Study&lt;/a&gt; aims to assess the performance and acceptability of wearables for atrial fibrillation screening. It is important that the wearables are able to capture data in everyday life when &lt;em&gt;unmonitored&lt;/em&gt; (unsupervised by the researchers - &lt;em&gt;left to their own devices&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;This post describes initial testing of candidate devices for the study.&lt;/p&gt;
+&lt;h2 id=&#34;devices&#34;&gt;Devices&lt;/h2&gt;
+&lt;p&gt;The devices under test, shown at the top of this page, were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reference ECG chest-patch&lt;/strong&gt;: The &lt;a href=&#34;https://shop.bittium.com/product/36/bittium-faros-180-solution-pack&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bittium Faros 180&lt;/a&gt; was used with &lt;a href=&#34;https://www.ambu.com/cardiology/ecg-electrodes/product/ambu-bluesensor-vlc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;long-term electrodes&lt;/a&gt;. It was worn on the sternum, with one electrode placed at the top of the sternum, and the other placed towards the bottom of the sternum (the green, F/LL electrode was not attached). It was set to record a single-lead electrocardiogram (ECG) signal at 125 Hz, with no additional recording (such as accelerometry) or analysis (such as RR-interval derivation). Data were stored on the device for retrospective download via USB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photoplethysmography-based wristband&lt;/strong&gt;: The &lt;a href=&#34;https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX-HEALTHBAND.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Max-Health-Band&lt;/a&gt; was used to record photoplethysmogram (PPG) and accelerometry (accel) signals at the wrist. PPG signals were sampled at 25 Hz (green and ambient), and tri-axis accel signals were also sampled at 25 Hz. The data are initially stored on the device, and transmitted via Bluetooth to a mobile phone for long-term storage (due to limited on-device memory).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electrocardiography-based wristband&lt;/strong&gt;: The &lt;a href=&#34;https://www.withings.com/uk/en/move-ecg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Withings Move ECG&lt;/a&gt; device was used to acquire 30-second ECG recordings on demand (when the user activated the ECG recording).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile phone&lt;/strong&gt;: A &amp;lsquo;Motorola Moto G8 Power Lite&amp;rsquo; Android mobile phone was used to store signals from the two wristbands. &lt;a href=&#34;https://www.macrodroid.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Macrodroid&lt;/a&gt; was used to open and close two apps in turn to download signals from the PPG and ECG wristbands (the &amp;lsquo;&lt;a href=&#34;https://pulseon.com/tech/ohr-tracker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PulseOn Demo&lt;/a&gt;&amp;rsquo; and &amp;lsquo;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.withings.wiscale2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Withings Health Mate&lt;/a&gt;&amp;rsquo; apps respectively). The PPG app was opened twice per hour, for 14 minutes each time, and the ECG app was opened once per hour, for 14 minutes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;protocol&#34;&gt;Protocol&lt;/h2&gt;
+&lt;p&gt;A single user attempted to wear the devices for seven days.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reference ECG chest-patch&lt;/strong&gt;: The user changed electrodes if necessary (due to discomfort), but otherwise the device was unattended. The user shaved prior to application, and removed the device for showering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photoplethysmography-based wristband&lt;/strong&gt;: This device was removed and charged each day (typically for 1-2 hours, until it indicated it was fully charged). It was also removed when showering and washing. The device appeared to freeze at one point, so was reset. Otherwise, it was unattended.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electrocardiography-based wristband&lt;/strong&gt;: ECG recordings were acquired each day (somewhat sporadically).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile phone&lt;/strong&gt;: The mobile phone was kept on charge in a room where the user spent several hours each day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;outcomes&#34;&gt;Outcomes&lt;/h2&gt;
+&lt;h3 id=&#34;user-acceptability&#34;&gt;User acceptability&lt;/h3&gt;
+&lt;p&gt;The devices were worn for approximately 6.5 days. They were removed early because the ECG chest-patch was sounding a low battery alarm. The user changed electrodes twice during the study.&lt;/p&gt;
+&lt;h3 id=&#34;data-acquisition&#34;&gt;Data acquisition&lt;/h3&gt;
+&lt;h2 id=&#34;learning-points&#34;&gt;Learning points&lt;/h2&gt;
+&lt;p&gt;We learnt several things from the testing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Low battery alarm&lt;/strong&gt;: The ECG chest-patch sounded a (loud) low battery alarm, waking up the user. I realised that this functionality could have been turned off, and this should be done in the future.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Closing apps&lt;/strong&gt;: The process used to close apps was unreliable, and should be refined (perhaps by closing apps one at a time, rather than attempting to close them all using the &amp;lsquo;Close All&amp;rsquo; button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;remaining-questions&#34;&gt;Remaining questions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ECG chest-patch battery life:&lt;/strong&gt; Although the device was removed early due to a low battery alarm, it is not clear whether the device could have continued recording for the remaining 0.5 days. When it was connected to a computer the device had approximately 35% battery remaining, indicated that perhaps it could last 7 days. The file size for the ECG signal was 140 MB (leaving over 3GB spare) indicating that the internal storage may be sufficient to store additional signals such as accelerometry, although it&amp;rsquo;s not clear whether turning on the accelerometry would reduce battery life.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chest-patch connector&lt;/strong&gt;: The chest-patch connector had three electrode connections, but only two were used in this testing. It would be good to find out whether a connector with only two connections is available, which would avoid having a spare connector hanging loosely.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Having identified suitable devices for the SAFER Wearables Study, the next steps are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To purchase the necessary devices to start the study&lt;/li&gt;
+&lt;li&gt;To amend the participant-facing documentation to include pictures and detailed instructions on how to use the devices (and submit this for ethical approval).&lt;/li&gt;
+&lt;li&gt;To make the automated data acquisition process (streaming data from wristbands to the mobile phone) as robust as possible.&lt;/li&gt;
+&lt;li&gt;To investigate whether the additional functionality of the ECG chest-patch could be used whilst still having enough battery life.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>The &#39;Respiratory rate algorithms for wearables&#39; project</title>
