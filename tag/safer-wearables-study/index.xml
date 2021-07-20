@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Testing wearable devices</title>
+      <title>Testing wearables - Part 1</title>
       <link>https://peterhcharlton.github.io/post/safer_wearables_testing/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/safer_wearables_testing/</guid>
@@ -38,13 +38,126 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;outcomes&#34;&gt;Outcomes&lt;/h2&gt;
 &lt;h3 id=&#34;user-acceptability&#34;&gt;User acceptability&lt;/h3&gt;
-&lt;p&gt;The devices were worn for approximately 6.5 days. They were removed early because the ECG chest-patch was sounding a low battery alarm. The user changed electrodes twice during the study.&lt;/p&gt;
+&lt;p&gt;The devices were worn for approximately 6.5 days. They were removed early because the ECG chest-patch was sounding a low battery alarm. The user changed one of the chest-patch electrodes twice during the study, and the other one was not changed at all.&lt;/p&gt;
 &lt;h3 id=&#34;data-acquisition&#34;&gt;Data acquisition&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Signal samples:&lt;/strong&gt; Samples of ECG chest-patch and PPG wristband signals are shown below. These samples were recorded at night, explaining the low heart rate and relatively high signal quality. The PPG signals did not appear to degrade over time. The ECG signals on days 1-3 clearly show P waves, QRS complexes, and T-waves. Several of the PPG signals show two peaks (a systolic and a diastolic peak). This plot demonstrates that it is possible to obtain high quality signals using these devices. However, the ECG signals did appear to be of lower quality from day 5 onwards. Possible explanations for this include: (i) the electrode contact degraded over time (particularly as one of the electrodes was not replaced over the course of the 7 days); and (ii) there was mains interference (such as on Day 6).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-signal-samples-over-the-7-days-of-testing-left-the-reference-ecg-chest-patch-right-the-ppg-wristband&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**Signal samples over the 7 days of testing:** (left) the reference ECG chest patch; (right) the PPG wristband.&#34; srcset=&#34;
+               /post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_5fc46b0903d22784a8c111f9d556bda0.png 400w,
+               /post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_00ad3b5778b4648d897ea36a640b9318.png 760w,
+               /post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_5fc46b0903d22784a8c111f9d556bda0.png&#34;
+               width=&#34;568&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Signal samples over the 7 days of testing:&lt;/strong&gt; (left) the reference ECG chest patch; (right) the PPG wristband.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Inter-beat intervals:&lt;/strong&gt; Minute-long samples of ECG chest-patch and PPG wristband signals are shown below, as well as inter-beat intervals derived from the signals. The close agreement between inter-beat intervals derived from the two signals shows that it is possible to obtain reliable inter-beat intervals from these devices.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-signals-and-inter-beat-intervals-obtained-from-i-the-ppg-wristband-ii-the-reference-ecg-chest-patch&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**Signals and inter-beat intervals:** obtained from (i) the PPG wristband; (ii) the reference ECG chest patch.&#34; srcset=&#34;
+               /post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_480ee227d7af7bf2cbb09ed8d887ab91.png 400w,
+               /post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_9fcec4a4b4a6de4500398bd49ecffc03.png 760w,
+               /post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_480ee227d7af7bf2cbb09ed8d887ab91.png&#34;
+               width=&#34;760&#34;
+               height=&#34;422&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Signals and inter-beat intervals:&lt;/strong&gt; obtained from (i) the PPG wristband; (ii) the reference ECG chest patch.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;ecg-data-quality&#34;&gt;ECG data quality&lt;/h3&gt;
+&lt;p&gt;Upon further inspection, it became clear that the ECG was of high quality until approximately 4 days (94 hours) into the recording. After then, the ECG was mostly of low quality. The change from high to low quality is shown in the figure below.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ecg-signals-throughout-the-testing-short-2-second-samples-of-ecg-signals-obtained-through-the-65-days-of-testing-_defintion-hr---hour_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**ECG signals throughout the testing:** Short 2-second samples of ECG signals obtained through the 6.5 days of testing. _Defintion: Hr - hour_&#34; srcset=&#34;
+               /post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_b614c8f97d7417a1870908e39a61dd9a.png 400w,
+               /post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_0a90096b9a7caaa77f2ec68b39dc29c8.png 760w,
+               /post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_b614c8f97d7417a1870908e39a61dd9a.png&#34;
+               width=&#34;568&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;ECG signals throughout the testing:&lt;/strong&gt; Short 2-second samples of ECG signals obtained through the 6.5 days of testing. &lt;em&gt;Defintion: Hr - hour&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ecg-signals-during-the-second-half-of-testing-short-2-second-samples-of-ecg-signals-in-the-second-half-of-testing-most-samples-before-96-hours-were-of-high-quality-whereas-most-after-this-time-point-were-of-low-quality-_defintion-hr---hour_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**ECG signals during the second half of testing** Short 2-second samples of ECG signals in the second half of testing. Most samples before 96 hours were of high quality, whereas most after this time point were of low quality. _Defintion: Hr - hour_&#34; srcset=&#34;
+               /post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_853d642d745ad30f99245b3245630490.png 400w,
+               /post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_b4d02b105fbbeb220404c834099aa13d.png 760w,
+               /post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_853d642d745ad30f99245b3245630490.png&#34;
+               width=&#34;568&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;ECG signals during the second half of testing&lt;/strong&gt; Short 2-second samples of ECG signals in the second half of testing. Most samples before 96 hours were of high quality, whereas most after this time point were of low quality. &lt;em&gt;Defintion: Hr - hour&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;learning-points&#34;&gt;Learning points&lt;/h2&gt;
 &lt;p&gt;We learnt several things from the testing:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Low battery alarm&lt;/strong&gt;: The ECG chest-patch sounded a (loud) low battery alarm, waking up the user. I realised that this functionality could have been turned off, and this should be done in the future.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Closing apps&lt;/strong&gt;: The process used to close apps was unreliable, and should be refined (perhaps by closing apps one at a time, rather than attempting to close them all using the &amp;lsquo;Close All&amp;rsquo; button.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ECG signal quality&lt;/strong&gt;: ECG signal quality may have degraded over the course of the study, so it would be helpful to investigate how often electrodes should be changed (and also whether the presence of mains devices affects ECG signal quality).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;remaining-questions&#34;&gt;Remaining questions&lt;/h2&gt;
 &lt;ol&gt;

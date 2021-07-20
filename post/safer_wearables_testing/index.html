@@ -297,7 +297,7 @@
   
   <meta property="og:site_name" content="Peter Charlton" />
   <meta property="og:url" content="https://peterhcharlton.github.io/post/safer_wearables_testing/" />
-  <meta property="og:title" content="Testing wearable devices | Peter Charlton" />
+  <meta property="og:title" content="Testing wearables - Part 1 | Peter Charlton" />
   <meta property="og:description" content="Testing wearable devices for the SAFER Wearables Study - a study investigating the performance and acceptability of wearables for atrial fibrillation screening." /><meta property="og:image" content="https://peterhcharlton.github.io/post/safer_wearables_testing/featured.png" />
     <meta property="twitter:image" content="https://peterhcharlton.github.io/post/safer_wearables_testing/featured.png" /><meta property="og:locale" content="en-us" />
   
@@ -333,7 +333,7 @@
     "@type": "WebPage",
     "@id": "https://peterhcharlton.github.io/post/safer_wearables_testing/"
   },
-  "headline": "Testing wearable devices",
+  "headline": "Testing wearables - Part 1",
   
   "image": [
     "https://peterhcharlton.github.io/post/safer_wearables_testing/featured.png"
@@ -371,7 +371,7 @@
 
 
 
-  <title>Testing wearable devices | Peter Charlton</title>
+  <title>Testing wearables - Part 1 | Peter Charlton</title>
 </head>
 
 
@@ -815,10 +815,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Testing wearable devices</h1>
+  <h1>Testing wearables - Part 1</h1>
 
   
-  <p class="page-subtitle">Equipment testing for the SAFER Wearables Study</p>
+  <p class="page-subtitle">Testing wearables for the SAFER Wearables Study</p>
   
 
   
@@ -854,7 +854,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    6 min read
   </span>
   
 
@@ -869,7 +869,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/clinical-studies/">Clinical Studies</a>, <a href="/category/wearable-devices/">Wearable Devices</a>, <a href="/category/safer-wearables-study/">SAFER Wearables Study</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/safer-wearables-study/">SAFER Wearables Study</a>, <a href="/category/wearable-devices/">Wearable Devices</a>, <a href="/category/clinical-studies/">Clinical Studies</a></span>
   
 
 </div>
@@ -955,13 +955,126 @@
 </ul>
 <h2 id="outcomes">Outcomes</h2>
 <h3 id="user-acceptability">User acceptability</h3>
-<p>The devices were worn for approximately 6.5 days. They were removed early because the ECG chest-patch was sounding a low battery alarm. The user changed electrodes twice during the study.</p>
+<p>The devices were worn for approximately 6.5 days. They were removed early because the ECG chest-patch was sounding a low battery alarm. The user changed one of the chest-patch electrodes twice during the study, and the other one was not changed at all.</p>
 <h3 id="data-acquisition">Data acquisition</h3>
+<p><strong>Signal samples:</strong> Samples of ECG chest-patch and PPG wristband signals are shown below. These samples were recorded at night, explaining the low heart rate and relatively high signal quality. The PPG signals did not appear to degrade over time. The ECG signals on days 1-3 clearly show P waves, QRS complexes, and T-waves. Several of the PPG signals show two peaks (a systolic and a diastolic peak). This plot demonstrates that it is possible to obtain high quality signals using these devices. However, the ECG signals did appear to be of lower quality from day 5 onwards. Possible explanations for this include: (i) the electrode contact degraded over time (particularly as one of the electrodes was not replaced over the course of the 7 days); and (ii) there was mains interference (such as on Day 6).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-signal-samples-over-the-7-days-of-testing-left-the-reference-ecg-chest-patch-right-the-ppg-wristband">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="**Signal samples over the 7 days of testing:** (left) the reference ECG chest patch; (right) the PPG wristband." srcset="
+               /post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_5fc46b0903d22784a8c111f9d556bda0.png 400w,
+               /post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_00ad3b5778b4648d897ea36a640b9318.png 760w,
+               /post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_1200x1200_fit_lanczos_2.png 1200w"
+               src="/post/safer_wearables_testing/sig_samples_hu15ad6f5060b9a6bf10cfc1396fe41f75_183156_5fc46b0903d22784a8c111f9d556bda0.png"
+               width="568"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Signal samples over the 7 days of testing:</strong> (left) the reference ECG chest patch; (right) the PPG wristband.
+    </figcaption></figure>
+<p><strong>Inter-beat intervals:</strong> Minute-long samples of ECG chest-patch and PPG wristband signals are shown below, as well as inter-beat intervals derived from the signals. The close agreement between inter-beat intervals derived from the two signals shows that it is possible to obtain reliable inter-beat intervals from these devices.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-signals-and-inter-beat-intervals-obtained-from-i-the-ppg-wristband-ii-the-reference-ecg-chest-patch">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="**Signals and inter-beat intervals:** obtained from (i) the PPG wristband; (ii) the reference ECG chest patch." srcset="
+               /post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_480ee227d7af7bf2cbb09ed8d887ab91.png 400w,
+               /post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_9fcec4a4b4a6de4500398bd49ecffc03.png 760w,
+               /post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_1200x1200_fit_lanczos_2.png 1200w"
+               src="/post/safer_wearables_testing/IBI_samples_hue438850cab77d7624a51639d2ff3b18f_126745_480ee227d7af7bf2cbb09ed8d887ab91.png"
+               width="760"
+               height="422"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Signals and inter-beat intervals:</strong> obtained from (i) the PPG wristband; (ii) the reference ECG chest patch.
+    </figcaption></figure>
+<h3 id="ecg-data-quality">ECG data quality</h3>
+<p>Upon further inspection, it became clear that the ECG was of high quality until approximately 4 days (94 hours) into the recording. After then, the ECG was mostly of low quality. The change from high to low quality is shown in the figure below.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ecg-signals-throughout-the-testing-short-2-second-samples-of-ecg-signals-obtained-through-the-65-days-of-testing-_defintion-hr---hour_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="**ECG signals throughout the testing:** Short 2-second samples of ECG signals obtained through the 6.5 days of testing. _Defintion: Hr - hour_" srcset="
+               /post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_b614c8f97d7417a1870908e39a61dd9a.png 400w,
+               /post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_0a90096b9a7caaa77f2ec68b39dc29c8.png 760w,
+               /post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_1200x1200_fit_lanczos_2.png 1200w"
+               src="/post/safer_wearables_testing/ecg_samples_hu7bddf102370eae33f72f90eaa3a8be81_214949_b614c8f97d7417a1870908e39a61dd9a.png"
+               width="568"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>ECG signals throughout the testing:</strong> Short 2-second samples of ECG signals obtained through the 6.5 days of testing. <em>Defintion: Hr - hour</em>
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ecg-signals-during-the-second-half-of-testing-short-2-second-samples-of-ecg-signals-in-the-second-half-of-testing-most-samples-before-96-hours-were-of-high-quality-whereas-most-after-this-time-point-were-of-low-quality-_defintion-hr---hour_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="**ECG signals during the second half of testing** Short 2-second samples of ECG signals in the second half of testing. Most samples before 96 hours were of high quality, whereas most after this time point were of low quality. _Defintion: Hr - hour_" srcset="
+               /post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_853d642d745ad30f99245b3245630490.png 400w,
+               /post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_b4d02b105fbbeb220404c834099aa13d.png 760w,
+               /post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_1200x1200_fit_lanczos_2.png 1200w"
+               src="/post/safer_wearables_testing/ecg_change_qual_hu7134c3a1a4e33878ff44d89f1c092797_331333_853d642d745ad30f99245b3245630490.png"
+               width="568"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>ECG signals during the second half of testing</strong> Short 2-second samples of ECG signals in the second half of testing. Most samples before 96 hours were of high quality, whereas most after this time point were of low quality. <em>Defintion: Hr - hour</em>
+    </figcaption></figure>
 <h2 id="learning-points">Learning points</h2>
 <p>We learnt several things from the testing:</p>
 <ol>
 <li><strong>Low battery alarm</strong>: The ECG chest-patch sounded a (loud) low battery alarm, waking up the user. I realised that this functionality could have been turned off, and this should be done in the future.</li>
 <li><strong>Closing apps</strong>: The process used to close apps was unreliable, and should be refined (perhaps by closing apps one at a time, rather than attempting to close them all using the &lsquo;Close All&rsquo; button.</li>
+<li><strong>ECG signal quality</strong>: ECG signal quality may have degraded over the course of the study, so it would be helpful to investigate how often electrodes should be changed (and also whether the presence of mains devices affects ECG signal quality).</li>
 </ol>
 <h2 id="remaining-questions">Remaining questions</h2>
 <ol>
@@ -1011,7 +1124,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;text=Testing%20wearable%20devices" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;text=Testing%20wearables%20-%20Part%201" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1024,7 +1137,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;t=Testing%20wearable%20devices" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;t=Testing%20wearables%20-%20Part%201" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1037,7 +1150,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Testing%20wearable%20devices&amp;body=https://peterhcharlton.github.io/post/safer_wearables_testing/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Testing%20wearables%20-%20Part%201&amp;body=https://peterhcharlton.github.io/post/safer_wearables_testing/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1050,7 +1163,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;title=Testing%20wearable%20devices" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;title=Testing%20wearables%20-%20Part%201" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1063,7 +1176,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Testing%20wearable%20devices%20https://peterhcharlton.github.io/post/safer_wearables_testing/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Testing%20wearables%20-%20Part%201%20https://peterhcharlton.github.io/post/safer_wearables_testing/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1076,7 +1189,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;title=Testing%20wearable%20devices" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://peterhcharlton.github.io/post/safer_wearables_testing/&amp;title=Testing%20wearables%20-%20Part%201" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1248,11 +1361,11 @@
       
       <li><a href="/publication/resp_sig_extraction/">Extraction of respiratory signals from the electrocardiogram and photoplethysmogram: technical and physiological determinants</a></li>
       
+      <li><a href="/talks/consumer_devices/">Using consumer devices for clinical assessment</a></li>
+      
       <li><a href="/project/rr-wearables/">Respiratory rate algorithms for wearables</a></li>
       
       <li><a href="/publication/ppg_diary/">Acquiring wearable photoplethysmography data in daily life: The PPG Diary Pilot Study</a></li>
-      
-      <li><a href="/talk/the-respiratory-rate-algorithms-for-wearables-project/">The &#39;Respiratory rate algorithms for wearables&#39; project</a></li>
       
     </ul>
   </div>

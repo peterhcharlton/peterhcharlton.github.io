@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talks/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/safer-wearables/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talks/consumer_devices/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/categories/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
@@ -12,12 +36,6 @@
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/</loc>
@@ -29,9 +47,6 @@
     <loc>https://peterhcharlton.github.io/category/safer-wearables-study/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/post/safer_wearables_testing/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,16 +56,7 @@
     <loc>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
-    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</loc>
-    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <loc>https://peterhcharlton.github.io/talks/rr_algs_wearables/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/</loc>
@@ -59,11 +65,26 @@
     <loc>https://peterhcharlton.github.io/project/rr-wearables/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</loc>
+    <loc>https://peterhcharlton.github.io/talks/realising_potential_wearables/</loc>
     <lastmod>2021-03-18T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/safer-wearables/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/imp_sqi/</loc>
+    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/impedance-pneumography/</loc>
+    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/1/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
@@ -71,20 +92,11 @@
     <loc>https://peterhcharlton.github.io/publication/ppg_diary/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/resp_sig_extraction/</loc>
     <lastmod>2017-03-31T00:00:00+00:00</lastmod>

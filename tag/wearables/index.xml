@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 19 Jul 2021 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>Using consumer devices for clinical assessment</title>
+      <link>https://peterhcharlton.github.io/talks/consumer_devices/</link>
+      <pubDate>Mon, 19 Jul 2021 16:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talks/consumer_devices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The &#39;Respiratory rate algorithms for wearables&#39; project</title>
-      <link>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</link>
+      <link>https://peterhcharlton.github.io/talks/rr_algs_wearables/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</guid>
+      <guid>https://peterhcharlton.github.io/talks/rr_algs_wearables/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &amp;ndash;&amp;gt;&lt;/p&gt;
@@ -40,9 +48,9 @@
     
     <item>
       <title>Realising the potential of wearables for health monitoring</title>
-      <link>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</link>
+      <link>https://peterhcharlton.github.io/talks/realising_potential_wearables/</link>
       <pubDate>Thu, 18 Mar 2021 11:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</guid>
+      <guid>https://peterhcharlton.github.io/talks/realising_potential_wearables/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &amp;ndash;&amp;gt;&lt;/p&gt;

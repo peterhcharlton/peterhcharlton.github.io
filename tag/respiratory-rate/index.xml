@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/respiratory-rate/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/respiratory-rate/index.xml" rel="self" type="application/rss+xml" />
     <description>respiratory rate</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 19 Jul 2021 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>respiratory rate</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>Using consumer devices for clinical assessment</title>
+      <link>https://peterhcharlton.github.io/talks/consumer_devices/</link>
+      <pubDate>Mon, 19 Jul 2021 16:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talks/consumer_devices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The &#39;Respiratory rate algorithms for wearables&#39; project</title>
-      <link>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</link>
+      <link>https://peterhcharlton.github.io/talks/rr_algs_wearables/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</guid>
+      <guid>https://peterhcharlton.github.io/talks/rr_algs_wearables/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &amp;ndash;&amp;gt;&lt;/p&gt;
