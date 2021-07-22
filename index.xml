@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 19 Jul 2021 16:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>Wearable photoplethysmography devices</title>
+      <link>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Using consumer devices for clinical assessment</title>
