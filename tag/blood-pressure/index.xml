@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blood pressure | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/blood-pressure/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/blood-pressure/index.xml" rel="self" type="application/rss+xml" />
+    <description>blood pressure</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>blood pressure</title>
+      <link>https://peterhcharlton.github.io/tag/blood-pressure/</link>
+    </image>
+    
+    <item>
+      <title>Photoplethysmography Signal Processing and Synthesis</title>
+      <link>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</guid>
+      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The accepted manuscript will soon be made freely available on this website.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
