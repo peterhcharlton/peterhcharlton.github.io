@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cardiovascular modelling | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/cardiovascular-modelling/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/cardiovascular-modelling/index.xml" rel="self" type="application/rss+xml" />
+    <description>cardiovascular modelling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>cardiovascular modelling</title>
+      <link>https://peterhcharlton.github.io/tag/cardiovascular-modelling/</link>
+    </image>
+    
+    <item>
+      <title>Modeling arterial pulse waves in healthy aging: a database for in silico evaluation of hemodynamics and pulse wave indexes</title>
+      <link>https://peterhcharlton.github.io/publication/simulating_pulse_waves/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/simulating_pulse_waves/</guid>
+      <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
+&lt;p&gt;Awarded the &lt;a href=&#34;https://www.kcl.ac.uk/news/biomedeng18-peter-charlton-wins-early-career-researcher-award-copy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Best Early Career Researcher Award&lt;/a&gt; for a presentation on this work at the &lt;em&gt;BioMedEng18&lt;/em&gt; conference.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

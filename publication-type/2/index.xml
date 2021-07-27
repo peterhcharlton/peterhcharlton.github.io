@@ -21,11 +21,33 @@
     </item>
     
     <item>
+      <title>Modeling arterial pulse waves in healthy aging: a database for in silico evaluation of hemodynamics and pulse wave indexes</title>
+      <link>https://peterhcharlton.github.io/publication/simulating_pulse_waves/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/simulating_pulse_waves/</guid>
+      <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
+&lt;p&gt;Awarded the &lt;a href=&#34;https://www.kcl.ac.uk/news/biomedeng18-peter-charlton-wins-early-career-researcher-award-copy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Best Early Career Researcher Award&lt;/a&gt; for a presentation on this work at the &lt;em&gt;BioMedEng18&lt;/em&gt; conference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Breathing rate estimation from the electrocardiogram and photoplethysmogram: a review</title>
+      <link>https://peterhcharlton.github.io/publication/rr_review/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/rr_review/</guid>
+      <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
+&lt;p&gt;Awarded the 3rd Prize in the 2021 IEEE Engineering in Medicine and Biology Prize Paper Award.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Extraction of respiratory signals from the electrocardiogram and photoplethysmogram: technical and physiological determinants</title>
       <link>https://peterhcharlton.github.io/publication/resp_sig_extraction/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/resp_sig_extraction/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;recognition&#34;&gt;Recognition&lt;/h3&gt;
+&lt;p&gt;Featured in &lt;em&gt;Physiological Measurement&amp;rsquo;s&lt;/em&gt; &lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334/page/Highlights_of_2017&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Highlights of 2017&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +55,9 @@
       <link>https://peterhcharlton.github.io/publication/rr_algs_assessment/</link>
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/rr_algs_assessment/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
+&lt;p&gt;Awarded the &lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334/page/Martin_Black_award&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Martin Black Prize&lt;/a&gt; for the best paper published in &lt;em&gt;Physiological Measurement&lt;/em&gt; in 2016.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
