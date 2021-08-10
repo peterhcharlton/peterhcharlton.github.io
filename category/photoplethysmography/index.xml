@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cardiovascular monitoring | Peter Charlton</title>
-    <link>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</link>
-      <atom:link href="https://peterhcharlton.github.io/tag/cardiovascular-monitoring/index.xml" rel="self" type="application/rss+xml" />
-    <description>cardiovascular monitoring</description>
+    <title>Photoplethysmography | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/category/photoplethysmography/</link>
+      <atom:link href="https://peterhcharlton.github.io/category/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
+    <description>Photoplethysmography</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 10 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
-      <title>cardiovascular monitoring</title>
-      <link>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</link>
+      <title>Photoplethysmography</title>
+      <link>https://peterhcharlton.github.io/category/photoplethysmography/</link>
     </image>
     
     <item>
@@ -27,38 +27,6 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;link-to-published-version&#34;&gt;Link to Published Version&lt;/h2&gt;
 &lt;p&gt;The published version of the textbook will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The &#39;Respiratory rate algorithms for wearables&#39; project</title>
-      <link>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</link>
-      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
-&lt;!--
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Realising the potential of wearables for health monitoring</title>
-      <link>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</link>
-      <pubDate>Thu, 18 Mar 2021 11:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/realising-the-potential-of-wearables-for-health-monitoring/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
-&lt;!--
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
 </description>
     </item>
     
