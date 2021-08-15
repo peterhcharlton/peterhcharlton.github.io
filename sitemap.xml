@@ -2,47 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peterhcharlton.github.io/publication-type/6/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/safer-wearables-study/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
@@ -50,17 +11,56 @@
     <loc>https://peterhcharlton.github.io/categories/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://peterhcharlton.github.io/post/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/category/photoplethysmography/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/ppg_book/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/post/</loc>
+    <loc>https://peterhcharlton.github.io/tag/safer-wearables-study/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/category/safer-wearables-study/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/6/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</loc>
+    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/event/</loc>
     <lastmod>2021-07-19T16:00:00+00:00</lastmod>

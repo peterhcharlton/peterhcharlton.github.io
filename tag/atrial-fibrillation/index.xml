@@ -5,38 +5,12 @@
     <link>https://peterhcharlton.github.io/tag/atrial-fibrillation/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/atrial-fibrillation/index.xml" rel="self" type="application/rss+xml" />
     <description>atrial fibrillation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 10 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>atrial fibrillation</title>
       <link>https://peterhcharlton.github.io/tag/atrial-fibrillation/</link>
     </image>
-    
-    <item>
-      <title>Photoplethysmography Signal Processing and Synthesis</title>
-      <link>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</guid>
-      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The accepted manuscript is freely available &lt;a href=&#34;https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/PPG_sig_proc_Chapter_20210612.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wearable photoplethysmography devices</title>
-      <link>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</guid>
-      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The accepted manuscript is freely available &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_chapter/Wear_PPG_Chapter_20210323.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Photoplethysmography Textbook</title>
@@ -53,6 +27,32 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;link-to-published-version&#34;&gt;Link to Published Version&lt;/h2&gt;
 &lt;p&gt;The published version of the textbook will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photoplethysmography Signal Processing and Synthesis</title>
+      <link>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</guid>
+      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The accepted manuscript is freely available &lt;a href=&#34;https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/PPG_sig_proc_Chapter_20210612.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wearable photoplethysmography devices</title>
+      <link>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</guid>
+      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The accepted manuscript is freely available &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_chapter/Wear_PPG_Chapter_20210323.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
