@@ -1,76 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>respiratory rate | Peter Charlton</title>
-    <link>https://peterhcharlton.github.io/tag/respiratory-rate/</link>
-      <atom:link href="https://peterhcharlton.github.io/tag/respiratory-rate/index.xml" rel="self" type="application/rss+xml" />
-    <description>respiratory rate</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <title>reproducible research | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/reproducible-research/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/reproducible-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>reproducible research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Thu, 02 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
-      <title>respiratory rate</title>
-      <link>https://peterhcharlton.github.io/tag/respiratory-rate/</link>
+      <title>reproducible research</title>
+      <link>https://peterhcharlton.github.io/tag/reproducible-research/</link>
     </image>
-    
-    <item>
-      <title>Photoplethysmography Signal Processing and Synthesis</title>
-      <link>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</link>
-      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</guid>
-      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The accepted manuscript is freely available &lt;a href=&#34;https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/PPG_sig_proc_Chapter_20210612.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wearable photoplethysmography devices</title>
-      <link>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</link>
-      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</guid>
-      <description>&lt;h3 id=&#34;links-to-full-text&#34;&gt;Links to full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The published version will be made available &lt;a href=&#34;https://www.elsevier.com/books/photoplethysmography/kyriacou/978-0-12-823374-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;The accepted manuscript is freely available &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_chapter/Wear_PPG_Chapter_20210323.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using consumer devices for clinical assessment</title>
-      <link>https://peterhcharlton.github.io/talk/using-consumer-devices-for-clinical-assessment/</link>
-      <pubDate>Mon, 19 Jul 2021 16:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/using-consumer-devices-for-clinical-assessment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The &#39;Respiratory rate algorithms for wearables&#39; project</title>
-      <link>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</link>
-      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
-&lt;!--
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Respiratory rate algorithms for wearables</title>
-      <link>https://peterhcharlton.github.io/project/rr-wearables/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/project/rr-wearables/</guid>
-      <description>&lt;p&gt;The project aims to provide an algorithm to estimate respiratory rate from wearable photoplethysmogram (PPG) signals for use in daily life.&lt;/p&gt;
-&lt;p&gt;Further details on the project are available &lt;a href=&#34;https://peterhcharlton.github.io/RRest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Conducting a systematic review</title>
@@ -300,16 +240,6 @@
 &lt;li&gt;The results of the analysis of individual articles&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You will also need the &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewScreeningResults.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewScreeningResults.xlsx&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewMethodologiesData.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewMethodologiesData.xlsx&lt;/a&gt; files to reproduce these results.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Breathing rate estimation from the electrocardiogram and photoplethysmogram: a review</title>
-      <link>https://peterhcharlton.github.io/publication/rr_review/</link>
-      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/rr_review/</guid>
-      <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
-&lt;p&gt;Awarded the 3rd Prize in the 2021 IEEE Engineering in Medicine and Biology Prize Paper Award.&lt;/p&gt;
 </description>
     </item>
     

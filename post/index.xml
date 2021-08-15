@@ -193,5 +193,301 @@
 </description>
     </item>
     
+    <item>
+      <title>Conducting a systematic review</title>
+      <link>https://peterhcharlton.github.io/post/systematic_review/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/systematic_review/</guid>
+      <description>&lt;p&gt;When looking for articles on a particular subject, search engines can quickly produce a wealth of information at our fingertips: 15,400 results in just 0.1 seconds in the search below. In this post I explore the challenge of using search engines to find as much useful literature as possible, whilst not spending all day (or in this case, several months) doing it!&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-quick-search-reveals-thousands-and-thousands-and-thousands-of-results&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A quick search reveals thousands and thousands and thousands of results.&#34; srcset=&#34;
+               /post/systematic_review/featured_hu7fd5934ada8eac26f64bcb39704ecc10_238125_aac4b19007ec4bc96aa7c3a35866a672.png 400w,
+               /post/systematic_review/featured_hu7fd5934ada8eac26f64bcb39704ecc10_238125_ad4d8f8052d919057ef1045aa376753e.png 760w,
+               /post/systematic_review/featured_hu7fd5934ada8eac26f64bcb39704ecc10_238125_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/systematic_review/featured_hu7fd5934ada8eac26f64bcb39704ecc10_238125_aac4b19007ec4bc96aa7c3a35866a672.png&#34;
+               width=&#34;760&#34;
+               height=&#34;393&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      A quick search reveals thousands and thousands and thousands of results.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;During my &lt;a href=&#34;https://theses.eurasip.org/theses/829/continuous-respiratory-rate-monitoring-to-detect/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PhD&lt;/a&gt; I spent many a happy hour looking through the literature on algorithms to estimate respiratory rate from two signals often measured by wearables: the photoplethysmogram and the electrocardiogram. I wanted to find the best algorithm out there, which I assumed meant trawling through every last bit of literature until I found it. In 2017 we published a &lt;a href=&#34;https://doi.org/10.1109/RBME.2017.2763681&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;systematic review&lt;/a&gt; of these algorithms, and two of the lessons I learnt stick with me:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Not all search engines are created equal&lt;/li&gt;
+&lt;li&gt;One search engine just isn&amp;rsquo;t enough (but how many are?)&lt;/li&gt;
+&lt;li&gt;You need lots of search terms (but if you&amp;rsquo;re not careful you&amp;rsquo;ll get lots of junk)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the rest of this post I provide insights into these two dilemmas, drawing on the results from our systematic review.&lt;/p&gt;
+&lt;h2 id=&#34;not-all-search-engines-are-created-equal&#34;&gt;Not all search engines are created equal&lt;/h2&gt;
+&lt;p&gt;In our review we used five search engines, and our own manual searching, to find the 196 publications included in the review. The five search engines returned vastly different proportions of the 196 publications that were eventually included:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-coverage-of-the-five-search-engines-the-percentage-of-the-publications-which-were-included-in-the-review-returned-by-each-search-engine&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The coverage of the five search engines: the percentage of the publications which were included in the review returned by each search engine.&#34; srcset=&#34;
+               /post/systematic_review/search_engine_coverage_hu0f2718ad2fdfbf44821fe0ba76762b20_52154_4c6331d09eb762fce451bfcdaa3d00ed.png 400w,
+               /post/systematic_review/search_engine_coverage_hu0f2718ad2fdfbf44821fe0ba76762b20_52154_9be67b1800f73cfc1e8455ea3ab9e44a.png 760w,
+               /post/systematic_review/search_engine_coverage_hu0f2718ad2fdfbf44821fe0ba76762b20_52154_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/systematic_review/search_engine_coverage_hu0f2718ad2fdfbf44821fe0ba76762b20_52154_4c6331d09eb762fce451bfcdaa3d00ed.png&#34;
+               width=&#34;760&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The coverage of the five search engines: the percentage of the publications which were included in the review returned by each search engine.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;At one end, Scopus returned 61% of the publications (119 out of the 196 included publications). At the other end, Science Direct returned only 10%.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Take home message:&lt;/em&gt; &lt;strong&gt;A single search engine probably won&amp;rsquo;t return all the results of interest.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You may also be interested in how much time it takes to download the results from each search engine. In our review we downloaded the results as text files from four of the search engines, and manually copied out the results for one search engine:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Search Engine&lt;/th&gt;
+&lt;th&gt;Method used to download results&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Google Scholar&lt;/td&gt;
+&lt;td&gt;Copied by hand as no convenient method was available to download results&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IEEE Xplore&lt;/td&gt;
+&lt;td&gt;Downloaded as CSV (comma-separated values) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pubmed&lt;/td&gt;
+&lt;td&gt;Downloaded as CSV (comma-separated values) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Science Direct&lt;/td&gt;
+&lt;td&gt;Downloaded as .bib (Bibtex) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scopus&lt;/td&gt;
+&lt;td&gt;Downloaded as CSV (comma-separated values) file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Take home message:&lt;/em&gt; &lt;strong&gt;Some search engines allow you to easily download the results, others don&amp;rsquo;t.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once you have your results, you then need to screen them to identify the relevant publications for inclusion in the review. This can be time-consuming, so ideally you wouldn&amp;rsquo;t want to have to screen too many publications for each one finally included. The number of publications we screened per relevant result also varied greatly between search engines:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-number-of-publications-which-had-to-be-screened-to-obtain-each-relevant-result-for-each-search-engine&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The number of publications which had to be screened to obtain each relevant result, for each search engine.&#34; srcset=&#34;
+               /post/systematic_review/number_screened_hua6bbd43f4693f9ea2c27e2d89257c8b2_52336_839c9237ee3e5ea34d14610377523dc4.png 400w,
+               /post/systematic_review/number_screened_hua6bbd43f4693f9ea2c27e2d89257c8b2_52336_39d7367124be84a324b75945ab07033b.png 760w,
+               /post/systematic_review/number_screened_hua6bbd43f4693f9ea2c27e2d89257c8b2_52336_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/systematic_review/number_screened_hua6bbd43f4693f9ea2c27e2d89257c8b2_52336_839c9237ee3e5ea34d14610377523dc4.png&#34;
+               width=&#34;760&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The number of publications which had to be screened to obtain each relevant result, for each search engine.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;Take home message:&lt;/em&gt; &lt;strong&gt;The time taken to screen results varies greatly between search engines.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you must use only one search engine, choose well, as their performance and ease of use differ greatly.&lt;/p&gt;
+&lt;h2 id=&#34;one-search-engine-just-isnt-enough-but-how-many-are&#34;&gt;One search engine just isn&amp;rsquo;t enough (but how many are?)&lt;/h2&gt;
+&lt;p&gt;The most comprehensive results came from Scopus, which found 119 out of the 196 publications, but if we&amp;rsquo;d only used that then we&amp;rsquo;d have missed nearly 40% of the articles we were looking for. So, one search engine just isn&amp;rsquo;t enough &amp;hellip;&lt;/p&gt;
+&lt;p&gt;But how many are? Google Scholar returned a huge 383 potentially relevant results, which were copied down by hand (as they couldn&amp;rsquo;t be exported). In the end, only 14% of these were relevant (it took a while to find that out). At this rate, I wasn&amp;rsquo;t keen to add more search engines in to the mix. I looked back at how many results we would have obtained when using different numbers of search engines:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-number-of-relevant-results-that-we-would-have-obtained-according-to-how-many-search-engines-were-used&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The number of relevant results that we would have obtained, according to how many search engines were used.&#34; srcset=&#34;
+               /post/systematic_review/number_search_engines_hu83d8c0c3d1a06287842925adccfc7d7b_40453_cb733644c2edf9ea28374242acadbcb5.png 400w,
+               /post/systematic_review/number_search_engines_hu83d8c0c3d1a06287842925adccfc7d7b_40453_4dfa8384654005b935c86b14db306e03.png 760w,
+               /post/systematic_review/number_search_engines_hu83d8c0c3d1a06287842925adccfc7d7b_40453_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/systematic_review/number_search_engines_hu83d8c0c3d1a06287842925adccfc7d7b_40453_cb733644c2edf9ea28374242acadbcb5.png&#34;
+               width=&#34;760&#34;
+               height=&#34;380&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The number of relevant results that we would have obtained, according to how many search engines were used.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;So how many search engines are enough? In this search there was some benefit to increasing the number of search engines from one to four, but there was no benefit to using a fifth search engine. You&amp;rsquo;ll note that even all the search engines together returned only 150 out of 196 of the relevant publications included in the review: the remainder were identified manually (through web searching and reading the literature).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Take home message:&lt;/em&gt; &lt;strong&gt;It is advisable to use several search engines alongside manual searching.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;you-need-lots-of-search-terms-but-if-youre-not-careful-youll-get-lots-of-junk&#34;&gt;You need lots of search terms (but if you&amp;rsquo;re not careful you&amp;rsquo;ll get lots of junk)&lt;/h2&gt;
+&lt;p&gt;In this review we aimed to obtain as many relevant results as possible from search engines, whilst minimising the amount of work required to screen the results. This meant choosing the search terms carefully. To do so we:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Performed an initial manual search:&lt;/strong&gt; this identified 90 relevant publications, which were mostly already known to us.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identified key themes from publication titles:&lt;/strong&gt; we reviewed the titles of these 90 publications to identify three key themes contained within the titles:
+&lt;ul&gt;
+&lt;li&gt;the process of respiration (e.g. &lt;em&gt;breathing&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;a mathematical process (e.g. &lt;em&gt;algorithm&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;the input signal (e.g. &lt;em&gt;photoplethysmogram&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identified keywords for each theme:&lt;/strong&gt; we identified keywords corresponding to each theme which occurred in at least 5% of titles. We found:
+&lt;ul&gt;
+&lt;li&gt;3 keywords for &amp;lsquo;&amp;lsquo;the process of respiration&amp;rsquo;&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;15 keywords for &amp;lsquo;&amp;lsquo;a mathematical process&amp;rsquo;&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;9 keywords for &amp;lsquo;&amp;lsquo;the input signal&amp;rsquo;&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eliminated keywords which did not add value:&lt;/strong&gt; we then looked at the proportion of publications which would have been identified had we insisted on the titles containing at least one keyword from each theme (76.7%). We then eliminated 10 keywords which, individually, did not add value to this search.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finalised the search strategy:&lt;/strong&gt; The final search strategy, which encompassed 75.6% of the 90 manually identified publications was to insist on a publication containing at least one of the following keywords for each theme:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Theme&lt;/th&gt;
+&lt;th&gt;Keywords&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;respiration&lt;/td&gt;
+&lt;td&gt;breathing, respiration, respiratory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mathematical process&lt;/td&gt;
+&lt;td&gt;derivation, derived, estimation, extraction, methods, rate, rates&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;input signal&lt;/td&gt;
+&lt;td&gt;ECG, electrocardiogram, photoplethysmogram, photoplethysmographic, photoplethysmography, PPG, pulse&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The end result was that our search identified 642 publications, 31% of which were deemed to be relevant, leading to the 196 publications which were finally included.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Take home message:&lt;/em&gt; &lt;strong&gt;Choose keywords carefully to avoid getting too much junk.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested to find out more then you can read the review &lt;a href=&#34;https://doi.org/10.1109/RBME.2017.2763681&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;Some of the content for this post was adapted under the &lt;a href=&#34;https://creativecommons.org/licenses/by/3.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 3.0 Licence&lt;/a&gt; from:&lt;/p&gt;
+&lt;p&gt;P. H. Charlton et al., &amp;lsquo;&#39;&lt;a href=&#34;https://doi.org/10.1109/RBME.2017.2763681&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Breathing rate estimation from the electrocardiogram and photoplethysmogram: a review&lt;/a&gt;,&amp;rsquo;&#39; &lt;em&gt;IEEE Rev. Biomed. Eng.&lt;/em&gt;, vol. 11, pp. 2-20, 2018.&lt;/p&gt;
+&lt;h2 id=&#34;appendix-reproducing-the-results&#34;&gt;Appendix: reproducing the results&lt;/h2&gt;
+&lt;p&gt;This appendix describes how to reproduce the results described and illustrated in this blog, and also the results presented in the &lt;a href=&#34;https://doi.org/10.1109/RBME.2017.2763681&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;review paper&lt;/a&gt;. &lt;em&gt;NB: You will need Matlab software to reproduce these results. The files required are available at: &lt;a href=&#34;https://doi.org/10.5281/zenodo.3741463&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.3741463&lt;/a&gt; .&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;optimising-the-search-strategy&#34;&gt;Optimising the search strategy&lt;/h3&gt;
+&lt;p&gt;The &lt;em&gt;&lt;a href=&#34;https://zenodo.org/record/3741463/files/BRLitReviewSearchStrategy.m?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRLitReviewSearchStrategy.m&lt;/a&gt;&lt;/em&gt; script reproduces the analysis used to optimise the search strategy, and generate the search strings.&lt;/p&gt;
+&lt;h3 id=&#34;conducting-the-search&#34;&gt;Conducting the search&lt;/h3&gt;
+&lt;p&gt;See the _&lt;a href=&#34;https://zenodo.org/record/3741463/files/BR_lit_review_suppl_mat.pdf?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BR_lit_review_suppl_mat.pdf&lt;/a&gt; file (Section S1.D) within the article&amp;rsquo;s supplementary material for details of how to reproduce the search.&lt;/p&gt;
+&lt;h3 id=&#34;analysing-the-search-results&#34;&gt;Analysing the search results&lt;/h3&gt;
+&lt;p&gt;Run &lt;em&gt;&lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewAnalyses.m?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewAnalyses.m&lt;/a&gt;&lt;/em&gt; to obtain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The screening process results (as described in the &lt;em&gt;&lt;a href=&#34;https://zenodo.org/record/3741463/files/BR_lit_review_suppl_mat.pdf?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BR_lit_review_suppl_mat.pdf&lt;/a&gt;&lt;/em&gt; file (Section S1.C) within the article&amp;rsquo;s supplementary material).&lt;/li&gt;
+&lt;li&gt;The plots in this blog&lt;/li&gt;
+&lt;li&gt;The results of the analysis of individual articles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will also need the &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewScreeningResults.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewScreeningResults.xlsx&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewMethodologiesData.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewMethodologiesData.xlsx&lt;/a&gt; files to reproduce these results.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making reproducible research as natural as breathing</title>
+      <link>https://peterhcharlton.github.io/post/reproducible_research/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/reproducible_research/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Written by Peter Charlton whilst a PhD student at King&amp;rsquo;s College London, working on the Hospital of the Future (HotF) project. The overall aim of the HotF project is to provide early identification of hospital patients who are deteriorating. Peter&amp;rsquo;s work focuses on using wearable sensors to continuously assess patients&#39; health.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One of the key aims of the HotF project is to develop a technique to continuously monitor a patient&amp;rsquo;s &amp;ldquo;respiratory rate&amp;rdquo;: how often they breathe. Respiratory rate often changes early in the progression of a deterioration, giving advanced warning of a severe event such as a heart attack. However, it is currently measured by hand by counting the number of times a patient breathes in a set period of time. This approach is time-consuming, inaccurate, and only provides intermittent measurements. The alternative approach which I&amp;rsquo;m working on is to estimate respiratory rate from a small, unobtrusive, wearable sensor.&lt;/p&gt;
+&lt;p&gt;Wearable sensors are currently routinely used to monitor heart rate and blood oxygenation levels. It turns out that the signals which provide these measurements are subtly influenced by respiration, as demonstrated below. If these subtle changes can be extracted reliably, then we could monitor respiratory rate &amp;ldquo;for free&amp;rdquo;, without the need for any additional sensors. This may provide all-important information on changes in a patient&amp;rsquo;s health, allowing clinicians to identify deteriorating patients earlier.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-heart-rate-is-clearly-visible-in-this-signal-since-each-spike-corresponds-to-a-heart-beat-the-spikes-also-vary-in-height-with-each-of-the-four-breaths-these-subtle-changes-can-be-used-to-estimate-respiratory-rate&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The heart rate is clearly visible in this signal since each spike corresponds to a heart beat. The spikes also vary in height with each of the four breaths. These subtle changes can be used to estimate respiratory rate.&#34; srcset=&#34;
+               /post/reproducible_research/featured_hu3e1360d471515a27bee2f20ca91ea161_3104_0ffb3831007b38b75c5015a9f4545527.png 400w,
+               /post/reproducible_research/featured_hu3e1360d471515a27bee2f20ca91ea161_3104_3b97e3567e5d0068c43b9679cf0c80f8.png 760w,
+               /post/reproducible_research/featured_hu3e1360d471515a27bee2f20ca91ea161_3104_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/reproducible_research/featured_hu3e1360d471515a27bee2f20ca91ea161_3104_0ffb3831007b38b75c5015a9f4545527.png&#34;
+               width=&#34;760&#34;
+               height=&#34;214&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The heart rate is clearly visible in this signal since each spike corresponds to a heart beat. The spikes also vary in height with each of the four breaths. These subtle changes can be used to estimate respiratory rate.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;So what&amp;rsquo;s all this got to do with reproducible research? Well, over the past few decades over 100 papers have been written describing methods for estimating respiratory rate electronically from signals that are already monitored by wearable sensors. If you read them (it takes a long time) then you find that hundreds of methods have been described. The key questions are: which method is the best, and is it good enough to use in clinical practice? Answering these questions can be a daunting task given how many different methods there are. Very few of the methods are publicly available, so to answer these questions you&amp;rsquo;d have to implement each of the methods yourself. Even once you have done this, you&amp;rsquo;d need to try them out on some data. Collecting this data is no easy task. Altogether, reproducing scientist&amp;rsquo;s previous work on this problem is quite difficult.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m hoping that this won&amp;rsquo;t be such a problem in the future. We have recently implemented many of the methods, collected a benchmark dataset on which to test the methods, and reported the results. All of this is publicly available. What&amp;rsquo;s more, you can &lt;a href=&#34;http://peterhcharlton.github.io/RRest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download it all for free&lt;/a&gt;, from the methods, to the data, to the article describing the results. So in a few clicks you can catch up, reproduce our research, and start making progress yourself, even producing methods like this:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-estimating-respiratory-rate-from-the-electrocardiogram-ecg-and-photoplethysmogram-ppg-signals-a-surrogate-respiratory-signal-can-be-extracted-from-each-of-the-ecg-and-ppg-signals-which-looks-similar-to-a-reference-respiratory-signal-resp-shown-above&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**Estimating respiratory rate from the electrocardiogram (ECG) and photoplethysmogram (PPG) signals:** A surrogate respiratory signal can be extracted from each of the ECG and PPG signals, which looks similar to a reference respiratory signal (Resp), shown above.&#34;
+           src=&#34;https://peterhcharlton.github.io/post/reproducible_research/petercharlton_resp_video_gif_red.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Estimating respiratory rate from the electrocardiogram (ECG) and photoplethysmogram (PPG) signals:&lt;/strong&gt; A surrogate respiratory signal can be extracted from each of the ECG and PPG signals, which looks similar to a reference respiratory signal (Resp), shown above.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Well, nearly &amp;hellip; I&amp;rsquo;ve written a &lt;a href=&#34;http://peterhcharlton.github.io/RRest/waveform_analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial&lt;/a&gt; on the methods, which is due to be published in a textbook soon. This work can be reproduced exactly. Since then we have extended the range of publicly available resources by adding more methods, and the new benchmark dataset. This most recent work can&amp;rsquo;t be reproduced exactly since we had to make a few changes before making it publicly available. I intend to make future work on this topic fully reproducible so that researchers can build on our work. Who knows, perhaps this will contribute towards earlier identification of deteriorating patients in the future.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;Originally published &lt;a href=&#34;https://kingsimaging.wordpress.com/2016/05/11/making-reproducible-research-as-natural-as-breathing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
