@@ -5,12 +5,27 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 10 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>Academic Early Career Award</title>
+      <link>https://peterhcharlton.github.io/post/ipem_early_career_award/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/ipem_early_career_award/</guid>
+      <description>&lt;h2 id=&#34;recognition-from-the-institute-of-physics-and-engineering-in-medicine&#34;&gt;Recognition from the Institute of Physics and Engineering in Medicine&lt;/h2&gt;
+&lt;p&gt;In 2021, Peter Charlton received the &lt;a href=&#34;https://www.ipem.ac.uk/AboutIPEM/PrizesandAwards.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Early Career Award&lt;/a&gt; from the Institute of Physics and Engineering in Medicine. This award recognises his contribution to academic practice, including his research, generating income, collaboration, engagement with the scientific community, and his teaching.&lt;/p&gt;
+&lt;p&gt;The President of the Institute of Physics and Engineering in Medicine, Professor O&amp;rsquo;Connor said:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;lsquo;This award highlights an early career member of IPEM who is destined to go far in their academic career. Peter has had a distinguished career to date and is a worthy winner.&#39;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Further details of the award are available on the Institute&amp;rsquo;s &lt;a href=&#34;https://www.ipem.ac.uk/NewsExternalAffairs/LatestNews/TabId/366/ArtMID/1595/ArticleID/612/Gold-Medal-and-Early-Career-awards-for-IPEM-members.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;further-resources&#34;&gt;Further resources&lt;/h2&gt;
+&lt;p&gt;As detailed on the Institute&amp;rsquo;s &lt;a href=&#34;https://www.ipem.ac.uk/AboutIPEM/PrizesandAwards.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;, individuals can apply for this award each year. Any potential applicants may be interested to read the content of my application &lt;a href=&#34;./tips/past_applications/ipem_academic_early_career_award&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Photoplethysmography Textbook</title>
