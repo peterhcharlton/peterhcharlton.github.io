@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/tag/arterial-stiffness/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/pulse-waves/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
+    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/</loc>
     <lastmod>2021-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/functionality_of_wearables/</loc>
@@ -35,9 +56,6 @@
     <loc>https://peterhcharlton.github.io/category/photoplethysmography/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/post/ppg_book/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,9 +66,6 @@
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/6/</loc>
-    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
@@ -70,9 +85,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2021-07-19T16:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/using-consumer-devices-for-clinical-assessment/</loc>
     <lastmod>2021-07-19T16:00:00+00:00</lastmod>
@@ -148,6 +160,12 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/rr_review/</loc>
     <lastmod>2018-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/7/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/cont_resp_monitoring/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/resp_sig_extraction/</loc>
     <lastmod>2017-03-31T00:00:00+00:00</lastmod>

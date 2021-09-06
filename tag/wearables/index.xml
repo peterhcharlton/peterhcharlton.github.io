@@ -315,6 +315,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Defintions: irreg. - irregular pulse detection; RR - respiratory rate; BP - blood pressure; temp - temperature.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
 &lt;p&gt;Adapted under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt; from:&lt;/p&gt;
 &lt;ul&gt;
@@ -683,6 +684,18 @@
 &lt;li&gt;The results of the analysis of individual articles&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You will also need the &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewScreeningResults.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewScreeningResults.xlsx&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewMethodologiesData.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewMethodologiesData.xlsx&lt;/a&gt; files to reproduce these results.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Continuous respiratory rate monitoring to detect clinical deteriorations using wearable sensors</title>
+      <link>https://peterhcharlton.github.io/publication/cont_resp_monitoring/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/cont_resp_monitoring/</guid>
+      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The published version is available &lt;a href=&#34;https://theses.eurasip.org/theses/829/continuous-respiratory-rate-monitoring-to-detect/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

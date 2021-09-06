@@ -1,0 +1,1631 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peter Charlton" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="An introduction to modelling arterial pulse waves." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.624edad420d5361cc1ee021178ac273d.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Peter Charlton" />
+  <meta property="og:url" content="https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/" />
+  <meta property="og:title" content="Introduction to modelling arterial pulse waves | Peter Charlton" />
+  <meta property="og:description" content="An introduction to modelling arterial pulse waves." /><meta property="og:image" content="https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2017-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-09-07T17:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/"
+  },
+  "name": "Introduction to modelling arterial pulse waves",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Split, Croatia"
+  },
+  
+  
+  "startDate": "2021-09-07T17:00:00Z",
+  
+  "endDate": "2021-09-07T19:30:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Peter Charlton"
+  },
+  
+  "description": "An introduction to modelling arterial pulse waves."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Introduction to modelling arterial pulse waves | Peter Charlton</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="1db9d3f8d1eb8a7b2feeca21fb329d46" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peter Charlton</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peter Charlton</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Introduction to modelling arterial pulse waves</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Peter Charlton</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/peterhcharlton/pwdb/wiki/Case-Studies" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/PeterHCharlton" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">
+    
+    Event Poll
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://peterhcharlton.github.io/publication/simulating_pulse_waves/" target="_blank" rel="noopener">
+    
+    Accompanying Paper
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://peterhcharlton.github.io/pwdb/pwdb.html" target="_blank" rel="noopener">
+    
+    Pulse Wave Database
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">In this training event I provided an introduction to modelling arterial pulse waves, summarising how arterial pulse waves can be simulated using a computational model of blood flow around the body. I then demonstrated the utility of such modelling in three case studies. Finally, I summarised the limitations of this type of modelling, its benefits, and opportunities for further research.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Sep 7, 2021 5:00 PM &mdash; 7:30 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            VascAgeNet <a href="https://vascagenet.eu/training-schools">Training School</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Split, Croatia</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <h2 id="introduction">Introduction</h2>
+<p>I&rsquo;ve used modelling in <a href="/publication/simulating_pulse_waves/">my research</a> to simulate pulse waves, to investigate how vascular age can be assessed from arterial pulse waves. I&rsquo;ve found it a useful tool for:</p>
+<ol>
+<li><strong>Understanding physiological mechanisms</strong>: Investigating what physiological mechanisms cause the changes in pulse waves that occur with age.</li>
+<li><strong>Designing algorithms</strong>: Designing algorithms to assess vascular age, by developing them using data from simulated subjects across a wide range of ages, and a wide range of cardiovascular properties.</li>
+<li><strong>Investigating algorithm performance</strong>: Investigating which cardiovascular properties can affect algorithm performance.</li>
+</ol>
+<p>In this session I&rsquo;ll provide a brief overview of how this particular model works, and then demonstrate its utility through three case studies. I&rsquo;ll conclude with some thoughts on the limitations, benefits and opportunities of this type of modelling.</p>
+<p>During the session I&rsquo;ll ask a few questions, which you can contribute to either verbally, or through the <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">online poll</a>. Do feel free to interrupt at any point.</p>
+<h2 id="1d-modelling">1D Modelling</h2>
+<p>The model that I have used in my work is summarised in the image below.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-one-dimensional-model-of-pulse-wave-propagation-a-and-simulated-pulse-waves-b-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420001.jpeg" alt="**The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).** _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).</strong> <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<h3 id="the-model">The Model</h3>
+<p>The model simulates blood flow, starting with flow into the aorta, then through the major arteries, and finally into the microcirculation. It consists of three main parts:</p>
+<ol>
+<li><strong>Aortic Inflow:</strong> The flow from the left ventricle into the aorta is specified. It is defined by several parameters, as illustrated in the image.</li>
+<li><strong>Arterial Network:</strong> The larger arteries of the body are specified in the model. The arteries are assumed to be thin, deformable, cylindrical tubes. They have a specified length, luminal diameter, and wall properties (such as arterial stiffness).</li>
+<li><strong>Vascular Beds:</strong> The vascular beds are themselves modelled using 0D (Windkessel) models, each with a specified resistance and compliance.</li>
+</ol>
+<h3 id="simulated-waveforms">Simulated Waveforms</h3>
+<p>The image above shows the different types of waveforms which the model can simulate (see panel <strong>B</strong> of the image, on the right hand side):</p>
+<ul>
+<li><strong>Blood flow rate (denoted Q):</strong> The rate at which blood flows through an artery.</li>
+<li><strong>Luminal area (A):</strong> The cross-sectional area of an artery.</li>
+<li><strong>Blood flow velocity (U):</strong> The speed at which blood flows through an artery.</li>
+<li><strong>Blood pressure (P)</strong></li>
+<li><strong>Photoplethysmogram (PPG):</strong> An optical measure of blood volume in a vascular bed, commonly measured by pulse oximeters and digital wearable devices (<em>e.g.</em> smartwatches and fitness trackers).</li>
+</ul>
+<h3 id="limitations">Limitations</h3>
+<p><strong>Poll Question:</strong> <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">What are the limitations of the model?</a></p>
+<details>
+  <summary>A few thoughts</summary>
+<ol>
+<li>Periodic inflow, as opposed to normal heart rate variability</li>
+<li>Specified arterial properties, which may not be representative of a particular individual</li>
+<li>Not able to model venous flow</li>
+</ol>
+</details>
+<h3 id="specifying-model-input-parameters">Specifying Model Input Parameters</h3>
+<p>The model requires a plethora of &lsquo;input parameters&rsquo; (<em>i.e.</em> &lsquo;settings&rsquo;), such as the heart rate, stiffness of each artery, and systemic vascular resistance. Some of these parameters have a marked impact on the simulated pulse waves, whereas others have only a small impact. For instance, the image below shows how the variation of each of the following input parameters impacts the simulated carotid and radial waveforms:</p>
+<ul>
+<li>HR: heart rate</li>
+<li>SV: stroke volume</li>
+<li>LVET: left ventricular ejection time</li>
+<li>PFT: time of peak aortic flow</li>
+<li>RFV: reverse flow volume caused by aortic valve closure at the end of systole</li>
+<li>Length: the length of the ascending aorta</li>
+<li>Diam: the diameters of the largest arteries (aorta and carotid)</li>
+<li>PWV: pulse wave velocities</li>
+<li>MAP: mean blood pressure</li>
+<li>PVC: peripheral vascular compliance</li>
+</ul>
+<p><strong>Question:</strong> Which parameters would be most interesting to change, and why?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-pulse-waves-pws-for-the-25-yr-old-subject-at-the-carotid-artery-a-and-the-radial-artery-b-the-waves-shown-are-at-baseline-black-and-those-obtained-when-increasing-blue-and-decreasing-red-each-parameter-independently-by-1-sd-from-its-baseline-value-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420003.jpeg" alt="**Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).** The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).</strong> The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<p>A set of input parameters suitable for simulating pulse waves for young adults was proposed by (amongst others) <a href="http://link.springer.com/10.1007/s10439-015-1313-8" target="_blank" rel="noopener">Mynard and Smolich</a>. We extended this by proposing a range of parameters to simulate pulse waves for healthy subjects aged 25-75, exhibiting a range of cardiovascular properties. Our proposed ranges of parameters are shown below:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-proposed-parameters-to-model-healthy-ageing-and-normal-variation-in-cardiovascular-properties-the-mean-solid-line-and-sd-dashed-lines-indicating-1771-and-1772-sd-values-are-shown-for-each-parameter-the-positive-and-negative-sd-values-for-carotid-femoral-pulse-wave-velocities-pwvs-are-different-to-capture-the-positive-skewness-of-this-variables-distribution-the-final-wave-speed-plot-shows-the-baseline-wave-speed-as-a-function-of-diameter-for-each-age-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420002.jpeg" alt="**Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:** The mean (solid line) and SD (dashed lines indicating &amp;#177;1 and &amp;#177;2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&#39;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:</strong> The mean (solid line) and SD (dashed lines indicating ±1 and ±2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&rsquo;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<p>These ranges of parameters are based on a review of those reported in the literature.</p>
+<h3 id="creating-a-set-of-virtual-subjects">Creating a set of Virtual Subjects</h3>
+<p>We aimed to create a set of virtual subjects representative of a sample of healthy subjects aged 25-75 years old. To do so:</p>
+<ol>
+<li><strong>Baseline subject at each age:</strong> We created a baseline subject for each age (25 to 75, in 10 year intervals), using the mean value of each parameter at that age.</li>
+<li><strong>Varying parameters at each age:</strong> We then created an additional 728 virtual subjects at each age by varying each parameter by ±1 SD from the mean, and creating a subject with each possible combination of parameters. Only the six most influential parameters were varied (HR, SV, LVET, Diam, PWV, PVR).</li>
+<li><strong>Database of simulated pulse waves:</strong> We created a <a href="https://peterhcharlton.github.io/pwdb/pwdb.html" target="_blank" rel="noopener">database</a> of simulated pulse waves for 4,374 virtual subjects (consisting of 729 at each of the six age groups). The database and accompanying code are publicly available.</li>
+</ol>
+<h3 id="comparison-with-_in-vivo_-data">Comparison with <em>in vivo</em> Data</h3>
+<p>We verified this approach for simulating pulse waves for subjects of different ages by comparing the simulated pulse waves with <em>in vivo</em> pulse waves, as shown below:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-a-comparison-between-simulated-and-in-vivo-pulse-wave-pw-shapes-each-pair-of-plots-shows-in-vivo-pws-on-the-left-and-simulated-pws-on-the-right-pws-are-shown-for-different-ages-in-each-plot-offset-and-normalized-legends-indicate-ages-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40-some-of-the-in-vivo-data-were-obtained-from-fluck-et-al-doi-103389fphys201400049httpsdoiorg103389fphys201400049-cc-by-30httpscreativecommonsorglicensesby30_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420006.jpeg" alt="**A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Some of the in vivo data were obtained from Fluck et al. (doi: [10.3389/fphys.2014.00049](https://doi.org/10.3389/fphys.2014.00049); [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/))_" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      **A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>). Some of the in vivo data were obtained from Fluck et al. (doi: <a href="https://doi.org/10.3389/fphys.2014.00049">10.3389/fphys.2014.00049</a>; <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>)</em>
+    </figcaption></figure>
+<p><strong>Poll Question:</strong> <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">How well did the model perform?</a></p>
+<details>
+  <summary>A few thoughts</summary>
+<ol>
+<li>Captured increase in amplitude of second systolic peaks with age in carotid, aortic root and radial pressure waveforms.</li>
+<li>Captured disappearance of second peak of finger PPG waveform with age.</li>
+<li>Still, some marked differences between <em>in vivo</em> and simulated waveforms.</li>
+</ol>
+</details>
+<p>Further details of the verification of this approach are provided in the <a href="https://peterhcharlton.github.io/publication/simulating_pulse_waves/" target="_blank" rel="noopener">accompanying article</a>.</p>
+<h2 id="case-study-1-changes-in-pulse-pressure-amplification-with-age">Case Study 1: Changes in Pulse Pressure Amplification with Age</h2>
+<h2 id="case-study-2-assessing-arterial-stiffness-from-the-photoplethysmogram">Case Study 2: Assessing Arterial Stiffness from the Photoplethysmogram</h2>
+<h2 id="further-reading-and-resources">Further Reading and Resources</h2>
+<p>See the following:</p>
+<ul>
+<li><a href="https://peterhcharlton.github.io/publication/simulating_pulse_waves/" target="_blank" rel="noopener">Accompanying article</a></li>
+<li><a href="https://peterhcharlton.github.io/pwdb/pwdb.html" target="_blank" rel="noopener">Database</a></li>
+<li><a href="https://github.com/peterhcharlton/pwdb/wiki" target="_blank" rel="noopener">User Manual</a></li>
+<li><a href="https://github.com/peterhcharlton/pwdb/wiki/Case-Studies" target="_blank" rel="noopener">Code for case studies</a></li>
+</ul>
+<h2 id="acknowledgment">Acknowledgment</h2>
+<p>None of this would have been possible without <a href="http://haemod.uk/members/ja" target="_blank" rel="noopener">Dr Jordi Alastruey-Arimon</a>, who provided the <a href="http://haemod.uk/nektar" target="_blank" rel="noopener">model</a> and supervision, and also the British Heart Foundation, who funded the work.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/vascular-ageing/">vascular ageing</a>
+  
+  <a class="badge badge-light" href="/tag/pulse-waves/">pulse waves</a>
+  
+  <a class="badge badge-light" href="/tag/arterial-stiffness/">arterial stiffness</a>
+  
+  <a class="badge badge-light" href="/tag/blood-pressure/">blood pressure</a>
+  
+  <a class="badge badge-light" href="/tag/photoplethysmography/">photoplethysmography</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&amp;text=Introduction%20to%20modelling%20arterial%20pulse%20waves" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&amp;t=Introduction%20to%20modelling%20arterial%20pulse%20waves" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Introduction%20to%20modelling%20arterial%20pulse%20waves&amp;body=https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&amp;title=Introduction%20to%20modelling%20arterial%20pulse%20waves" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Introduction%20to%20modelling%20arterial%20pulse%20waves%20https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://peterhcharlton.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huff8b3a0b939b5aaae1cc1bdf9caab2ce_180737_270x270_fill_q75_lanczos_center.jpg" alt="Peter Charlton"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://peterhcharlton.github.io/">Peter Charlton</a></h5>
+      <h6 class="card-subtitle">Research Fellow</h6>
+      <p class="card-text">Biomedical Engineer specialising in signal processing for wearables.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:pete@oxon.org" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-3836-8655" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/PeterHCharlton" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=BJjD81oAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/peterhcharlton" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/peterhcharlton/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/simulating_pulse_waves/">Modeling arterial pulse waves in healthy aging: a database for in silico evaluation of hemodynamics and pulse wave indexes</a></li>
+      
+      <li><a href="/publication/ppg_sig_proc_chapter/">Photoplethysmography Signal Processing and Synthesis</a></li>
+      
+      <li><a href="/post/ppg_book/">Photoplethysmography Textbook</a></li>
+      
+      <li><a href="/post/safer_wearables_testing/">Testing wearables - Part 1</a></li>
+      
+      <li><a href="/project/rr-wearables/">Respiratory rate algorithms for wearables</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2021 Peter Charlton
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
