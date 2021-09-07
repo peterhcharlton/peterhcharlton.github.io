@@ -17,171 +17,26 @@
       <link>https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/</link>
       <pubDate>Tue, 07 Sep 2021 17:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;ve used modelling in &lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34;&gt;my research&lt;/a&gt; to simulate pulse waves, to investigate how vascular age can be assessed from arterial pulse waves. I&amp;rsquo;ve found it a useful tool for:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Understanding physiological mechanisms&lt;/strong&gt;: Investigating what physiological mechanisms cause the changes in pulse waves that occur with age.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Designing algorithms&lt;/strong&gt;: Designing algorithms to assess vascular age, by developing them using data from simulated subjects across a wide range of ages, and a wide range of cardiovascular properties.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Investigating algorithm performance&lt;/strong&gt;: Investigating which cardiovascular properties can affect algorithm performance.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;In this session I&amp;rsquo;ll provide a brief overview of how this particular model works, and then demonstrate its utility through three case studies. I&amp;rsquo;ll conclude with some thoughts on the limitations, benefits and opportunities of this type of modelling.&lt;/p&gt;
-&lt;p&gt;During the session I&amp;rsquo;ll ask a few questions, which you can contribute to either verbally, or through the &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online poll&lt;/a&gt;. Do feel free to interrupt at any point.&lt;/p&gt;
-&lt;h2 id=&#34;1d-modelling&#34;&gt;1D Modelling&lt;/h2&gt;
-&lt;p&gt;The model that I have used in my work is summarised in the image below.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-the-one-dimensional-model-of-pulse-wave-propagation-a-and-simulated-pulse-waves-b-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420001.jpeg&#34; alt=&#34;**The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).** _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      &lt;strong&gt;The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).&lt;/strong&gt; &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;the-model&#34;&gt;The Model&lt;/h3&gt;
-&lt;p&gt;The model simulates blood flow, starting with flow into the aorta, then through the major arteries, and finally into the microcirculation. It consists of three main parts:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Aortic Inflow:&lt;/strong&gt; The flow from the left ventricle into the aorta is specified. It is defined by several parameters, as illustrated in the image.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Arterial Network:&lt;/strong&gt; The larger arteries of the body are specified in the model. The arteries are assumed to be thin, deformable, cylindrical tubes. They have a specified length, luminal diameter, and wall properties (such as arterial stiffness).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vascular Beds:&lt;/strong&gt; The vascular beds are themselves modelled using 0D (Windkessel) models, each with a specified resistance and compliance.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;simulated-waveforms&#34;&gt;Simulated Waveforms&lt;/h3&gt;
-&lt;p&gt;The image above shows the different types of waveforms which the model can simulate (see panel &lt;strong&gt;B&lt;/strong&gt; of the image, on the right hand side):&lt;/p&gt;
+      <description>&lt;h3 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h3&gt;
+&lt;p&gt;Please see the links above for the resources accompanying this talk. During the talk, you will need:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Blood flow rate (denoted Q):&lt;/strong&gt; The rate at which blood flows through an artery.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Luminal area (A):&lt;/strong&gt; The cross-sectional area of an artery.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Blood flow velocity (U):&lt;/strong&gt; The speed at which blood flows through an artery.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Blood pressure (P)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photoplethysmogram (PPG):&lt;/strong&gt; An optical measure of blood volume in a vascular bed, commonly measured by pulse oximeters and digital wearable devices (&lt;em&gt;e.g.&lt;/em&gt; smartwatches and fitness trackers).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/slides/intro_to_pulse_wave_modelling_slides/&#34;&gt;The slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The event poll&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;limitations&#34;&gt;Limitations&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Poll Question:&lt;/strong&gt; &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What are the limitations of the model?&lt;/a&gt;&lt;/p&gt;
-&lt;details&gt;
-  &lt;summary&gt;A few thoughts&lt;/summary&gt;
-&lt;ol&gt;
-&lt;li&gt;Periodic inflow, as opposed to normal heart rate variability&lt;/li&gt;
-&lt;li&gt;Specified arterial properties, which may not be representative of a particular individual&lt;/li&gt;
-&lt;li&gt;Not able to model venous flow&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/details&gt;
-&lt;h3 id=&#34;specifying-model-input-parameters&#34;&gt;Specifying Model Input Parameters&lt;/h3&gt;
-&lt;p&gt;The model requires a plethora of &amp;lsquo;input parameters&amp;rsquo; (&lt;em&gt;i.e.&lt;/em&gt; &amp;lsquo;settings&amp;rsquo;), such as the heart rate, stiffness of each artery, and systemic vascular resistance. Some of these parameters have a marked impact on the simulated pulse waves, whereas others have only a small impact. For instance, the image below shows how the variation of each of the following input parameters impacts the simulated carotid and radial waveforms:&lt;/p&gt;
+&lt;p&gt;After the talk, you may be interested in:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;HR: heart rate&lt;/li&gt;
-&lt;li&gt;SV: stroke volume&lt;/li&gt;
-&lt;li&gt;LVET: left ventricular ejection time&lt;/li&gt;
-&lt;li&gt;PFT: time of peak aortic flow&lt;/li&gt;
-&lt;li&gt;RFV: reverse flow volume caused by aortic valve closure at the end of systole&lt;/li&gt;
-&lt;li&gt;Length: the length of the ascending aorta&lt;/li&gt;
-&lt;li&gt;Diam: the diameters of the largest arteries (aorta and carotid)&lt;/li&gt;
-&lt;li&gt;PWV: pulse wave velocities&lt;/li&gt;
-&lt;li&gt;MAP: mean blood pressure&lt;/li&gt;
-&lt;li&gt;PVC: peripheral vascular compliance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Which parameters would be most interesting to change, and why?&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-pulse-waves-pws-for-the-25-yr-old-subject-at-the-carotid-artery-a-and-the-radial-artery-b-the-waves-shown-are-at-baseline-black-and-those-obtained-when-increasing-blue-and-decreasing-red-each-parameter-independently-by-1-sd-from-its-baseline-value-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420003.jpeg&#34; alt=&#34;**Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).** The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      &lt;strong&gt;Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).&lt;/strong&gt; The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;A set of input parameters suitable for simulating pulse waves for young adults was proposed by (amongst others) &lt;a href=&#34;http://link.springer.com/10.1007/s10439-015-1313-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mynard and Smolich&lt;/a&gt;. We extended this by proposing a range of parameters to simulate pulse waves for healthy subjects aged 25-75, exhibiting a range of cardiovascular properties. Our proposed ranges of parameters are shown below:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-proposed-parameters-to-model-healthy-ageing-and-normal-variation-in-cardiovascular-properties-the-mean-solid-line-and-sd-dashed-lines-indicating-1771-and-1772-sd-values-are-shown-for-each-parameter-the-positive-and-negative-sd-values-for-carotid-femoral-pulse-wave-velocities-pwvs-are-different-to-capture-the-positive-skewness-of-this-variables-distribution-the-final-wave-speed-plot-shows-the-baseline-wave-speed-as-a-function-of-diameter-for-each-age-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420002.jpeg&#34; alt=&#34;**Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:** The mean (solid line) and SD (dashed lines indicating &amp;amp;#177;1 and &amp;amp;#177;2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&amp;#39;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      &lt;strong&gt;Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:&lt;/strong&gt; The mean (solid line) and SD (dashed lines indicating ±1 and ±2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&amp;rsquo;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;These ranges of parameters are based on a review of those reported in the literature.&lt;/p&gt;
-&lt;h3 id=&#34;creating-a-set-of-virtual-subjects&#34;&gt;Creating a set of Virtual Subjects&lt;/h3&gt;
-&lt;p&gt;We aimed to create a set of virtual subjects representative of a sample of healthy subjects aged 25-75 years old. To do so:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Baseline subject at each age:&lt;/strong&gt; We created a baseline subject for each age (25 to 75, in 10 year intervals), using the mean value of each parameter at that age.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Varying parameters at each age:&lt;/strong&gt; We then created an additional 728 virtual subjects at each age by varying each parameter by ±1 SD from the mean, and creating a subject with each possible combination of parameters. Only the six most influential parameters were varied (HR, SV, LVET, Diam, PWV, PVR).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Database of simulated pulse waves:&lt;/strong&gt; We created a &lt;a href=&#34;https://peterhcharlton.github.io/pwdb/pwdb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;database&lt;/a&gt; of simulated pulse waves for 4,374 virtual subjects (consisting of 729 at each of the six age groups). The database and accompanying code are publicly available.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;comparison-with-_in-vivo_-data&#34;&gt;Comparison with &lt;em&gt;in vivo&lt;/em&gt; Data&lt;/h3&gt;
-&lt;p&gt;We verified this approach for simulating pulse waves for subjects of different ages by comparing the simulated pulse waves with &lt;em&gt;in vivo&lt;/em&gt; pulse waves, as shown below:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-a-comparison-between-simulated-and-in-vivo-pulse-wave-pw-shapes-each-pair-of-plots-shows-in-vivo-pws-on-the-left-and-simulated-pws-on-the-right-pws-are-shown-for-different-ages-in-each-plot-offset-and-normalized-legends-indicate-ages-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40-some-of-the-in-vivo-data-were-obtained-from-fluck-et-al-doi-103389fphys201400049httpsdoiorg103389fphys201400049-cc-by-30httpscreativecommonsorglicensesby30_&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420006.jpeg&#34; alt=&#34;**A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Some of the in vivo data were obtained from Fluck et al. (doi: [10.3389/fphys.2014.00049](https://doi.org/10.3389/fphys.2014.00049); [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/))_&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      **A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;). Some of the in vivo data were obtained from Fluck et al. (doi: &lt;a href=&#34;https://doi.org/10.3389/fphys.2014.00049&#34;&gt;10.3389/fphys.2014.00049&lt;/a&gt;; &lt;a href=&#34;https://creativecommons.org/licenses/by/3.0/&#34;&gt;CC-BY 3.0&lt;/a&gt;)&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;Poll Question:&lt;/strong&gt; &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How well did the model perform?&lt;/a&gt;&lt;/p&gt;
-&lt;details&gt;
-  &lt;summary&gt;A few thoughts&lt;/summary&gt;
-&lt;ol&gt;
-&lt;li&gt;Captured increase in amplitude of second systolic peaks with age in carotid, aortic root and radial pressure waveforms.&lt;/li&gt;
-&lt;li&gt;Captured disappearance of second peak of finger PPG waveform with age.&lt;/li&gt;
-&lt;li&gt;Still, some marked differences between &lt;em&gt;in vivo&lt;/em&gt; and simulated waveforms.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/details&gt;
-&lt;p&gt;Further details of the verification of this approach are provided in the &lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;accompanying article&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;case-study-1-changes-in-pulse-pressure-amplification-with-age&#34;&gt;Case Study 1: Changes in Pulse Pressure Amplification with Age&lt;/h2&gt;
-&lt;h2 id=&#34;case-study-2-assessing-arterial-stiffness-from-the-photoplethysmogram&#34;&gt;Case Study 2: Assessing Arterial Stiffness from the Photoplethysmogram&lt;/h2&gt;
-&lt;h2 id=&#34;further-reading-and-resources&#34;&gt;Further Reading and Resources&lt;/h2&gt;
-&lt;p&gt;See the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Accompanying article&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/pwdb/pwdb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/pwdb/wiki&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;User Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/extras/intro_to_pulse_wave_modelling_transcript/&#34;&gt;The transcript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34;&gt;The accompanying paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/pwdb/pwdb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database&lt;/a&gt;, and accompanying &lt;a href=&#34;https://github.com/peterhcharlton/pwdb/wiki&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;User Manual&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/pwdb/wiki/Case-Studies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code for case studies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
-&lt;p&gt;None of this would have been possible without &lt;a href=&#34;http://haemod.uk/members/ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Jordi Alastruey-Arimon&lt;/a&gt;, who provided the &lt;a href=&#34;http://haemod.uk/nektar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;model&lt;/a&gt; and supervision, and also the British Heart Foundation, who funded the work.&lt;/p&gt;
+&lt;h3 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h3&gt;
+&lt;p&gt;None of this would have been possible without:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://haemod.uk/members/ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Jordi Alastruey-Arimon&lt;/a&gt;, who provided the &lt;a href=&#34;http://haemod.uk/nektar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;model&lt;/a&gt; and supervision&lt;/li&gt;
+&lt;li&gt;The British Heart Foundation, who funded the work&lt;/li&gt;
+&lt;li&gt;COST Action CA18216 &amp;ldquo;Network for Research in Vascular Ageing&amp;rdquo; supported by COST (European Cooperation in Science and Technology)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -1078,141 +933,225 @@
     </item>
     
     <item>
-      <title>Slides</title>
-      <link>https://peterhcharlton.github.io/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/media/boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Breathing rate estimation from the electrocardiogram and photoplethysmogram: a review</title>
       <link>https://peterhcharlton.github.io/publication/rr_review/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/rr_review/</guid>
       <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
 &lt;p&gt;Awarded the 3rd Prize in the 2021 IEEE Engineering in Medicine and Biology Prize Paper Award.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transcript for: An Introduction to Pulse Wave Modelling</title>
+      <link>https://peterhcharlton.github.io/extras/intro_to_pulse_wave_modelling_transcript/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/extras/intro_to_pulse_wave_modelling_transcript/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;This transcript accompanies &lt;a href=&#34;https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&#34;&gt;this talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;transcript&#34;&gt;Transcript&lt;/h1&gt;
+&lt;h2 id=&#34;title-slide&#34;&gt;Title Slide&lt;/h2&gt;
+&lt;p&gt;Topic for today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using modelling to simulate pulse waves for research and development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Personal introduction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biomedical engineer specialising in signal processing for wearables.&lt;/li&gt;
+&lt;li&gt;Institutions&lt;/li&gt;
+&lt;li&gt;Current interests, and interests in vascular ageing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve used modelling in &lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34;&gt;my research&lt;/a&gt; to simulate pulse waves, to investigate how vascular age can be assessed from arterial pulse waves. I&amp;rsquo;ve found it a useful tool for:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Understanding physiological mechanisms&lt;/strong&gt;: Investigating what physiological mechanisms cause the changes in pulse waves that occur with age.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Designing algorithms&lt;/strong&gt;: Designing algorithms to assess vascular age, by developing them using data from simulated subjects across a wide range of ages, and a wide range of cardiovascular properties.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Investigating algorithm performance&lt;/strong&gt;: Investigating which cardiovascular properties can affect algorithm performance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In this session I&amp;rsquo;ll provide a brief overview of how this particular model works, and then demonstrate its utility through three case studies. I&amp;rsquo;ll conclude with some thoughts on the limitations, benefits and opportunities of this type of modelling.&lt;/p&gt;
+&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
+&lt;p&gt;You may find it helpful to have the &lt;a href=&#34;https://peterhcharlton.github.io/slides/intro_to_pulse_wave_modelling_slides/&#34;&gt;slides&lt;/a&gt; in front of you.&lt;/p&gt;
+&lt;p&gt;During the session I&amp;rsquo;ll ask a few questions, which you can contribute to either verbally, or through the &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online poll&lt;/a&gt;. Do feel free to interrupt at any point.&lt;/p&gt;
+&lt;h2 id=&#34;1d-modelling&#34;&gt;1D Modelling&lt;/h2&gt;
+&lt;p&gt;The model that I have used in my work is summarised in the image below.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-one-dimensional-model-of-pulse-wave-propagation-a-and-simulated-pulse-waves-b-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420001.jpeg&#34; alt=&#34;**The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).** _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).&lt;/strong&gt; &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;the-model&#34;&gt;The Model&lt;/h3&gt;
+&lt;p&gt;This 1D model simulates blood flow, starting with flow into the aorta, then through the major arteries, and finally into the microcirculation. It consists of three main parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Aortic Inflow:&lt;/strong&gt; The flow from the left ventricle into the aorta is specified. It is defined by several parameters, as illustrated in the image.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arterial Network:&lt;/strong&gt; The larger arteries of the body are specified in the model. The arteries are assumed to be thin, deformable, cylindrical tubes. They have a specified length, luminal diameter, and wall properties (such as arterial stiffness).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vascular Beds:&lt;/strong&gt; The vascular beds are themselves modelled using 0D (Windkessel) models, each with a specified resistance and compliance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;simulated-pulse-waves&#34;&gt;Simulated Pulse Waves&lt;/h2&gt;
+&lt;p&gt;Pulse waves can be simulated at any of the large arteries, as shown below:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-pressure-p-and-flow-velocity-u-luminal-area-a-and-photoplethysmogram-ppg-pulse-waves-simulated-at-common-measurements-sites-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420005.jpeg&#34; alt=&#34;Pressure (P) and flow velocity (U), luminal area (A) and photoplethysmogram (PPG) pulse waves simulated at common measurements sites. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Pressure (P) and flow velocity (U), luminal area (A) and photoplethysmogram (PPG) pulse waves simulated at common measurements sites. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;This image shows the different types of waveforms which the model can simulate:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blood pressure (P)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blood flow velocity (U):&lt;/strong&gt; The speed at which blood flows through an artery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luminal area (A):&lt;/strong&gt; The cross-sectional area of an artery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photoplethysmogram (PPG):&lt;/strong&gt; An optical measure of blood volume in a vascular bed, commonly measured by pulse oximeters and digital wearable devices (&lt;em&gt;e.g.&lt;/em&gt; smartwatches and fitness trackers).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One of the benefits of this type of modelling is that it allows waveforms to be simulated at multiple sites, and, it also captures the pulse transit times between different sites.&lt;/p&gt;
+&lt;h2 id=&#34;model-limitations&#34;&gt;Model Limitations&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Poll Question:&lt;/strong&gt; &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What are the limitations of the model?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;possible-limitations&#34;&gt;Possible Limitations&lt;/h2&gt;
+&lt;details&gt;
+  &lt;summary&gt;A few thoughts&lt;/summary&gt;
+&lt;ol&gt;
+&lt;li&gt;Periodic inflow, as opposed to normal heart rate variability&lt;/li&gt;
+&lt;li&gt;Specified arterial properties, which may not be representative of a particular individual&lt;/li&gt;
+&lt;li&gt;Not able to model venous flow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;model-input-parameters&#34;&gt;Model Input Parameters&lt;/h2&gt;
+&lt;p&gt;The model requires a plethora of &amp;lsquo;input parameters&amp;rsquo; (&lt;em&gt;i.e.&lt;/em&gt; &amp;lsquo;settings&amp;rsquo;), such as the heart rate, stiffness of each artery, and systemic vascular resistance. Some of these parameters have a marked impact on the simulated pulse waves, whereas others have only a small impact. For instance, the image below shows how the variation of each of the following input parameters impacts the simulated carotid and radial waveforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HR: heart rate&lt;/li&gt;
+&lt;li&gt;SV: stroke volume&lt;/li&gt;
+&lt;li&gt;LVET: left ventricular ejection time&lt;/li&gt;
+&lt;li&gt;PFT: time of peak aortic flow&lt;/li&gt;
+&lt;li&gt;RFV: reverse flow volume caused by aortic valve closure at the end of systole&lt;/li&gt;
+&lt;li&gt;Length: the length of the ascending aorta&lt;/li&gt;
+&lt;li&gt;Diam: the diameters of the largest arteries (aorta and carotid)&lt;/li&gt;
+&lt;li&gt;PWV: pulse wave velocities&lt;/li&gt;
+&lt;li&gt;MAP: mean blood pressure&lt;/li&gt;
+&lt;li&gt;PVC: peripheral vascular compliance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;changing-model-input-parameters&#34;&gt;Changing Model Input Parameters&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Which parameters would be most interesting to change, and why?&lt;/p&gt;
+&lt;h2 id=&#34;changing-model-input-parameters-2&#34;&gt;Changing Model Input Parameters (2)&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-pulse-waves-pws-for-the-25-yr-old-subject-at-the-carotid-artery-a-and-the-radial-artery-b-the-waves-shown-are-at-baseline-black-and-those-obtained-when-increasing-blue-and-decreasing-red-each-parameter-independently-by-1-sd-from-its-baseline-value-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420003.jpeg&#34; alt=&#34;**Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).** The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).&lt;/strong&gt; The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;A set of input parameters suitable for simulating pulse waves for young adults was proposed by (amongst others) &lt;a href=&#34;http://link.springer.com/10.1007/s10439-015-1313-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mynard and Smolich&lt;/a&gt;. We extended this by proposing a range of parameters to simulate pulse waves for healthy subjects aged 25-75, exhibiting a range of cardiovascular properties. Our proposed ranges of parameters are shown below:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-proposed-parameters-to-model-healthy-ageing-and-normal-variation-in-cardiovascular-properties-the-mean-solid-line-and-sd-dashed-lines-indicating-1771-and-1772-sd-values-are-shown-for-each-parameter-the-positive-and-negative-sd-values-for-carotid-femoral-pulse-wave-velocities-pwvs-are-different-to-capture-the-positive-skewness-of-this-variables-distribution-the-final-wave-speed-plot-shows-the-baseline-wave-speed-as-a-function-of-diameter-for-each-age-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420002.jpeg&#34; alt=&#34;**Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:** The mean (solid line) and SD (dashed lines indicating &amp;amp;#177;1 and &amp;amp;#177;2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&amp;#39;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:&lt;/strong&gt; The mean (solid line) and SD (dashed lines indicating ±1 and ±2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&amp;rsquo;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;These ranges of parameters are based on a review of those reported in the literature.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-set-of-virtual-subjects&#34;&gt;Creating a set of Virtual Subjects&lt;/h3&gt;
+&lt;p&gt;We aimed to create a set of virtual subjects representative of a sample of healthy subjects aged 25-75 years old. To do so:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Baseline subject at each age:&lt;/strong&gt; We created a baseline subject for each age (25 to 75, in 10 year intervals), using the mean value of each parameter at that age.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Varying parameters at each age:&lt;/strong&gt; We then created an additional 728 virtual subjects at each age by varying each parameter by ±1 SD from the mean, and creating a subject with each possible combination of parameters. Only the six most influential parameters were varied (HR, SV, LVET, Diam, PWV, PVR).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database of simulated pulse waves:&lt;/strong&gt; We created a &lt;a href=&#34;https://peterhcharlton.github.io/pwdb/pwdb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;database&lt;/a&gt; of simulated pulse waves for 4,374 virtual subjects (consisting of 729 at each of the six age groups). The database and accompanying code are publicly available.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;comparison-with-_in-vivo_-data&#34;&gt;Comparison with &lt;em&gt;in vivo&lt;/em&gt; Data&lt;/h3&gt;
+&lt;p&gt;We verified this approach for simulating pulse waves for subjects of different ages by comparing the simulated pulse waves with &lt;em&gt;in vivo&lt;/em&gt; pulse waves, as shown below:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-comparison-between-simulated-and-in-vivo-pulse-wave-pw-shapes-each-pair-of-plots-shows-in-vivo-pws-on-the-left-and-simulated-pws-on-the-right-pws-are-shown-for-different-ages-in-each-plot-offset-and-normalized-legends-indicate-ages-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40-some-of-the-in-vivo-data-were-obtained-from-fluck-et-al-doi-103389fphys201400049httpsdoiorg103389fphys201400049-cc-by-30httpscreativecommonsorglicensesby30_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420006.jpeg&#34; alt=&#34;**A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Some of the in vivo data were obtained from Fluck et al. (doi: [10.3389/fphys.2014.00049](https://doi.org/10.3389/fphys.2014.00049); [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/))_&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      **A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;). Some of the in vivo data were obtained from Fluck et al. (doi: &lt;a href=&#34;https://doi.org/10.3389/fphys.2014.00049&#34;&gt;10.3389/fphys.2014.00049&lt;/a&gt;; &lt;a href=&#34;https://creativecommons.org/licenses/by/3.0/&#34;&gt;CC-BY 3.0&lt;/a&gt;)&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Poll Question:&lt;/strong&gt; &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How well did the model perform?&lt;/a&gt;&lt;/p&gt;
+&lt;details&gt;
+  &lt;summary&gt;A few thoughts&lt;/summary&gt;
+&lt;ol&gt;
+&lt;li&gt;Captured increase in amplitude of second systolic peaks with age in carotid, aortic root and radial pressure waveforms.&lt;/li&gt;
+&lt;li&gt;Captured disappearance of second peak of finger PPG waveform with age.&lt;/li&gt;
+&lt;li&gt;Still, some marked differences between &lt;em&gt;in vivo&lt;/em&gt; and simulated waveforms.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;p&gt;Further details of the verification of this approach are provided in the &lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;accompanying article&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;case-study-1-changes-in-pulse-pressure-amplification-with-age&#34;&gt;Case Study 1: Changes in Pulse Pressure Amplification with Age&lt;/h2&gt;
+&lt;h2 id=&#34;case-study-2-assessing-arterial-stiffness-from-the-photoplethysmogram&#34;&gt;Case Study 2: Assessing Arterial Stiffness from the Photoplethysmogram&lt;/h2&gt;
+&lt;h2 id=&#34;further-reading-and-resources&#34;&gt;Further Reading and Resources&lt;/h2&gt;
+&lt;p&gt;See the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Accompanying article&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/pwdb/pwdb.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/pwdb/wiki&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;User Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/pwdb/wiki/Case-Studies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code for case studies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;None of this would have been possible without &lt;a href=&#34;http://haemod.uk/members/ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Jordi Alastruey-Arimon&lt;/a&gt;, who provided the &lt;a href=&#34;http://haemod.uk/nektar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;model&lt;/a&gt; and supervision, and also the British Heart Foundation, who funded the work.&lt;/p&gt;
 </description>
     </item>
     
@@ -1235,6 +1174,72 @@ Three
       <guid>https://peterhcharlton.github.io/publication/resp_sig_extraction/</guid>
       <description>&lt;h3 id=&#34;recognition&#34;&gt;Recognition&lt;/h3&gt;
 &lt;p&gt;Featured in &lt;em&gt;Physiological Measurement&amp;rsquo;s&lt;/em&gt; &lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334/page/Highlights_of_2017&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Highlights of 2017&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to modelling arterial pulse waves</title>
+      <link>https://peterhcharlton.github.io/slides/intro_to_pulse_wave_modelling_slides/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/slides/intro_to_pulse_wave_modelling_slides/</guid>
+      <description>&lt;h2 id=&#34;an-introduction-to-modelling-arterial-pulse-waves&#34;&gt;An introduction to modelling arterial pulse waves&lt;/h2&gt;
+&lt;p&gt;Peter Charlton, University of Cambridge, UK&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;peterhcharlton.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;To do:&lt;/strong&gt; Please go to this website, find this talk under &amp;lsquo;Talks&amp;rsquo;, and see the accompanying resources.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-find-simulated-pulse-waves-useful-for&#34;&gt;I find simulated pulse waves useful for:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Understanding physiological mechanisms&lt;/li&gt;
+&lt;li&gt;Designing algorithms&lt;/li&gt;
+&lt;li&gt;Investigating algorithm performance&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/slides/intro_to_pulse_wave_modelling_slides/&#34;&gt;The slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The event poll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34;&gt;Accompanying paper&lt;/a&gt;, from which much content in this presentation is reproduced under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-model&#34;&gt;The Model&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420001.jpeg&#34; alt=&#34;A 1D Model&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;simulated-pulse-waves&#34;&gt;Simulated Pulse Waves&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420005.jpeg&#34; alt=&#34;Example simulated pulse waves&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;model-limitations&#34;&gt;Model Limitations&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Poll Question:&lt;/strong&gt; &lt;a href=&#34;https://app.sli.do/event/1zunclmb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What are the limitations of the model?&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;possible-limitations&#34;&gt;Possible Limitations&lt;/h2&gt;
+&lt;p&gt;A few thoughts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Periodic inflow, as opposed to normal heart rate variability&lt;/li&gt;
+&lt;li&gt;Specified arterial properties, which may not be representative of a particular individual&lt;/li&gt;
+&lt;li&gt;Not able to model venous flow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;model-input-parameters&#34;&gt;Model Input Parameters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;HR: heart rate&lt;/li&gt;
+&lt;li&gt;SV: stroke volume&lt;/li&gt;
+&lt;li&gt;LVET: left ventricular ejection time&lt;/li&gt;
+&lt;li&gt;PFT: time of peak aortic flow&lt;/li&gt;
+&lt;li&gt;RFV: reverse flow volume&lt;/li&gt;
+&lt;li&gt;Diam: the diameters of the largest arteries&lt;/li&gt;
+&lt;li&gt;PWV: pulse wave velocities&lt;/li&gt;
+&lt;li&gt;MAP: mean blood pressure&lt;/li&gt;
+&lt;li&gt;PVC: peripheral vascular compliance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;changing-model-input-parameters&#34;&gt;Changing Model Input Parameters&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; Which parameters would be most interesting to change, and why?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;changing-model-input-parameters-2&#34;&gt;Changing Model Input Parameters (2)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420003.jpeg&#34; alt=&#34;A 1D Model&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

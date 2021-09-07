@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  
+  
+
+  
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Wowchemy 5.2.0 for Hugo">
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://peterhcharlton.github.io/slides/intro_to_pulse_wave_modelling_slides/">
+
+  <title>Introduction to modelling arterial pulse waves | Peter Charlton</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/white.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h2 id="an-introduction-to-modelling-arterial-pulse-waves">An introduction to modelling arterial pulse waves</h2>
+<p>Peter Charlton, University of Cambridge, UK</p>
+<p><a href="https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/" target="_blank" rel="noopener">peterhcharlton.github.io</a></p>
+<p><em><strong>To do:</strong> Please go to this website, find this talk under &lsquo;Talks&rsquo;, and see the accompanying resources.</em></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="i-find-simulated-pulse-waves-useful-for">I find simulated pulse waves useful for:</h2>
+<ol>
+<li>Understanding physiological mechanisms</li>
+<li>Designing algorithms</li>
+<li>Investigating algorithm performance</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="accompanying-resources">Accompanying resources</h2>
+<ul>
+<li><a href="/slides/intro_to_pulse_wave_modelling_slides/">The slides</a></li>
+<li><a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">The event poll</a></li>
+<li><a href="/publication/simulating_pulse_waves/">Accompanying paper</a>, from which much content in this presentation is reproduced under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="the-model">The Model</h2>
+<p><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420001.jpeg" alt="A 1D Model"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="simulated-pulse-waves">Simulated Pulse Waves</h2>
+<p><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420005.jpeg" alt="Example simulated pulse waves"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="model-limitations">Model Limitations</h2>
+<p><strong>Poll Question:</strong> <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">What are the limitations of the model?</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="possible-limitations">Possible Limitations</h2>
+<p>A few thoughts:</p>
+<ol>
+<li>Periodic inflow, as opposed to normal heart rate variability</li>
+<li>Specified arterial properties, which may not be representative of a particular individual</li>
+<li>Not able to model venous flow</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="model-input-parameters">Model Input Parameters</h2>
+<ul>
+<li>HR: heart rate</li>
+<li>SV: stroke volume</li>
+<li>LVET: left ventricular ejection time</li>
+<li>PFT: time of peak aortic flow</li>
+<li>RFV: reverse flow volume</li>
+<li>Diam: the diameters of the largest arteries</li>
+<li>PWV: pulse wave velocities</li>
+<li>MAP: mean blood pressure</li>
+<li>PVC: peripheral vascular compliance</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="changing-model-input-parameters">Changing Model Input Parameters</h2>
+<p><strong>Question:</strong> Which parameters would be most interesting to change, and why?</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="changing-model-input-parameters-2">Changing Model Input Parameters (2)</h2>
+<p><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420003.jpeg" alt="A 1D Model"></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="questions">Questions?</h1>
+<p><a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask</a></p>
+<p><a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation</a></p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js" integrity="sha512-Xu/cezKABTI81MGnaBm64vdiS7XkttHeYGOgr2Mdga0bTplSBGongLq2lhK2HwL79wefKM0u4uTCLD0ha1sRzQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.min.js" integrity="sha512-eZZqO4ECmVvGhCt+6VZ7ian2bCu4S6yrjSFH9fXLY1zTokpAWsxAxQwM4x6+7G+G4ha5tFIe0jY0XjpBUqS49Q==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js" integrity="sha512-NA5UCab7xDKQPXGsmIp8iEuId5BAKGPiqHZsZQcBuySfp1n3dZrwBDKpPNL23Db5upay1nULxU14JV1ggFOD2A==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.min.js" integrity="sha512-FYeeQscKqibmYKr0+nE2+fN5prBsFwgjsBVwkrA88O6mN2+ai6EvRkSi6txuhXlWsyK1MUfoV+94+q6HLouJSQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.min.js" integrity="sha512-2yh3Y2gEdboEnZb9d0QZP05N3e0jTkcjhbG9xYL97mbnZ53IXzF5R2TCTmSrtuspDyJ5FWBSh+8izjiGjVdLWw==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/math/math.min.js" integrity="sha512-FUzQmRJDLL111zqJg/vN1YzQFQtZNWfBH2VaOiv30dXRXgaTRn3F/Ibda92klSAVjfz3Q9UqS88R4RF4Ip01fQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/zoom/zoom.min.js" integrity="sha512-zPYOPjR7Hg9BPUYkfNlvVtrC37QlYwq/7mI42VTuXKTcNBp7QvMfuqUTMesOf74OrZ3AEdxJGndGSrJG9O2j5Q==" crossorigin="anonymous"></script>
+
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
+  
+
+  
+
+  
+  <script src="/js/wowchemy-slides.js"></script>
+
+</body>
+</html>
