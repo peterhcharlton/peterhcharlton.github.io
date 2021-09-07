@@ -815,7 +815,7 @@
     <div class="article-style">
       <h1 id="overview">Overview</h1>
 <p>This transcript accompanies <a href="/talk/introduction-to-modelling-arterial-pulse-waves/">this talk</a>.</p>
-<h1 id="transcript">Transcript</h1>
+<hr>
 <h2 id="title-slide">Title Slide</h2>
 <p>Topic for today:</p>
 <ul>
@@ -827,6 +827,10 @@
 <li>Institutions</li>
 <li>Current interests, and interests in vascular ageing.</li>
 </ul>
+<hr>
+<h1 id="part-1">Part 1</h1>
+<h2 id="an-introduction-to-pulse-wave-modelling-using-a-1d-model">An Introduction to Pulse Wave Modelling using a 1D Model</h2>
+<hr>
 <h2 id="introduction">Introduction</h2>
 <p>I&rsquo;ve used modelling in <a href="/publication/simulating_pulse_waves/">my research</a> to simulate pulse waves, to investigate how vascular age can be assessed from arterial pulse waves. I&rsquo;ve found it a useful tool for:</p>
 <ol>
@@ -834,10 +838,11 @@
 <li><strong>Designing algorithms</strong>: Designing algorithms to assess vascular age, by developing them using data from simulated subjects across a wide range of ages, and a wide range of cardiovascular properties.</li>
 <li><strong>Investigating algorithm performance</strong>: Investigating which cardiovascular properties can affect algorithm performance.</li>
 </ol>
-<p>In this session I&rsquo;ll provide a brief overview of how this particular model works, and then demonstrate its utility through three case studies. I&rsquo;ll conclude with some thoughts on the limitations, benefits and opportunities of this type of modelling.</p>
+<p>In this session I&rsquo;ll provide a brief overview of how this particular model works, and then demonstrate its utility through case studies. I&rsquo;ll conclude with some thoughts on the limitations, benefits and opportunities of this type of modelling.</p>
 <h2 id="accompanying-resources">Accompanying Resources</h2>
 <p>You may find it helpful to have the <a href="/slides/intro_to_pulse_wave_modelling_slides/">slides</a> in front of you.</p>
 <p>During the session I&rsquo;ll ask a few questions, which you can contribute to either verbally, or through the <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">online poll</a>. Do feel free to interrupt at any point.</p>
+<hr>
 <h2 id="1d-modelling">1D Modelling</h2>
 <p>The model that I have used in my work is summarised in the image below.</p>
 
@@ -908,7 +913,7 @@
 <li>Not able to model venous flow</li>
 </ol>
 </details>
-<h2 id="model-input-parameters">Model Input Parameters</h2>
+<h2 id="input-parameters">Input Parameters</h2>
 <p>The model requires a plethora of &lsquo;input parameters&rsquo; (<em>i.e.</em> &lsquo;settings&rsquo;), such as the heart rate, stiffness of each artery, and systemic vascular resistance. Some of these parameters have a marked impact on the simulated pulse waves, whereas others have only a small impact. For instance, the image below shows how the variation of each of the following input parameters impacts the simulated carotid and radial waveforms:</p>
 <ul>
 <li>HR: heart rate</li>
@@ -922,9 +927,10 @@
 <li>MAP: mean blood pressure</li>
 <li>PVC: peripheral vascular compliance</li>
 </ul>
-<h2 id="changing-model-input-parameters">Changing Model Input Parameters</h2>
+<h2 id="changing-inputs">Changing Inputs</h2>
 <p><strong>Question:</strong> Which parameters would be most interesting to change, and why?</p>
-<h2 id="changing-model-input-parameters-2">Changing Model Input Parameters (2)</h2>
+<p><strong>Question:</strong> Which parameters are most relevant to vascular ageing?</p>
+<h2 id="changing-inputs-2">Changing Inputs (2)</h2>
 
 
 
@@ -945,6 +951,10 @@
   </div><figcaption>
       <strong>Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).</strong> The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
     </figcaption></figure>
+<ul>
+<li>Discuss figure: which parameters strongly influence the waves, and which don&rsquo;t?</li>
+</ul>
+<h2 id="changing-inputs-3">Changing Inputs (3)</h2>
 <p>A set of input parameters suitable for simulating pulse waves for young adults was proposed by (amongst others) <a href="http://link.springer.com/10.1007/s10439-015-1313-8" target="_blank" rel="noopener">Mynard and Smolich</a>. We extended this by proposing a range of parameters to simulate pulse waves for healthy subjects aged 25-75, exhibiting a range of cardiovascular properties. Our proposed ranges of parameters are shown below:</p>
 
 
@@ -967,7 +977,7 @@
       <strong>Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:</strong> The mean (solid line) and SD (dashed lines indicating ±1 and ±2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&rsquo;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
     </figcaption></figure>
 <p>These ranges of parameters are based on a review of those reported in the literature.</p>
-<h3 id="creating-a-set-of-virtual-subjects">Creating a set of Virtual Subjects</h3>
+<h3 id="a-set-of-virtual-subjects">A set of Virtual Subjects</h3>
 <p>We aimed to create a set of virtual subjects representative of a sample of healthy subjects aged 25-75 years old. To do so:</p>
 <ol>
 <li><strong>Baseline subject at each age:</strong> We created a baseline subject for each age (25 to 75, in 10 year intervals), using the mean value of each parameter at that age.</li>
@@ -997,17 +1007,167 @@
       **A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>). Some of the in vivo data were obtained from Fluck et al. (doi: <a href="https://doi.org/10.3389/fphys.2014.00049">10.3389/fphys.2014.00049</a>; <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>)</em>
     </figcaption></figure>
 <p><strong>Poll Question:</strong> <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">How well did the model perform?</a></p>
+<h3 id="thoughts-on-performance">Thoughts on Performance</h3>
 <details>
   <summary>A few thoughts</summary>
 <ol>
 <li>Captured increase in amplitude of second systolic peaks with age in carotid, aortic root and radial pressure waveforms.</li>
 <li>Captured disappearance of second peak of finger PPG waveform with age.</li>
-<li>Still, some marked differences between <em>in vivo</em> and simulated waveforms.</li>
+<li>Nonetheless, some marked differences between <em>in vivo</em> and simulated waveforms.</li>
 </ol>
 </details>
 <p>Further details of the verification of this approach are provided in the <a href="https://peterhcharlton.github.io/publication/simulating_pulse_waves/" target="_blank" rel="noopener">accompanying article</a>.</p>
-<h2 id="case-study-1-changes-in-pulse-pressure-amplification-with-age">Case Study 1: Changes in Pulse Pressure Amplification with Age</h2>
-<h2 id="case-study-2-assessing-arterial-stiffness-from-the-photoplethysmogram">Case Study 2: Assessing Arterial Stiffness from the Photoplethysmogram</h2>
+<hr>
+<h1 id="part-2">Part 2:</h1>
+<h2 id="case-study-assessing-arterial-stiffness-from-the-photoplethysmogram">Case Study: Assessing Arterial Stiffness from the Photoplethysmogram</h2>
+<hr>
+<h3 id="digital-wearable-device">Digital Wearable Device</h3>
+<p>One of the limitations of some current techniques for assessing arterial stiffness is that they require specialist equipment and/or specialist operators. A potential alternative is to acquire pulse waves using consumer devices worn in daily life, such as smartwatches or fitness trackers (shown below).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-a-wrist-worn-device-which-acquires-pulse-waves-by-photoplethysmography-_source-ph-charlton-max-health-bandhttpscommonswikimediaorgwikicategoryfiles_by_peter_h_charltonmediafilemax_health_bandjpg-wikimedia-commons-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Max_Health_Band.jpg/640px-Max_Health_Band.jpg" alt="**A wrist-worn device which acquires pulse waves by photoplethysmography.** _Source: PH Charlton, [Max-Health-Band](https://commons.wikimedia.org/wiki/Category:Files_by_Peter_H_Charlton#/media/File:Max_Health_Band.jpg), Wikimedia Commons ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>A wrist-worn device which acquires pulse waves by photoplethysmography.</strong> <br> <em>Source: PH Charlton, <a href="https://commons.wikimedia.org/wiki/Category:Files_by_Peter_H_Charlton#/media/File:Max_Health_Band.jpg">Max-Health-Band</a>, Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<h3 id="the-photoplethysmogram-ppg">The Photoplethysmogram (PPG)</h3>
+<p>Digital wearable devices typically use photoplethysmography to acquire pulse waves:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-simplified-origins-of-the-photoplethysmogram-ppg-signal-arterial-blood-venous-blood-and-other-tissues-_source-ph-charlton-photoplethysmogram-signal-componentshttpscommonswikimediaorgwikifilephotoplethysmogram_signal_componentssvg-wikimedia-commons-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Photoplethysmogram_signal_components.svg/640px-Photoplethysmogram_signal_components.svg.png" alt="**Simplified origins of the photoplethysmogram (PPG) signal: arterial blood, venous blood and other tissues.** _Source: PH Charlton, [Photoplethysmogram signal components](https://commons.wikimedia.org/wiki/File:Photoplethysmogram_signal_components.svg), Wikimedia Commons ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Simplified origins of the photoplethysmogram (PPG) signal: arterial blood, venous blood and other tissues.</strong> <br> <em>Source: PH Charlton, <a href="https://commons.wikimedia.org/wiki/File:Photoplethysmogram_signal_components.svg">Photoplethysmogram signal components</a>, Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<h3 id="changes-in-ppg-pulse-wave-shape">Changes in PPG Pulse Wave Shape</h3>
+<p>Many approaches have been proposed to assess arterial stiffness from the photoplethysmogram (PPG) signal, based on the observation that the PPG pulse wave changes shape with age:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-classes-of-photoplethysmogram-ppg-pulse-wave-shape-examples-of-the-four-classes-of-pulse-wave-shape-proposed-by-dawber-et-al-generally-the-higher-classes-are-associated-with-older-adults-_source-ph-charlton-classes-of-photoplethysmogram-ppg-pulse-wave-shapehttpscommonswikimediaorgwikifileclasses_of_photoplethysmogram_ppg_pulse_wave_shapesvg-wikimedia-commons-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Classes_of_photoplethysmogram_%28PPG%29_pulse_wave_shape.svg/640px-Classes_of_photoplethysmogram_%28PPG%29_pulse_wave_shape.svg.png" alt="**Classes of photoplethysmogram (PPG) pulse wave shape:** Examples of the four classes of pulse wave shape proposed by Dawber et al. Generally, the higher classes are associated with older adults. _Source: PH Charlton, [Classes of photoplethysmogram (PPG) pulse wave shape](https://commons.wikimedia.org/wiki/File:Classes_of_photoplethysmogram_(PPG)_pulse_wave_shape.svg), Wikimedia Commons ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Classes of photoplethysmogram (PPG) pulse wave shape:</strong> Examples of the four classes of pulse wave shape proposed by Dawber et al. Generally, the higher classes are associated with older adults. <br> <em>Source: PH Charlton, <a href="https://commons.wikimedia.org/wiki/File:Classes_of_photoplethysmogram_(PPG)_pulse_wave_shape.svg">Classes of photoplethysmogram (PPG) pulse wave shape</a>, Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<h3 id="assessing-arterial-stiffness">Assessing Arterial Stiffness</h3>
+<p>Methods for assessing arterial stiffness from the PPG mostly consist of two steps (as shown below):</p>
+<ol>
+<li>Identifying fiducial points (left)</li>
+<li>Extracting pulse wave features (right)</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-pulse-wave-analysis-illustrated-for-a-simulated-pressure-wave-at-the-radial-artery-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420004.jpeg" alt="**Pulse wave analysis:** Illustrated for a simulated pressure wave at the radial artery. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>Pulse wave analysis:</strong> Illustrated for a simulated pressure wave at the radial artery. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<p>The following three indices were extracted from PPG pulse waves in this case study:</p>
+<ol>
+<li>Reflection Index (RI, illustrated)</li>
+<li>Stiffness Index (SI)</li>
+<li>Modified Aging Index (AGImod)</li>
+</ol>
+<p>These were calculated for each virtual subject, and then their correlation with the reference aortic PWV was assessed. In addition, we investigated the cardiovascular determinants of each index.</p>
+<h3 id="results">Results</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-the-correlation-of-photoplethysmogram-ppg-derived-pulse-wave-pw-indexes-with-aortic-pulse-wave-velocity-pwv-a-and-their-physiological-determinants-b-data-derived-for-all-virtual-subjects-are-shown-in-black-whereas-red-indicates-data-from-45-yr-old-subjects-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420009.jpeg" alt="The correlation of photoplethysmogram (PPG)-derived pulse wave (PW) indexes with aortic pulse wave velocity (PWV; A), and their physiological determinants (B). Data derived for all virtual subjects are shown in black, whereas red indicates data from 45-yr-old subjects. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      The correlation of photoplethysmogram (PPG)-derived pulse wave (PW) indexes with aortic pulse wave velocity (PWV; A), and their physiological determinants (B). Data derived for all virtual subjects are shown in black, whereas red indicates data from 45-yr-old subjects. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
+    </figcaption></figure>
+<p>Discuss:</p>
+<ul>
+<li>Overall performance across all ages</li>
+<li>Performance within an individual age group</li>
+<li>Influence of not only PWV, but other CV properties (note difference in influence of &lsquo;diam&rsquo;)</li>
+</ul>
+<h3 id="implications">Implications:</h3>
+<ol>
+<li>Clinical studies should investigate performance over a small age range as well as over the entire cohort to assess the potential utility of indexes for stratifying patients</li>
+<li>Indexes can also be influenced by HR and SV, indicating that it may be beneficial to assess performance when these CV properties are varied <em>in vivo</em>.</li>
+</ol>
+<h3 id="questions">Questions</h3>
+<ol>
+<li>What would you think of using this technology to assess vascular age?</li>
+<li>How might it compare to other technologies?</li>
+<li>How could one assess the relative performance of such technologies?</li>
+</ol>
+<h3 id="next-steps">Next Steps</h3>
+<p>The WG3 PPG group currently has a paper under review titled:</p>
+<p><em>Assessing Vascular Age from the Photoplethysmogram: A Systematic Review from VascAgeNet</em></p>
+<hr>
+<h1 id="part-3">Part 3</h1>
+<h2 id="case-study-changes-in-pulse-pressure-amplification-with-age">Case Study: Changes in Pulse Pressure Amplification with Age</h2>
+<hr>
+<h3 id="pulse-pressure-amplification">Pulse Pressure Amplification</h3>
+<p>$$Pulse Pressure Amplification = \frac{brachial pulse pressure}{aortic pulse pressure}$$</p>
+<hr>
 <h2 id="further-reading-and-resources">Further Reading and Resources</h2>
 <p>See the following:</p>
 <ul>
