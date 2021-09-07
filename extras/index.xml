@@ -19,6 +19,7 @@
       <guid>https://peterhcharlton.github.io/extras/intro_to_pulse_wave_modelling_transcript/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;p&gt;This transcript accompanies &lt;a href=&#34;https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&#34;&gt;this talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some of the transcript content is reproduced from the &lt;a href=&#34;https://peterhcharlton.github.io/publication/simulating_pulse_waves/&#34;&gt;accompanying paper&lt;/a&gt; under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;title-slide&#34;&gt;Title Slide&lt;/h2&gt;
 &lt;p&gt;Topic for today:&lt;/p&gt;
@@ -370,8 +371,79 @@
 &lt;h2 id=&#34;case-study-changes-in-pulse-pressure-amplification-with-age&#34;&gt;Case Study: Changes in Pulse Pressure Amplification with Age&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pulse-pressure-amplification&#34;&gt;Pulse Pressure Amplification&lt;/h3&gt;
-&lt;p&gt;$$Pulse Pressure Amplification = \frac{brachial pulse pressure}{aortic pulse pressure}$$&lt;/p&gt;
+&lt;p&gt;$$\mathrm{Pulse \ Pressure \ Amplification} = \frac{\mathrm{brachial \ pulse \ pressure}}{\mathrm{aortic \ pulse \ pressure}}$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How does pulse pressure amplification change with age?&lt;/li&gt;
+&lt;li&gt;Why?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;p&gt;In this case study, we investigated the determinants of changes in PPamp with age. To do so, we assessed the effects of age on early systolic amplification and late systolic aortic pressure augmentation, calculated using the aortic PP at P1 and P2, respectively.&lt;/p&gt;
+&lt;h3 id=&#34;results-1&#34;&gt;Results&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-causes-of-changes-in-pulse-pressure-pp-amplification-ppamp-with-age-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420008.jpeg&#34; alt=&#34;The causes of changes in pulse pressure (PP) amplification (PPamp) with age. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The causes of changes in pulse pressure (PP) amplification (PPamp) with age. &lt;br&gt; &lt;em&gt;Source: PH Charlton et al., doi: &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00218.2019&#34;&gt;10.1152/ajpheart.00218.2019&lt;/a&gt; (&lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC BY 4.0&lt;/a&gt;).&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; In A and B: how does the pulse wave change shape with distance from the aortic root to the finger? How does this differ with age?&lt;/p&gt;
+&lt;p&gt;Discuss:&lt;/p&gt;
+&lt;p&gt;The profiles demonstrate that two mechanisms influence PPamp (PPamp / PPb/PPa; subscripts &amp;ldquo;a&amp;rdquo; and &amp;ldquo;b&amp;rdquo; indicate aortic and brachial, respectively):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The early systolic portion was amplified in both subjects, causing SBPb to be greater than SBPa and therefore PPamp &amp;gt; 1.&lt;/li&gt;
+&lt;li&gt;Late systolic aortic pressure augmentation (the increase in pressure from P1a to P2a) was higher in older subjects, increasing PPa and decreasing PPamp.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The contributions of these mechanisms to PPamp for the whole database are illustrated in panel C. The amplification of the early systolic portion increased with age, as shown in red by PPb/(P1a &amp;gt; DBPa). In contrast, the increase in late systolic aortic pressure augmentation with age (in blue) caused a decrease in PPb/(P2a &amp;gt; DBPa) with age. The effect of aortic pressure augmentation outweighed that of early systolic amplification, meaning PPamp decreased substantially with age, in keeping with in vivo studies.&lt;/p&gt;
+&lt;p&gt;Early systolic amplification was determined primarily by the diameter of the larger arteries, and late systolic aortic pressure augmentation was largely determined by PWV and LVET, as shown in panels D and E. Indeed, since PPamp was primarily determined by late systolic aortic pressure augmentation, it was largely determined by arterial stiffness (i.e., PWV) and LVET, as shown in panel F. The change in PPamp observed with age was primarily due to changes in aortic pressure wave morphology.&lt;/p&gt;
+&lt;h3 id=&#34;implications-1&#34;&gt;Implications&lt;/h3&gt;
+&lt;p&gt;The database can be used to gain insight into the CV determinants of mechanisms of blood flow.&lt;/p&gt;
 &lt;hr&gt;
+&lt;h1 id=&#34;part-4&#34;&gt;Part 4&lt;/h1&gt;
+&lt;h2 id=&#34;potential-studies-using-blood-flow-modelling&#34;&gt;Potential studies using blood flow modelling&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;exploring-potential-studies&#34;&gt;Exploring potential studies&lt;/h3&gt;
+&lt;p&gt;Think of a study in which pulse wave modelling could be useful.&lt;/p&gt;
+&lt;p&gt;Consider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research question&lt;/li&gt;
+&lt;li&gt;What would need to be simulated?&lt;/li&gt;
+&lt;li&gt;Under what conditions?&lt;/li&gt;
+&lt;li&gt;In which ways would the model need to be particularly accurate?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;limitations&#34;&gt;Limitations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dependent on model accuracy&lt;/li&gt;
+&lt;li&gt;Which in turn, is dependent on input parameters&lt;/li&gt;
+&lt;li&gt;Often requires specialist knowledge to perform studies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;benefits&#34;&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allows pulse waves to be simulated under different conditions&lt;/li&gt;
+&lt;li&gt;Control of physiology&lt;/li&gt;
+&lt;li&gt;Free of measurement error&lt;/li&gt;
+&lt;li&gt;Potentially cheap, and doesn&amp;rsquo;t require participant involvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;opportunities&#34;&gt;Opportunities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Preliminary pilot work in technology development&lt;/li&gt;
+&lt;li&gt;Inform the design of &lt;em&gt;in vivo&lt;/em&gt; studies&lt;/li&gt;
+&lt;li&gt;Understand the potential shortcomings of existing technologies&lt;/li&gt;
+&lt;li&gt;Understand the mechanisms underlying haemodynamic observations&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;further-reading-and-resources&#34;&gt;Further Reading and Resources&lt;/h2&gt;
 &lt;p&gt;See the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -381,7 +453,12 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/pwdb/wiki/Case-Studies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code for case studies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
-&lt;p&gt;None of this would have been possible without &lt;a href=&#34;http://haemod.uk/members/ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Jordi Alastruey-Arimon&lt;/a&gt;, who provided the &lt;a href=&#34;http://haemod.uk/nektar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;model&lt;/a&gt; and supervision, and also the British Heart Foundation, who funded the work.&lt;/p&gt;
+&lt;p&gt;None of this would have been possible without:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://haemod.uk/members/ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Jordi Alastruey-Arimon&lt;/a&gt;, who provided the &lt;a href=&#34;http://haemod.uk/nektar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;model&lt;/a&gt; and supervision&lt;/li&gt;
+&lt;li&gt;The British Heart Foundation, who funded the work&lt;/li&gt;
+&lt;li&gt;COST Action CA18216 &amp;ldquo;Network for Research in Vascular Ageing&amp;rdquo; supported by COST (European Cooperation in Science and Technology)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
