@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2021-09-21T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
+    <lastmod>2021-09-21T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2021-09-21T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2021-09-21T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/screening-for-af-questions-and-potential-answers/</loc>
+    <lastmod>2021-09-21T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2021-09-21T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/extras/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/the-beauty-of-biomedical-engineering/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/extras/beauty_biomed_eng_transcript/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/extras/screening_for_af_q_a_transcript/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearable-sensors/</loc>
+    <lastmod>2021-09-20T13:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/tag/arterial-stiffness/</loc>
     <lastmod>2021-09-07T17:00:00+00:00</lastmod>
   </url><url>
@@ -11,19 +50,7 @@
     <loc>https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/</loc>
     <lastmod>2021-09-07T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/pulse-waves/</loc>
-    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2021-09-07T17:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
@@ -43,9 +70,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/awards/</loc>
     <lastmod>2021-08-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
@@ -68,9 +92,6 @@
     <loc>https://peterhcharlton.github.io/publication-type/6/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
-    <lastmod>2021-07-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -79,9 +100,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
-    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/wearable_ppg_chapter/</loc>
     <lastmod>2021-07-31T00:00:00+00:00</lastmod>
@@ -154,9 +172,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/rr_review/</loc>
     <lastmod>2018-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/extras/</loc>
-    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/extras/intro_to_pulse_wave_modelling_transcript/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wearable sensors | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/wearable-sensors/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/wearable-sensors/index.xml" rel="self" type="application/rss+xml" />
+    <description>wearable sensors</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 20 Sep 2021 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>wearable sensors</title>
+      <link>https://peterhcharlton.github.io/tag/wearable-sensors/</link>
+    </image>
+    
+    <item>
+      <title>The Beauty of Biomedical Engineering</title>
+      <link>https://peterhcharlton.github.io/talk/the-beauty-of-biomedical-engineering/</link>
+      <pubDate>Mon, 20 Sep 2021 13:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/the-beauty-of-biomedical-engineering/</guid>
+      <description>&lt;h3 id=&#34;transcript&#34;&gt;Transcript&lt;/h3&gt;
+&lt;p&gt;The transcript for the talk is available &lt;a href=&#34;https://peterhcharlton.github.io/extras/beauty_biomed_eng_transcript/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
