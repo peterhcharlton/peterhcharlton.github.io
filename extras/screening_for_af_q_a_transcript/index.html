@@ -824,440 +824,111 @@
 <h2 id="title-slide">Title Slide</h2>
 <p>Topic for today:</p>
 <ul>
-<li>Using modelling to simulate pulse waves for research and development.</li>
-</ul>
-<p>Personal introduction:</p>
-<ul>
-<li>Biomedical engineer specialising in signal processing for wearables.</li>
-<li>Institutions</li>
-<li>Current interests, and interests in vascular ageing.</li>
+<li>Screening for atrial fibrillation: questions and potential answers.</li>
 </ul>
 <hr>
-<h1 id="part-1">Part 1</h1>
-<h2 id="an-introduction-to-pulse-wave-modelling-using-a-1d-model">An Introduction to Pulse Wave Modelling using a 1D Model</h2>
+<h2 id="clinical-problem-undiagnosed-af">Clinical Problem: undiagnosed AF</h2>
+<p>[Click] If atrial fibrillation was adequately treated in England, then it&rsquo;s estimated that this could save [click] 2,000 lives per year, [click] prevent 7,000 strokes, and result in an additional 425,000 diagnoses.</p>
 <hr>
-<h2 id="introduction">Introduction</h2>
-<p>I&rsquo;ve used modelling in <a href="/publication/simulating_pulse_waves/">my research</a> to simulate pulse waves, to investigate how vascular age can be assessed from arterial pulse waves. I&rsquo;ve found it a useful tool for:</p>
-<ol>
-<li><strong>Understanding physiological mechanisms</strong>: Investigating what physiological mechanisms cause the changes in pulse waves that occur with age.</li>
-<li><strong>Designing algorithms</strong>: Designing algorithms to assess vascular age, by developing them using data from simulated subjects across a wide range of ages, and a wide range of cardiovascular properties.</li>
-<li><strong>Investigating algorithm performance</strong>: Investigating which cardiovascular properties can affect algorithm performance.</li>
-</ol>
-<p>In this session I&rsquo;ll provide a brief overview of how this particular model works, and then demonstrate its utility through case studies. I&rsquo;ll conclude with some thoughts on the limitations, benefits and opportunities of this type of modelling.</p>
-<h2 id="accompanying-resources">Accompanying Resources</h2>
-<p>You may find it helpful to have the <a href="/slides/intro_to_pulse_wave_modelling_slides/">slides</a> in front of you.</p>
-<p>During the session I&rsquo;ll ask a few questions, which you can contribute to either verbally, or through the <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">online poll</a>. Do feel free to interrupt at any point.</p>
+<h2 id="potential-solution-af-screening">Potential Solution: AF screening</h2>
+<p>It has been proposed that undiagnosed AF could be identified through screening. However, &ldquo;it is unclear whether there is a benefit of formal screening programmes for AF over and above diagnosis of AF only through routine clinical practice&rdquo; [<a href="https://view-health-screening-recommendations.service.gov.uk/atrial-fibrillation/" target="_blank" rel="noopener">UK National Screening Committee, 2019</a>]. The ongoing <a href="https://www.safer.phpc.cam.ac.uk/" target="_blank" rel="noopener">SAFER Trial</a> [click] aims to determine whether screening for AF is effective and cost-effective in reducing stroke.</p>
 <hr>
-<h2 id="1d-modelling">1D Modelling</h2>
-<p>The model that I have used in my work is summarised in the image below.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-the-one-dimensional-model-of-pulse-wave-propagation-a-and-simulated-pulse-waves-b-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420001.jpeg" alt="**The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).** _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>The one-dimensional model of pulse wave propagation (A) and simulated pulse waves (B).</strong> <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<h3 id="the-model">The Model</h3>
-<p>This 1D model simulates blood flow, starting with flow into the aorta, then through the major arteries, and finally into the microcirculation. It consists of three main parts:</p>
-<ol>
-<li><strong>Aortic Inflow:</strong> The flow from the left ventricle into the aorta is specified. It is defined by several parameters, as illustrated in the image.</li>
-<li><strong>Arterial Network:</strong> The larger arteries of the body are specified in the model. The arteries are assumed to be thin, deformable, cylindrical tubes. They have a specified length, luminal diameter, and wall properties (such as arterial stiffness).</li>
-<li><strong>Vascular Beds:</strong> The vascular beds are themselves modelled using 0D (Windkessel) models, each with a specified resistance and compliance.</li>
-</ol>
-<h2 id="simulated-pulse-waves">Simulated Pulse Waves</h2>
-<p>Pulse waves can be simulated at any of the large arteries, as shown below:</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-pressure-p-and-flow-velocity-u-luminal-area-a-and-photoplethysmogram-ppg-pulse-waves-simulated-at-common-measurements-sites-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420005.jpeg" alt="Pressure (P) and flow velocity (U), luminal area (A) and photoplethysmogram (PPG) pulse waves simulated at common measurements sites. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      Pressure (P) and flow velocity (U), luminal area (A) and photoplethysmogram (PPG) pulse waves simulated at common measurements sites. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<p>This image shows the different types of waveforms which the model can simulate:</p>
-<ul>
-<li><strong>Blood pressure (P)</strong></li>
-<li><strong>Blood flow velocity (U):</strong> The speed at which blood flows through an artery.</li>
-<li><strong>Luminal area (A):</strong> The cross-sectional area of an artery.</li>
-<li><strong>Photoplethysmogram (PPG):</strong> An optical measure of blood volume in a vascular bed, commonly measured by pulse oximeters and digital wearable devices (<em>e.g.</em> smartwatches and fitness trackers).</li>
-</ul>
-<p>One of the benefits of this type of modelling is that it allows waveforms to be simulated at multiple sites, and, it also captures the pulse transit times between different sites.</p>
-<h2 id="model-limitations">Model Limitations</h2>
-<p><strong>Poll Question:</strong> <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">What are the limitations of the model?</a></p>
-<h2 id="possible-limitations">Possible Limitations</h2>
-<details>
-  <summary>A few thoughts</summary>
-<ol>
-<li>Periodic inflow, as opposed to normal heart rate variability</li>
-<li>Specified arterial properties, which may not be representative of a particular individual</li>
-<li>Not able to model venous flow</li>
-</ol>
-</details>
-<h2 id="input-parameters">Input Parameters</h2>
-<p>The model requires a plethora of &lsquo;input parameters&rsquo; (<em>i.e.</em> &lsquo;settings&rsquo;), such as the heart rate, stiffness of each artery, and systemic vascular resistance. Some of these parameters have a marked impact on the simulated pulse waves, whereas others have only a small impact. For instance, the image below shows how the variation of each of the following input parameters impacts the simulated carotid and radial waveforms:</p>
-<ul>
-<li>HR: heart rate</li>
-<li>SV: stroke volume</li>
-<li>LVET: left ventricular ejection time</li>
-<li>PFT: time of peak aortic flow</li>
-<li>RFV: reverse flow volume caused by aortic valve closure at the end of systole</li>
-<li>Length: the length of the ascending aorta</li>
-<li>Diam: the diameters of the largest arteries (aorta and carotid)</li>
-<li>PWV: pulse wave velocities</li>
-<li>MAP: mean blood pressure</li>
-<li>PVC: peripheral vascular compliance</li>
-</ul>
-<h2 id="changing-inputs">Changing Inputs</h2>
-<p><strong>Question:</strong> Which parameters would be most interesting to change, and why?</p>
-<p><strong>Question:</strong> Which parameters are most relevant to vascular ageing?</p>
-<h2 id="changing-inputs-2">Changing Inputs (2)</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-pulse-waves-pws-for-the-25-yr-old-subject-at-the-carotid-artery-a-and-the-radial-artery-b-the-waves-shown-are-at-baseline-black-and-those-obtained-when-increasing-blue-and-decreasing-red-each-parameter-independently-by-1-sd-from-its-baseline-value-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420003.jpeg" alt="**Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).** The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>Pulse waves (PWs) for the 25-yr-old subject at the carotid artery (A) and the radial artery (B).</strong> The waves shown are at baseline (black), and those obtained when increasing (blue) and decreasing (red) each parameter independently by 1 SD from its baseline value. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<ul>
-<li>Discuss figure: which parameters strongly influence the waves, and which don&rsquo;t?</li>
-</ul>
-<h2 id="changing-inputs-3">Changing Inputs (3)</h2>
-<p>A set of input parameters suitable for simulating pulse waves for young adults was proposed by (amongst others) <a href="http://link.springer.com/10.1007/s10439-015-1313-8" target="_blank" rel="noopener">Mynard and Smolich</a>. We extended this by proposing a range of parameters to simulate pulse waves for healthy subjects aged 25-75, exhibiting a range of cardiovascular properties. Our proposed ranges of parameters are shown below:</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-proposed-parameters-to-model-healthy-ageing-and-normal-variation-in-cardiovascular-properties-the-mean-solid-line-and-sd-dashed-lines-indicating-1771-and-1772-sd-values-are-shown-for-each-parameter-the-positive-and-negative-sd-values-for-carotid-femoral-pulse-wave-velocities-pwvs-are-different-to-capture-the-positive-skewness-of-this-variables-distribution-the-final-wave-speed-plot-shows-the-baseline-wave-speed-as-a-function-of-diameter-for-each-age-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420002.jpeg" alt="**Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:** The mean (solid line) and SD (dashed lines indicating &amp;#177;1 and &amp;#177;2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&#39;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>Proposed parameters to model healthy ageing and normal variation in cardiovascular properties:</strong> The mean (solid line) and SD (dashed lines indicating ±1 and ±2 SD) values are shown for each parameter. The positive and negative SD values for carotid-femoral pulse wave velocities (PWVs) are different to capture the positive skewness of this variable&rsquo;s distribution. The final wave speed plot shows the baseline wave speed as a function of diameter for each age. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<p>These ranges of parameters are based on a review of those reported in the literature.</p>
-<h3 id="a-set-of-virtual-subjects">A set of Virtual Subjects</h3>
-<p>We aimed to create a set of virtual subjects representative of a sample of healthy subjects aged 25-75 years old. To do so:</p>
-<ol>
-<li><strong>Baseline subject at each age:</strong> We created a baseline subject for each age (25 to 75, in 10 year intervals), using the mean value of each parameter at that age.</li>
-<li><strong>Varying parameters at each age:</strong> We then created an additional 728 virtual subjects at each age by varying each parameter by ±1 SD from the mean, and creating a subject with each possible combination of parameters. Only the six most influential parameters were varied (HR, SV, LVET, Diam, PWV, PVR).</li>
-<li><strong>Database of simulated pulse waves:</strong> We created a <a href="https://peterhcharlton.github.io/pwdb/pwdb.html" target="_blank" rel="noopener">database</a> of simulated pulse waves for 4,374 virtual subjects (consisting of 729 at each of the six age groups). The database and accompanying code are publicly available.</li>
-</ol>
-<h3 id="comparison-with-_in-vivo_-data">Comparison with <em>in vivo</em> Data</h3>
-<p>We verified this approach for simulating pulse waves for subjects of different ages by comparing the simulated pulse waves with <em>in vivo</em> pulse waves, as shown below:</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-a-comparison-between-simulated-and-in-vivo-pulse-wave-pw-shapes-each-pair-of-plots-shows-in-vivo-pws-on-the-left-and-simulated-pws-on-the-right-pws-are-shown-for-different-ages-in-each-plot-offset-and-normalized-legends-indicate-ages-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40-some-of-the-in-vivo-data-were-obtained-from-fluck-et-al-doi-103389fphys201400049httpsdoiorg103389fphys201400049-cc-by-30httpscreativecommonsorglicensesby30_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420006.jpeg" alt="**A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). Some of the in vivo data were obtained from Fluck et al. (doi: [10.3389/fphys.2014.00049](https://doi.org/10.3389/fphys.2014.00049); [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/))_" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      **A comparison between simulated and in vivo pulse wave (PW) shapes. Each pair of plots shows in vivo PWs on the left, and simulated PWs on the right. PWs are shown for different ages in each plot, offset and normalized. Legends indicate ages. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>). Some of the in vivo data were obtained from Fluck et al. (doi: <a href="https://doi.org/10.3389/fphys.2014.00049">10.3389/fphys.2014.00049</a>; <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a>)</em>
-    </figcaption></figure>
-<p><strong>Poll Question:</strong> <a href="https://app.sli.do/event/1zunclmb" target="_blank" rel="noopener">How well did the model perform?</a></p>
-<h3 id="thoughts-on-performance">Thoughts on Performance</h3>
-<details>
-  <summary>A few thoughts</summary>
-<ol>
-<li>Captured increase in amplitude of second systolic peaks with age in carotid, aortic root and radial pressure waveforms.</li>
-<li>Captured disappearance of second peak of finger PPG waveform with age.</li>
-<li>Nonetheless, some marked differences between <em>in vivo</em> and simulated waveforms.</li>
-</ol>
-</details>
-<p>Further details of the verification of this approach are provided in the <a href="https://peterhcharlton.github.io/publication/simulating_pulse_waves/" target="_blank" rel="noopener">accompanying article</a>.</p>
+<h2 id="personal-introduction">Personal Introduction</h2>
+<p>To introduce myself [click], my name&rsquo;s Peter Charlton, and I&rsquo;m a researcher in Biomedical Engineering. I develop techniques to analyse physiological signals, such as the ECGs acquired in screening studies, to aid clinical decision making. I initially conducted my research here at St Thomas' Hospital in London, working with clinicians to develop techniques to identify the early signs of clinical deterioration from wearable sensor signals. Since then, I&rsquo;ve been analysing ECG data [click] collected by the SAFER Research Team, at the University of Cambridge.</p>
 <hr>
-<h1 id="part-2">Part 2:</h1>
-<h2 id="case-study-assessing-arterial-stiffness-from-the-photoplethysmogram">Case Study: Assessing Arterial Stiffness from the Photoplethysmogram</h2>
+<h2 id="overview-1">Overview</h2>
+<p>In this talk I&rsquo;ll look at three key questions and potential answers:</p>
+<ol>
+<li>Is screening for AF effective?</li>
+<li>How can today&rsquo;s screening be optimised?</li>
+<li>What might tomorrow&rsquo;s screening look like?</li>
+</ol>
+<p>Firstly, an introduction to AF screening and the SAFER Programme.</p>
 <hr>
-<h3 id="digital-wearable-device">Digital Wearable Device</h3>
-<p>One of the limitations of some current techniques for assessing arterial stiffness is that they require specialist equipment and/or specialist operators. A potential alternative is to acquire pulse waves using consumer devices worn in daily life, such as smartwatches or fitness trackers (shown below).</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-a-wrist-worn-device-which-acquires-pulse-waves-by-photoplethysmography-_source-ph-charlton-max-health-bandhttpscommonswikimediaorgwikicategoryfiles_by_peter_h_charltonmediafilemax_health_bandjpg-wikimedia-commons-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Max_Health_Band.jpg/640px-Max_Health_Band.jpg" alt="**A wrist-worn device which acquires pulse waves by photoplethysmography.** _Source: PH Charlton, [Max-Health-Band](https://commons.wikimedia.org/wiki/Category:Files_by_Peter_H_Charlton#/media/File:Max_Health_Band.jpg), Wikimedia Commons ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>A wrist-worn device which acquires pulse waves by photoplethysmography.</strong> <br> <em>Source: PH Charlton, <a href="https://commons.wikimedia.org/wiki/Category:Files_by_Peter_H_Charlton#/media/File:Max_Health_Band.jpg">Max-Health-Band</a>, Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<h3 id="the-photoplethysmogram-ppg">The Photoplethysmogram (PPG)</h3>
-<p>Digital wearable devices typically use photoplethysmography to acquire pulse waves:</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-simplified-origins-of-the-photoplethysmogram-ppg-signal-arterial-blood-venous-blood-and-other-tissues-_source-ph-charlton-photoplethysmogram-signal-componentshttpscommonswikimediaorgwikifilephotoplethysmogram_signal_componentssvg-wikimedia-commons-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Photoplethysmogram_signal_components.svg/640px-Photoplethysmogram_signal_components.svg.png" alt="**Simplified origins of the photoplethysmogram (PPG) signal: arterial blood, venous blood and other tissues.** _Source: PH Charlton, [Photoplethysmogram signal components](https://commons.wikimedia.org/wiki/File:Photoplethysmogram_signal_components.svg), Wikimedia Commons ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>Simplified origins of the photoplethysmogram (PPG) signal: arterial blood, venous blood and other tissues.</strong> <br> <em>Source: PH Charlton, <a href="https://commons.wikimedia.org/wiki/File:Photoplethysmogram_signal_components.svg">Photoplethysmogram signal components</a>, Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<h3 id="changes-in-ppg-pulse-wave-shape">Changes in PPG Pulse Wave Shape</h3>
-<p>Many approaches have been proposed to assess arterial stiffness from the photoplethysmogram (PPG) signal, based on the observation that the PPG pulse wave changes shape with age:</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-classes-of-photoplethysmogram-ppg-pulse-wave-shape-examples-of-the-four-classes-of-pulse-wave-shape-proposed-by-dawber-et-al-generally-the-higher-classes-are-associated-with-older-adults-_source-ph-charlton-classes-of-photoplethysmogram-ppg-pulse-wave-shapehttpscommonswikimediaorgwikifileclasses_of_photoplethysmogram_ppg_pulse_wave_shapesvg-wikimedia-commons-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Classes_of_photoplethysmogram_%28PPG%29_pulse_wave_shape.svg/640px-Classes_of_photoplethysmogram_%28PPG%29_pulse_wave_shape.svg.png" alt="**Classes of photoplethysmogram (PPG) pulse wave shape:** Examples of the four classes of pulse wave shape proposed by Dawber et al. Generally, the higher classes are associated with older adults. _Source: PH Charlton, [Classes of photoplethysmogram (PPG) pulse wave shape](https://commons.wikimedia.org/wiki/File:Classes_of_photoplethysmogram_(PPG)_pulse_wave_shape.svg), Wikimedia Commons ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>Classes of photoplethysmogram (PPG) pulse wave shape:</strong> Examples of the four classes of pulse wave shape proposed by Dawber et al. Generally, the higher classes are associated with older adults. <br> <em>Source: PH Charlton, <a href="https://commons.wikimedia.org/wiki/File:Classes_of_photoplethysmogram_(PPG)_pulse_wave_shape.svg">Classes of photoplethysmogram (PPG) pulse wave shape</a>, Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<h3 id="assessing-arterial-stiffness">Assessing Arterial Stiffness</h3>
-<p>Methods for assessing arterial stiffness from the PPG mostly consist of two steps (as shown below):</p>
-<ol>
-<li>Identifying fiducial points (left)</li>
-<li>Extracting pulse wave features (right)</li>
-</ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-pulse-wave-analysis-illustrated-for-a-simulated-pressure-wave-at-the-radial-artery-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420004.jpeg" alt="**Pulse wave analysis:** Illustrated for a simulated pressure wave at the radial artery. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      <strong>Pulse wave analysis:</strong> Illustrated for a simulated pressure wave at the radial artery. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<p>The following three indices were extracted from PPG pulse waves in this case study:</p>
-<ol>
-<li>Reflection Index (RI, illustrated)</li>
-<li>Stiffness Index (SI)</li>
-<li>Modified Aging Index (AGImod)</li>
-</ol>
-<p>These were calculated for each virtual subject, and then their correlation with the reference aortic PWV was assessed. In addition, we investigated the cardiovascular determinants of each index.</p>
-<h3 id="results">Results</h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-the-correlation-of-photoplethysmogram-ppg-derived-pulse-wave-pw-indexes-with-aortic-pulse-wave-velocity-pwv-a-and-their-physiological-determinants-b-data-derived-for-all-virtual-subjects-are-shown-in-black-whereas-red-indicates-data-from-45-yr-old-subjects-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420009.jpeg" alt="The correlation of photoplethysmogram (PPG)-derived pulse wave (PW) indexes with aortic pulse wave velocity (PWV; A), and their physiological determinants (B). Data derived for all virtual subjects are shown in black, whereas red indicates data from 45-yr-old subjects. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      The correlation of photoplethysmogram (PPG)-derived pulse wave (PW) indexes with aortic pulse wave velocity (PWV; A), and their physiological determinants (B). Data derived for all virtual subjects are shown in black, whereas red indicates data from 45-yr-old subjects. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<p>Discuss:</p>
-<ul>
-<li>Overall performance across all ages</li>
-<li>Performance within an individual age group</li>
-<li>Influence of not only PWV, but other CV properties (note difference in influence of &lsquo;diam&rsquo;)</li>
-</ul>
-<h3 id="implications">Implications:</h3>
-<ol>
-<li>Clinical studies should investigate performance over a small age range as well as over the entire cohort to assess the potential utility of indexes for stratifying patients</li>
-<li>Indexes can also be influenced by HR and SV, indicating that it may be beneficial to assess performance when these CV properties are varied <em>in vivo</em>.</li>
-</ol>
-<h3 id="questions">Questions</h3>
-<ol>
-<li>What would you think of using this technology to assess vascular age?</li>
-<li>How might it compare to other technologies?</li>
-<li>How could one assess the relative performance of such technologies?</li>
-</ol>
-<h3 id="next-steps">Next Steps</h3>
-<p>The WG3 PPG group currently has a paper under review titled:</p>
-<p><em>Assessing Vascular Age from the Photoplethysmogram: A Systematic Review from VascAgeNet</em></p>
+<h2 id="atrial-fibrillation">Atrial Fibrillation</h2>
+<p>AF is one of the most common arrhythmias, diagnosed in 3% of UK people over the age of 35 [<a href="https://doi.org/10.1136/heartjnl-2018-312977" target="_blank" rel="noopener">Adderley <em>et al.</em></a>]. It is associated with a fivefold increase in stroke risk [<a href="https://doi.org/0.1161/01.str.22.8.983" target="_blank" rel="noopener">Wolf <em>et al.</em></a>]. If AF is recognised then the risk of stroke can be reduced by 60-70% through anticoagulation [<a href="http://www.ncbi.nlm.nih.gov/pubmed/17577005" target="_blank" rel="noopener">Hart <em>et al.</em></a>, <a href="https://doi.org/10.1161/JAHA.116.003725" target="_blank" rel="noopener">Yao <em>et al.</em></a>]. AF is currently diagnosed opportunistically in primary care, and verified by ECG. Whilst some cases of AF are persistent [click], meaning that the patient is in AF all the time, others are paroxysmal [click], meaning there are only intermittent episodes of AF which could be missed in a one-off ECG test. Furthermore, AF can be asymptomatic [click], meaning testing may not be indicated.</p>
 <hr>
-<h1 id="part-3">Part 3</h1>
-<h2 id="case-study-changes-in-pulse-pressure-amplification-with-age">Case Study: Changes in Pulse Pressure Amplification with Age</h2>
-<hr>
-<h3 id="pulse-pressure-amplification">Pulse Pressure Amplification</h3>
-<p>$$\mathrm{Pulse \ Pressure \ Amplification} = \frac{\mathrm{brachial \ pulse \ pressure}}{\mathrm{aortic \ pulse \ pressure}}$$</p>
-<p><strong>Questions:</strong></p>
+<h2 id="the-safer-programme">The SAFER Programme</h2>
+<p>The SAFER Programme of research, led by Prof Jonathan Mant, aims to determine [click] whether screening for AF is effective and cost-effective in reducing stroke and other key outcomes compared to current practice. It consists of [click] four parts [<a href="https://www.safer.phpc.cam.ac.uk/about-screenforaf/aims-and-objectives/" target="_blank" rel="noopener">SAFER Website</a>]:</p>
 <ol>
-<li>How does pulse pressure amplification change with age?</li>
-<li>Why?</li>
+<li><strong>Feasibility study 1:</strong> A study in 10 GP Practices, including a face-to-face appointment, which 2,141 participants took part in. This has finished, confirming that it is feasible to deliver an AF screening programme in general practice, and that high numbers of patients accept an offer of AF screening and go on to complete the screening process.</li>
+<li><strong>Feasibility study 2:</strong> When the COVID-19 pandemic struck, it became clear that screening could not be delivered in the practice. An additional feasibility study was conducted with participants from 3 GP Practices, in which the screening was delivered remotely.</li>
+<li><strong>Internal pilot study:</strong> The first phase of the trial is now underway. An internal pilot study is being conducted in 36 practices, consisting of 12 intervention practices where patients will be offered screening, and 24 control practices.</li>
+<li><strong>Cluster randomised controlled trial:</strong> Following the pilot, we expect to move straight into the remainder of the trial, including a further 324 practices. The whole trial, including the internal pilot, will enrol approximately 126,000 patients from 360 practices, a third of whom will be offered screening. They will be followed up for an average of 5 years.</li>
 </ol>
-<h3 id="methods">Methods</h3>
-<p>In this case study, we investigated the determinants of changes in PPamp with age. To do so, we assessed the effects of age on early systolic amplification and late systolic aortic pressure augmentation, calculated using the aortic PP at P1 and P2, respectively.</p>
-<h3 id="results-1">Results</h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  id="figure-the-causes-of-changes-in-pulse-pressure-pp-amplification-ppamp-with-age-_source-ph-charlton-et-al-doi-101152ajpheart002182019httpsdoiorg101152ajpheart002182019-cc-by-40httpscreativecommonsorglicensesby40_">
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://journals.physiology.org/cms/10.1152/ajpheart.00218.2019/asset/images/large/zh40101929420008.jpeg" alt="The causes of changes in pulse pressure (PP) amplification (PPamp) with age. _Source: PH Charlton et al., doi: [10.1152/ajpheart.00218.2019](https://doi.org/10.1152/ajpheart.00218.2019) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))._" loading="lazy" data-zoomable /></div>
-  </div><figcaption>
-      The causes of changes in pulse pressure (PP) amplification (PPamp) with age. <br> <em>Source: PH Charlton et al., doi: <a href="https://doi.org/10.1152/ajpheart.00218.2019">10.1152/ajpheart.00218.2019</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</em>
-    </figcaption></figure>
-<p><strong>Question:</strong> In A and B: how does the pulse wave change shape with distance from the aortic root to the finger? How does this differ with age?</p>
-<p>Discuss:</p>
-<p>The profiles demonstrate that two mechanisms influence PPamp (PPamp / PPb/PPa; subscripts &ldquo;a&rdquo; and &ldquo;b&rdquo; indicate aortic and brachial, respectively):</p>
+<hr>
+<h2 id="the-screening-process">The Screening Process</h2>
+<p>The three main steps of the screening process which I&rsquo;ll refer to are as follows [click]:</p>
 <ol>
-<li>The early systolic portion was amplified in both subjects, causing SBPb to be greater than SBPa and therefore PPamp &gt; 1.</li>
-<li>Late systolic aortic pressure augmentation (the increase in pressure from P1a to P2a) was higher in older subjects, increasing PPa and decreasing PPamp.</li>
+<li><strong>ECGs recorded at home:</strong> Firstly, participants are sent a handheld device which takes 30-second ECG recordings between two thumbs. Participants are asked to record an ECG 4 times per day, for 3 weeks [<a href="https://www.safer.phpc.cam.ac.uk/for-patients/screening-process/" target="_blank" rel="noopener">SAFER Website</a>], producing approximately 84 ECGs per participant.</li>
+<li><strong>Automated analysis:</strong> Secondly, the ECG recordings are automatically analysed to identify any that may contain AF.</li>
+<li><strong>Clinical review:</strong> Thirdly, those ECGs which may contain AF are sent for clinical review to make a final diagnosis. Any participants diagnosed with AF then discuss possible anticoagulation with their GP.</li>
 </ol>
-<p>The contributions of these mechanisms to PPamp for the whole database are illustrated in panel C. The amplification of the early systolic portion increased with age, as shown in red by PPb/(P1a &gt; DBPa). In contrast, the increase in late systolic aortic pressure augmentation with age (in blue) caused a decrease in PPb/(P2a &gt; DBPa) with age. The effect of aortic pressure augmentation outweighed that of early systolic amplification, meaning PPamp decreased substantially with age, in keeping with in vivo studies.</p>
-<p>Early systolic amplification was determined primarily by the diameter of the larger arteries, and late systolic aortic pressure augmentation was largely determined by PWV and LVET, as shown in panels D and E. Indeed, since PPamp was primarily determined by late systolic aortic pressure augmentation, it was largely determined by arterial stiffness (i.e., PWV) and LVET, as shown in panel F. The change in PPamp observed with age was primarily due to changes in aortic pressure wave morphology.</p>
-<h3 id="implications-1">Implications</h3>
-<p>The database can be used to gain insight into the CV determinants of mechanisms of blood flow.</p>
 <hr>
-<h1 id="part-4">Part 4</h1>
-<h2 id="potential-studies-using-blood-flow-modelling">Potential studies using blood flow modelling</h2>
+<h2 id="is-screening-for-af-effective">Is screening for AF effective?</h2>
+<p>So, the first question.</p>
 <hr>
-<h3 id="exploring-potential-studies">Exploring potential studies</h3>
-<p>Think of a study in which pulse wave modelling could be useful.</p>
-<p>Consider:</p>
+<h2 id="is-screening-for-af-effective-and-cost-effective-in-reducing-stroke-and-other-key-outcomes-compared-to-current-practice">Is screening for AF effective and cost effective in reducing stroke and other key outcomes compared to current practice?</h2>
+<p>This question hasn&rsquo;t yet been answered in the ongoing SAFER Trial. However, results were recently published for the STROKESTOP trial, a trial using the same handheld devices in Sweden [<a href="https://doi.org/10.1016/s0140-6736%2821%2901637-8" target="_blank" rel="noopener">ref</a>]. There was a &ldquo;small net benefit&rdquo; to screening, as shown by the significantly lower number of events in those invited to screening, compared to the control group. Although there were some differences in trial design, the trial does provide some useful learning points for SAFER, including:</p>
 <ul>
-<li>Research question</li>
-<li>What would need to be simulated?</li>
-<li>Under what conditions?</li>
-<li>In which ways would the model need to be particularly accurate?</li>
+<li>For screening to be effective, a high proportion of those invited to screening have to participate, since the endpoint was calculated using the intention-to-treat analysis, as is the case in SAFER. In STROKESTOP, of those invited to screening, 51.3% participated. Indeed, those who &ldquo;declined the invitation for screening &hellip; had higher &hellip; stroke risk&rdquo; [<a href="10.1016/s0140-6736%2821%2901750-5">Lowres <em>et al.</em></a>]. As noted in the accompanying commentary, &ldquo;A different approach is being adopted in the SAFER study, in which patients in general practices are invited to join the study, and practices are only randomly assigned to screening or control after a sufficient number of patients consent, which should obviate the design problem of dilution by non-participants&rdquo; [<a href="10.1016/s0140-6736%2821%2901750-5">Lowres <em>et al.</em></a>]. Qualitative researchers in the SAFER team are collecting feedback from non-participants to understand why people decline the invitation to screening.</li>
+<li>[click] The results also show promise for the choice of combined ischaemic and haemorrhagic stroke as the primary endpoint in SAFER. Both of these endpoints showed a signal towards a difference, although this was not significant difference.</li>
 </ul>
-<h3 id="limitations">Limitations</h3>
+<hr>
+<h2 id="how-can-todays-screening-be-optimised-outline">How can today&rsquo;s screening be optimised? (outline)</h2>
+<p>So, the second question: How can today&rsquo;s screening be optimised? My colleagues and I have been working on optimising the acquisition of ECGs, and their automated review. I&rsquo;ll present preliminary analyses on these two aspects.</p>
+<hr>
+<h2 id="ecgs-recorded-at-home">ECGs recorded at home</h2>
+<p>Firstly, [click] we are establishing criteria to prompt a telephone call from the research team to participants to provide additional training when required on taking ECGs.</p>
+<p>[Click] Many of the ECGs collected in SAFER are of high quality, such as this ECG here. However, [click] some ECGs are of low quality. These are often difficult, if not impossible, to interpret. Consequently, if a participant records too many low quality ECGs then it may not be possible to accurately identify AF.</p>
+<p>[Click] In a retrospective analysis of data from the first SAFER Feasibility Study, we investigated the performance of different criteria for identifying participants who would record a high proportion of low quality ECGs. The analysis was performed on 1,486 participants, who each recorded at least 56 ECGs. The criteria were applied to ECGs received during the first 10 days (i.e. the first half) of screening. We aimed for a high sensitivity to participants with less than 75% high quality ECGs, and a low alert rate to minimise the workload associated with the additional calls.</p>
+<p>[Click] Here are the results for three candidate criteria. For each criterion, a threshold was learnt from the data. The third criterion, which consisted of triggering a call if more than 25% of a participant&rsquo;s ECGs were of low quality, resulted in a high sensitivity at the desired alert rate.</p>
+<hr>
+<h2 id="effectiveness-of-criterion-to-prompt-a-training-call">Effectiveness of criterion to prompt a training call</h2>
+<p>[Click] The effectiveness of this criterion was then assessed when it was used in the second SAFER Feasibility Study. This study was smaller, with <em>n</em> participants. <em>n</em> of these participants received a telephone call - reassuringly, this indicates an alert rate of approximately 4% as desired. It&rsquo;s testament to the SAFER Team that these calls resulted in a reduction in the percentage of low quality recordings, as shown in this box plot. <em>(describe reduction shown in plot)</em></p>
+<p>So, we have found that training calls can be targeted to those participants who would benefit most from them, and that they are effective in improving the quality of ECG recordings.</p>
+<hr>
+<h2 id="automated-analysis">Automated analysis</h2>
+<p>A second analysis which informed the Trial&rsquo;s methodology was an assessment of the performance of algorithm tags for identifying AF, and the workload associated with reviewing ECGs classified with each tag.</p>
+<p>I&rsquo;ll briefly summarise how the algorithm works. [Click] Each ECG is analysed by [click] detecting heartbeats, [click] analysing the heart rhythm, and assessing [click] whether P-waves are present or not. A key question [click] is: which tags should be used to identify ECGs for review?</p>
+<p>[click] In a retrospective analysis, I assessed the sensitivity of each tag to AF, and its positive predictive value. This was performed using manual annotations of 911 ECGs containing AF provided by cardiologists. Six tags showed reasonable performance (shown in bold). These were considered as candidates to identify ECGs for clinical review.</p>
+<p>[click] In a second analysis, I investigated the workload and effectiveness of the combination of tags used in this Feasibility Study, and all possible combinations of the candidate tags. The combination of tags used in the study, shown in the first row, was particularly comprehensive, and resulted in 23,000 ECGs being sent for review. Through this process 54 participants were diagnosed with AF. The remaining rows show selected combinations using subsets of these tags. As the number of tags is reduced, the number of ECGs sent for review is reduced. Only in the last combination, the irregular sequence tag on its own, was there an impact on the diagnosis of AF, with one participant being missed.</p>
+<p>Based on this, I recommended that the irregular sequence and fast regular tags be used in SAFER, which in this analysis would have substantially reduced the workload associated with ECG reviewing, whilst maintaining the number of AF diagnoses.</p>
+<hr>
+<h2 id="how-can-todays-screening-be-optimised">How can today&rsquo;s screening be optimised?</h2>
+<p>Today I&rsquo;ve presented preliminary results on questions relating to optimising the current approach to screening, specifically on: training calls, and the automated analysis of ECGs. In addition, I am particularly interested in the following additional questions:</p>
 <ul>
-<li>Dependent on model accuracy</li>
-<li>Which in turn, is dependent on input parameters</li>
-<li>Often requires specialist knowledge to perform studies</li>
+<li>Can ECGs be ordered according to their likelihood of exhibiting AF?</li>
+<li>What is the level of inter-reviewer agreement in diagnoses?</li>
+<li>How many reviewers should review each patient?s data?</li>
+<li>Can we develop a library of ECGs with which to train new reviewers?</li>
 </ul>
-<h3 id="benefits">Benefits</h3>
-<ul>
-<li>Allows pulse waves to be simulated under different conditions</li>
-<li>Control of physiology</li>
-<li>Free of measurement error</li>
-<li>Potentially cheap, and doesn&rsquo;t require participant involvement</li>
-</ul>
-<h3 id="opportunities">Opportunities</h3>
-<ul>
-<li>Preliminary pilot work in technology development</li>
-<li>Inform the design of <em>in vivo</em> studies</li>
-<li>Understand the potential shortcomings of existing technologies</li>
-<li>Understand the mechanisms underlying haemodynamic observations</li>
-</ul>
-<h2 id="further-reading-and-resources">Further Reading and Resources</h2>
-<p>See the following:</p>
-<ul>
-<li><a href="https://peterhcharlton.github.io/publication/simulating_pulse_waves/" target="_blank" rel="noopener">Accompanying article</a></li>
-<li><a href="https://peterhcharlton.github.io/pwdb/pwdb.html" target="_blank" rel="noopener">Database</a></li>
-<li><a href="https://github.com/peterhcharlton/pwdb/wiki" target="_blank" rel="noopener">User Manual</a></li>
-<li><a href="https://github.com/peterhcharlton/pwdb/wiki/Case-Studies" target="_blank" rel="noopener">Code for case studies</a></li>
-</ul>
-<h2 id="acknowledgment">Acknowledgment</h2>
+<hr>
+<h2 id="what-might-tomorrows-screening-look-like-outline">What might tomorrow&rsquo;s screening look like? (outline)</h2>
+<p>So, the third question: What might tomorrow&rsquo;s screening look like? As an engineer, it is my hope that the data collected in both the SAFER Programme and follow-on studies will be useful for informing tomorrow&rsquo;s approach to screening.</p>
+<hr>
+<h2 id="could-consumer-devices-be-used-for-clinical-decision-making">Could consumer devices be used for clinical decision making?</h2>
+<p>A key question going forward will be: Could consumer devices be used for clinical decision making?</p>
+<p>Devices like those shown here are commercially available, including the AliveCor device (left), which allows users to record their ECG with a small add-on to their smartphone. Watches by Withings [click], such as that shown here, also allow users to record a 30-second ECG. And, fitness trackers and smartwatches which measure the arterial pulse wave are now commonplace [click], some of which can identify an irregular pulse which may be indicative of AF. We are starting the SAFER Wearables study, a study to assess the acceptability and performance of wearables such as those shown here for identifying AF in older adults.</p>
+<hr>
+<h2 id="using-consumer-devices-to-identify-af">Using consumer devices to identify AF</h2>
+<p>Indeed, it has already been shown that smartwatches could potentially be used to unobtrusively check for AF in daily life as follows. In [click] a normal rhythm, [click] the beat-to-beat intervals are fairly consistent. In contrast, [click] in atrial fibrillation the beat-to-beat intervals are irregular [click]. Potentially, a consumer wearable could be used to identify possible AF episodes in this manner. Indeed, the potential utility of an Apple Watch to identify AF was recently assessed in the Apple Heart Study in over 400,000 individuals. Key results included a reassuringly low alert rate [click], a high positive predictive value of alerts [click], and a much longer monitoring time [click] than could be achieved at scale in clinical practice. In this study, possible AF episodes prompted further monitoring using the gold standard of an ECG-based wearable in order to confirm a diagnosis.</p>
+<p>The SAFER Wearables Study will add to this evidence by assessing the performance of the technology in older adults, and daily life - two aspects that in our opinion, require further investigation.</p>
+<hr>
+<h2 id="thanks">Thanks</h2>
 <p>None of this would have been possible without:</p>
 <ul>
-<li><a href="http://haemod.uk/members/ja" target="_blank" rel="noopener">Dr Jordi Alastruey-Arimon</a>, who provided the <a href="http://haemod.uk/nektar" target="_blank" rel="noopener">model</a> and supervision</li>
-<li>The British Heart Foundation, who funded the work</li>
-<li>COST Action CA18216 &ldquo;Network for Research in Vascular Ageing&rdquo; supported by COST (European Cooperation in Science and Technology)</li>
+<li><a href="https://www.phpc.cam.ac.uk/people/pcu-group/pcu-senior-academic-staff/jonathan-mant/" target="_blank" rel="noopener">Prof Jonathan Mant</a>, who leads the SAFER Programme.</li>
+<li>The <a href="https://www.safer.phpc.cam.ac.uk/about-us/research-team/" target="_blank" rel="noopener">SAFER Research Team</a></li>
+<li>The NIHR and BHF, who funded the work</li>
+</ul>
+<hr>
+<h2 id="conclusions">Conclusions</h2>
+<p>To conclude:</p>
+<ul>
+<li>Evidence is emerging showing the clinical benefit of AF screening.</li>
+<li>Trials are ongoing, which will also assess the cost-effectiveness.</li>
+<li>If wearables are used to identify AF, they should be like a harness: highly reliable, and for a specified purpose.</li>
 </ul>
 
     </div>

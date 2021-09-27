@@ -5,12 +5,36 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
       <link>https://peterhcharlton.github.io/tag/wearables/</link>
     </image>
+    
+    <item>
+      <title>Benchmarking Photoplethysmography Peak Detection Algorithms Using the Electrocardiogram Signal as a Reference</title>
+      <link>https://peterhcharlton.github.io/publication/cinc2021_beat_detection/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/cinc2021_beat_detection/</guid>
+      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The published version will be available soon.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blood Pressure Estimation Based on Photoplethysmography: Finger versus Wrist</title>
+      <link>https://peterhcharlton.github.io/publication/cinc2021_bp_estimation/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/cinc2021_bp_estimation/</guid>
+      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full text&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The published version will be available soon.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The functionality of consumer wearables</title>
