@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 20 Sep 2021 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmography</title>
       <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
     </image>
+    
+    <item>
+      <title>Leveraging the potential of machine learning for assessing vascular ageing: state-of-the-art and future research</title>
+      <link>https://peterhcharlton.github.io/publication/ml_vasc_age_review/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/ml_vasc_age_review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Beauty of Biomedical Engineering</title>
