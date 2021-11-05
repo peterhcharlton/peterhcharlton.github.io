@@ -5,12 +5,103 @@
     <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/electrocardiogram/index.xml" rel="self" type="application/rss+xml" />
     <description>electrocardiogram</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 21 Sep 2021 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>electrocardiogram</title>
       <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
     </image>
+    
+    <item>
+      <title>Testing wearables - Part 2</title>
+      <link>https://peterhcharlton.github.io/post/safer_wearables_testing2/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/safer_wearables_testing2/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Initial testing of candidate devices for the &lt;a href=&#34;https://peterhcharlton.github.io/project/safer-wearables/&#34;&gt;SAFER Wearables Study&lt;/a&gt; was described in &lt;a href=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing&#34;&gt;this post&lt;/a&gt;. Two of the key questions remaining after this initial testing were:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How often should ECG electrodes be changed to ensure high signal quality?&lt;/li&gt;
+&lt;li&gt;How long does ECG chest-patch battery last?&lt;/li&gt;
+&lt;li&gt;Are chest-patch connectors available with only two electrodes?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This post describes a second round of testing designed to answer these questions.&lt;/p&gt;
+&lt;h2 id=&#34;devices&#34;&gt;Devices&lt;/h2&gt;
+&lt;p&gt;The devices under test were the same as in the first round of testing, with the notable difference of using a different ECG electrode setup, and changing ECG electrodes every 2 days:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reference ECG chest-patch&lt;/strong&gt;: The &lt;a href=&#34;https://shop.bittium.com/product/36/bittium-faros-180-solution-pack&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bittium Faros 180&lt;/a&gt; was used with &lt;a href=&#34;https://www.ambu.com/cardiology/ecg-electrodes/product/ambu-bluesensor-vlc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;long-term electrodes&lt;/a&gt;. It was worn differently to in the first set of testing. Rather than being worn on the sternum, this time the electrode mounted on the device was attached just below the right clavicle, and one of the cable electrodes was attached just below the ribcage on the left hand side (the green cable was used). This created a lead-II type configuration. It was set to record a single-lead electrocardiogram (ECG) signal at 125 Hz, with no additional recording (such as accelerometry) or analysis (such as RR-interval derivation). The &amp;lsquo;battery alarm beep&amp;rsquo; was turned off, whereas in the first set of testing it had been turned on. Data were stored on the device for retrospective download via USB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photoplethysmography-based wristband&lt;/strong&gt;: The &lt;a href=&#34;https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX-HEALTHBAND.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Max-Health-Band&lt;/a&gt; was used to record photoplethysmogram (PPG) and accelerometry (accel) signals at the wrist. PPG signals were sampled at 25 Hz (green and ambient), and tri-axis accel signals were also sampled at 25 Hz. The data are initially stored on the device, and transmitted via Bluetooth to a mobile phone for long-term storage (due to limited on-device memory).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electrocardiography-based wristband&lt;/strong&gt;: The &lt;a href=&#34;https://www.withings.com/uk/en/move-ecg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Withings Move ECG&lt;/a&gt; device was used to acquire 30-second ECG recordings on demand (when the user activated the ECG recording).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile phone&lt;/strong&gt;: A &amp;lsquo;Motorola Moto G8 Power Lite&amp;rsquo; Android mobile phone was used to store signals from the two wristbands. &lt;a href=&#34;https://www.macrodroid.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Macrodroid&lt;/a&gt; was used to open and close two apps in turn to download signals from the PPG and ECG wristbands (the &amp;lsquo;&lt;a href=&#34;https://pulseon.com/tech/ohr-tracker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PulseOn Demo&lt;/a&gt;&amp;rsquo; and &amp;lsquo;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.withings.wiscale2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Withings Health Mate&lt;/a&gt;&amp;rsquo; apps respectively). The PPG app was opened twice per hour, for 14 minutes each time, and the ECG app was opened once per hour, for 14 minutes. The WiFi was kept turned off (apart from a brief period of it being turned on, on the first day).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;protocol&#34;&gt;Protocol&lt;/h2&gt;
+&lt;p&gt;A single user attempted to wear the devices for seven days.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reference ECG chest-patch&lt;/strong&gt;: The user changed electrodes every two days, but otherwise the device was unattended. The user shaved prior to application, and removed the device for showering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Photoplethysmography-based wristband&lt;/strong&gt;: This device was removed and charged each day (typically for 1-2 hours, until it indicated it was fully charged). It was also removed when showering and washing. Otherwise, it was unattended.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electrocardiography-based wristband&lt;/strong&gt;: ECG recordings were acquired on an &lt;em&gt;ad-hoc&lt;/em&gt; basis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile phone&lt;/strong&gt;: The mobile phone was kept on charge in a room where the user spent several hours most days.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;outcomes&#34;&gt;Outcomes&lt;/h2&gt;
+&lt;h3 id=&#34;user-acceptability&#34;&gt;User acceptability&lt;/h3&gt;
+&lt;p&gt;The devices were worn for the full 7 days. ECG electrodes were changed every two days as planned.&lt;/p&gt;
+&lt;h3 id=&#34;ecg-chest-patch-data-quality&#34;&gt;ECG Chest-Patch data quality&lt;/h3&gt;
+&lt;p&gt;The ECG chest-patch data appeared to remain high quality throughout the recordings, as shown by the snapshots of ECG signal below, from throughout the 7 days.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ecg-signals-throughout-the-testing-short-2-second-samples-of-ecg-signals-obtained-through-the-7-days-of-testing-_defintion-hr---hour_&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**ECG signals throughout the testing:** Short 2-second samples of ECG signals obtained through the 7 days of testing. _Defintion: Hr - hour_&#34; srcset=&#34;
+               /post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_cbad5640fc9532252d51496d9ec4e2b6.png 400w,
+               /post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_761329d7cf77bee47e0ab693d8556b23.png 760w,
+               /post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_cbad5640fc9532252d51496d9ec4e2b6.png&#34;
+               width=&#34;568&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;ECG signals throughout the testing:&lt;/strong&gt; Short 2-second samples of ECG signals obtained through the 7 days of testing. &lt;em&gt;Defintion: Hr - hour&lt;/em&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;chest-patch-battery&#34;&gt;Chest-patch battery&lt;/h3&gt;
+&lt;p&gt;At the end of the 7 days, the ECG chest-patch was disconnected. At this point the blue battery light was flashing, but the low battery alarm didn&amp;rsquo;t sound (as planned, because it was turned off). When the chest-patch was connected to a computer for data download, it said:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;11% charge remaining&lt;/li&gt;
+&lt;li&gt;85% free memory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;leads-with-only-two-electrodes&#34;&gt;Leads with only two electrodes&lt;/h3&gt;
+&lt;p&gt;Following the testing, we were able to purchase ECG leads with only two electrodes, removing the need for a third electrode. The leads purchased are not long enough for a lead-II configuration, so will be used across the sternum.&lt;/p&gt;
+&lt;h2 id=&#34;learning-points&#34;&gt;Learning points&lt;/h2&gt;
+&lt;p&gt;We learnt several things from the testing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ECG signal quality&lt;/strong&gt;: The chest-patch ECG data was of high quality through this test, indicating that high quality data can be obtained for 7 days, and suggesting that it might be helpful to change the electrodes every 2 days to help ensure high quality data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chest-patch battery&lt;/strong&gt;: The chest-patch battery did last for the full 7 days (albeit the low battery light was flashing by the end), indicating that the battery can last for 7 days.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chest-patch memory&lt;/strong&gt;: It appears that there is plenty of spare memory on the chest-patch device after a 7 day recording, so potentially accelerometry data could be acquired simultaneously (if that does not affect battery life too much).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;remaining-questions&#34;&gt;Remaining questions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Accelerometry&lt;/strong&gt;: Is it possible to acquire accelerometry data too, and still have enough battery lifetime for 7 days of data acquisition?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Having identified suitable devices for the SAFER Wearables Study, the next steps are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To purchase the necessary devices to start the study&lt;/li&gt;
+&lt;li&gt;To amend the participant-facing documentation to include pictures and detailed instructions on how to use the devices (and submit this for ethical approval).&lt;/li&gt;
+&lt;li&gt;To make the automated data acquisition process (streaming data from wristbands to the mobile phone) as robust as possible.&lt;/li&gt;
+&lt;li&gt;To investigate whether the additional functionality of the ECG chest-patch could be used whilst still having enough battery life.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Screening for AF - questions and potential answers</title>

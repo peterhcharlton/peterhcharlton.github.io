@@ -1,0 +1,1471 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+    <meta name="google-site-verification" content="fhmlAwpDwi6Y6bzpyhhOJuX5SDEok6mZzEd4mQPuaOw" />
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peter Charlton" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Testing wearable devices for the SAFER Wearables Study - a study investigating the performance and acceptability of wearables for atrial fibrillation screening." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://peterhcharlton.github.io/post/safer_wearables_testing2/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.624edad420d5361cc1ee021178ac273d.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://peterhcharlton.github.io/post/safer_wearables_testing2/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Peter Charlton" />
+  <meta property="og:url" content="https://peterhcharlton.github.io/post/safer_wearables_testing2/" />
+  <meta property="og:title" content="Testing wearables - Part 2 | Peter Charlton" />
+  <meta property="og:description" content="Testing wearable devices for the SAFER Wearables Study - a study investigating the performance and acceptability of wearables for atrial fibrillation screening." /><meta property="og:image" content="https://peterhcharlton.github.io/post/safer_wearables_testing2/featured.png" />
+    <meta property="twitter:image" content="https://peterhcharlton.github.io/post/safer_wearables_testing2/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-11-05T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-11-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://peterhcharlton.github.io/post/safer_wearables_testing2/"
+  },
+  "headline": "Testing wearables - Part 2",
+  
+  "image": [
+    "https://peterhcharlton.github.io/post/safer_wearables_testing2/featured.png"
+  ],
+  
+  "datePublished": "2021-11-05T00:00:00Z",
+  "dateModified": "2021-11-05T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Peter Charlton"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Peter Charlton",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Testing wearable devices for the SAFER Wearables Study - a study investigating the performance and acceptability of wearables for atrial fibrillation screening."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Testing wearables - Part 2 | Peter Charlton</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="1e174b41fbcca2985b60f439e803d176" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peter Charlton</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peter Charlton</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Testing wearables - Part 2</h1>
+
+  
+  <p class="page-subtitle">Testing wearables for the SAFER Wearables Study</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Peter Charlton</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 5, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/safer-wearables-study/">SAFER Wearables Study</a>, <a href="/category/wearable-devices/">Wearable Devices</a>, <a href="/category/clinical-studies/">Clinical Studies</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/safer-wearables/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 856px;">
+  <div style="position: relative">
+    <img src="/post/safer_wearables_testing2/featured_huff8b3a0b939b5aaae1cc1bdf9caab2ce_367721_1200x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Devices under test: (from left) a mobile phone, reference ECG chest-patch, electrocardiogram (ECG)-based wristband, and photoplethysmogram (PPG)-based wristband.</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="overview">Overview</h2>
+<p>Initial testing of candidate devices for the <a href="/project/safer-wearables/">SAFER Wearables Study</a> was described in <a href="/post/safer_wearables_testing">this post</a>. Two of the key questions remaining after this initial testing were:</p>
+<ol>
+<li>How often should ECG electrodes be changed to ensure high signal quality?</li>
+<li>How long does ECG chest-patch battery last?</li>
+<li>Are chest-patch connectors available with only two electrodes?</li>
+</ol>
+<p>This post describes a second round of testing designed to answer these questions.</p>
+<h2 id="devices">Devices</h2>
+<p>The devices under test were the same as in the first round of testing, with the notable difference of using a different ECG electrode setup, and changing ECG electrodes every 2 days:</p>
+<ul>
+<li><strong>Reference ECG chest-patch</strong>: The <a href="https://shop.bittium.com/product/36/bittium-faros-180-solution-pack" target="_blank" rel="noopener">Bittium Faros 180</a> was used with <a href="https://www.ambu.com/cardiology/ecg-electrodes/product/ambu-bluesensor-vlc" target="_blank" rel="noopener">long-term electrodes</a>. It was worn differently to in the first set of testing. Rather than being worn on the sternum, this time the electrode mounted on the device was attached just below the right clavicle, and one of the cable electrodes was attached just below the ribcage on the left hand side (the green cable was used). This created a lead-II type configuration. It was set to record a single-lead electrocardiogram (ECG) signal at 125 Hz, with no additional recording (such as accelerometry) or analysis (such as RR-interval derivation). The &lsquo;battery alarm beep&rsquo; was turned off, whereas in the first set of testing it had been turned on. Data were stored on the device for retrospective download via USB.</li>
+<li><strong>Photoplethysmography-based wristband</strong>: The <a href="https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX-HEALTHBAND.html" target="_blank" rel="noopener">Max-Health-Band</a> was used to record photoplethysmogram (PPG) and accelerometry (accel) signals at the wrist. PPG signals were sampled at 25 Hz (green and ambient), and tri-axis accel signals were also sampled at 25 Hz. The data are initially stored on the device, and transmitted via Bluetooth to a mobile phone for long-term storage (due to limited on-device memory).</li>
+<li><strong>Electrocardiography-based wristband</strong>: The <a href="https://www.withings.com/uk/en/move-ecg" target="_blank" rel="noopener">Withings Move ECG</a> device was used to acquire 30-second ECG recordings on demand (when the user activated the ECG recording).</li>
+<li><strong>Mobile phone</strong>: A &lsquo;Motorola Moto G8 Power Lite&rsquo; Android mobile phone was used to store signals from the two wristbands. <a href="https://www.macrodroid.com/" target="_blank" rel="noopener">Macrodroid</a> was used to open and close two apps in turn to download signals from the PPG and ECG wristbands (the &lsquo;<a href="https://pulseon.com/tech/ohr-tracker" target="_blank" rel="noopener">PulseOn Demo</a>&rsquo; and &lsquo;<a href="https://play.google.com/store/apps/details?id=com.withings.wiscale2" target="_blank" rel="noopener">Withings Health Mate</a>&rsquo; apps respectively). The PPG app was opened twice per hour, for 14 minutes each time, and the ECG app was opened once per hour, for 14 minutes. The WiFi was kept turned off (apart from a brief period of it being turned on, on the first day).</li>
+</ul>
+<h2 id="protocol">Protocol</h2>
+<p>A single user attempted to wear the devices for seven days.</p>
+<ul>
+<li><strong>Reference ECG chest-patch</strong>: The user changed electrodes every two days, but otherwise the device was unattended. The user shaved prior to application, and removed the device for showering.</li>
+<li><strong>Photoplethysmography-based wristband</strong>: This device was removed and charged each day (typically for 1-2 hours, until it indicated it was fully charged). It was also removed when showering and washing. Otherwise, it was unattended.</li>
+<li><strong>Electrocardiography-based wristband</strong>: ECG recordings were acquired on an <em>ad-hoc</em> basis.</li>
+<li><strong>Mobile phone</strong>: The mobile phone was kept on charge in a room where the user spent several hours most days.</li>
+</ul>
+<h2 id="outcomes">Outcomes</h2>
+<h3 id="user-acceptability">User acceptability</h3>
+<p>The devices were worn for the full 7 days. ECG electrodes were changed every two days as planned.</p>
+<h3 id="ecg-chest-patch-data-quality">ECG Chest-Patch data quality</h3>
+<p>The ECG chest-patch data appeared to remain high quality throughout the recordings, as shown by the snapshots of ECG signal below, from throughout the 7 days.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-ecg-signals-throughout-the-testing-short-2-second-samples-of-ecg-signals-obtained-through-the-7-days-of-testing-_defintion-hr---hour_">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="**ECG signals throughout the testing:** Short 2-second samples of ECG signals obtained through the 7 days of testing. _Defintion: Hr - hour_" srcset="
+               /post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_cbad5640fc9532252d51496d9ec4e2b6.png 400w,
+               /post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_761329d7cf77bee47e0ab693d8556b23.png 760w,
+               /post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_1200x1200_fit_lanczos_2.png 1200w"
+               src="/post/safer_wearables_testing2/ecg_samples_pt2_hua523d781f9ceed0ea7d4fdc37f495076_187744_cbad5640fc9532252d51496d9ec4e2b6.png"
+               width="568"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      <strong>ECG signals throughout the testing:</strong> Short 2-second samples of ECG signals obtained through the 7 days of testing. <em>Defintion: Hr - hour</em>
+    </figcaption></figure>
+<h3 id="chest-patch-battery">Chest-patch battery</h3>
+<p>At the end of the 7 days, the ECG chest-patch was disconnected. At this point the blue battery light was flashing, but the low battery alarm didn&rsquo;t sound (as planned, because it was turned off). When the chest-patch was connected to a computer for data download, it said:</p>
+<ul>
+<li>11% charge remaining</li>
+<li>85% free memory</li>
+</ul>
+<h3 id="leads-with-only-two-electrodes">Leads with only two electrodes</h3>
+<p>Following the testing, we were able to purchase ECG leads with only two electrodes, removing the need for a third electrode. The leads purchased are not long enough for a lead-II configuration, so will be used across the sternum.</p>
+<h2 id="learning-points">Learning points</h2>
+<p>We learnt several things from the testing:</p>
+<ol>
+<li><strong>ECG signal quality</strong>: The chest-patch ECG data was of high quality through this test, indicating that high quality data can be obtained for 7 days, and suggesting that it might be helpful to change the electrodes every 2 days to help ensure high quality data.</li>
+<li><strong>Chest-patch battery</strong>: The chest-patch battery did last for the full 7 days (albeit the low battery light was flashing by the end), indicating that the battery can last for 7 days.</li>
+<li><strong>Chest-patch memory</strong>: It appears that there is plenty of spare memory on the chest-patch device after a 7 day recording, so potentially accelerometry data could be acquired simultaneously (if that does not affect battery life too much).</li>
+</ol>
+<h2 id="remaining-questions">Remaining questions</h2>
+<ol>
+<li><strong>Accelerometry</strong>: Is it possible to acquire accelerometry data too, and still have enough battery lifetime for 7 days of data acquisition?</li>
+</ol>
+<h2 id="next-steps">Next Steps</h2>
+<p>Having identified suitable devices for the SAFER Wearables Study, the next steps are:</p>
+<ol>
+<li>To purchase the necessary devices to start the study</li>
+<li>To amend the participant-facing documentation to include pictures and detailed instructions on how to use the devices (and submit this for ethical approval).</li>
+<li>To make the automated data acquisition process (streaming data from wristbands to the mobile phone) as robust as possible.</li>
+<li>To investigate whether the additional functionality of the ECG chest-patch could be used whilst still having enough battery life.</li>
+</ol>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/photoplethysmography/">photoplethysmography</a>
+  
+  <a class="badge badge-light" href="/tag/atrial-fibrillation/">atrial fibrillation</a>
+  
+  <a class="badge badge-light" href="/tag/electrocardiogram/">electrocardiogram</a>
+  
+  <a class="badge badge-light" href="/tag/safer-wearables-study/">SAFER Wearables Study</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/post/safer_wearables_testing2/&amp;text=Testing%20wearables%20-%20Part%202" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/post/safer_wearables_testing2/&amp;t=Testing%20wearables%20-%20Part%202" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Testing%20wearables%20-%20Part%202&amp;body=https://peterhcharlton.github.io/post/safer_wearables_testing2/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/post/safer_wearables_testing2/&amp;title=Testing%20wearables%20-%20Part%202" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Testing%20wearables%20-%20Part%202%20https://peterhcharlton.github.io/post/safer_wearables_testing2/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://peterhcharlton.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huff8b3a0b939b5aaae1cc1bdf9caab2ce_180737_270x270_fill_q75_lanczos_center.jpg" alt="Peter Charlton"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://peterhcharlton.github.io/">Peter Charlton</a></h5>
+      <h6 class="card-subtitle">Research Fellow</h6>
+      <p class="card-text">Biomedical Engineer specialising in signal processing for wearables.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:pete@oxon.org" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-3836-8655" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/PeterHCharlton" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=BJjD81oAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/peterhcharlton" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/peterhcharlton/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/safer_wearables_testing/">Testing wearables - Part 1</a></li>
+      
+      <li><a href="/publication/realising_potential_wearables/">Realising the potential of wearables</a></li>
+      
+      <li><a href="/publication/wearable_ppg_chapter/">Wearable photoplethysmography devices</a></li>
+      
+      <li><a href="/post/ppg_book/">Photoplethysmography Textbook</a></li>
+      
+      <li><a href="/project/safer-wearables/">SAFER Wearables Study</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2021 Peter Charlton
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

@@ -465,11 +465,17 @@
       <link>https://peterhcharlton.github.io/project/safer-wearables/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/project/safer-wearables/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;The SAFER Wearables Study:&lt;/strong&gt; A study of the acceptability and performance of wearables for atrial fibrillation screening in older adults&lt;/p&gt;
-&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The SAFER Wearables Study:&lt;/strong&gt; &lt;em&gt;A study of the acceptability and performance of wearables for atrial fibrillation screening in older adults&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This page provides details of the study and links to study resources:&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;&lt;strong&gt;Overview of the Study&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;h1 id=&#34;overview-of-the-study&#34;&gt;Overview of the Study&lt;/h1&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Atrial fibrillation (AF) is an irregular heart rhythm which causes a five-fold increase in the risk of stroke. Approximately one in ten people aged over 70 have AF. If AF is recognised then the risk of stroke can be reduced by taking tablets regularly. AF can be difficult to recognise as it can occur without symptoms and only intermittently. Consequently, AF is not recognised in many people, meaning they live with an increased risk of stroke. Therefore, it is important to find ways to identify AF more reliably.&lt;/p&gt;
 &lt;p&gt;Recently, wearable devices have been developed which could be useful for identifying AF. Several devices can monitor heart activity in daily life, including wristbands, smart watches and chest patch monitors. The aim of this study is to assess the acceptability and performance of wearables for use in AF screening in older adults.&lt;/p&gt;
-&lt;h1 id=&#34;aim&#34;&gt;Aim&lt;/h1&gt;
+&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
 &lt;p&gt;The primary objective is to determine the feasibility of measuring inter-beat-intervals using a wristband.&lt;/p&gt;
 &lt;p&gt;The secondary objectives are:&lt;/p&gt;
 &lt;ol&gt;
@@ -479,12 +485,38 @@
 &lt;li&gt;To assess the performance of signal processing algorithms,&lt;/li&gt;
 &lt;li&gt;To assess the performance of wearables for AF screening.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;who-can-participate&#34;&gt;Who can participate?&lt;/h1&gt;
-&lt;p&gt;Selected people who have previously participated in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Programme&lt;/a&gt; can participate in this study. The Investigators (at the University of Cambridge) will invite previous SAFER Programme participants to also participate in this study, aiming to enrol 65 without AF, and 65 with AF.&lt;/p&gt;
-&lt;h1 id=&#34;what-does-the-study-involve&#34;&gt;What does the study involve?&lt;/h1&gt;
+&lt;h2 id=&#34;who-can-participate&#34;&gt;Who can participate?&lt;/h2&gt;
+&lt;p&gt;Selected people who have previously participated in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34;&gt;SAFER Programme&lt;/a&gt; can participate in this study. The Investigators (at the University of Cambridge) will invite previous SAFER Programme participants to also participate in this study, aiming to enrol 65 without AF, and 65 with AF.&lt;/p&gt;
+&lt;h2 id=&#34;what-does-the-study-involve&#34;&gt;What does the study involve?&lt;/h2&gt;
 &lt;p&gt;Participants will be asked to wear three devices for seven days: Two wristbands (like watches), and one chest patch (like a plaster). These devices will collect measurements of their heart&amp;rsquo;s activity. The Investigators will also ask participants to tell them how they found wearing the devices by completing a questionnaire. The Investigators will compare how participants found wearing each device, and how accurately each device identifies AF.&lt;/p&gt;
-&lt;h1 id=&#34;further-information&#34;&gt;Further Information&lt;/h1&gt;
-&lt;p&gt;Further information on the study can be found &lt;a href=&#34;https://clinicaltrials.gov/ct2/show/NCT04715555&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;further-information&#34;&gt;Further Information&lt;/h2&gt;
+&lt;p&gt;Further information on the study can be found &lt;a href=&#34;https://clinicaltrials.gov/ct2/show/NCT04715555&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;&lt;strong&gt;Study Planning&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;h1 id=&#34;study-planning&#34;&gt;Study Planning&lt;/h1&gt;
+&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;
+&lt;p&gt;Notebooks detailing the planning for the study are available &lt;a href=&#34;https://github.com/peterhcharlton/safer-wearables/tree/main/planning&#34;&gt;here&lt;/a&gt;. In particular, the following notebooks may be of interest:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.org/github/peterhcharlton/safer-wearables/blob/main/planning/safer_wearables_planning.ipynb&#34;&gt;SAFER Wearables Planning notebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;equipment-testing&#34;&gt;Equipment Testing&lt;/h2&gt;
+&lt;p&gt;Details of equipment testing are provided in the following posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing&#34;&gt;Testing wearables - Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing2&#34;&gt;Testing wearables - Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;standard-operating-procedures-sops&#34;&gt;Standard Operating Procedures (SOPs)&lt;/h2&gt;
+&lt;p&gt;SOPs providing fine detail on the practicalities of carrying out the study are available &lt;a href=&#34;https://peterhcharlton.github.io/info/safer_wearables/sops/sops.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;&lt;strong&gt;Study Methodology&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;h1 id=&#34;study-methodology&#34;&gt;Study Methodology&lt;/h1&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;Study documentation will be made available in the future.&lt;/p&gt;
+&lt;/details&gt;
 </description>
     </item>
     
