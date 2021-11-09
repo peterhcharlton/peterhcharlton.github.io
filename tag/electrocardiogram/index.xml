@@ -5,12 +5,33 @@
     <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/electrocardiogram/index.xml" rel="self" type="application/rss+xml" />
     <description>electrocardiogram</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 09 Nov 2021 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>electrocardiogram</title>
       <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
     </image>
+    
+    <item>
+      <title>Improving the efficiency of AF screening</title>
+      <link>https://peterhcharlton.github.io/talk/improving-the-efficiency-of-af-screening/</link>
+      <pubDate>Tue, 09 Nov 2021 13:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/improving-the-efficiency-of-af-screening/</guid>
+      <description>&lt;h3 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h3&gt;
+&lt;p&gt;The following resources accompany this talk:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/extras/improving_efficiency_af_screening_transcript/&#34;&gt;The transcript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/reviewing_ecgs/&#34;&gt;The accompanying paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h3&gt;
+&lt;p&gt;None of this would have been possible without:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.phpc.cam.ac.uk/people/pcu-group/pcu-senior-academic-staff/jonathan-mant/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof Jonathan Mant&lt;/a&gt;, who leads the SAFER Programme.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/about-us/research-team/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Research Team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The NIHR and BHF, who funded the work&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Testing wearables - Part 2</title>

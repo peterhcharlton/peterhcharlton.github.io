@@ -5,12 +5,133 @@
     <link>https://peterhcharlton.github.io/extras/</link>
       <atom:link href="https://peterhcharlton.github.io/extras/index.xml" rel="self" type="application/rss+xml" />
     <description>Extras</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 20 Sep 2021 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 09 Nov 2021 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Extras</title>
       <link>https://peterhcharlton.github.io/extras/</link>
     </image>
+    
+    <item>
+      <title>Transcript for: Improving the efficiency of AF screening</title>
+      <link>https://peterhcharlton.github.io/extras/improving_efficiency_af_screening_transcript/</link>
+      <pubDate>Tue, 09 Nov 2021 13:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/extras/improving_efficiency_af_screening_transcript/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;This transcript accompanies &lt;a href=&#34;https://peterhcharlton.github.io/talk/tbc/&#34;&gt;this talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some of the transcript content is reproduced from the &lt;a href=&#34;https://peterhcharlton.github.io/publication/reviewing_ecgs/&#34;&gt;accompanying paper&lt;/a&gt; under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;title-slide&#34;&gt;Title Slide&lt;/h2&gt;
+&lt;p&gt;Topic for today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Potential strategies to improve the efficiency of AF screening, using data from the SAFER Programme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;clinical-problem-undiagnosed-af&#34;&gt;Clinical Problem: undiagnosed AF&lt;/h2&gt;
+&lt;p&gt;[Click] If atrial fibrillation was adequately treated in England, then it&amp;rsquo;s estimated that this could save [click] 2,000 lives per year, [click] prevent 7,000 strokes, and result in an additional 425,000 diagnoses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;potential-solution-af-screening&#34;&gt;Potential Solution: AF screening&lt;/h2&gt;
+&lt;p&gt;It has been proposed that undiagnosed AF could be identified through screening. However, &amp;ldquo;it is unclear whether there is a benefit of formal screening programmes for AF over and above diagnosis of AF only through routine clinical practice&amp;rdquo; [&lt;a href=&#34;https://view-health-screening-recommendations.service.gov.uk/atrial-fibrillation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UK National Screening Committee, 2019&lt;/a&gt;]. The ongoing &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt; [click] aims to address this gap in evidence.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;personal-introduction&#34;&gt;Personal Introduction&lt;/h2&gt;
+&lt;p&gt;The work I&amp;rsquo;m presenting today consists of secondary analysis of data collected in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Programme&lt;/a&gt;. The Trial is being conducted at the University of Cambridge, recruiting patients from East Anglia (in green), and across England (in blue). Many of the analyses involve [click] ECG signal processing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;overview-1&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this talk I&amp;rsquo;ll look at three key questions and potential answers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Is screening for AF effective?&lt;/li&gt;
+&lt;li&gt;How can today&amp;rsquo;s screening be optimised?&lt;/li&gt;
+&lt;li&gt;What might tomorrow&amp;rsquo;s screening look like?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Firstly, an introduction to the SAFER Programme.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-safer-programme&#34;&gt;The SAFER Programme&lt;/h2&gt;
+&lt;p&gt;The SAFER Programme of research aims to determine [click] whether screening for AF is effective and cost-effective in reducing stroke and other key outcomes compared to current practice. It consists of [click] four parts [&lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/about-screenforaf/aims-and-objectives/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Website&lt;/a&gt;]:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Feasibility study 1:&lt;/strong&gt; A study in 10 GP Practices, including a face-to-face appointment, which 2,141 participants took part in. This has finished, confirming that it is feasible to deliver an AF screening programme in general practice, and that high numbers of patients accept an offer of AF screening and go on to complete the screening process.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feasibility study 2:&lt;/strong&gt; When the COVID-19 pandemic struck, it became clear that screening could not be delivered in the practice. An additional feasibility study was conducted with participants from 3 GP Practices, in which the screening was delivered remotely.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internal pilot study:&lt;/strong&gt; The first phase of the trial is now underway. An internal pilot study is being conducted in 36 practices, consisting of 12 intervention practices where patients will be offered screening, and 24 control practices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cluster randomised controlled trial:&lt;/strong&gt; Following the pilot, we expect to move straight into the remainder of the trial, including a further 324 practices. The whole trial, including the internal pilot, will enrol approximately 126,000 patients from 360 practices, a third of whom will be offered screening. They will be followed up for an average of 5 years.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-screening-process&#34;&gt;The Screening Process&lt;/h2&gt;
+&lt;p&gt;The three main steps of the screening process which I&amp;rsquo;ll refer to are as follows [click]:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ECGs recorded at home:&lt;/strong&gt; Firstly, participants are sent a handheld device which takes 30-second ECG recordings between two thumbs. Participants are asked to record an ECG 4 times per day, for 3 weeks [&lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/for-patients/screening-process/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Website&lt;/a&gt;], producing approximately 84 ECGs per participant.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated analysis:&lt;/strong&gt; Secondly, the ECG recordings are automatically analysed to identify any that may contain AF.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clinical review:&lt;/strong&gt; Thirdly, those ECGs which may contain AF are sent for clinical review to make a final diagnosis. Any participants diagnosed with AF then discuss possible anticoagulation with their GP.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;is-screening-for-af-effective&#34;&gt;Is screening for AF effective?&lt;/h2&gt;
+&lt;p&gt;So, the first question.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;is-screening-for-af-effective-and-cost-effective-in-reducing-stroke-and-other-key-outcomes-compared-to-current-practice&#34;&gt;Is screening for AF effective and cost effective in reducing stroke and other key outcomes compared to current practice?&lt;/h2&gt;
+&lt;p&gt;This question hasn&amp;rsquo;t yet been answered in the ongoing SAFER Trial. However, results were recently published for the STROKESTOP trial, a trial using the same handheld devices in Sweden [&lt;a href=&#34;https://doi.org/10.1016/s0140-6736%2821%2901637-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;]. There was a &amp;ldquo;small net benefit&amp;rdquo; to screening, as shown by the significantly lower number of events in those invited to screening, compared to the control group. Although there were some differences in trial design, the trial does provide some useful learning points for SAFER, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For screening to be effective, a high proportion of those invited to screening have to participate, since the endpoint was calculated using the intention-to-treat analysis, as is the case in SAFER. In STROKESTOP, of those invited to screening, 51.3% participated. Indeed, those who &amp;ldquo;declined the invitation for screening &amp;hellip; had higher &amp;hellip; stroke risk&amp;rdquo; [&lt;a href=&#34;10.1016/s0140-6736%2821%2901750-5&#34;&gt;Lowres &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt;]. Qualitative researchers in the SAFER team are collecting feedback from non-participants to understand why people decline the invitation to screening.&lt;/li&gt;
+&lt;li&gt;[click] The results also show promise for the choice of combined ischaemic and haemorrhagic stroke as the primary endpoint in SAFER. Both of these endpoints showed a signal towards a difference, although this was not significant difference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-can-todays-screening-be-optimised-outline&#34;&gt;How can today&amp;rsquo;s screening be optimised? (outline)&lt;/h2&gt;
+&lt;p&gt;So, the second question: How can today&amp;rsquo;s screening be optimised? My colleagues and I have been working on optimising the acquisition of ECGs, and their automated review. I&amp;rsquo;ll present preliminary analyses on these two aspects.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ecgs-recorded-at-home&#34;&gt;ECGs recorded at home&lt;/h2&gt;
+&lt;p&gt;Firstly, [click] we are establishing criteria to prompt a telephone call from the research team to participants to provide additional training when required on taking ECGs.&lt;/p&gt;
+&lt;p&gt;[Click] Many of the ECGs collected in SAFER are of high quality, such as this ECG here. However, [click] some ECGs are of low quality. These are often difficult, if not impossible, to interpret. Consequently, if a participant records too many low quality ECGs then it may not be possible to accurately identify AF.&lt;/p&gt;
+&lt;p&gt;[Click] In a retrospective analysis of data from the first SAFER Feasibility Study, we investigated the performance of different criteria for identifying participants who would record a high proportion of low quality ECGs. The analysis was performed on 1,486 participants, who each recorded at least 56 ECGs. The criteria were applied to ECGs received during the first 10 days (i.e. the first half) of screening. We aimed for a high sensitivity to participants with less than 75% high quality ECGs, and a low alert rate to minimise the workload associated with the additional calls.&lt;/p&gt;
+&lt;p&gt;[Click] Here are the results for three candidate criteria. For each criterion, a threshold was learnt from the data. The third criterion, which consisted of triggering a call if more than 25% of a participant&amp;rsquo;s ECGs were of low quality, resulted in a high sensitivity at the desired alert rate.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;effectiveness-of-criterion-to-prompt-a-training-call&#34;&gt;Effectiveness of criterion to prompt a training call&lt;/h2&gt;
+&lt;p&gt;[Click] The effectiveness of this criterion was then assessed when it was used in the second SAFER Feasibility Study. This study was smaller, with &lt;em&gt;n&lt;/em&gt; participants. &lt;em&gt;n&lt;/em&gt; of these participants received a telephone call - reassuringly, this indicates an alert rate of approximately 4% as desired. It&amp;rsquo;s testament to the SAFER Team that these calls resulted in a reduction in the percentage of low quality recordings, as shown in this box plot. &lt;em&gt;(describe reduction shown in plot)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So, we have found that training calls can be targeted to those participants who would benefit most from them, and that they are effective in improving the quality of ECG recordings.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;automated-analysis&#34;&gt;Automated analysis&lt;/h2&gt;
+&lt;p&gt;A second analysis which informed the Trial&amp;rsquo;s methodology was an assessment of the performance of algorithm tags for identifying AF, and the workload associated with reviewing ECGs classified with each tag.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll briefly summarise how the algorithm works. [Click] Each ECG is analysed by [click] detecting heartbeats, [click] analysing the heart rhythm, and assessing [click] whether P-waves are present or not. A key question [click] is: which tags should be used to identify ECGs for review?&lt;/p&gt;
+&lt;p&gt;[click] In a retrospective analysis, I assessed the sensitivity of each tag to AF, and its positive predictive value. This was performed using manual annotations of 911 ECGs containing AF provided by cardiologists. Six tags showed reasonable performance (shown in bold). These were considered as candidates to identify ECGs for clinical review.&lt;/p&gt;
+&lt;p&gt;[click] In a second analysis, I investigated the workload and effectiveness of the combination of tags used in this Feasibility Study, and all possible combinations of the candidate tags. The combination of tags used in the study, shown in the first row, was particularly comprehensive, and resulted in 23,000 ECGs being sent for review. Through this process 54 participants were diagnosed with AF. The remaining rows show selected combinations using subsets of these tags. As the number of tags is reduced, the number of ECGs sent for review is reduced. Only in the last combination, the irregular sequence tag on its own, was there an impact on the diagnosis of AF, with one participant being missed.&lt;/p&gt;
+&lt;p&gt;Based on this, I recommended that the irregular sequence and fast regular tags be used in SAFER, which in this analysis would have substantially reduced the workload associated with ECG reviewing, whilst maintaining the number of AF diagnoses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ordering-ecgs-for-review&#34;&gt;Ordering ECGs for review&lt;/h2&gt;
+&lt;p&gt;When a participant&amp;rsquo;s ECGs are presented for clinical review, they are currently ordered chronologically. We&amp;rsquo;re interested in whether they could be ordered according to the probability of an AF diagnosis being made. This could improve the efficiency of the review process, as once an ECG exhibiting AF is found, no further ECGs are reviewed for that participant.&lt;/p&gt;
+&lt;p&gt;We performed a preliminary investigation by developing a logistic regression model to estimate the probability that an ECG will be diagnosed with AF. It took as inputs: the heart rate, standard deviation of RR-intervals, and classifications provided by the Cardiolund algorithm being used in the trial.&lt;/p&gt;
+&lt;p&gt;[Click] We found that the number of cardiologist reviews that would have been required in the first two feasibility studies could theoretically have been reduced by approximately a quarter by using this model to order ECGs, whilst still identifying all cases of AF.&lt;/p&gt;
+&lt;p&gt;[Click] We also found that only sending ECGs for review which had at least a threshold probability of AF, reduced the number of reviews further.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;inter-reviewer-agreement&#34;&gt;Inter-reviewer agreement&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-can-todays-screening-be-optimised&#34;&gt;How can today&amp;rsquo;s screening be optimised?&lt;/h2&gt;
+&lt;p&gt;Today I&amp;rsquo;ve presented preliminary results on questions relating to optimising the current approach to screening, specifically on: training calls, automated analysis of ECGs, and the review process. In addition, I am particularly interested in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can we develop a library of ECGs with which to train new reviewers?&lt;/li&gt;
+&lt;li&gt;How best to evaluate the probability that an ECG: (i) exhibits AF; and (ii) is of diagnostic quality?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-might-tomorrows-screening-look-like-outline&#34;&gt;What might tomorrow&amp;rsquo;s screening look like? (outline)&lt;/h2&gt;
+&lt;p&gt;So, the third question: What might tomorrow&amp;rsquo;s screening look like? As an engineer, it is my hope that the data collected in both the SAFER Programme and follow-on studies will be useful for informing tomorrow&amp;rsquo;s approach to screening.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;could-consumer-devices-be-used-for-clinical-decision-making&#34;&gt;Could consumer devices be used for clinical decision making?&lt;/h2&gt;
+&lt;p&gt;A key question going forward will be: Could consumer devices be used for clinical decision making?&lt;/p&gt;
+&lt;p&gt;Devices like those shown here are commercially available, including the AliveCor device (left), which allows users to record their ECG with a small add-on to their smartphone. Watches by Withings [click], such as that shown here, also allow users to record a 30-second ECG. And, fitness trackers and smartwatches which measure the arterial pulse wave are now commonplace [click], some of which can identify an irregular pulse which may be indicative of AF. We are starting the SAFER Wearables study, a study to assess the acceptability and performance of wearables such as those shown here for identifying AF in older adults.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;thanks&#34;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;None of this would have been possible without:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.phpc.cam.ac.uk/people/pcu-group/pcu-senior-academic-staff/jonathan-mant/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof Jonathan Mant&lt;/a&gt;, who leads the SAFER Programme.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/about-us/research-team/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Research Team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The NIHR and BHF, who funded the work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;To conclude:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evidence is emerging showing the clinical benefit of AF screening.&lt;/li&gt;
+&lt;li&gt;Trials are ongoing, which will also assess the cost-effectiveness.&lt;/li&gt;
+&lt;li&gt;If wearables are used to identify AF, they should be like a harness: highly reliable (effective), and good value (cost-effective).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The Beauty of Biomedical Engineering</title>
