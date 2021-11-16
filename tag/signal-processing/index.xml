@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>signal processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>signal processing</title>
@@ -15,13 +15,17 @@
     <item>
       <title>Novel Pressure Wave Separation Analysis for Cardiovascular Function Assessment Highlights Major Role of Aortic Root</title>
       <link>https://peterhcharlton.github.io/publication/pressure_wave_separation/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/pressure_wave_separation/</guid>
-      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href=&#34;https://kclpure.kcl.ac.uk/portal/files/162619525/New_WSA_IEEE_revision2_final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;accepted manuscript&lt;/a&gt; is now available, and the published version will be available soon.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating central blood pressure from aortic flow: development and assessment of algorithms</title>
+      <link>https://peterhcharlton.github.io/publication/estimating_cbp_flow/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/estimating_cbp_flow/</guid>
+      <description></description>
     </item>
     
   </channel>
