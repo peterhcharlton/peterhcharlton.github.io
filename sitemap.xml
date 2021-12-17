@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/categories/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/ppg_webinars/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/category/photoplethysmography/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,9 +32,6 @@
     <loc>https://peterhcharlton.github.io/publication/pressure_wave_separation/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication_types/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -21,9 +39,6 @@
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
@@ -44,16 +59,7 @@
     <loc>https://peterhcharlton.github.io/extras/improving_efficiency_af_screening_transcript/</loc>
     <lastmod>2021-11-09T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/categories/</loc>
-    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/category/clinical-studies/</loc>
-    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
     <lastmod>2021-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/safer-wearables-study/</loc>
@@ -126,9 +132,6 @@
     <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/cardiovascular-monitoring/</loc>
-    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/category/photoplethysmography/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/ppg_book/</loc>

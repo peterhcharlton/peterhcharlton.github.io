@@ -5,12 +5,30 @@
     <link>https://peterhcharlton.github.io/category/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/category/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>Photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 10 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Photoplethysmography</title>
       <link>https://peterhcharlton.github.io/category/photoplethysmography/</link>
     </image>
+    
+    <item>
+      <title>Developments in Photoplethysmography</title>
+      <link>https://peterhcharlton.github.io/post/ppg_webinars/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/ppg_webinars/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Photoplethysmography is widely used for physiological monitoring in clinical and consumer devices. It is a highly active area of research, with many important developments being made each year. In 2022 we will hold monthly webinars to showcase the latest research and thinking on key topics within the field of photoplethysmography. Each webinar will consist of a series of talks from leaders in the field. All are welcome to attend.&lt;/p&gt;
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;January (date TBC):&lt;/strong&gt; &lt;em&gt;Simulating photoplethysmography signals&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mailing-list&#34;&gt;Mailing List&lt;/h2&gt;
+&lt;p&gt;If you wish to attend, then please subscribe to this mailing list (TBC) to receive the link to join upcoming webinars.&lt;/p&gt;
+&lt;h2 id=&#34;we-want-your-input&#34;&gt;We want your input&lt;/h2&gt;
+&lt;p&gt;If you would like to see your favourite PPG topics (and speakers) included in the webinar series, then please fill out this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdlzKlZi1wVezPwibpWuoxRh6hrV9QJrwjcos5NAa4sUvQCEA/viewform?usp=sf_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;anonymous form&lt;/a&gt;:&lt;/p&gt;
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdlzKlZi1wVezPwibpWuoxRh6hrV9QJrwjcos5NAa4sUvQCEA/viewform?embedded=true&#34; width=&#34;640&#34; height=&#34;1672&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading?&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>Photoplethysmography Textbook</title>
