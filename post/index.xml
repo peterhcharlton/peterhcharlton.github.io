@@ -34,9 +34,10 @@
 &lt;p&gt;Several techniques have recently been developed to simulate photoplethysmogram (PPG) signals, providing data with which to develop PPG signal processing algorithms, and providing insight into the physiological origins of the signal. This webinar will feature talks from researchers who have developed complementary techniques to simulate PPG signals. It will provide a comprehensive overview of the state-of-the-art, and highlight pressing directions for future research.&lt;/p&gt;
 &lt;p&gt;Speakers include:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Andrius Solosenko (Kaunas University of Technology)&lt;/strong&gt; will present on modelling photoplethysmogram signals during atrial fibrillation.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cheng Ding (Emory University)&lt;/strong&gt; will present a novel approach to simulating PPG signals using generative adversarial networks.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dr Jordi Alastruey-Arimon (King&amp;rsquo;s College London)&lt;/strong&gt; will present on the role of in silico pulse wave databases in machine learning-based pulse wave analysis.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Dr James May (City, University of London)&lt;/strong&gt; will present on &lt;em&gt;in vitro&lt;/em&gt; simulation of photoplethysmography signals.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dr Jordi Alastruey-Arimon (King&amp;rsquo;s College London)&lt;/strong&gt; will present on the role of in silico pulse wave databases in machine learning-based pulse wave analysis.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;mailing-list&#34;&gt;Mailing List&lt;/h2&gt;
