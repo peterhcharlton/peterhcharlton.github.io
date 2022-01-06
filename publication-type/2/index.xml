@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/publication-type/2/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://peterhcharlton.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Assessing hemodynamics from the photoplethysmogram to gain insights into vascular age: A review from VascAgeNet</title>
+      <link>https://peterhcharlton.github.io/publication/vascagenet_ppg_review/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/vascagenet_ppg_review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Novel Pressure Wave Separation Analysis for Cardiovascular Function Assessment Highlights Major Role of Aortic Root</title>

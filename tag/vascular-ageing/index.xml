@@ -5,12 +5,66 @@
     <link>https://peterhcharlton.github.io/tag/vascular-ageing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/vascular-ageing/index.xml" rel="self" type="application/rss+xml" />
     <description>vascular ageing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>vascular ageing</title>
       <link>https://peterhcharlton.github.io/tag/vascular-ageing/</link>
     </image>
+    
+    <item>
+      <title>VascAgeNet Photoplethysmography Group</title>
+      <link>https://peterhcharlton.github.io/post/vascagenet_ppg_group/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/vascagenet_ppg_group/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Vascular ageing is a natural process by which the function and structure of blood vessels degrade over time. It can manifest as elevated blood pressure, increased arterial stiffness, and atherosclerosis. Current approaches to assess vascular age have been found to be predictive of cardiovascular morbidity and mortality, but are often not convenient enough for widespread use.&lt;/p&gt;
+&lt;p&gt;This group of European researchers is investigating the use of photoplethysmography to assess vascular age. Photoplethysmography is a non-invasive optical technique for measuring the arterial pulse wave, providing information on the state of the heart and blood vessels. The group is part of the wider &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet network&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;work-to-date&#34;&gt;Work to date&lt;/h2&gt;
+&lt;p&gt;The group have co-authored several publications, the most important of which is a review on assessing vascular age from the photoplethysmogram:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review&#34;&gt;Assessing Vascular Age from the Photoplethysmogram: A Review from VascAgeNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/cinc21_bp_estimation/&#34;&gt;Blood Pressure Estimation Based on Photoplethysmography: Finger versus Wrist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_chapter/&#34;&gt;Wearable photoplethysmography devices&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;invited-talks&#34;&gt;Invited Talks&lt;/h2&gt;
+&lt;p&gt;The following speakers have given invited talks to the group:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kevin Kotzen&lt;/strong&gt;: &lt;em&gt;Benchmarking Photoplethysmography Peak Detection Algorithms Using the Electrocardiogram Signal as a Reference&lt;/em&gt;, 7 October 2021. &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review&#34;&gt;Accompanying paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Birute Paliakaite&lt;/strong&gt;: &lt;em&gt;Blood Pressure Estimation Based on Photoplethysmography: Finger versus Wrist&lt;/em&gt;, 28 October 2021. &lt;a href=&#34;https://peterhcharlton.github.io/publication/cinc21_bp_estimation/&#34;&gt;Accompanying paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wan-Hua Lin&lt;/strong&gt; (Shenzhen Institute of Advanced Technology, Chinese Academy of Science, China): &lt;em&gt;Investigating the physiological mechanisms of the photoplethysmogram features for blood pressure estimation&lt;/em&gt;, 18 November 2021. &lt;a href=&#34;https://doi.org/10.1088/1361-6579/ab7d78&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Accompanying paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Philip Aston&lt;/strong&gt; (National Physical Laboratory, UK): 9 December 2021.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;group-members&#34;&gt;Group Members&lt;/h2&gt;
+&lt;p&gt;The work of the group would not be possible without the hard work of its members, who include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://peterhcharlton.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Peter Charlton&lt;/a&gt; is a Biomedical Engineer specialising in signal processing techniques for the photoplethysmogram (PPG), including estimating respiratory rate and assessing vascular age from the PPG. He presently holds a British Heart Foundation Fellowship at the University of Cambridge.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=YtQF4uUAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Birute Paliakaite&lt;/a&gt; is a researcher specialising in PPG signal processing and modelling, and has made key contributions on acquiring haemodynamic parameters from wearables, and detecting and modelling arrhythmias in the PPG.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=IJ5MsM4AAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Kristjan Pilt&lt;/a&gt; has developed novel techniques to assess vascular age from the PPG in his research, and has demonstrated their potential clinical utility in diabetic patients.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.at/citations?user=pHHJAv4AAAAJ&amp;amp;hl=de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Martin Bachler&lt;/a&gt; is a research engineer in the field of clinical diagnostics and therapy support, and specialises in biomedical signal analysis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vascagenet.eu/what-are-you-working-on-serena-zanelli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Serena Zanelli&lt;/a&gt; develops machine learning and deep learning models to detect cardiovascular disease from PPG signals acquired by wearables, working in both academic and clinical settings.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vascagenet.eu/what-are-you-working-on-dr-daniel-kulin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Daniel Kulin&lt;/a&gt; is a medical doctor, researcher and entrepreneur in the field of PPG-based pulse wave analysis and in the development of remote patient monitoring systems.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.co.uk/citations?user=-GsW3HsAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof John Allen&lt;/a&gt; is a leading researcher in the field of photoplethysmography. He has worked on assessing vascular age from the PPG for approximately 30 years. He has strong experience on developing PPG-based techniques, and translating them towards clinical practice. His seminal review on photoplethysmography has been cited over 3,000 times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Magid-Hallab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Magid Hallab&lt;/a&gt; is a physician, inventor of pOpmetre, a device for PPG-based pulse wave velocity measurement, and CEO of Axelife, the company who sell the pOpmetre device.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.it/citations?user=rQqSulEAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Elisabetta Bianchini&lt;/a&gt; works in the field of ultrasound imaging and cardiovascular bioengineering, with strong interests in technology transfer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.at/citations?user=gRActvYAAAAJ&amp;amp;hl=de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Christopher Mayer&lt;/a&gt; conducts research in the field of biomedical signal processing, including simulation and pulse wave analysis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=w1KRD3gAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Dimitrios Terentes-Printzios&lt;/a&gt; is a Cardiologist with research interests in hypertension and microvascular dysfunction. He conducted his PhD on vascular ageing and has co-organised and large multicentre studies.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/verena-dittrich-1876a989/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Verena Dittrich&lt;/a&gt; is Co-Founder and CEO of Redwave Medical, a company specialising in algorithms for cardiovascular assessment.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=VP9nyHAAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Bernhard Hametner&lt;/a&gt; is a mathematician developing methods for pulse wave analysis, and is involved in the analysis of cardiovascular parameters obtained in clinical studies.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.com/citations?user=Z_Fojr4AAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mr Dave Veerasingam&lt;/a&gt; is a Consultant Cardiothoracic Surgeon, and is involved in the cardiac Medtech industry. His research interests include the association between vascular ageing and target organ damage.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Dejan-Zikic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Dejan Zikic&lt;/a&gt; is an Associate Professor in Biophysics, with research interests including modelling pulse wave propagation and pulse wave analysis.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scholar.google.lt/citations?user=yQcWpoIAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Vaidotas Marozas&lt;/a&gt; is Director of the Biomedical Engineering Institute at Kaunas Institute of Technology, and has conducted research into PPG modelling, analysis, and acquisition using wearables.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing hemodynamics from the photoplethysmogram to gain insights into vascular age: A review from VascAgeNet</title>
+      <link>https://peterhcharlton.github.io/publication/vascagenet_ppg_review/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/vascagenet_ppg_review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Leveraging the potential of machine learning for assessing vascular ageing: state-of-the-art and future research</title>
