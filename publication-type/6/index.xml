@@ -46,5 +46,21 @@
 </description>
     </item>
     
+    <item>
+      <title>Health Informatics via Machine Learning for the Clinical Management of Patients</title>
+      <link>https://peterhcharlton.github.io/publication/clifton-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/clifton-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic estimation of respiratory rate from wearable sensors</title>
+      <link>https://peterhcharlton.github.io/publication/pimentel-2015-a/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/pimentel-2015-a/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

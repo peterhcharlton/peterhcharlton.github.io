@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>signal quality | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/signal-quality/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/signal-quality/index.xml" rel="self" type="application/rss+xml" />
+    <description>signal quality</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>signal quality</title>
+      <link>https://peterhcharlton.github.io/tag/signal-quality/</link>
+    </image>
+    
+    <item>
+      <title>Signal-quality indices for the electrocardiogram and photoplethysmogram: derivation and applications to wireless monitoring</title>
+      <link>https://peterhcharlton.github.io/publication/orphanidou-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/orphanidou-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

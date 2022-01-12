@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>physiological monitoring | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/physiological-monitoring/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/physiological-monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <description>physiological monitoring</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>physiological monitoring</title>
+      <link>https://peterhcharlton.github.io/tag/physiological-monitoring/</link>
+    </image>
+    
+    <item>
+      <title>Optimising the Windkessel model for cardiac output monitoring during changes in vascular tone</title>
+      <link>https://peterhcharlton.github.io/publication/charlton-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/charlton-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
