@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>signal processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>signal processing</title>
       <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
     </image>
+    
+    <item>
+      <title>PulseAnalyse</title>
+      <link>https://peterhcharlton.github.io/project/pulse-analyse/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/pulse-analyse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Novel Pressure Wave Separation Analysis for Cardiovascular Function Assessment Highlights Major Role of Aortic Root</title>

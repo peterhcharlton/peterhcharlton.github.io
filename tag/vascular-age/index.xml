@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vascular age | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/vascular-age/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/vascular-age/index.xml" rel="self" type="application/rss+xml" />
+    <description>vascular age</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>vascular age</title>
+      <link>https://peterhcharlton.github.io/tag/vascular-age/</link>
+    </image>
+    
+    <item>
+      <title>Pulse Wave Database</title>
+      <link>https://peterhcharlton.github.io/project/pwdb/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/pwdb/</guid>
+      <description>&lt;p&gt;The project aims to provide an algorithm to estimate respiratory rate from wearable photoplethysmogram (PPG) signals for use in daily life.&lt;/p&gt;
+&lt;p&gt;Further details on the project are available &lt;a href=&#34;https://peterhcharlton.github.io/RRest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
