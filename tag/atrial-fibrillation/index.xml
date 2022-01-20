@@ -14,9 +14,9 @@
     
     <item>
       <title>PPG Beat Detection</title>
-      <link>https://peterhcharlton.github.io/project/ppg-beat-detection/</link>
+      <link>https://peterhcharlton.github.io/project/ppg-beats/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/project/ppg-beat-detection/</guid>
+      <guid>https://peterhcharlton.github.io/project/ppg-beats/</guid>
       <description>&lt;p&gt;The aim of this project is to provide a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;These pages are under development&lt;/em&gt;&lt;/p&gt;
 </description>
