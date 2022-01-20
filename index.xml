@@ -5,12 +5,22 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>PPG Beat Detection</title>
+      <link>https://peterhcharlton.github.io/project/ppg-beat-detection/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/ppg-beat-detection/</guid>
+      <description>&lt;p&gt;The aim of this project is to provide a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;These pages are under development&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pulse Wave Database</title>
@@ -106,6 +116,7 @@
 &lt;h2 id=&#34;webinars&#34;&gt;Webinars&lt;/h2&gt;
 &lt;h3 id=&#34;webinar-1-simulating-photoplethysmography-signals&#34;&gt;Webinar 1: Simulating photoplethysmography signals&lt;/h3&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;27 January 2022, 14:00 GMT (&lt;a href=&#34;https://dateful.com/convert/greenwich-mean-time-gmt?t=14&amp;amp;d=2021-01-27&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;Institute of Physics and Engineering in Medicine&lt;/em&gt;&lt;/p&gt;
 &lt;ul class=&#34;cta-group&#34;&gt;
   
   &lt;li&gt;
@@ -124,10 +135,28 @@
 &lt;li&gt;&lt;strong&gt;Dr James May (City, University of London)&lt;/strong&gt; will present on &lt;em&gt;in vitro&lt;/em&gt; simulation of photoplethysmography signals.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Dr Jordi Alastruey-Arimon (King&amp;rsquo;s College London)&lt;/strong&gt; will present on the role of in silico pulse wave databases in machine learning-based pulse wave analysis.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;webinar-2-photoplethysmography-signal-quality&#34;&gt;Webinar 2: Photoplethysmography signal quality&lt;/h3&gt;
+&lt;h3 id=&#34;webinar-2-developments-in-photoplethysmography&#34;&gt;Webinar 2: Developments in Photoplethysmography&lt;/h3&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;February / March 2022&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt;  Hosted by &lt;em&gt;&lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Physiological Measurement&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Photoplethysmography is a non-invasive, optical measurement technique which is widely used for health monitoring. Much research focuses on how to leverage the wealth of information in the photoplethysmogram (PPG) signal, and how to use this information to inform clinical decisions. This webinar will feature talks from leaders in the field, on topics ranging from using photoplethysmography for cardiovascular risk assessment, cuff-less blood pressure monitoring, and validating these technologies for clinical use. It will provide insight into the state-of-the-art and key directions for future research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ramakrishna Mukkamala (University of Pittsburgh)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rich Fletcher (Massachusetts Institute of Technology)&lt;/strong&gt;, author of &lt;em&gt;&#39;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/abad48&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The use of multi-site photoplethysmography (PPG) as a screening tool for coronary arterial disease and atherosclerosis&lt;/a&gt;&#39;&lt;/em&gt; which was recently published in Physiological Measurement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raquel Bailón Luesma, (University of Zaragoza)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Xiaoman Xing (Suzhou Institute of Biomedical Engineering and Technology)&lt;/strong&gt;, author of &lt;em&gt;&#39;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac2a71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blood pressure assessment with in-ear photoplethysmography&lt;/a&gt;&#39;&lt;/em&gt; which was recently published in Physiological Measurement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;webinar-3-photoplethysmography-signal-quality&#34;&gt;Webinar 3: Photoplethysmography signal quality&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;March 2022&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;Institute of Physics and Engineering in Medicine&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The photoplethysmogram (PPG) signal contains a wealth of information. However, the PPG is highly susceptible to noise, which can corrupt the information in the signal. Consequently, much research has focused on assessing PPG signal quality and reducing motion artifact. This webinar will feature talks from researchers in the field of PPG signal quality, providing an overview of current work in the field and future research directions.&lt;/p&gt;
+&lt;h3 id=&#34;webinar-4-clinical-applications-of-photoplethysmography&#34;&gt;Webinar 4: Clinical applications of photoplethysmography&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;April 2022&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;Institute of Physics and Engineering in Medicine&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This webinar will highlight emerging clinical applications of photoplethysmography. Photoplethysmography has traditionally been used in pulse oximeters for oxygen saturation and heart rate monitoring. Recently, several additional clinical applications have been proposed, ranging from screening newborn infants for critical congenital heart disease, to sleep apnea assessment, to identifying atrial fibrillation in everyday life. This webinar will feature talks from researchers who are pushing the boundaries of photoplethysmography, developing approaches to use it to enhance healthcare in a range of settings.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;we-want-your-input&#34;&gt;We want your input&lt;/h2&gt;
 &lt;p&gt;If you would like to present at a webinar then please email Peter Charlton:&lt;/p&gt;
@@ -631,11 +660,7 @@
       <link>https://peterhcharlton.github.io/publication/cinc2021_beat_detection/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/cinc2021_beat_detection/</guid>
-      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The published version will be available soon.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -643,11 +668,7 @@
       <link>https://peterhcharlton.github.io/publication/cinc2021_bp_estimation/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/cinc2021_bp_estimation/</guid>
-      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full text&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The published version will be available soon.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description></description>
     </item>
     
     <item>

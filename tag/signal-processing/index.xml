@@ -5,12 +5,22 @@
     <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>signal processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>signal processing</title>
       <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
     </image>
+    
+    <item>
+      <title>PPG Beat Detection</title>
+      <link>https://peterhcharlton.github.io/project/ppg-beat-detection/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/ppg-beat-detection/</guid>
+      <description>&lt;p&gt;The aim of this project is to provide a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;These pages are under development&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PulseAnalyse</title>
