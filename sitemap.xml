@@ -2,14 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/safer-wearables-study/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/wearable_ppg_review/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/3/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/beat-detection/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/ppg-beats/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
@@ -19,9 +49,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
@@ -56,12 +83,6 @@
     <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
-    <lastmod>2022-01-12T22:58:25+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2022-01-12T22:49:34+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/arteriosclerosis/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -70,12 +91,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/atherosclerosis/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2022-01-12T22:58:25+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2022-01-12T22:58:25+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
@@ -102,9 +117,6 @@
     <lastmod>2021-11-09T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/category/clinical-studies/</loc>
-    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/safer-wearables-study/</loc>
     <lastmod>2021-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/category/safer-wearables-study/</loc>
