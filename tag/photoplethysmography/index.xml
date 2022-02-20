@@ -5,12 +5,45 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmography</title>
       <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
     </image>
+    
+    <item>
+      <title>Understanding Photoplethysmography</title>
+      <link>https://peterhcharlton.github.io/project/understanding-ppg/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/understanding-ppg/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A set of resources to aid the beginner and expert alike in understanding photoplethysmography.&lt;/p&gt;
+&lt;h3 id=&#34;an-introduction-to-photoplethysmography&#34;&gt;An introduction to photoplethysmography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A comprehensive overview:&lt;/strong&gt; &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;This review paper&lt;/a&gt; summarises the fundamentals of photoplethysmography, its use in wearables, signal processing, and its potential clinical applications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A very quick overview:&lt;/strong&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=HnXDvN4WNX8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This short video&lt;/a&gt; provides an introduction to photoplethysmography in a minute (and a bit).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;wearable-photoplethysmography-devices&#34;&gt;Wearable photoplethysmography devices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The state-of-the-art in wearable photoplethysmography:&lt;/strong&gt; Our &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_chapter/&#34;&gt;book chapter on wearable photoplethysmography devices&lt;/a&gt; provides an overview of the state-of-the-art.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;signal-processing&#34;&gt;Signal processing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;A comprehensive overview of PPG signal processing:&lt;/strong&gt; Our &lt;a href=&#34;https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/&#34;&gt;book chapter on photoplethysmography signal processing&lt;/a&gt; provides an overview of a wide range of techniques for processing the photoplethysmogram (PPG) signal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respiratory rate estimation:&lt;/strong&gt; If you&amp;rsquo;re interested in estimating respiratory rate from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;review paper&lt;/a&gt; on the topic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vascular age:&lt;/strong&gt; If you&amp;rsquo;re interested in assessing vascular age from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review/&#34;&gt;review paper&lt;/a&gt; on the topic. Includes: blood pressure estimation, assessing arterial stiffness, and identifying peripheral arterial disease. If you&amp;rsquo;re interested in this topic, then you might consider joining &lt;a href=&#34;https://peterhcharlton.github.io/post/vascagenet_ppg_group/&#34;&gt;this working group&lt;/a&gt;, part of &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, a network for research into vascular ageing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-latest-developments-in-photoplethysmography&#34;&gt;The latest developments in photoplethysmography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Webinars:&lt;/strong&gt; To stay up to date with the latest developments in photoplethysmography by attending this &lt;a href=&#34;https://peterhcharlton.github.io/post/ppg_webinars/&#34;&gt;free webinar series&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Wearable photoplethysmography for cardiovascular monitoring</title>
