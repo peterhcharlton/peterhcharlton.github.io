@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>SleepPPG-Net: a deep learning algorithm for robust sleep staging from continuous photoplethysmography</title>
+      <link>https://peterhcharlton.github.io/publication/kotzen-2022/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/kotzen-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Detecting heartbeats in the photoplethysmogram: benchmarking open-source algorithms</title>
       <link>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
@@ -168,6 +176,14 @@
       <description>&lt;h3 id=&#34;prize&#34;&gt;Prize&lt;/h3&gt;
 &lt;p&gt;Awarded the 3rd Prize in the 2021 IEEE Engineering in Medicine and Biology Prize Paper Award.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Assessing mental stress from the photoplethysmogram: a numerical study</title>
+      <link>https://peterhcharlton.github.io/publication/mental_stress_numerical/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/mental_stress_numerical/</guid>
+      <description></description>
     </item>
     
     <item>
