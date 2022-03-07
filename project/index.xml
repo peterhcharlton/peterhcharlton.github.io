@@ -82,8 +82,8 @@
       <link>https://peterhcharlton.github.io/project/pwdb/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/project/pwdb/</guid>
-      <description>&lt;p&gt;The project aims to provide an algorithm to estimate respiratory rate from wearable photoplethysmogram (PPG) signals for use in daily life.&lt;/p&gt;
-&lt;p&gt;Further details on the project are available &lt;a href=&#34;https://peterhcharlton.github.io/RRest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;In this project we created a database of simulated arterial pulse waves for in silico testing of pulse wave analysis algorithms. The database includes photoplethysmogram (PPG) pulse waves, which are widely measured by wearables such as smartwatches. It is a valuable resource for future research.&lt;/p&gt;
+&lt;p&gt;Further details on the project are available &lt;a href=&#34;https://peterhcharlton.github.io/pwdb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

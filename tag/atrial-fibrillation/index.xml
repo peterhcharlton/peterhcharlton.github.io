@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/tag/atrial-fibrillation/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/atrial-fibrillation/index.xml" rel="self" type="application/rss+xml" />
     <description>atrial fibrillation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 25 Feb 2022 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>atrial fibrillation</title>
       <link>https://peterhcharlton.github.io/tag/atrial-fibrillation/</link>
     </image>
+    
+    <item>
+      <title>Opportunities for Photoplethysmography in Public Health</title>
+      <link>https://peterhcharlton.github.io/talk/opportunities-for-photoplethysmography-in-public-health/</link>
+      <pubDate>Fri, 25 Feb 2022 08:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/opportunities-for-photoplethysmography-in-public-health/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PPG Beat Detection</title>
@@ -397,6 +405,22 @@
 &lt;li&gt;To make the automated data acquisition process (streaming data from wristbands to the mobile phone) as robust as possible.&lt;/li&gt;
 &lt;li&gt;To investigate whether the additional functionality of the ECG chest-patch could be used whilst still having enough battery life.&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photoplethysmography in a minute (and a bit)</title>
+      <link>https://peterhcharlton.github.io/talk/photoplethysmography-in-a-minute-and-a-bit/</link>
+      <pubDate>Tue, 18 May 2021 15:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/photoplethysmography-in-a-minute-and-a-bit/</guid>
+      <description>&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+&lt;p&gt;Slides are available &lt;a href=&#34;https://doi.org/10.5281/zenodo.6193070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HnXDvN4WNX8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

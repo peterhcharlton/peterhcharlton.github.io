@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/opportunities-for-photoplethysmography-in-public-health/</loc>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
+    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/understanding-ppg/</loc>
@@ -56,14 +71,8 @@
     <loc>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/project/ppg-beats/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
-    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/computational-modelling/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
@@ -92,9 +101,6 @@
     <loc>https://peterhcharlton.github.io/post/vascagenet_ppg_group/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
-    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/arteriosclerosis/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -120,9 +126,6 @@
     <lastmod>2021-11-09T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/improving-the-efficiency-of-af-screening/</loc>
-    <lastmod>2021-11-09T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
     <lastmod>2021-11-09T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/extras/improving_efficiency_af_screening_transcript/</loc>
@@ -206,6 +209,9 @@
     <loc>https://peterhcharlton.github.io/post/safer_wearables_testing/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://peterhcharlton.github.io/talk/photoplethysmography-in-a-minute-and-a-bit/</loc>
+    <lastmod>2021-05-18T15:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/talk/the-respiratory-rate-algorithms-for-wearables-project/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -262,6 +268,9 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/simulating_pulse_waves/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/a-database-for-developing-pulse-wave-analysis-algorithms/</loc>
+    <lastmod>2018-09-06T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/rr_review/</loc>
     <lastmod>2018-07-18T00:00:00+00:00</lastmod>
