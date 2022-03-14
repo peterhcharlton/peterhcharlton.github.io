@@ -54,6 +54,10 @@
 &lt;li&gt;&lt;strong&gt;Respiratory rate estimation:&lt;/strong&gt; If you&amp;rsquo;re interested in estimating respiratory rate from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;review paper&lt;/a&gt; on the topic.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Vascular age:&lt;/strong&gt; If you&amp;rsquo;re interested in assessing vascular age from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review/&#34;&gt;review paper&lt;/a&gt; on the topic. Includes: blood pressure estimation, assessing arterial stiffness, and identifying peripheral arterial disease. If you&amp;rsquo;re interested in this topic, then you might consider joining &lt;a href=&#34;https://peterhcharlton.github.io/post/vascagenet_ppg_group/&#34;&gt;this working group&lt;/a&gt;, part of &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, a network for research into vascular ageing.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;clinical-applications&#34;&gt;Clinical applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Opportunities for photoplethysmography in public health:&lt;/strong&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=1fQ16Cdxxto&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This presentation&lt;/a&gt; provides an overview of some potential applications of photoplethysmography in Public Health.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;the-latest-developments-in-photoplethysmography&#34;&gt;The latest developments in photoplethysmography&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Webinars:&lt;/strong&gt; To stay up to date with the latest developments in photoplethysmography by attending this &lt;a href=&#34;https://peterhcharlton.github.io/post/ppg_webinars/&#34;&gt;free webinar series&lt;/a&gt;.&lt;/li&gt;
@@ -202,29 +206,8 @@
 
 &lt;hr&gt;
 &lt;h2 id=&#34;upcoming-webinars&#34;&gt;Upcoming Webinars&lt;/h2&gt;
-&lt;h3 id=&#34;recent-advances-in-photoplethysmography&#34;&gt;Recent Advances in Photoplethysmography&lt;/h3&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;3 March 2022, 14:00 GMT (&lt;a href=&#34;https://dateful.com/convert/greenwich-mean-time-gmt?t=14&amp;amp;d=2022-03-03&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt;  Hosted by &lt;em&gt;&lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Physiological Measurement&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;ul class=&#34;cta-group&#34;&gt;
-  
-  &lt;li&gt;
-    &lt;a href=&#34;https://register.gotowebinar.com/register/5108458986808048397&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;btn btn-primary px-3 py-3&#34;&gt;Book Now&lt;/a&gt;
-  &lt;/li&gt;
-  
-  
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Photoplethysmography is a non-invasive, optical measurement technique which is widely used for health monitoring. Much research focuses on how to leverage the wealth of information in the photoplethysmogram (PPG) signal, and how to use this information to inform clinical decisions. This webinar will feature talks from leaders in the field, on topics ranging from using photoplethysmography for cardiovascular risk assessment, for cuff-less blood pressure monitoring, and validating these technologies for clinical use. It will provide insight into the state-of-the-art and key directions for future research.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Rich Fletcher (Massachusetts Institute of Technology)&lt;/strong&gt; will present on &lt;em&gt;&#39;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/abad48&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The use of multi-site photoplethysmography (PPG) as a screening tool for coronary arterial disease and atherosclerosis&lt;/a&gt;&#39;&lt;/em&gt;, which was recently published in &lt;em&gt;Physiological Measurement&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Raquel Bailón Luesma, (University of Zaragoza)&lt;/strong&gt; will present on &lt;em&gt;&amp;lsquo;Applications of PPG waveform decomposition analysis&amp;rsquo;&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ramakrishna Mukkamala (University of Pittsburgh)&lt;/strong&gt; will present on &lt;em&gt;&lt;a href=&#34;https://doi.org/10.1161/HYPERTENSIONAHA.121.17747&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Evaluation of Cuffless Blood Pressure Measurement Devices: Challenges and Proposals&lt;/a&gt;&lt;/em&gt;, highlighting work which was recently published in &lt;em&gt;Hypertension&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Xiaoman Xing (Suzhou Institute of Biomedical Engineering and Technology)&lt;/strong&gt; will present on &lt;em&gt;&#39;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac2a71&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blood pressure assessment with in-ear photoplethysmography&lt;/a&gt;&#39;&lt;/em&gt;, which was recently published in &lt;em&gt;Physiological Measurement&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&#34;clinical-applications-of-photoplethysmography&#34;&gt;Clinical applications of photoplethysmography&lt;/h3&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;24 March 2022, 14:00 GMT (&lt;a href=&#34;https://dateful.com/convert/greenwich-mean-time-gmt?t=14&amp;amp;d=2022-03-24&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;28 April 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-04-28&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;&lt;a href=&#34;https://www.ipem.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute of Physics and Engineering in Medicine&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This webinar will highlight emerging clinical applications of photoplethysmography. Photoplethysmography has traditionally been used in pulse oximeters for oxygen saturation and heart rate monitoring. Recently, several additional clinical applications have been proposed, ranging from screening newborn infants for critical congenital heart disease, to sleep apnea assessment, to identifying atrial fibrillation in everyday life. This webinar will feature talks from researchers who are pushing the boundaries of photoplethysmography, developing approaches to use it to enhance healthcare in a range of settings.&lt;/p&gt;
@@ -234,14 +217,19 @@
 &lt;li&gt;&lt;strong&gt;Panicos Kyriacou (City University of London)&lt;/strong&gt; will present on &lt;em&gt;Non-invasive optical monitoring of Intracranial Pressure in Traumatic Brain Injury patients&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Daniel Kulin (E-Med4All Europe Ltd)&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;photoplethysmography-signal-quality&#34;&gt;Photoplethysmography signal quality&lt;/h3&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;March 2022&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;photoplethysmography-signal-processing&#34;&gt;Photoplethysmography signal processing&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;9 June 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-06-09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;&lt;a href=&#34;https://www.ipem.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute of Physics and Engineering in Medicine&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The photoplethysmogram (PPG) signal contains a wealth of information. However, the PPG is highly susceptible to noise, which can corrupt the information in the signal. Consequently, much research has focused on assessing PPG signal quality and reducing motion artifact. This webinar will feature talks from researchers in the field of PPG signal quality, providing an overview of current work in the field and future research directions.&lt;/p&gt;
+&lt;p&gt;The photoplethysmogram (PPG) signal contains a wealth of information. However, there are several challenges to extracting physiological measurements from the PPG. Firstly, the PPG is highly susceptible to noise, which can corrupt the information in the signal. Consequently, much research has focused on assessing PPG signal quality and reducing motion artifact. Secondly, the PPG is often only indirectly affected by the physiology of interest, making it a challenge to extract physiological measurements such as blood pressure. This webinar will feature talks from researchers in the field of PPG signal processing, providing an overview of current work in the field and future research directions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Xiaorong Ding (University of Electronic Science and Technology of China)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Serena Zanelli (Paris Sorbonne Nord University)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;previous-webinars&#34;&gt;Previous Webinars&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
   &lt;summary&gt;&lt;strong&gt;Webinar 1: Simulating photoplethysmography signals&lt;/strong&gt;&lt;/summary&gt;
   &lt;p&gt;&lt;h3 id=&#34;webinar-1-simulating-photoplethysmography-signals&#34;&gt;Webinar 1: Simulating photoplethysmography signals&lt;/h3&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;27 January 2022, 14:00 GMT (&lt;a href=&#34;https://dateful.com/convert/greenwich-mean-time-gmt?t=14&amp;amp;d=2021-01-27&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
@@ -253,6 +241,27 @@
 &lt;li&gt;&lt;strong&gt;Andrius Solosenko (Kaunas University of Technology)&lt;/strong&gt; presented on modelling photoplethysmogram signals during atrial fibrillation.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cheng Ding (Emory University)&lt;/strong&gt; presented a novel approach to simulating PPG signals using generative adversarial networks.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Dr Jordi Alastruey-Arimon (King&amp;rsquo;s College London)&lt;/strong&gt; presented on the role of &lt;em&gt;in silico&lt;/em&gt; pulse wave databases in machine learning-based pulse wave analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;&lt;strong&gt;Webinar 2: Recent Advances in Photoplethysmography&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;h3 id=&#34;webinar-2-recent-advances-in-photoplethysmography&#34;&gt;Webinar 2: Recent Advances in Photoplethysmography&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;3 March 2022, 14:00 GMT (&lt;a href=&#34;https://dateful.com/convert/greenwich-mean-time-gmt?t=14&amp;amp;d=2022-03-03&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt;  Hosted by &lt;em&gt;&lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334&#34;&gt;Physiological Measurement&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul class=&#34;cta-group&#34;&gt;
+  &lt;li&gt;
+    &lt;a href=&#34;https://register.gotowebinar.com/register/5108458986808048397&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;btn btn-primary px-3 py-3&#34;&gt;Watch Again&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Photoplethysmography is a non-invasive, optical measurement technique which is widely used for health monitoring. Much research focuses on how to leverage the wealth of information in the photoplethysmogram (PPG) signal, and how to use this information to inform clinical decisions. This webinar will feature talks from leaders in the field, on topics ranging from using photoplethysmography for cardiovascular risk assessment, for cuff-less blood pressure monitoring, and validating these technologies for clinical use. It will provide insight into the state-of-the-art and key directions for future research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rich Fletcher (Massachusetts Institute of Technology)&lt;/strong&gt; presented on &lt;em&gt;&#39;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/abad48&#34;&gt;The use of multi-site photoplethysmography (PPG) as a screening tool for coronary arterial disease and atherosclerosis&lt;/a&gt;&#39;&lt;/em&gt;, which was recently published in &lt;em&gt;Physiological Measurement&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raquel Bailón Luesma, (University of Zaragoza)&lt;/strong&gt; presented on &lt;em&gt;&amp;lsquo;Applications of PPG waveform decomposition analysis&amp;rsquo;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ramakrishna Mukkamala (University of Pittsburgh)&lt;/strong&gt; presented on &lt;em&gt;&lt;a href=&#34;https://doi.org/10.1161/HYPERTENSIONAHA.121.17747&#34;&gt;Evaluation of Cuffless Blood Pressure Measurement Devices: Challenges and Proposals&lt;/a&gt;&lt;/em&gt;, highlighting work which was recently published in &lt;em&gt;Hypertension&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Xiaoman Xing (Suzhou Institute of Biomedical Engineering and Technology)&lt;/strong&gt; presented on &lt;em&gt;&#39;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac2a71&#34;&gt;Blood pressure assessment with in-ear photoplethysmography&lt;/a&gt;&#39;&lt;/em&gt;, which was recently published in &lt;em&gt;Physiological Measurement&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
