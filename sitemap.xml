@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/dataset/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmogram/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/ppg_datasets/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
     <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +32,10 @@
     <loc>https://peterhcharlton.github.io/talk/opportunities-for-photoplethysmography-in-public-health/</loc>
     <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
     <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
@@ -48,9 +63,6 @@
     <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/wearable_ppg_review/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
     <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/3/</loc>
@@ -90,9 +102,6 @@
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/categories/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/post/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/category/photoplethysmography/</loc>
@@ -330,9 +339,6 @@
     <lastmod>2022-01-12T22:58:25+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/charlton-2015/</loc>
-    <lastmod>2022-01-12T22:58:25+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmogram/</loc>
     <lastmod>2022-01-12T22:58:25+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/pimentel-2015-a/</loc>

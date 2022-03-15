@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>photoplethysmogram | Peter Charlton</title>
-    <link>https://peterhcharlton.github.io/tag/photoplethysmogram/</link>
-      <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmogram/index.xml" rel="self" type="application/rss+xml" />
-    <description>photoplethysmogram</description>
+    <title>dataset | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/dataset/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/dataset/index.xml" rel="self" type="application/rss+xml" />
+    <description>dataset</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
-      <title>photoplethysmogram</title>
-      <link>https://peterhcharlton.github.io/tag/photoplethysmogram/</link>
+      <title>dataset</title>
+      <link>https://peterhcharlton.github.io/tag/dataset/</link>
     </image>
     
     <item>
@@ -281,22 +281,6 @@
 &lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
 &lt;p&gt;For further information on photoplethysmography, please see the following review paper: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Measurement of cardiovascular state using attractor reconstruction analysis</title>
-      <link>https://peterhcharlton.github.io/publication/charlton-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/charlton-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Signal-quality indices for the electrocardiogram and photoplethysmogram: derivation and applications to wireless monitoring</title>
-      <link>https://peterhcharlton.github.io/publication/orphanidou-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/orphanidou-2015/</guid>
-      <description></description>
     </item>
     
   </channel>
