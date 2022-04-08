@@ -5,12 +5,28 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 08 Apr 2022 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>Developing software to monitor respiratory rate using wearable sensors</title>
+      <link>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</link>
+      <pubDate>Fri, 08 Apr 2022 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
+&lt;!--
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
     
     <item>
       <title>Photoplethysmography Datasets</title>
@@ -121,6 +137,13 @@
 &lt;td&gt;40&lt;/td&gt;
 &lt;td&gt;ECG, BCG, BP&lt;/td&gt;
 &lt;td&gt;Recordings from adults whilst at rest.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.17632/yynb8t9x3d.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Real-World PPG dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.17632/yynb8t9x3d.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Recordings from healthy subjects aged 10 to 74 years old: several 6-second recordings per subject.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.eecs.qmul.ac.uk/mmv/datasets/deap/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEAP Database&lt;/a&gt;&lt;/td&gt;

@@ -5,12 +5,28 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 25 Feb 2022 08:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 08 Apr 2022 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmography</title>
       <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
     </image>
+    
+    <item>
+      <title>Developing software to monitor respiratory rate using wearable sensors</title>
+      <link>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</link>
+      <pubDate>Fri, 08 Apr 2022 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
+&lt;!--
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
     
     <item>
       <title>Opportunities for Photoplethysmography in Public Health</title>

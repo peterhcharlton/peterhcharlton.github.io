@@ -123,6 +123,13 @@
 &lt;td&gt;Recordings from adults whilst at rest.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.17632/yynb8t9x3d.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Real-World PPG dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.17632/yynb8t9x3d.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Recordings from healthy subjects aged 10 to 74 years old: several 6-second recordings per subject.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.eecs.qmul.ac.uk/mmv/datasets/deap/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEAP Database&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.1109/T-AFFC.2011.15&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;32&lt;/td&gt;
