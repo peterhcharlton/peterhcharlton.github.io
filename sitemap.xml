@@ -41,6 +41,21 @@
     <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
     <lastmod>2022-04-12T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/1/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/prioritising_ecgs/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/screening/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</loc>
     <lastmod>2022-04-08T10:00:00+00:00</lastmod>
   </url><url>
@@ -58,9 +73,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/post/ppg_datasets/</loc>
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2022-02-25T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
     <lastmod>2022-02-25T08:00:00+00:00</lastmod>
@@ -149,9 +161,6 @@
     <loc>https://peterhcharlton.github.io/publication/pressure_wave_separation/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
-    <lastmod>2022-01-12T22:36:42+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/extras/</loc>
     <lastmod>2021-11-09T13:00:00+00:00</lastmod>
   </url><url>
@@ -199,9 +208,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/pulse-waves/</loc>
     <lastmod>2021-09-07T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/1/</loc>
-    <lastmod>2022-01-12T22:58:25+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/cinc2021_beat_detection/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
