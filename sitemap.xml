@@ -2,28 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/inaccuracy_pulse_oximetry/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/patient-monitoring/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/pulse-oximetry/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2022-04-12T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2022-04-12T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
+    <lastmod>2022-04-12T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</loc>
+    <lastmod>2022-04-12T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2022-04-12T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</loc>
     <lastmod>2022-04-08T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/open-source/</loc>
-    <lastmod>2022-04-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2022-04-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2022-04-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2022-04-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
-    <lastmod>2022-04-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
-    <lastmod>2022-04-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
     <lastmod>2022-04-08T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/dataset/</loc>
@@ -58,15 +79,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/project/understanding-ppg/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/safer-wearables-study/</loc>
     <lastmod>2022-02-15T00:00:00+00:00</lastmod>
