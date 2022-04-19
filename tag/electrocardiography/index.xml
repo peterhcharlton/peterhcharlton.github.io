@@ -5,12 +5,30 @@
     <link>https://peterhcharlton.github.io/tag/electrocardiography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/electrocardiography/index.xml" rel="self" type="application/rss+xml" />
     <description>electrocardiography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>electrocardiography</title>
       <link>https://peterhcharlton.github.io/tag/electrocardiography/</link>
     </image>
+    
+    <item>
+      <title>Screening for atrial fibrillation</title>
+      <link>https://peterhcharlton.github.io/project/screening-af/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/screening-af/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this project we are using signal processing and machine learning techniques to develop strategies to screen for atrial fibrillation (AF) which are both effective (ensuring patients with AF are correctly identified), and cost-effective (minimising the clinical workload involved in screening).&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Atrial fibrillation (AF) is a heart arrhythmia which is associated with a fivefold increase in risk of stroke, and yet is undiagnosed in 425,000 people in England. We are investigating whether screening for AF could reduce the incidence of stroke in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;. During screening, patients use a handheld device to record their electrocardiogram (ECG) four times a day for three weeks. This results in a large number of ECG recordings which must be manually reviewed by clinicians to diagnose AF. This process is costly and time-consuming.&lt;/p&gt;
+&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to optimise strategies to screen for atrial fibrillation.&lt;/p&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;p&gt;We are using both in-house data and publicly available data to design signal processing techniques to extract parameters from ECG signals, such as inter-beat intervals. We are using real-world screening data (from the SAFER Trial) to develop strategies to identify ECGs which exhibit possible AF, and therefore require clinical review. We are using the same data to investigate the effectiveness and cost-effectiveness of such strategies.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Initial results are reported in the publications listed below.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SAFER Wearables Study</title>
