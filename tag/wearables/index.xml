@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 26 Apr 2022 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
       <link>https://peterhcharlton.github.io/tag/wearables/</link>
     </image>
+    
+    <item>
+      <title>Wearable photoplethysmography for health monitoring</title>
+      <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</link>
+      <pubDate>Tue, 26 Apr 2022 13:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Respiratory rate algorithms for wearables</title>
