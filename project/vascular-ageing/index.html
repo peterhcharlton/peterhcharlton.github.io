@@ -1,0 +1,3060 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+    <meta name="google-site-verification" content="fhmlAwpDwi6Y6bzpyhhOJuX5SDEok6mZzEd4mQPuaOw" />
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peter Charlton" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Developing techniques to assess vascular ageing" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://peterhcharlton.github.io/project/vascular-ageing/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.624edad420d5361cc1ee021178ac273d.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://peterhcharlton.github.io/project/vascular-ageing/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Peter Charlton" />
+  <meta property="og:url" content="https://peterhcharlton.github.io/project/vascular-ageing/" />
+  <meta property="og:title" content="Assessing vascular ageing | Peter Charlton" />
+  <meta property="og:description" content="Developing techniques to assess vascular ageing" /><meta property="og:image" content="https://peterhcharlton.github.io/project/vascular-ageing/featured.jpg" />
+    <meta property="twitter:image" content="https://peterhcharlton.github.io/project/vascular-ageing/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-25T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-25T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://peterhcharlton.github.io/project/vascular-ageing/"
+  },
+  "headline": "Assessing vascular ageing",
+  
+  "image": [
+    "https://peterhcharlton.github.io/project/vascular-ageing/featured.jpg"
+  ],
+  
+  "datePublished": "2022-05-25T00:00:00Z",
+  "dateModified": "2022-05-25T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Peter Charlton"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Peter Charlton",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Developing techniques to assess vascular ageing"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Assessing vascular ageing | Peter Charlton</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="344d2949177d4517219fa6525ba3454d" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peter Charlton</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peter Charlton</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/event"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/students"><span>Students</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Assessing vascular ageing</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 25, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/PeterHCharlton" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>
+    Follow
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 320px;">
+  <div style="position: relative">
+    <img src="/project/vascular-ageing/featured.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Source - <a href="https://pixabay.com/users/qimono-1962238/">qimono</a> from <a href="https://pixabay.com/illustrations/blood-cells-red-medical-medicine-1813410/">Pixabay</a> (Pixabay License)</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="overview">Overview</h2>
+<p>The aim of this project is to develop techniques to assess vascular ageing in daily life, providing information on the state of the blood vessels which could be used to personalise cardiovascular treatments.</p>
+<h2 id="background">Background</h2>
+<p>Vascular age is an emerging indicator of cardiovascular health that is indicative of cardiovascular risk, and can prompt clinical intervention. The function and structure of blood vessels naturally degrade with age. This process, known as vascular aging, can ultimately result in damage to the heart, kidney, and brain. Indicators of vascular aging have been found to be predictive of cardiovascular morbidity and all-cause mortality, so may be useful for cardiovascular risk stratification. <em>Source: modified from <a href="https://doi.org/10.1152/ajpheart.00392.2021" target="_blank" rel="noopener">Charlton P.H. et al.</a>, under <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">CC BY 4.0</a></em>.</p>
+<h2 id="aim">Aim</h2>
+<p>The aim of this project is to develop techniques to assess vascular ageing from the photoplethysmogram (PPG) - the pulse wave signal measured by smartwatches, activity trackers, and pulse oximeters.</p>
+<h2 id="methods">Methods</h2>
+<p>We are using both simulated and real-world data to design signal processing techniques to extract indicators of vascular ageing from the PPG, and to assess their potential clinical utility.</p>
+<h2 id="results">Results</h2>
+<p>Initial results are reported in the publications listed below.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/photoplethysmography/">photoplethysmography</a>
+  
+  <a class="badge badge-light" href="/tag/vascular-ageing/">vascular ageing</a>
+  
+  <a class="badge badge-light" href="/tag/cardiovascular/">cardiovascular</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/project/vascular-ageing/&amp;text=Assessing%20vascular%20ageing" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/project/vascular-ageing/&amp;t=Assessing%20vascular%20ageing" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Assessing%20vascular%20ageing&amp;body=https://peterhcharlton.github.io/project/vascular-ageing/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/project/vascular-ageing/&amp;title=Assessing%20vascular%20ageing" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Assessing%20vascular%20ageing%20https://peterhcharlton.github.io/project/vascular-ageing/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://peterhcharlton.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huff8b3a0b939b5aaae1cc1bdf9caab2ce_180737_270x270_fill_q75_lanczos_center.jpg" alt="Peter Charlton"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://peterhcharlton.github.io/">Peter Charlton</a></h5>
+      <h6 class="card-subtitle">Research Fellow</h6>
+      <p class="card-text">Biomedical Engineer specialising in signal processing for wearables.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:pete@oxon.org" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-3836-8655" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/PeterHCharlton" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=BJjD81oAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/peterhcharlton" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/peterhcharlton/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/vascagenet_ppg_group/">VascAgeNet Photoplethysmography Group</a></li>
+      
+      <li><a href="/talk/a-database-for-developing-pulse-wave-analysis-algorithms/">A database for developing pulse wave analysis algorithms</a></li>
+      
+      <li><a href="/talk/introduction-to-modelling-arterial-pulse-waves/">Introduction to modelling arterial pulse waves</a></li>
+      
+      <li><a href="/slides/intro_to_pulse_wave_modelling_slides/">Introduction to modelling arterial pulse waves</a></li>
+      
+      <li><a href="/publication/ml_vasc_age_review/">Leveraging the potential of machine learning for assessing vascular ageing: state-of-the-art and future research</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+        <h2>Posts</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/open_bsp/" >Open research in Biomedical Signal Processing</a>
+    </div>
+
+    
+    <a href="/post/open_bsp/"  class="summary-link">
+      <div class="article-style">
+        A workshop on cuffless blood pressure estimation using the MIMIC Database, presented at the 2022 IEEE EMBC Conference
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Peter Charlton</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 25, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/understanding-ppg/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/open_bsp/" >
+      <img src="/post/open_bsp/featured_hu54d8b31ef28d7bddf716146b3a45d2d6_25056_150x0_resize_lanczos_2.png" alt="Open research in Biomedical Signal Processing" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/visit_to_ktu/" >Short-term scientific mission</a>
+    </div>
+
+    
+    <a href="/post/visit_to_ktu/"  class="summary-link">
+      <div class="article-style">
+        A collaborative visit to Kaunas Institute of Technology, aiming to harmonise photoplethysmography-based techniques for the assessment of vascular ageing
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Peter Charlton</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 25, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/screening-af/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/safer-wearables/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/rr-wearables/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/visit_to_ktu/" >
+      <img src="/post/visit_to_ktu/featured_hu2f65d405419e95da01c40f503aaa298a_1542385_150x0_resize_q75_lanczos.jpg" alt="Short-term scientific mission" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/vascagenet_ppg_group/" >VascAgeNet Photoplethysmography Group</a>
+    </div>
+
+    
+    <a href="/post/vascagenet_ppg_group/"  class="summary-link">
+      <div class="article-style">
+        A group of European researchers investigating the use of photoplethysmography to assess vascular age, within the VascAgeNet network.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Peter Charlton</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 6, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/photoplethysmography/">Photoplethysmography</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/vascagenet_ppg_group/" >
+      <img src="/post/vascagenet_ppg_group/featured_hu2a99f9f42d2f10427e232aa0224fa288_27169_150x0_resize_lanczos_2.png" alt="VascAgeNet Photoplethysmography Group" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/vascagenet_ppg_review/" >Assessing hemodynamics from the photoplethysmogram to gain insights into vascular age: A review from VascAgeNet</a>
+    </div>
+
+    
+    <a href="/publication/vascagenet_ppg_review/"  class="summary-link">
+      <div class="article-style">
+        A review of techniques to assess vascular age from the photoplethysmogram.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Birute Paliakaite</span>, <span >
+      Kristjan Pilt</span>, <span >
+      Martin Bachler</span>, <span >
+      Serena Zanelli</span>, <span >
+      Daniel Kulin</span>, <span >
+      John Allen</span>, <span >
+      Magid Hallab</span>, <span >
+      Elisabetta Bianchini</span>, <span >
+      Christopher C. Mayer</span>, <span >
+      Dimitrios Terentes-Printzios</span>, <span >
+      Verena Dittrich</span>, <span >
+      Bernhard Hametner</span>, <span >
+      Dave Veerasingam</span>, <span >
+      Dejan Zikic</span>, <span >
+      Vaidotas Marozas</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://journals.physiology.org/doi/pdf/10.1152/ajpheart.00392.2021" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1152/ajpheart.00392.2021" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/vascagenet_ppg_review/" >
+      <img src="/publication/vascagenet_ppg_review/featured_hu81f134b1eca7c96b1c3d7cb46cd5d03f_437522_150x0_resize_lanczos_2.png" alt="Assessing hemodynamics from the photoplethysmogram to gain insights into vascular age: A review from VascAgeNet" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/pressure_wave_separation/" >Novel Pressure Wave Separation Analysis for Cardiovascular Function Assessment Highlights Major Role of Aortic Root</a>
+    </div>
+
+    
+    <a href="/publication/pressure_wave_separation/"  class="summary-link">
+      <div class="article-style">
+        A novel method to separate the central blood pressure wave into five components with different biophysical and temporal origins.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Samuel Vennin</span>, <span >
+      Ye Li</span>, <span >
+      Jorge Mariscal-Harana</span>, <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Henry Fok</span>, <span >
+      Haotian Gu</span>, <span >
+      Phil Chowienczyk</span>, <span >
+      Jordi Alastruey</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9613783" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TBME.2021.3127799" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://kclpure.kcl.ac.uk/portal/files/162619525/New_WSA_IEEE_revision2_final.pdf" target="_blank" rel="noopener">
+    
+    Accepted manuscript
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/pressure_wave_separation/" >
+      <img src="/publication/pressure_wave_separation/featured_hu6ec8ebcd68cd4e46468c7c31e2e66f98_181590_150x0_resize_lanczos_2.png" alt="Novel Pressure Wave Separation Analysis for Cardiovascular Function Assessment Highlights Major Role of Aortic Root" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/ml_vasc_age_review/" >Leveraging the potential of machine learning for assessing vascular ageing: state-of-the-art and future research</a>
+    </div>
+
+    
+    <a href="/publication/ml_vasc_age_review/"  class="summary-link">
+      <div class="article-style">
+        A review of using machine learning to assess vascular age.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Vasiliki Bikia</span>, <span >
+      Terence Fong</span>, <span >
+      Rachel E Climie</span>, <span >
+      Rosa-Maria Bruno</span>, <span >
+      Bernhard Hametner</span>, <span >
+      Christopher Mayer</span>, <span >
+      Dimitrios Terentes-Printzios</span>, <span class="author-highlighted">
+      Peter Charlton</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://academic.oup.com/ehjdh/advance-article-pdf/doi/10.1093/ehjdh/ztab089/40722408/ztab089.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/ml_vasc_age_review/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.5281/zenodo.5074026" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.5281/zenodo.2633174" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1093/ehjdh/ztab089" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://academic.oup.com/ehjdh/article-lookup/doi/10.1093/ehjdh/ztab089#supplementary-data" target="_blank" rel="noopener">
+    
+    Supplementary Material
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/ml_vasc_age_review/" >
+      <img src="/publication/ml_vasc_age_review/featured_huf12bac34b22e19d841f1a5c33ce2eef7_218967_150x0_resize_lanczos_2.png" alt="Leveraging the potential of machine learning for assessing vascular ageing: state-of-the-art and future research" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/cinc2021_bp_estimation/" >Blood Pressure Estimation Based on Photoplethysmography: Finger versus Wrist</a>
+    </div>
+
+    
+    <a href="/publication/cinc2021_bp_estimation/"  class="summary-link">
+      <div class="article-style">
+        Comparing blood pressure estimates obtained from finger and wrist sensors.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Birute Paliakaite</span>, <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Andrius Rapalis</span>, <span >
+      Vilma Plusciauskaite</span>, <span >
+      Povilas Piartli</span>, <span >
+      Eugenijus Kaniusas</span>, <span >
+      Vaidotas Marozas</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9662716" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.23919/CinC53138.2021.9662716" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.cinc.org/2021/Program/accepted/20_Preprint.pdf" target="_blank" rel="noopener">
+    
+    Preprint
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/li-2021/" >Relationship between fiducial points on the peripheral and central blood pressure waveforms: rate of rise of the central waveform is a determinant of peripheral systolic blood pressure</a>
+    </div>
+
+    
+    <a href="/publication/li-2021/"  class="summary-link">
+      <div class="article-style">
+        Investigating the relationships between features on central and peripheral blood pressure waveforms.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Ye Li</span>, <span >
+      Antoine Guilcher</span>, <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Samuel Vennin</span>, <span >
+      Jordi Alastruey</span>, <span >
+      Phil Chowienczyk</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://journals.physiology.org/doi/epdf/10.1152/ajpheart.00818.2020" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1152/ajpheart.00818.2020" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/li-2021/" >
+      <img src="/publication/li-2021/featured_hu273085d7105a08d1c5fa2bbecf15a103_113236_150x0_resize_q75_lanczos.jpeg" alt="Relationship between fiducial points on the peripheral and central blood pressure waveforms: rate of rise of the central waveform is a determinant of peripheral systolic blood pressure" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/estimating_cbp_flow/" >Estimating central blood pressure from aortic flow: development and assessment of algorithms</a>
+    </div>
+
+    
+    <a href="/publication/estimating_cbp_flow/"  class="summary-link">
+      <div class="article-style">
+        A novel method to estimate central blood pressure from noninvasive aortic haemodynamic data and peripheral blood pressure.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Jorge Mariscal-Harana</span>, <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Samuel Vennin</span>, <span >
+      Jorge Aramburu</span>, <span >
+      Mateusz Cezary Florkow</span>, <span >
+      Arna van Engelen</span>, <span >
+      Torben Schneider</span>, <span >
+      Hubrecht de Bliek</span>, <span >
+      Bram Ruijsink</span>, <span >
+      Israel Valverde</span>, <span >
+      Philipp Beerbaum</span>, <span >
+      Heynric Grotenhuis</span>, <span >
+      Marietta Charakida</span>, <span >
+      Phil Chowienczyk</span>, <span >
+      Spencer J. Sherwin</span>, <span >
+      Jordi Alastruey</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://journals.physiology.org/doi/pdf/10.1152/ajpheart.00241.2020" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1152/ajpheart.00241.2020" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/estimating_cbp_flow/" >
+      <img src="/publication/estimating_cbp_flow/featured_hu91c3ff6bb007d5ee36f65523fbb3b5f7_348787_150x0_resize_lanczos_2.png" alt="Estimating central blood pressure from aortic flow: development and assessment of algorithms" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/mental_stress_clinical/" >Influence of mental stress on the pulse wave features of photoplethysmograms</a>
+    </div>
+
+    
+    <a href="/publication/mental_stress_clinical/"  class="summary-link">
+      <div class="article-style">
+        An investigation into how photoplethysmogram pulse wave features change with mental stress.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Patrick Celka</span>, <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Bushra Farukh</span>, <span >
+      Phil Chowienczyk</span>, <span >
+      Jordi Alastruey</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/htl.2019.0001" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/pwdb/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1049/htl.2019.0001" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/mental_stress_clinical/" >
+      <img src="/publication/mental_stress_clinical/featured_hu6122d8dfda5939c7980dd2e69ec41a88_150314_150x0_resize_lanczos_2.png" alt="Influence of mental stress on the pulse wave features of photoplethysmograms" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/simulating_pulse_waves/" >Modeling arterial pulse waves in healthy aging: a database for in silico evaluation of hemodynamics and pulse wave indexes</a>
+    </div>
+
+    
+    <a href="/publication/simulating_pulse_waves/"  class="summary-link">
+      <div class="article-style">
+        Arterial pulse waves were simulated for healthy subjects aged 25-75, and the resulting database was made publicly available.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Jorge Mariscal-Harana</span>, <span >
+      Samuel Vennin</span>, <span >
+      Ye Li</span>, <span >
+      Phil Chowienczyk</span>, <span >
+      Jordi Alastruey</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://journals.physiology.org/doi/pdf/10.1152/ajpheart.00218.2019" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/simulating_pulse_waves/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/peterhcharlton/pwdb/wiki" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/pwdb/pwdb.html" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/pwdb/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1152/ajpheart.00218.2019" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://zenodo.org/record/5211457/files/Modelling%20arterial%20pulse%20waves%20in%20healthy%20ageing%20%28submitted%20manuscript%29.docx?download=1" target="_blank" rel="noopener">
+    
+    Submitted Manuscript
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/simulating_pulse_waves/" >
+      <img src="/publication/simulating_pulse_waves/featured_hu43e20d5c0be4c1cd48afc167f911129a_421679_150x0_resize_q75_lanczos.jpeg" alt="Modeling arterial pulse waves in healthy aging: a database for in silico evaluation of hemodynamics and pulse wave indexes" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/mental_stress_numerical/" >Assessing mental stress from the photoplethysmogram: a numerical study</a>
+    </div>
+
+    
+    <a href="/publication/mental_stress_numerical/"  class="summary-link">
+      <div class="article-style">
+        A study of techniques to assess mental stress from the photoplethysmogram, using simulated data.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Peter Charlton</span>, <span >
+      Patrick Celka</span>, <span >
+      Bushra Farukh</span>, <span >
+      Phil Chowienczyk</span>, <span >
+      Jordi Alastruey</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://iopscience.iop.org/article/10.1088/1361-6579/aabe6a/pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0967-3334/39/5/054001/2/mental_stress_numerical_study_analysis.m?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&amp;Expires=1646005784&amp;Signature=4lLKUQ2txKIDYYCN892UEI3UwRc%3D" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0967-3334/39/5/054001/2/numerical_mental_stress_data.mat?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&amp;Expires=1646005784&amp;Signature=xbZQ8YhQd9gC7iKlI9FVhqe35ww%3D" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/pwdb/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/vascular-ageing/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1088/1361-6579/aabe6a" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/mental_stress_numerical/" >
+      <img src="/publication/mental_stress_numerical/featured_hu97b1929142d5ea35eb5873041c937b7e_277711_150x0_resize_lanczos_2.png" alt="Assessing mental stress from the photoplethysmogram: a numerical study" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2021 Peter Charlton
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.4bba0826db6409c865d2e7b99039d6d0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

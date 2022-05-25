@@ -13,6 +13,24 @@
     </image>
     
     <item>
+      <title>Assessing vascular ageing</title>
+      <link>https://peterhcharlton.github.io/project/vascular-ageing/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/vascular-ageing/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to develop techniques to assess vascular ageing in daily life, providing information on the state of the blood vessels which could be used to personalise cardiovascular treatments.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Vascular age is an emerging indicator of cardiovascular health that is indicative of cardiovascular risk, and can prompt clinical intervention. The function and structure of blood vessels naturally degrade with age. This process, known as vascular aging, can ultimately result in damage to the heart, kidney, and brain. Indicators of vascular aging have been found to be predictive of cardiovascular morbidity and all-cause mortality, so may be useful for cardiovascular risk stratification. &lt;em&gt;Source: modified from &lt;a href=&#34;https://doi.org/10.1152/ajpheart.00392.2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Charlton P.H. et al.&lt;/a&gt;, under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to develop techniques to assess vascular ageing from the photoplethysmogram (PPG) - the pulse wave signal measured by smartwatches, activity trackers, and pulse oximeters.&lt;/p&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;p&gt;We are using both simulated and real-world data to design signal processing techniques to extract indicators of vascular ageing from the PPG, and to assess their potential clinical utility.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Initial results are reported in the publications listed below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Funded PhD position</title>
       <link>https://peterhcharlton.github.io/post/wd_armstrong_funding/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
@@ -23,6 +41,25 @@
 &lt;p&gt;The student will have opportunity to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. They will develop valuable skills in both engineering and clinical domains, supervised by researchers in clinical and engineering disciplines.&lt;/p&gt;
 &lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
 &lt;p&gt;For further details of the PhD, see the &lt;a href=&#34;https://www.jobs.cam.ac.uk/job/34803/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;advert&lt;/a&gt;, and contact Peter Charlton with any informal enquiries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open research in Biomedical Signal Processing</title>
+      <link>https://peterhcharlton.github.io/post/open_bsp/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/open_bsp/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;We will be running an interactive workshop on open research in Biomedical Signal Processing at the 2022 IEEE EMBC Conference in Glasgow, UK. Attendees of the conference are invited to register for the workshop through the &lt;a href=&#34;https://embc.embs.org/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;conference website&lt;/a&gt;. Non-attendees can still access the openly available resources.&lt;/p&gt;
+&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
+&lt;p&gt;The field of Biomedical Signal Processing stands to benefit greatly from open research. Reproducible studies, accompanied by code and data, allow others to build on the state-of-the-art and to quickly translate between academia and industry. Openly available tools are widely used. Indeed, the MIMIC Waveform Database (WFDB) was referenced in 125 EMBC papers between 2016 and 2020.&lt;/p&gt;
+&lt;p&gt;The aim of this interactive workshop is to provide participants with the knowledge, skills and tools required to conduct open research in the field of Biomedical Signal Processing. It will include a formal announcement of the release of the MIMIC-IV Waveform Database, and hands-on experience of using MIMIC data for cuffless blood pressure estimation.&lt;/p&gt;
+&lt;p&gt;Firstly, the workshop will provide participants with an understanding of publicly available datasets containing physiological signals, focusing on those on PhysioNet. This will include an overview of the MIMIC Waveform Database, including its clinical context, structure and formatting.&lt;/p&gt;
+&lt;p&gt;Secondly, the workshop will provide participants with essential skills for conducting high quality research with openly available data. Participants will work through interactive tutorials in the Python programming language using the WFDB Toolbox, a library of Biomedical Signal Processing tools. The tutorials will introduce key aspects of signal processing, including: data exploration, selection and extraction; pre-processing; feature extraction; modelling; analysis; and interpretation.&lt;/p&gt;
+&lt;p&gt;Finally, participants will work in groups on a cuffless blood pressure estimation case study. This will provide hands-on experience and opportunity for networking. Example code will be provided, and researchers will be on hand to answer questions.&lt;/p&gt;
+&lt;p&gt;The workshop will be led by researchers who develop MIMIC and the WFDB toolboxes, and who have a track-record in reproducible research. It will be of great interest to students, researchers, and engineers: bring a laptop to participate fully.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;The workshop is accompanied by openly available tutorials on Biomedical Signal Processing using the MIMIC Database, which are available &lt;a href=&#34;https://wfdb.github.io/mimic_wfdb_tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -1928,6 +1965,14 @@
     </item>
     
     <item>
+      <title>Relationship between fiducial points on the peripheral and central blood pressure waveforms: rate of rise of the central waveform is a determinant of peripheral systolic blood pressure</title>
+      <link>https://peterhcharlton.github.io/publication/li-2021/</link>
+      <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/li-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Estimating central blood pressure from aortic flow: development and assessment of algorithms</title>
       <link>https://peterhcharlton.github.io/publication/estimating_cbp_flow/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
@@ -2248,6 +2293,14 @@
 &lt;/ul&gt;
 &lt;p&gt;You will also need the &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewScreeningResults.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewScreeningResults.xlsx&lt;/a&gt; and &lt;a href=&#34;https://zenodo.org/record/3741463/files/BRReviewMethodologiesData.xlsx?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRReviewMethodologiesData.xlsx&lt;/a&gt; files to reproduce these results.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Influence of mental stress on the pulse wave features of photoplethysmograms</title>
+      <link>https://peterhcharlton.github.io/publication/mental_stress_clinical/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/mental_stress_clinical/</guid>
+      <description></description>
     </item>
     
     <item>
