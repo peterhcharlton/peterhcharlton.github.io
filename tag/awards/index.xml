@@ -5,12 +5,41 @@
     <link>https://peterhcharlton.github.io/tag/awards/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/awards/index.xml" rel="self" type="application/rss+xml" />
     <description>awards</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>awards</title>
       <link>https://peterhcharlton.github.io/tag/awards/</link>
     </image>
+    
+    <item>
+      <title>Funded PhD position</title>
+      <link>https://peterhcharlton.github.io/post/wd_armstrong_funding/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/wd_armstrong_funding/</guid>
+      <description>&lt;h2 id=&#34;phd-funding&#34;&gt;PhD Funding&lt;/h2&gt;
+&lt;p&gt;Peter Charlton and his colleagues have received funding for a PhD studentship on the topic of:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.jobs.cam.ac.uk/job/34803/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Using Artificial Intelligence to Enhance Screening for Atrial Fibrillation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The student will have opportunity to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. They will develop valuable skills in both engineering and clinical domains, supervised by researchers in clinical and engineering disciplines.&lt;/p&gt;
+&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
+&lt;p&gt;For further details of the PhD, see the &lt;a href=&#34;https://www.jobs.cam.ac.uk/job/34803/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;advert&lt;/a&gt;, and contact Peter Charlton with any informal enquiries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Short-term scientific mission</title>
+      <link>https://peterhcharlton.github.io/post/visit_to_ktu/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/visit_to_ktu/</guid>
+      <description>&lt;p&gt;Dr Peter Charlton spent 5 days at Kaunas University of Technology (KTU), hosted by Prof Vaidotas Marozas, Director of the Institute of Biomedical Engineering. Vaidotas and Peter are members of &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, a network for research into vascular ageing. They&amp;rsquo;ve previously collaborated on several projects including a &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review/&#34;&gt;VascAgeNet review&lt;/a&gt; of techniques to assess vascular age from the photoplethysmogram (the PPG - the pulse wave signal measured by smartwatches and activity trackers). During this short-term scientific mission, Vaidotas and Peter worked with colleagues at KTU towards harmonising photoplethysmography-based techniques for the assessment of vascular ageing.&lt;/p&gt;
+&lt;p&gt;First, Peter and colleagues worked on developing PPG signal processing techniques for the assessment of vascular ageing. Specific tasks included: designing approaches to estimate blood pressure from the PPG pulse wave signal; developing PPG signal quality assessment tools which could help ensure that vascular ageing assessments performed in daily life are reliable; and investigating how well PPG signal processing algorithms perform with different types of sensors. This involved sharing knowledge, data, and signal processing algorithms.&lt;/p&gt;
+&lt;p&gt;Second, Peter and colleagues discussed the designs of two ongoing clinical studies at KTU and at the University of Cambridge. They identified ways to harmonise the methods used in the two studies so that they provide similar datasets. It is hoped that this will enable the two groups to test the generalisability of findings across the two datasets.&lt;/p&gt;
+&lt;p&gt;Third, Peter and colleagues established a pipeline for simulating PPG signals containing artifact and arrhythmias. This involved using KTU&amp;rsquo;s tools for simulating PPG signals alongside data collected at the University of Cambridge. It is hoped that this will lead to the creation of a dataset of simulated PPG signals representative of those that would be measured from older adults in the community.&lt;/p&gt;
+&lt;p&gt;Peter received very warm hospitality from Vaidotas and his colleagues at KTU, sharing meals and sightseeing together. This helped Peter get to know his new colleagues well during a short space of time, establishing relationships which will enable them to continue to work together remotely.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;This short-term scientific mission was funded by &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, the European COST ACTION-Network for Research in Vascular Ageing under Grant CA18216 supported by the European Cooperation in Science and Technology (COST). See &lt;a href=&#34;https://vascagenet.eu/performed-stsms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for further details of short-term scientific missions funded by the network.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Academic Early Career Award</title>
@@ -24,6 +53,20 @@
 &lt;p&gt;Further details of the award are available on the Institute&amp;rsquo;s &lt;a href=&#34;https://www.ipem.ac.uk/NewsExternalAffairs/LatestNews/TabId/366/ArtMID/1595/ArticleID/612/Gold-Medal-and-Early-Career-awards-for-IPEM-members.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;further-resources&#34;&gt;Further resources&lt;/h2&gt;
 &lt;p&gt;As detailed on the Institute&amp;rsquo;s &lt;a href=&#34;https://www.ipem.ac.uk/AboutIPEM/PrizesandAwards.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;, individuals can apply for this award each year. Any potential applicants may be interested to read the content of my application &lt;a href=&#34;https://peterhcharlton.github.io/info/tips/past_applications/ipem_academic_early_career_award&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IEEE Engineering in Medicine and Biology Prize</title>
+      <link>https://peterhcharlton.github.io/post/ieee_paper_prize/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/ieee_paper_prize/</guid>
+      <description>&lt;h2 id=&#34;recognition-from-the-institute-of-electrical-and-electronic-engineering&#34;&gt;Recognition from the Institute of Electrical and Electronic Engineering&lt;/h2&gt;
+&lt;p&gt;In 2021, Peter Charlton and his colleagues received a Best Paper Award from the Institute of Electrical and Electronic Engineering. This award recognises the outstanding contribution made by their paper titled:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;Breathing rate estimation from the electrocardiogram and photoplethysmogram: a review&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The paper is often amongst the &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=4664312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;most popular papers&lt;/a&gt; published in the journal of &lt;em&gt;IEEE Reviews in Biomedical Engineering&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
+&lt;p&gt;The paper received the 3rd Prize in the 2021 IEEE Engineering in Medicine and Biology Prize Paper Award. To find out more, see &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;the paper&lt;/a&gt;, and the wider &lt;a href=&#34;https://peterhcharlton.github.io/project/rr-wearables/&#34;&gt;Project&lt;/a&gt; in which this paper sits, developing respiratory rate algorithms for wearables.&lt;/p&gt;
 </description>
     </item>
     

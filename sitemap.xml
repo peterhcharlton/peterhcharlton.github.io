@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/awards/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/wd_armstrong_funding/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/visit_to_ktu/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/bedtime_stories/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/engagement/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
     <lastmod>2022-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/best_practices_ppg/</loc>
     <lastmod>2022-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
     <lastmod>2022-04-29T00:00:00+00:00</lastmod>
@@ -19,9 +40,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/</loc>
     <lastmod>2022-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
     <lastmod>2022-04-26T13:00:00+00:00</lastmod>
@@ -76,9 +94,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/dataset/</loc>
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/photoplethysmogram/</loc>
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
@@ -236,9 +251,6 @@
     <loc>https://peterhcharlton.github.io/post/ipem_early_career_award/</loc>
     <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/awards/</loc>
-    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/post/ppg_book/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -256,6 +268,9 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/post/safer_wearables_testing/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/ieee_paper_prize/</loc>
+    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/photoplethysmography-in-a-minute-and-a-bit/</loc>
     <lastmod>2021-05-18T15:00:00+00:00</lastmod>
