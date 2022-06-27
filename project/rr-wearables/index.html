@@ -308,10 +308,10 @@
     
       <meta
         property="article:published_time"
-        content="2022-04-19T00:00:00&#43;00:00"
+        content="2022-06-27T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-04-19T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-06-27T00:00:00&#43;00:00">
   
 
   
@@ -341,8 +341,8 @@
     "https://peterhcharlton.github.io/project/rr-wearables/featured.jpeg"
   ],
   
-  "datePublished": "2022-04-19T00:00:00Z",
-  "dateModified": "2022-04-19T00:00:00Z",
+  "datePublished": "2022-06-27T00:00:00Z",
+  "dateModified": "2022-06-27T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -812,7 +812,7 @@
     
       
     
-    Apr 19, 2022
+    Jun 27, 2022
   </span>
   
 
@@ -928,6 +928,7 @@
     <div class="article-style">
       <h2 id="overview">Overview</h2>
 <p>The aim of the Respiratory Rate Estimation project is to develop and assess methods for automated respiratory rate (RR) monitoring. It consists of a series of studies of different algorithms for RR estimation from clinical data, complimented by the provision of publicly available datasets and resources.</p>
+<p><a href="https://www.youtube.com/watch?v=C3JPImVkouc" target="_blank" rel="noopener">This video</a> provides an introduction to the project.</p>
 <h2 id="background">Background</h2>
 <p>Respiratory rate is a widely used indicator of health, used by clinicians in conjunction with other parameters to assess the health of patients in hospitals, clinics, and the community. For instance, all acutely-ill hospital patients have their respiratory rate measured every few hours to facilitate early detection of clinical deteriorations (deteriorations in health). However, respiratory rate is usually measured manually, by counting the number of breaths a patient takes in a specific period of time, such as a minute. This can potentially be time-consuming and inaccurate.</p>
 <p>An alternative solution could be provided by developing an automated, electronic method for measuring respiratory rate using a device. To this end a plethora of algorithms have been proposed to estimate respiratory rate from several physiological signals, such as the electrocardiogram, photoplethysmogram, accelerometry signal, impedance pneumography signal, and so on. These signals can be easily measured, and in some scenarios are already measured for other purposes. Consequently, a robust, practicable algorithm for estimating respiratory rate from these signals could potentially benefit patients and healthcare providers alike.</p>
@@ -943,7 +944,8 @@
 <h3 id="developing-a-toolbox-of-algorithms">Developing a toolbox of algorithms</h3>
 <p>We implemented many of the RR algorithms described in the literature (which are now available in the <a href="#toolbox-of-rr-algorithms">toolbox</a> detailed below). We verified their performance on ideal, simulated data in <a href="/publication/rr_algs_assessment/">this publication</a>.</p>
 <h3 id="assessment">Assessment</h3>
-<p>The performance of RR algorithms was assessed on healthy volunteers in <a href="/publication/rr_algs_assessment/">this publication</a>, and on hospital patients in <a href="/publication/cont_resp_monitoring/">this publication</a>. Briefly, we found a wide variation in the performance of algorithms. Even the best algorithms can produce large errors, which would be clinically significant when compared to the normal RR range of 12-20 bpm.</p>
+<p>The performance of RR algorithms was assessed on young, healthy volunteers in <a href="/publication/rr_algs_assessment/">this publication</a>, and on hospital patients in <a href="/publication/cont_resp_monitoring/">this publication</a>. Briefly, we found a wide variation in the performance of algorithms. Even the best algorithms can produce large errors, which would be clinically significant when compared to the normal RR range of 12-20 bpm.</p>
+<p>In <a href="/publication/resp_sig_extraction/">this publication</a> we investigated technical and physiological factors which influence the performance of algorithms. This allowed us to provide recommendations on how to monitor RR using wearables.</p>
 <p>The potential clinical utility of algorithms for detecting acute deteriorations in ambulatory hospital patients was assessed in <a href="/publication/cont_resp_monitoring/">this publication</a>.</p>
 <h3 id="future-work">Future work</h3>
 <p>In the future, we would like to:</p>
@@ -953,11 +955,9 @@
 <li>Perform a comprehensive evaluation of algorithm performance across different settings</li>
 </ul>
 <h2 id="results">Results</h2>
-<p>Please see the publications below for results arising from the project.</p>
-<h2 id="introductory-video">Introductory Video</h2>
-<p><a href="https://www.youtube.com/watch?v=C3JPImVkouc" target="_blank" rel="noopener">This video</a> provides an introduction to the project.</p>
+<p>Please see the publications below for results arising from the project. In addition, <a href="https://www.youtube.com/watch?v=qlt80ne0t-A" target="_blank" rel="noopener">this video</a> provides an overview of the work conducted to date.</p>
 <h2 id="toolbox-of-rr-algorithms">Toolbox of RR Algorithms</h2>
-<p>Research into respiratory rate algorithms has been hindered by a lack of open-source algorithms. Consequently, one aim of this project is to provide open-source algorithms to facilitate future research. As stated in the licence accompanying the source code, the algorithms are not intended to be fit for any purpose. Instead, they act as an platform from which researchers can develop algorithms.</p>
+<p>Research into respiratory rate algorithms has been hindered by a lack of open-source algorithms. Consequently, one aim of this project is to provide open-source algorithms to facilitate future research. As stated in the licence accompanying the source code, the algorithms are not intended to be fit for any purpose. Instead, they act as a platform from which researchers can develop algorithms.</p>
 <p>The following resources are provided:</p>
 <ul>
 <li><a href="https://github.com/peterhcharlton/RRest/archive/master.zip" target="_blank" rel="noopener">Algorithm Source Code</a>: The latest version of the toolbox of algorithms.</li>
