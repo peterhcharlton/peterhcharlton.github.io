@@ -17,11 +17,25 @@
       <link>https://peterhcharlton.github.io/post/wd_armstrong_funding/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/wd_armstrong_funding/</guid>
-      <description>&lt;h2 id=&#34;phd-funding&#34;&gt;PhD Funding&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Peter Charlton and his colleagues have received funding for a PhD studentship on the topic of &amp;lsquo;Using Artificial Intelligence to Enhance Screening for Atrial Fibrillation&amp;rsquo;.&lt;/p&gt;
 &lt;p&gt;The student will have opportunity to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. They will develop valuable skills in both engineering and clinical domains, supervised by researchers in clinical and engineering disciplines.&lt;/p&gt;
-&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
 &lt;p&gt;The closing date has now passed for applications.&lt;/p&gt;
+&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
+&lt;p&gt;This is a 3.5-year studentship in the application of Engineering in Medicine funded by the W.D Armstrong Trust Fund at the University of Cambridge.&lt;/p&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;Atrial fibrillation (AF) is a heart arrhythmia which is associated with a fivefold increase in risk of stroke, and yet is undiagnosed in 425,000 people in England. We are investigating whether screening for AF could reduce the incidence of stroke in the SAFER Trial. During screening, patients use a handheld device to record their electrocardiogram (ECG) four times a day for three weeks. This results in a large number of ECG recordings which must be manually reviewed by clinicians to diagnose AF. This process is costly and time-consuming.&lt;/p&gt;
+&lt;h3 id=&#34;project&#34;&gt;Project&lt;/h3&gt;
+&lt;p&gt;The aim of this project is to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. The objectives are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To develop a model to prioritise ECGs for review using machine learning and signal processing;&lt;/li&gt;
+&lt;li&gt;To develop visualisation techniques to aid ECG interpretation using explainable artificial intelligence; and&lt;/li&gt;
+&lt;li&gt;To assess the acceptability and performance of the resulting clinical decision support tool in collaboration with cardiologists.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;research-environment&#34;&gt;Research Environment&lt;/h3&gt;
+&lt;p&gt;The PhD studentship will be hosted at the &lt;a href=&#34;https://www.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Public Health and Primary Care&lt;/a&gt;. This department is running the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;, and has a labelled dataset of 100,000s of ECGs recorded in this real-world AF screening programme. The PhD will be co-supervised by Dr Peter Charlton and Prof Jonathan Mant from this department, and Dr Elena Punskaya from the Department of Engineering. The student will be encouraged to integrate into the SAFER Research Team, and to work with our academic, clinical and industrial partners to ensure their work could have real-world impact. Further details of the wider research project in which this PhD sits are available &lt;a href=&#34;https://peterhcharlton.github.io/project/screening-af/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;value-to-the-student&#34;&gt;Value to the Student&lt;/h3&gt;
+&lt;p&gt;The student will develop valuable skills in both engineering and clinical domains: machine learning, explainable artificial intelligence, signal processing, and the analysis of clinical trial data. The multi-disciplinary supervision provided will equip the student for a future career at the interface of engineering and medicine.&lt;/p&gt;
 </description>
     </item>
     

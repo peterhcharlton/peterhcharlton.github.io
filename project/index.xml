@@ -5,12 +5,71 @@
     <link>https://peterhcharlton.github.io/project/</link>
       <atom:link href="https://peterhcharlton.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://peterhcharlton.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Screening for atrial fibrillation</title>
+      <link>https://peterhcharlton.github.io/project/screening-af/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/screening-af/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this project we are using signal processing and machine learning techniques to develop strategies to screen for atrial fibrillation (AF) which are both effective (ensuring patients with AF are correctly identified), and cost-effective (minimising the clinical workload involved in screening).&lt;/p&gt;
+&lt;p&gt;A commonly used approach to screen for AF consists of asking subjects to use a handheld electrocardiogram (ECG) recorder to record a single-lead ECG for 30 seconds. Typically, they are asked to do this several times a day for several weeks, so that even infrequent paroxysmal AF episodes can be identified. This approach is being used in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-zenicor-ekg-device-a-handheld-device-for-recording-single-lead-ecgs-sourcehttpszenicorcompress-material&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;**Zenicor-EKG device**: A handheld device for recording single-lead ECGs ([source](https://zenicor.com/press-material/)).&#34; srcset=&#34;
+               /project/screening-af/zenicor_ecg_hua78d657b908823abd1135af278a78344_123863_0b8b2809ab05c8d7fa7a8a22fa626d89.jpeg 400w,
+               /project/screening-af/zenicor_ecg_hua78d657b908823abd1135af278a78344_123863_964a71ba1452bcf202b3cc3f6767e094.jpeg 760w,
+               /project/screening-af/zenicor_ecg_hua78d657b908823abd1135af278a78344_123863_1200x1200_fit_q75_lanczos.jpeg 1200w&#34;
+               src=&#34;https://peterhcharlton.github.io/project/screening-af/zenicor_ecg_hua78d657b908823abd1135af278a78344_123863_0b8b2809ab05c8d7fa7a8a22fa626d89.jpeg&#34;
+               width=&#34;760&#34;
+               height=&#34;464&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Zenicor-EKG device&lt;/strong&gt;: A handheld device for recording single-lead ECGs (&lt;a href=&#34;https://zenicor.com/press-material/&#34;&gt;source&lt;/a&gt;).
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Alternative approaches to screen for AF using wearables are being explored in the &lt;a href=&#34;https://peterhcharlton.github.io/project/safer-wearables&#34;&gt;SAFER Wearables Study&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Atrial fibrillation (AF) is a heart arrhythmia which is associated with a fivefold increase in risk of stroke, and yet is undiagnosed in 425,000 people in England. We are investigating whether screening for AF could reduce the incidence of stroke in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;. During screening, patients use a handheld device to record their electrocardiogram (ECG) four times a day for three weeks. This results in a large number of ECG recordings, and it isn&amp;rsquo;t feasible to send all the ECGs for clinical review, as this would be highly costly and time-consuming. Therefore, there is a need to optimise strategies to screen for AF to ensure that subjects with AF are correctly identified, whilst minimising the number of ECGs sent for review.&lt;/p&gt;
+&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to optimise strategies to screen for atrial fibrillation.&lt;/p&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;p&gt;We are using both in-house data and publicly available data to design ECG signal processing algorithms which extract parameters such as inter-beat intervals from ECGs. We are using real-world screening data (from the SAFER Trial) to develop strategies to identify ECGs which exhibit possible AF, and therefore require clinical review. We are using the same data to investigate the effectiveness and cost-effectiveness of such strategies.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Work is ongoing towards the following objectives:&lt;/p&gt;
+&lt;h3 id=&#34;1-selecting-ecgs-for-review&#34;&gt;1. Selecting ECGs for review&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Objective:&lt;/em&gt; To determine how best to select which ECGs should be clinically reviewed, using existing ECG analysis algorithms and novel approaches.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Progress:&lt;/em&gt; To date, we have published on the potential benefits of excluding low quality ECGs from the review process in &lt;a href=&#34;https://peterhcharlton.github.io/publication/reviewing_ecgs/&#34;&gt;this publication&lt;/a&gt;. Work is ongoing to assess how best to use existing ECG analysis algorithms to select which ECGs to review, aiming to send as few ECGs for review as possible (to minimise reviewing workload) whilst maintaining a high sensitivity to ECGs exhibiting AF. We are also comparing the characteristics of ECGs in AF and normal sinus rhythm to understand how an algorithm could best discriminate between these two states.&lt;/p&gt;
+&lt;h3 id=&#34;2-prioritising-ecgs-for-review&#34;&gt;2. Prioritising ECGs for review&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Objective:&lt;/em&gt; To develop a model to prioritise ECGs for review based on their probability of exhibiting AF, using signal processing and machine learning.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Progress:&lt;/em&gt; To date, we have developed a simple model which uses RR-intervals to estimate the probability of an ECG containing AF (in &lt;a href=&#34;https://peterhcharlton.github.io/publication/prioritising_ecgs/&#34;&gt;this publication&lt;/a&gt;). Metrics describing RR-intervals (such as their mean and standard deviation) were used as inputs to a logistic regression model, which outputted a probability of AF. Work is ongoing to incorporate additional inputs to the model, and to use more complex modelling methodology.&lt;/p&gt;
+&lt;h3 id=&#34;3-visualising-ecgs-for-review&#34;&gt;3. Visualising ECGs for review&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Objective:&lt;/em&gt; To develop visualisation techniques to aid ECG interpretation using explainable artificial intelligence.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Progress:&lt;/em&gt; This will be a key task in &lt;a href=&#34;https://peterhcharlton.github.io/post/wd_armstrong_funding/&#34;&gt;this PhD&lt;/a&gt;. Briefly, we will examine different techniques for filtering ECGs to eliminate noise whilst maintaining physiological content, and we will look at approaches for annotating ECGs to explain to reviewers why they have been sent for review.&lt;/p&gt;
+&lt;h3 id=&#34;4-optimising-the-manual-review-process&#34;&gt;4. Optimising the manual review process&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Objective:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Progress:&lt;/em&gt; Different approaches for manually reviewing ECGs were investigated in &lt;a href=&#34;https://peterhcharlton.github.io/publication/reviewing_ecgs/&#34;&gt;this publication&lt;/a&gt;, including the impact on workload of sending ECGs for review by one or two cardiologists. Ongoing work is further investigating the benefits and disadvantages of sending ECGs for review by multiple cardiologists. We are aiming to develop tools to help train reviewers of single-lead ECGs.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Assessing vascular ageing</title>
@@ -164,24 +223,6 @@
     </item>
     
     <item>
-      <title>Screening for atrial fibrillation</title>
-      <link>https://peterhcharlton.github.io/project/screening-af/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/project/screening-af/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;In this project we are using signal processing and machine learning techniques to develop strategies to screen for atrial fibrillation (AF) which are both effective (ensuring patients with AF are correctly identified), and cost-effective (minimising the clinical workload involved in screening).&lt;/p&gt;
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Atrial fibrillation (AF) is a heart arrhythmia which is associated with a fivefold increase in risk of stroke, and yet is undiagnosed in 425,000 people in England. We are investigating whether screening for AF could reduce the incidence of stroke in the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;. During screening, patients use a handheld device to record their electrocardiogram (ECG) four times a day for three weeks. This results in a large number of ECG recordings which must be manually reviewed by clinicians to diagnose AF. This process is costly and time-consuming.&lt;/p&gt;
-&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
-&lt;p&gt;The aim of this project is to optimise strategies to screen for atrial fibrillation.&lt;/p&gt;
-&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
-&lt;p&gt;We are using both in-house data and publicly available data to design signal processing techniques to extract parameters from ECG signals, such as inter-beat intervals. We are using real-world screening data (from the SAFER Trial) to develop strategies to identify ECGs which exhibit possible AF, and therefore require clinical review. We are using the same data to investigate the effectiveness and cost-effectiveness of such strategies.&lt;/p&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;Initial results are reported in the publications listed below.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>SAFER Wearables Study</title>
       <link>https://peterhcharlton.github.io/project/safer-wearables/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
@@ -196,6 +237,12 @@
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Atrial fibrillation (AF) is an irregular heart rhythm which causes a five-fold increase in the risk of stroke. Approximately one in ten people aged over 70 have AF. If AF is recognised then the risk of stroke can be reduced by taking tablets regularly. AF can be difficult to recognise as it can occur without symptoms and only intermittently. Consequently, AF is not recognised in many people, meaning they live with an increased risk of stroke. Therefore, it is important to find ways to identify AF more reliably.&lt;/p&gt;
 &lt;p&gt;Recently, wearable devices have been developed which could be useful for identifying AF. Several devices can monitor heart activity in daily life, including wristbands, smart watches and chest patch monitors. The aim of this study is to assess the acceptability and performance of wearables for use in AF screening in older adults.&lt;/p&gt;
+&lt;figure  id=&#34;figure-wearable-devices-a-range-of-wearable-devices-could-potentially-be-used-in-af-screening&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://peterhcharlton.github.io/post/safer_wearables_testing/featured.png&#34; alt=&#34;**Wearable devices**: A range of wearable devices could potentially be used in AF screening.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;strong&gt;Wearable devices&lt;/strong&gt;: A range of wearable devices could potentially be used in AF screening.
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
 &lt;p&gt;The primary objective is to determine the feasibility of measuring inter-beat-intervals using a wristband.&lt;/p&gt;
 &lt;p&gt;The secondary objectives are:&lt;/p&gt;
