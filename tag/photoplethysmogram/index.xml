@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmogram/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmogram/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmogram</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmogram</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Photoplethysmography Datasets</title>
       <link>https://peterhcharlton.github.io/post/ppg_datasets/</link>
-      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/ppg_datasets/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This table provides a list of publicly available datasets containing photoplethysmogram signals. Further details are available in: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
@@ -177,6 +177,13 @@
 &lt;td&gt;22&lt;/td&gt;
 &lt;td&gt;ECG, multiwavelength PPG&lt;/td&gt;
 &lt;td&gt;Finger recordings from healthy subjects during sitting, walking and running.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Welltory/welltory-ppg-dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Welltory-PPG-dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.3390/s21206798&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;RR intervals&lt;/td&gt;
+&lt;td&gt;Smartphone recordings acquired from the index finger in contact with the camera.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.21979/N9/42BBFA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wearable and Clinical Devices Dataset&lt;/a&gt;&lt;/td&gt;

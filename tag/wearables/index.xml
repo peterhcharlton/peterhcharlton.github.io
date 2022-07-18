@@ -23,87 +23,9 @@
     </item>
     
     <item>
-      <title>Respiratory rate algorithms for wearables</title>
-      <link>https://peterhcharlton.github.io/project/rr-wearables/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/project/rr-wearables/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;The aim of the Respiratory Rate Estimation project is to develop and assess methods for automated respiratory rate (RR) monitoring. It consists of a series of studies of different algorithms for RR estimation from clinical data, complimented by the provision of publicly available datasets and resources.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=C3JPImVkouc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This video&lt;/a&gt; provides an introduction to the project.&lt;/p&gt;
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Respiratory rate is a widely used indicator of health, used by clinicians in conjunction with other parameters to assess the health of patients in hospitals, clinics, and the community. For instance, all acutely-ill hospital patients have their respiratory rate measured every few hours to facilitate early detection of clinical deteriorations (deteriorations in health). However, respiratory rate is usually measured manually, by counting the number of breaths a patient takes in a specific period of time, such as a minute. This can potentially be time-consuming and inaccurate.&lt;/p&gt;
-&lt;p&gt;An alternative solution could be provided by developing an automated, electronic method for measuring respiratory rate using a device. To this end a plethora of algorithms have been proposed to estimate respiratory rate from several physiological signals, such as the electrocardiogram, photoplethysmogram, accelerometry signal, impedance pneumography signal, and so on. These signals can be easily measured, and in some scenarios are already measured for other purposes. Consequently, a robust, practicable algorithm for estimating respiratory rate from these signals could potentially benefit patients and healthcare providers alike.&lt;/p&gt;
-&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
-&lt;h3 id=&#34;understanding-the-state-of-the-art&#34;&gt;Understanding the state-of-the-art&lt;/h3&gt;
-&lt;p&gt;A &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;literature review&lt;/a&gt; was conducted to understand the state-of-the-art on algorithms to estimate RR from the ECG and PPG. Briefly, we found that RR algorithms had been described in over 196 publications. We also found that previous studies assessing algorithm performance focused mostly on developing novel algorithms, rather than comparing algorithms. In addition, we found that the majority of previous studies of algorithm performance used data from young adults and healthy subjects, rather than assessing performance in our target setting of older, unhealthy adults.&lt;/p&gt;
-&lt;p&gt;This helped refine our research questions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;How well do respiratory rate algorithms perform in the target setting?&lt;/li&gt;
-&lt;li&gt;Which algorithm performs best?&lt;/li&gt;
-&lt;li&gt;Is it clinically useful?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;developing-a-toolbox-of-algorithms&#34;&gt;Developing a toolbox of algorithms&lt;/h3&gt;
-&lt;p&gt;We implemented many of the RR algorithms described in the literature (which are now available in the &lt;a href=&#34;#toolbox-of-rr-algorithms&#34;&gt;toolbox&lt;/a&gt; detailed below). We verified their performance on ideal, simulated data in &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_algs_assessment/&#34;&gt;this publication&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;assessment&#34;&gt;Assessment&lt;/h3&gt;
-&lt;p&gt;The performance of RR algorithms was assessed on young, healthy volunteers in &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_algs_assessment/&#34;&gt;this publication&lt;/a&gt;, and on hospital patients in &lt;a href=&#34;https://peterhcharlton.github.io/publication/cont_resp_monitoring/&#34;&gt;this publication&lt;/a&gt;. Briefly, we found a wide variation in the performance of algorithms. Even the best algorithms can produce large errors, which would be clinically significant when compared to the normal RR range of 12-20 bpm.&lt;/p&gt;
-&lt;p&gt;In &lt;a href=&#34;https://peterhcharlton.github.io/publication/resp_sig_extraction/&#34;&gt;this publication&lt;/a&gt; we investigated technical and physiological factors which influence the performance of algorithms. This allowed us to provide recommendations on how to monitor RR using wearables.&lt;/p&gt;
-&lt;p&gt;The potential clinical utility of algorithms for detecting acute deteriorations in ambulatory hospital patients was assessed in &lt;a href=&#34;https://peterhcharlton.github.io/publication/cont_resp_monitoring/&#34;&gt;this publication&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;future-work&#34;&gt;Future work&lt;/h3&gt;
-&lt;p&gt;In the future, we would like to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Implement novel techniques designed to handle lower quality signals&lt;/li&gt;
-&lt;li&gt;Assess the performance of algorithms in daily life&lt;/li&gt;
-&lt;li&gt;Perform a comprehensive evaluation of algorithm performance across different settings&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;Please see the publications below for results arising from the project. In addition, &lt;a href=&#34;https://www.youtube.com/watch?v=qlt80ne0t-A&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this video&lt;/a&gt; provides an overview of the work conducted to date.&lt;/p&gt;
-&lt;h2 id=&#34;toolbox-of-rr-algorithms&#34;&gt;Toolbox of RR Algorithms&lt;/h2&gt;
-&lt;p&gt;Research into respiratory rate algorithms has been hindered by a lack of open-source algorithms. Consequently, one aim of this project is to provide open-source algorithms to facilitate future research. As stated in the licence accompanying the source code, the algorithms are not intended to be fit for any purpose. Instead, they act as a platform from which researchers can develop algorithms.&lt;/p&gt;
-&lt;p&gt;The following resources are provided:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/RRest/archive/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Algorithm Source Code&lt;/a&gt;: The latest version of the toolbox of algorithms.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/RRest/wiki&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;User Manual&lt;/a&gt;: A helpful resource for new users of the toolbox.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/RRest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Repository&lt;/a&gt;: A repository of all versions of the toolbox, past and present.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wearable photoplethysmography for health monitoring</title>
-      <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</link>
-      <pubDate>Tue, 26 Apr 2022 13:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wearable photoplethysmography for health monitoring</title>
-      <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</link>
-      <pubDate>Tue, 12 Apr 2022 12:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing software to monitor respiratory rate using wearable sensors</title>
-      <link>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</link>
-      <pubDate>Fri, 08 Apr 2022 10:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &amp;ndash;&amp;gt;&lt;/p&gt;
-&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
-&lt;!--
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Photoplethysmography Datasets</title>
       <link>https://peterhcharlton.github.io/post/ppg_datasets/</link>
-      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/ppg_datasets/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This table provides a list of publicly available datasets containing photoplethysmogram signals. Further details are available in: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
@@ -267,6 +189,13 @@
 &lt;td&gt;Finger recordings from healthy subjects during sitting, walking and running.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Welltory/welltory-ppg-dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Welltory-PPG-dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.3390/s21206798&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;RR intervals&lt;/td&gt;
+&lt;td&gt;Smartphone recordings acquired from the index finger in contact with the camera.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.21979/N9/42BBFA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wearable and Clinical Devices Dataset&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.3390/s20236778&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;18&lt;/td&gt;
@@ -382,6 +311,84 @@
 &lt;p&gt;Version: 15 March 2022&lt;/p&gt;
 &lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
 &lt;p&gt;For further information on photoplethysmography, please see the following review paper: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Respiratory rate algorithms for wearables</title>
+      <link>https://peterhcharlton.github.io/project/rr-wearables/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/rr-wearables/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The aim of the Respiratory Rate Estimation project is to develop and assess methods for automated respiratory rate (RR) monitoring. It consists of a series of studies of different algorithms for RR estimation from clinical data, complimented by the provision of publicly available datasets and resources.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=C3JPImVkouc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This video&lt;/a&gt; provides an introduction to the project.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Respiratory rate is a widely used indicator of health, used by clinicians in conjunction with other parameters to assess the health of patients in hospitals, clinics, and the community. For instance, all acutely-ill hospital patients have their respiratory rate measured every few hours to facilitate early detection of clinical deteriorations (deteriorations in health). However, respiratory rate is usually measured manually, by counting the number of breaths a patient takes in a specific period of time, such as a minute. This can potentially be time-consuming and inaccurate.&lt;/p&gt;
+&lt;p&gt;An alternative solution could be provided by developing an automated, electronic method for measuring respiratory rate using a device. To this end a plethora of algorithms have been proposed to estimate respiratory rate from several physiological signals, such as the electrocardiogram, photoplethysmogram, accelerometry signal, impedance pneumography signal, and so on. These signals can be easily measured, and in some scenarios are already measured for other purposes. Consequently, a robust, practicable algorithm for estimating respiratory rate from these signals could potentially benefit patients and healthcare providers alike.&lt;/p&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;h3 id=&#34;understanding-the-state-of-the-art&#34;&gt;Understanding the state-of-the-art&lt;/h3&gt;
+&lt;p&gt;A &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;literature review&lt;/a&gt; was conducted to understand the state-of-the-art on algorithms to estimate RR from the ECG and PPG. Briefly, we found that RR algorithms had been described in over 196 publications. We also found that previous studies assessing algorithm performance focused mostly on developing novel algorithms, rather than comparing algorithms. In addition, we found that the majority of previous studies of algorithm performance used data from young adults and healthy subjects, rather than assessing performance in our target setting of older, unhealthy adults.&lt;/p&gt;
+&lt;p&gt;This helped refine our research questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How well do respiratory rate algorithms perform in the target setting?&lt;/li&gt;
+&lt;li&gt;Which algorithm performs best?&lt;/li&gt;
+&lt;li&gt;Is it clinically useful?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;developing-a-toolbox-of-algorithms&#34;&gt;Developing a toolbox of algorithms&lt;/h3&gt;
+&lt;p&gt;We implemented many of the RR algorithms described in the literature (which are now available in the &lt;a href=&#34;#toolbox-of-rr-algorithms&#34;&gt;toolbox&lt;/a&gt; detailed below). We verified their performance on ideal, simulated data in &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_algs_assessment/&#34;&gt;this publication&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;assessment&#34;&gt;Assessment&lt;/h3&gt;
+&lt;p&gt;The performance of RR algorithms was assessed on young, healthy volunteers in &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_algs_assessment/&#34;&gt;this publication&lt;/a&gt;, and on hospital patients in &lt;a href=&#34;https://peterhcharlton.github.io/publication/cont_resp_monitoring/&#34;&gt;this publication&lt;/a&gt;. Briefly, we found a wide variation in the performance of algorithms. Even the best algorithms can produce large errors, which would be clinically significant when compared to the normal RR range of 12-20 bpm.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://peterhcharlton.github.io/publication/resp_sig_extraction/&#34;&gt;this publication&lt;/a&gt; we investigated technical and physiological factors which influence the performance of algorithms. This allowed us to provide recommendations on how to monitor RR using wearables.&lt;/p&gt;
+&lt;p&gt;The potential clinical utility of algorithms for detecting acute deteriorations in ambulatory hospital patients was assessed in &lt;a href=&#34;https://peterhcharlton.github.io/publication/cont_resp_monitoring/&#34;&gt;this publication&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;future-work&#34;&gt;Future work&lt;/h3&gt;
+&lt;p&gt;In the future, we would like to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement novel techniques designed to handle lower quality signals&lt;/li&gt;
+&lt;li&gt;Assess the performance of algorithms in daily life&lt;/li&gt;
+&lt;li&gt;Perform a comprehensive evaluation of algorithm performance across different settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Please see the publications below for results arising from the project. In addition, &lt;a href=&#34;https://www.youtube.com/watch?v=qlt80ne0t-A&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this video&lt;/a&gt; provides an overview of the work conducted to date.&lt;/p&gt;
+&lt;h2 id=&#34;toolbox-of-rr-algorithms&#34;&gt;Toolbox of RR Algorithms&lt;/h2&gt;
+&lt;p&gt;Research into respiratory rate algorithms has been hindered by a lack of open-source algorithms. Consequently, one aim of this project is to provide open-source algorithms to facilitate future research. As stated in the licence accompanying the source code, the algorithms are not intended to be fit for any purpose. Instead, they act as a platform from which researchers can develop algorithms.&lt;/p&gt;
+&lt;p&gt;The following resources are provided:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/RRest/archive/master.zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Algorithm Source Code&lt;/a&gt;: The latest version of the toolbox of algorithms.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/RRest/wiki&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;User Manual&lt;/a&gt;: A helpful resource for new users of the toolbox.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/peterhcharlton/RRest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Repository&lt;/a&gt;: A repository of all versions of the toolbox, past and present.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wearable photoplethysmography for health monitoring</title>
+      <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</link>
+      <pubDate>Tue, 26 Apr 2022 13:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearable photoplethysmography for health monitoring</title>
+      <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</link>
+      <pubDate>Tue, 12 Apr 2022 12:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing software to monitor respiratory rate using wearable sensors</title>
+      <link>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</link>
+      <pubDate>Fri, 08 Apr 2022 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!-- Click on the **Slides** button above to view the built-in slides feature. --&gt;
+&lt;!--
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
 </description>
     </item>
     

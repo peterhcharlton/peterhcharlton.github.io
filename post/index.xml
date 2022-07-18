@@ -28,89 +28,9 @@
     </item>
     
     <item>
-      <title>Funded PhD position</title>
-      <link>https://peterhcharlton.github.io/post/wd_armstrong_funding/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/post/wd_armstrong_funding/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Peter Charlton and his colleagues have received funding for a PhD studentship on the topic of &amp;lsquo;Using Artificial Intelligence to Enhance Screening for Atrial Fibrillation&amp;rsquo;.&lt;/p&gt;
-&lt;p&gt;The student will have opportunity to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. They will develop valuable skills in both engineering and clinical domains, supervised by researchers in clinical and engineering disciplines.&lt;/p&gt;
-&lt;p&gt;The closing date has now passed for applications.&lt;/p&gt;
-&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
-&lt;p&gt;This is a 3.5-year studentship in the application of Engineering in Medicine funded by the W.D Armstrong Trust Fund at the University of Cambridge.&lt;/p&gt;
-&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;Atrial fibrillation (AF) is a heart arrhythmia which is associated with a fivefold increase in risk of stroke, and yet is undiagnosed in 425,000 people in England. We are investigating whether screening for AF could reduce the incidence of stroke in the SAFER Trial. During screening, patients use a handheld device to record their electrocardiogram (ECG) four times a day for three weeks. This results in a large number of ECG recordings which must be manually reviewed by clinicians to diagnose AF. This process is costly and time-consuming.&lt;/p&gt;
-&lt;h3 id=&#34;project&#34;&gt;Project&lt;/h3&gt;
-&lt;p&gt;The aim of this project is to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. The objectives are:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;To develop a model to prioritise ECGs for review using machine learning and signal processing;&lt;/li&gt;
-&lt;li&gt;To develop visualisation techniques to aid ECG interpretation using explainable artificial intelligence; and&lt;/li&gt;
-&lt;li&gt;To assess the acceptability and performance of the resulting clinical decision support tool in collaboration with cardiologists.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;research-environment&#34;&gt;Research Environment&lt;/h3&gt;
-&lt;p&gt;The PhD studentship will be hosted at the &lt;a href=&#34;https://www.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Public Health and Primary Care&lt;/a&gt;. This department is running the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;, and has a labelled dataset of 100,000s of ECGs recorded in this real-world AF screening programme. The PhD will be co-supervised by Dr Peter Charlton and Prof Jonathan Mant from this department, and Dr Elena Punskaya from the Department of Engineering. The student will be encouraged to integrate into the SAFER Research Team, and to work with our academic, clinical and industrial partners to ensure their work could have real-world impact. Further details of the wider research project in which this PhD sits are available &lt;a href=&#34;https://peterhcharlton.github.io/project/screening-af/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;value-to-the-student&#34;&gt;Value to the Student&lt;/h3&gt;
-&lt;p&gt;The student will develop valuable skills in both engineering and clinical domains: machine learning, explainable artificial intelligence, signal processing, and the analysis of clinical trial data. The multi-disciplinary supervision provided will equip the student for a future career at the interface of engineering and medicine.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Open research in Biomedical Signal Processing</title>
-      <link>https://peterhcharlton.github.io/post/open_bsp/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/post/open_bsp/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;We will be running an interactive workshop on open research in Biomedical Signal Processing at the 2022 IEEE EMBC Conference in Glasgow, UK. Attendees of the conference are invited to register for the workshop through the &lt;a href=&#34;https://embc.embs.org/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;conference website&lt;/a&gt;. Non-attendees can still access the openly available resources.&lt;/p&gt;
-&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
-&lt;p&gt;The field of Biomedical Signal Processing stands to benefit greatly from open research. Reproducible studies, accompanied by code and data, allow others to build on the state-of-the-art and to quickly translate between academia and industry. Openly available tools are widely used. Indeed, the MIMIC Waveform Database (WFDB) was referenced in 125 EMBC papers between 2016 and 2020.&lt;/p&gt;
-&lt;p&gt;The aim of this interactive workshop is to provide participants with the knowledge, skills and tools required to conduct open research in the field of Biomedical Signal Processing. It will include a formal announcement of the release of the MIMIC-IV Waveform Database, and hands-on experience of using MIMIC data for cuffless blood pressure estimation.&lt;/p&gt;
-&lt;p&gt;Firstly, the workshop will provide participants with an understanding of publicly available datasets containing physiological signals, focusing on those on PhysioNet. This will include an overview of the MIMIC Waveform Database, including its clinical context, structure and formatting.&lt;/p&gt;
-&lt;p&gt;Secondly, the workshop will provide participants with essential skills for conducting high quality research with openly available data. Participants will work through interactive tutorials in the Python programming language using the WFDB Toolbox, a library of Biomedical Signal Processing tools. The tutorials will introduce key aspects of signal processing, including: data exploration, selection and extraction; pre-processing; feature extraction; modelling; analysis; and interpretation.&lt;/p&gt;
-&lt;p&gt;Finally, participants will work in groups on a cuffless blood pressure estimation case study. This will provide hands-on experience and opportunity for networking. Example code will be provided, and researchers will be on hand to answer questions.&lt;/p&gt;
-&lt;p&gt;The workshop will be led by researchers who develop MIMIC and the WFDB toolboxes, and who have a track-record in reproducible research. It will be of great interest to students, researchers, and engineers: bring a laptop to participate fully.&lt;/p&gt;
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-&lt;p&gt;The workshop is accompanied by openly available tutorials on Biomedical Signal Processing using the MIMIC Database, which are available &lt;a href=&#34;https://wfdb.github.io/mimic_wfdb_tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Short-term scientific mission</title>
-      <link>https://peterhcharlton.github.io/post/visit_to_ktu/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/post/visit_to_ktu/</guid>
-      <description>&lt;p&gt;Dr Peter Charlton spent 5 days at Kaunas University of Technology (KTU), hosted by Prof Vaidotas Marozas, Director of the Institute of Biomedical Engineering. Vaidotas and Peter are members of &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, a network for research into vascular ageing. They&amp;rsquo;ve previously collaborated on several projects including a &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review/&#34;&gt;VascAgeNet review&lt;/a&gt; of techniques to assess vascular age from the photoplethysmogram (the PPG - the pulse wave signal measured by smartwatches and activity trackers). During this short-term scientific mission, Vaidotas and Peter worked with colleagues at KTU towards harmonising photoplethysmography-based techniques for the assessment of vascular ageing.&lt;/p&gt;
-&lt;p&gt;First, Peter and colleagues worked on developing PPG signal processing techniques for the assessment of vascular ageing. Specific tasks included: designing approaches to estimate blood pressure from the PPG pulse wave signal; developing PPG signal quality assessment tools which could help ensure that vascular ageing assessments performed in daily life are reliable; and investigating how well PPG signal processing algorithms perform with different types of sensors. This involved sharing knowledge, data, and signal processing algorithms.&lt;/p&gt;
-&lt;p&gt;Second, Peter and colleagues discussed the designs of two ongoing clinical studies at KTU and at the University of Cambridge. They identified ways to harmonise the methods used in the two studies so that they provide similar datasets. It is hoped that this will enable the two groups to test the generalisability of findings across the two datasets.&lt;/p&gt;
-&lt;p&gt;Third, Peter and colleagues established a pipeline for simulating PPG signals containing artifact and arrhythmias. This involved using KTU&amp;rsquo;s tools for simulating PPG signals alongside data collected at the University of Cambridge. It is hoped that this will lead to the creation of a dataset of simulated PPG signals representative of those that would be measured from older adults in the community.&lt;/p&gt;
-&lt;p&gt;Peter received very warm hospitality from Vaidotas and his colleagues at KTU, sharing meals and sightseeing together. This helped Peter get to know his new colleagues well during a short space of time, establishing relationships which will enable them to continue to work together remotely.&lt;/p&gt;
-&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
-&lt;p&gt;This short-term scientific mission was funded by &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, the European COST ACTION-Network for Research in Vascular Ageing under Grant CA18216 supported by the European Cooperation in Science and Technology (COST). See &lt;a href=&#34;https://vascagenet.eu/performed-stsms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for further details of short-term scientific missions funded by the network.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bedtime stories for very young engineers</title>
-      <link>https://peterhcharlton.github.io/post/bedtime_stories/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/post/bedtime_stories/</guid>
-      <description>&lt;h2 id=&#34;turning-toddlers-onto-engineering-through-storytelling&#34;&gt;Turning toddlers onto engineering through storytelling&lt;/h2&gt;
-&lt;p&gt;In 2021, I participated in this project, which aimed &amp;lsquo;to turn toddlers onto engineering through the power of storytelling&amp;rsquo; &lt;a href=&#34;https://www.storytellingengineers.com/about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;detailed here&lt;/a&gt;. Funded by the Royal Academy of Engineering, I was part of a cohort of engineers who were given the opportunity to write a story for 2-5 year olds to introduce them to Engineering. We were given training, feedback throughout the writing process, and the opportunity to be professionally recorded reading our story.&lt;/p&gt;
-&lt;h2 id=&#34;sally-and-the-snotbuster&#34;&gt;Sally and the Snotbuster&lt;/h2&gt;
-&lt;p&gt;I wrote a story about Sally, a young girl who likes making machines to help people. When her brother is sick and cannot sleep because of the snot blocking his airways, she starts working on a machine to detect the presence of snot, and then (gently) such it out without waking him up. Her broother is not impressed, and neither are her parents. Will she overcome the challenges? Find out in the story, available here:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/H2qQ_6V7LsU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;further-resources&#34;&gt;Further resources&lt;/h2&gt;
-&lt;p&gt;Further details of the project are available &lt;a href=&#34;https://www.storytellingengineers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including a &lt;a href=&#34;https://www.storytellingengineers.com/blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt; reflecting on the process of writing a story.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Photoplethysmography Datasets</title>
       <link>https://peterhcharlton.github.io/post/ppg_datasets/</link>
-      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/ppg_datasets/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This table provides a list of publicly available datasets containing photoplethysmogram signals. Further details are available in: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
@@ -274,6 +194,13 @@
 &lt;td&gt;Finger recordings from healthy subjects during sitting, walking and running.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Welltory/welltory-ppg-dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Welltory-PPG-dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.3390/s21206798&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;RR intervals&lt;/td&gt;
+&lt;td&gt;Smartphone recordings acquired from the index finger in contact with the camera.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.21979/N9/42BBFA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wearable and Clinical Devices Dataset&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.3390/s20236778&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;18&lt;/td&gt;
@@ -389,6 +316,86 @@
 &lt;p&gt;Version: 15 March 2022&lt;/p&gt;
 &lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
 &lt;p&gt;For further information on photoplethysmography, please see the following review paper: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Funded PhD position</title>
+      <link>https://peterhcharlton.github.io/post/wd_armstrong_funding/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/wd_armstrong_funding/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Peter Charlton and his colleagues have received funding for a PhD studentship on the topic of &amp;lsquo;Using Artificial Intelligence to Enhance Screening for Atrial Fibrillation&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;The student will have opportunity to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. They will develop valuable skills in both engineering and clinical domains, supervised by researchers in clinical and engineering disciplines.&lt;/p&gt;
+&lt;p&gt;The closing date has now passed for applications.&lt;/p&gt;
+&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
+&lt;p&gt;This is a 3.5-year studentship in the application of Engineering in Medicine funded by the W.D Armstrong Trust Fund at the University of Cambridge.&lt;/p&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;Atrial fibrillation (AF) is a heart arrhythmia which is associated with a fivefold increase in risk of stroke, and yet is undiagnosed in 425,000 people in England. We are investigating whether screening for AF could reduce the incidence of stroke in the SAFER Trial. During screening, patients use a handheld device to record their electrocardiogram (ECG) four times a day for three weeks. This results in a large number of ECG recordings which must be manually reviewed by clinicians to diagnose AF. This process is costly and time-consuming.&lt;/p&gt;
+&lt;h3 id=&#34;project&#34;&gt;Project&lt;/h3&gt;
+&lt;p&gt;The aim of this project is to develop a clinical decision support tool to aid ECG interpretation for use in AF screening studies. The objectives are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To develop a model to prioritise ECGs for review using machine learning and signal processing;&lt;/li&gt;
+&lt;li&gt;To develop visualisation techniques to aid ECG interpretation using explainable artificial intelligence; and&lt;/li&gt;
+&lt;li&gt;To assess the acceptability and performance of the resulting clinical decision support tool in collaboration with cardiologists.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;research-environment&#34;&gt;Research Environment&lt;/h3&gt;
+&lt;p&gt;The PhD studentship will be hosted at the &lt;a href=&#34;https://www.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Department of Public Health and Primary Care&lt;/a&gt;. This department is running the &lt;a href=&#34;https://www.safer.phpc.cam.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAFER Trial&lt;/a&gt;, and has a labelled dataset of 100,000s of ECGs recorded in this real-world AF screening programme. The PhD will be co-supervised by Dr Peter Charlton and Prof Jonathan Mant from this department, and Dr Elena Punskaya from the Department of Engineering. The student will be encouraged to integrate into the SAFER Research Team, and to work with our academic, clinical and industrial partners to ensure their work could have real-world impact. Further details of the wider research project in which this PhD sits are available &lt;a href=&#34;https://peterhcharlton.github.io/project/screening-af/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;value-to-the-student&#34;&gt;Value to the Student&lt;/h3&gt;
+&lt;p&gt;The student will develop valuable skills in both engineering and clinical domains: machine learning, explainable artificial intelligence, signal processing, and the analysis of clinical trial data. The multi-disciplinary supervision provided will equip the student for a future career at the interface of engineering and medicine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open research in Biomedical Signal Processing</title>
+      <link>https://peterhcharlton.github.io/post/open_bsp/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/open_bsp/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;We will be running an interactive workshop on open research in Biomedical Signal Processing at the 2022 IEEE EMBC Conference in Glasgow, UK. Attendees of the conference are invited to register for the workshop through the &lt;a href=&#34;https://embc.embs.org/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;conference website&lt;/a&gt;. Non-attendees can still access the openly available resources.&lt;/p&gt;
+&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
+&lt;p&gt;The field of Biomedical Signal Processing stands to benefit greatly from open research. Reproducible studies, accompanied by code and data, allow others to build on the state-of-the-art and to quickly translate between academia and industry. Openly available tools are widely used. Indeed, the MIMIC Waveform Database (WFDB) was referenced in 125 EMBC papers between 2016 and 2020.&lt;/p&gt;
+&lt;p&gt;The aim of this interactive workshop is to provide participants with the knowledge, skills and tools required to conduct open research in the field of Biomedical Signal Processing. It will include a formal announcement of the release of the MIMIC-IV Waveform Database, and hands-on experience of using MIMIC data for cuffless blood pressure estimation.&lt;/p&gt;
+&lt;p&gt;Firstly, the workshop will provide participants with an understanding of publicly available datasets containing physiological signals, focusing on those on PhysioNet. This will include an overview of the MIMIC Waveform Database, including its clinical context, structure and formatting.&lt;/p&gt;
+&lt;p&gt;Secondly, the workshop will provide participants with essential skills for conducting high quality research with openly available data. Participants will work through interactive tutorials in the Python programming language using the WFDB Toolbox, a library of Biomedical Signal Processing tools. The tutorials will introduce key aspects of signal processing, including: data exploration, selection and extraction; pre-processing; feature extraction; modelling; analysis; and interpretation.&lt;/p&gt;
+&lt;p&gt;Finally, participants will work in groups on a cuffless blood pressure estimation case study. This will provide hands-on experience and opportunity for networking. Example code will be provided, and researchers will be on hand to answer questions.&lt;/p&gt;
+&lt;p&gt;The workshop will be led by researchers who develop MIMIC and the WFDB toolboxes, and who have a track-record in reproducible research. It will be of great interest to students, researchers, and engineers: bring a laptop to participate fully.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;The workshop is accompanied by openly available tutorials on Biomedical Signal Processing using the MIMIC Database, which are available &lt;a href=&#34;https://wfdb.github.io/mimic_wfdb_tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Short-term scientific mission</title>
+      <link>https://peterhcharlton.github.io/post/visit_to_ktu/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/visit_to_ktu/</guid>
+      <description>&lt;p&gt;Dr Peter Charlton spent 5 days at Kaunas University of Technology (KTU), hosted by Prof Vaidotas Marozas, Director of the Institute of Biomedical Engineering. Vaidotas and Peter are members of &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, a network for research into vascular ageing. They&amp;rsquo;ve previously collaborated on several projects including a &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review/&#34;&gt;VascAgeNet review&lt;/a&gt; of techniques to assess vascular age from the photoplethysmogram (the PPG - the pulse wave signal measured by smartwatches and activity trackers). During this short-term scientific mission, Vaidotas and Peter worked with colleagues at KTU towards harmonising photoplethysmography-based techniques for the assessment of vascular ageing.&lt;/p&gt;
+&lt;p&gt;First, Peter and colleagues worked on developing PPG signal processing techniques for the assessment of vascular ageing. Specific tasks included: designing approaches to estimate blood pressure from the PPG pulse wave signal; developing PPG signal quality assessment tools which could help ensure that vascular ageing assessments performed in daily life are reliable; and investigating how well PPG signal processing algorithms perform with different types of sensors. This involved sharing knowledge, data, and signal processing algorithms.&lt;/p&gt;
+&lt;p&gt;Second, Peter and colleagues discussed the designs of two ongoing clinical studies at KTU and at the University of Cambridge. They identified ways to harmonise the methods used in the two studies so that they provide similar datasets. It is hoped that this will enable the two groups to test the generalisability of findings across the two datasets.&lt;/p&gt;
+&lt;p&gt;Third, Peter and colleagues established a pipeline for simulating PPG signals containing artifact and arrhythmias. This involved using KTU&amp;rsquo;s tools for simulating PPG signals alongside data collected at the University of Cambridge. It is hoped that this will lead to the creation of a dataset of simulated PPG signals representative of those that would be measured from older adults in the community.&lt;/p&gt;
+&lt;p&gt;Peter received very warm hospitality from Vaidotas and his colleagues at KTU, sharing meals and sightseeing together. This helped Peter get to know his new colleagues well during a short space of time, establishing relationships which will enable them to continue to work together remotely.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;This short-term scientific mission was funded by &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, the European COST ACTION-Network for Research in Vascular Ageing under Grant CA18216 supported by the European Cooperation in Science and Technology (COST). See &lt;a href=&#34;https://vascagenet.eu/performed-stsms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for further details of short-term scientific missions funded by the network.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bedtime stories for very young engineers</title>
+      <link>https://peterhcharlton.github.io/post/bedtime_stories/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/bedtime_stories/</guid>
+      <description>&lt;h2 id=&#34;turning-toddlers-onto-engineering-through-storytelling&#34;&gt;Turning toddlers onto engineering through storytelling&lt;/h2&gt;
+&lt;p&gt;In 2021, I participated in this project, which aimed &amp;lsquo;to turn toddlers onto engineering through the power of storytelling&amp;rsquo; &lt;a href=&#34;https://www.storytellingengineers.com/about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;detailed here&lt;/a&gt;. Funded by the Royal Academy of Engineering, I was part of a cohort of engineers who were given the opportunity to write a story for 2-5 year olds to introduce them to Engineering. We were given training, feedback throughout the writing process, and the opportunity to be professionally recorded reading our story.&lt;/p&gt;
+&lt;h2 id=&#34;sally-and-the-snotbuster&#34;&gt;Sally and the Snotbuster&lt;/h2&gt;
+&lt;p&gt;I wrote a story about Sally, a young girl who likes making machines to help people. When her brother is sick and cannot sleep because of the snot blocking his airways, she starts working on a machine to detect the presence of snot, and then (gently) such it out without waking him up. Her broother is not impressed, and neither are her parents. Will she overcome the challenges? Find out in the story, available here:&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/H2qQ_6V7LsU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;further-resources&#34;&gt;Further resources&lt;/h2&gt;
+&lt;p&gt;Further details of the project are available &lt;a href=&#34;https://www.storytellingengineers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including a &lt;a href=&#34;https://www.storytellingengineers.com/blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt; reflecting on the process of writing a story.&lt;/p&gt;
 </description>
     </item>
     
