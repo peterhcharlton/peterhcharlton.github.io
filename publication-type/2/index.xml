@@ -5,12 +5,22 @@
     <link>https://peterhcharlton.github.io/publication-type/2/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://peterhcharlton.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Detecting beats in the photoplethysmogram: benchmarking open-source algorithms</title>
+      <link>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</guid>
+      <description>&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;ppg-beats&amp;rsquo;&lt;/a&gt; toolbox of algorithms and code was used in this study.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Establishing best practices in photoplethysmography signal acquisition and processing</title>

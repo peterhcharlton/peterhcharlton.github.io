@@ -17,8 +17,27 @@
       <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</link>
       <pubDate>Wed, 13 Jul 2022 10:30:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</guid>
-      <description>&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Wearable photoplethysmography devices, such as smartwatches and fitness bands, are now widely used. The photoplethysmogram (PPG) signal measured by these devices provides a unique opportunity to monitor cardiovascular health, as it contains a wealth of physiological information, and can be measured frequently in daily life. This talk will firstly summarise current evidence on the clinical utility of such devices, including perspectives on their use for atrial fibrillation detection. Secondly, emerging clinical use cases will be presented, such as infectious disease monitoring and sleep apnea detection. Thirdly, pressing directions for future work will be highlighted, including the need for standardisation of each stage of the PPG measurement process to ensure devices meet the standards required for clinical use.&lt;/p&gt;
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 &lt;p&gt;Slides are available &lt;a href=&#34;https://doi.org/10.5281/zenodo.6826342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open research in Biomedical Signal Processing - Cuffless Blood Pressure Estimation Using the MIMIC-IV Database</title>
+      <link>https://peterhcharlton.github.io/talk/open-research-in-biomedical-signal-processing-cuffless-blood-pressure-estimation-using-the-mimic-iv-database/</link>
+      <pubDate>Mon, 11 Jul 2022 08:30:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/open-research-in-biomedical-signal-processing-cuffless-blood-pressure-estimation-using-the-mimic-iv-database/</guid>
+      <description>&lt;h3 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h3&gt;
+&lt;p&gt;The resources used in this workshop are available &lt;a href=&#34;https://wfdb.io/mimic_wfdb_tutorials/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;workshop-synopsis&#34;&gt;Workshop Synopsis&lt;/h3&gt;
+&lt;p&gt;The field of Biomedical Signal Processing stands to benefit greatly from open research. Reproducible studies, accompanied by code and data, allow others to build on the state-of-the-art and to quickly translate between academia and industry. Openly available tools are widely used. Indeed, the MIMIC Waveform Database (WFDB) was referenced in 125 EMBC papers between 2016 and 2020.&lt;/p&gt;
+&lt;p&gt;The aim of this interactive workshop is to provide participants with the knowledge, skills and tools required to conduct open research in the field of Biomedical Signal Processing. It will include a formal announcement of the release of the MIMIC-IV Waveform Database, and hands-on experience of using MIMIC data for cuffless blood pressure estimation.&lt;/p&gt;
+&lt;p&gt;Firstly, the workshop will provide participants with an understanding of publicly available datasets containing physiological signals, focusing on those on PhysioNet. This will include an overview of the MIMIC Waveform Database, including its clinical context, structure and formatting.&lt;/p&gt;
+&lt;p&gt;Secondly, the workshop will provide participants with essential skills for conducting high quality research with openly available data. Participants will work through interactive tutorials in the Python programming language using the WFDB Toolbox, a library of Biomedical Signal Processing tools. The tutorials will introduce key aspects of signal processing, including: data exploration, selection and extraction; pre-processing; feature extraction; modelling; analysis; and interpretation.&lt;/p&gt;
+&lt;p&gt;Finally, participants will work in groups on a cuffless blood pressure estimation case study. This will provide hands-on experience and opportunity for networking. Example code will be provided, and researchers will be on hand to answer questions.&lt;/p&gt;
+&lt;p&gt;The workshop will be led by researchers who develop MIMIC and the WFDB toolboxes, and who have a track-record in reproducible research. It will be of great interest to students, researchers, and engineers: bring a laptop to participate fully.&lt;/p&gt;
 </description>
     </item>
     

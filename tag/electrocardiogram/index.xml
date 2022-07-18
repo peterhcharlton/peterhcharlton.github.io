@@ -5,12 +5,24 @@
     <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/electrocardiogram/index.xml" rel="self" type="application/rss+xml" />
     <description>electrocardiogram</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Thu, 14 Jul 2022 10:30:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>electrocardiogram</title>
       <link>https://peterhcharlton.github.io/tag/electrocardiogram/</link>
     </image>
+    
+    <item>
+      <title>Prioritising ECGs for manual review in atrial fibrillation screening</title>
+      <link>https://peterhcharlton.github.io/talk/prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening/</link>
+      <pubDate>Thu, 14 Jul 2022 10:30:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Screening for atrial fibrillation (AF) may involve recording many electrocardiograms (ECGs) from each participant, several of which require manual review which is costly and time-consuming. The aim of this study was to investigate whether the number of ECG reviews could be reduced by using a model to prioritise ECGs for review, whilst still accurately diagnosing AF.&lt;/p&gt;
+&lt;h3 id=&#34;accompanying-publication&#34;&gt;Accompanying Publication&lt;/h3&gt;
+&lt;p&gt;The accompanying publication is available &lt;a href=&#34;https://doi.org/10.5281/zenodo.6826342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Prioritising Electrocardiograms for Manual Review to Improve the Efficiency of Atrial Fibrillation Screening</title>

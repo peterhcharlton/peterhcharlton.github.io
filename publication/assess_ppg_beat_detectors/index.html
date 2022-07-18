@@ -31,7 +31,7 @@
   
     
   
-  <meta name="description" content="An assessment of thirteen open-source photoplethysmogram (PPG) beat detectors across five datasets." />
+  <meta name="description" content="An assessment of fifteen open-source photoplethysmogram (PPG) beat detectors across eight datasets." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/" />
@@ -295,16 +295,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Peter Charlton" />
   <meta property="og:url" content="https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/" />
-  <meta property="og:title" content="Detecting heartbeats in the photoplethysmogram: benchmarking open-source algorithms | Peter Charlton" />
-  <meta property="og:description" content="An assessment of thirteen open-source photoplethysmogram (PPG) beat detectors across five datasets." /><meta property="og:image" content="https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Detecting beats in the photoplethysmogram: benchmarking open-source algorithms | Peter Charlton" />
+  <meta property="og:description" content="An assessment of fifteen open-source photoplethysmogram (PPG) beat detectors across eight datasets." /><meta property="og:image" content="https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/featured.png" />
+    <meta property="twitter:image" content="https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -312,7 +311,7 @@
         content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-02-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-07-18T00:00:00&#43;00:00">
   
 
   
@@ -336,10 +335,14 @@
     "@type": "WebPage",
     "@id": "https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/"
   },
-  "headline": "Detecting heartbeats in the photoplethysmogram: benchmarking open-source algorithms",
+  "headline": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+  
+  "image": [
+    "https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/featured.png"
+  ],
   
   "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2022-02-01T00:00:00Z",
+  "dateModified": "2022-07-18T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -354,7 +357,7 @@
       "url": "https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "An assessment of thirteen open-source photoplethysmogram (PPG) beat detectors across five datasets."
+  "description": "An assessment of fifteen open-source photoplethysmogram (PPG) beat detectors across eight datasets."
 }
 </script>
 
@@ -370,7 +373,7 @@
 
 
 
-  <title>Detecting heartbeats in the photoplethysmogram: benchmarking open-source algorithms | Peter Charlton</title>
+  <title>Detecting beats in the photoplethysmogram: benchmarking open-source algorithms | Peter Charlton</title>
 </head>
 
 
@@ -787,18 +790,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Detecting heartbeats in the photoplethysmogram: benchmarking open-source algorithms</h1>
-
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1>Detecting beats in the photoplethysmogram: benchmarking open-source algorithms</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
@@ -830,7 +841,7 @@
     
       
     
-    February 2022
+    July 2022
   </span>
   
 
@@ -850,7 +861,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -895,13 +906,23 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 572px;">
+  <div style="position: relative">
+    <img src="/publication/assess_ppg_beat_detectors/featured_hub67338e67963db0a085f27df9ed36f92_652206_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <strong>P.H. Charlton et al.</strong> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</span>
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The photoplethysmogram (PPG) signal is widely used in pulse oximeters and smartwatches. A fundamental step in analysing the PPG is the detection of heartbeats. Several PPG beat detection algorithms have been proposed, although it is not clear which performs best. Objective: This study aimed to: (i) develop a framework with which to design and test PPG beat detectors; (ii) assess the performance of PPG beat detectors in different use cases; and (iii) investigate how their performance is affected by patient demographics and physiology. Approach: Fifteen beat detectors were assessed against electrocardiogram-derived heartbeats using data from eight datasets. Performance was assessed using the F1 score, which combines sensitivity and positive predictive value. Main results: Eight beat detectors performed well in the absence of movement with F1 scores of ≥90% on hospital data and wearable data collected at rest. Their performance was poorer during exercise with F1 scores of 55-91%; poorer in neonates than adults with F1 scores of 84-96% in neonates compared to 98-99% in adults; and poorer in atrial fibrillation (AF) with F1 scores of 92-97% in AF compared to 99-100% in normal sinus rhythm. Significance: Two PPG beat detectors denoted &lsquo;MSPTD&rsquo; and &lsquo;qppg&rsquo; performed best, with complementary performance characteristics. This evidence can be used to inform the choice of PPG beat detector algorithm. The algorithms, datasets, and assessment framework are freely available.</p>
     
 
     
@@ -912,8 +933,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#2">
+              Journal article
             </a>
           </div>
         </div>
@@ -929,7 +950,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">under review</div>
+          <div class="col-12 col-md-9">Physiological Measurement</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -939,7 +960,9 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style"><h2 id="accompanying-resources">Accompanying Resources</h2>
+<p>The <a href="https://ppg-beats.readthedocs.io/" target="_blank" rel="noopener">&lsquo;ppg-beats&rsquo;</a> toolbox of algorithms and code was used in this study.</p>
+</div>
 
     
 
@@ -971,7 +994,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&amp;text=Detecting%20heartbeats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&amp;text=Detecting%20beats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -984,7 +1007,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&amp;t=Detecting%20heartbeats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&amp;t=Detecting%20beats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -997,7 +1020,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Detecting%20heartbeats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms&amp;body=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Detecting%20beats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms&amp;body=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1010,7 +1033,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&amp;title=Detecting%20heartbeats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&amp;title=Detecting%20beats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1023,7 +1046,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Detecting%20heartbeats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms%20https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Detecting%20beats%20in%20the%20photoplethysmogram:%20benchmarking%20open-source%20algorithms%20https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>

@@ -17,7 +17,9 @@
       <link>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</link>
       <pubDate>Wed, 13 Jul 2022 10:30:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</guid>
-      <description>&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Wearable photoplethysmography devices, such as smartwatches and fitness bands, are now widely used. The photoplethysmogram (PPG) signal measured by these devices provides a unique opportunity to monitor cardiovascular health, as it contains a wealth of physiological information, and can be measured frequently in daily life. This talk will firstly summarise current evidence on the clinical utility of such devices, including perspectives on their use for atrial fibrillation detection. Secondly, emerging clinical use cases will be presented, such as infectious disease monitoring and sleep apnea detection. Thirdly, pressing directions for future work will be highlighted, including the need for standardisation of each stage of the PPG measurement process to ensure devices meet the standards required for clinical use.&lt;/p&gt;
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 &lt;p&gt;Slides are available &lt;a href=&#34;https://doi.org/10.5281/zenodo.6826342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

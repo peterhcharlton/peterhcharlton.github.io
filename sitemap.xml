@@ -2,22 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2022-07-13T10:30:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
-    <lastmod>2022-07-13T10:30:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/tag/beat-detection/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/conferences/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/embc_2022/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/post/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2022-07-13T10:30:00+00:00</lastmod>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2022-07-13T10:30:00+00:00</lastmod>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2022-07-13T10:30:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2022-07-14T10:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
+    <lastmod>2022-07-14T10:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening/</loc>
+    <lastmod>2022-07-14T10:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2022-07-14T10:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/screening/</loc>
+    <lastmod>2022-07-14T10:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
     <lastmod>2022-07-13T10:30:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
@@ -25,6 +61,15 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</loc>
     <lastmod>2022-07-13T10:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
+    <lastmod>2022-07-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/open-research-in-biomedical-signal-processing-cuffless-blood-pressure-estimation-using-the-mimic-iv-database/</loc>
+    <lastmod>2022-07-11T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
+    <lastmod>2022-07-11T08:30:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiography/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
@@ -41,9 +86,6 @@
     <loc>https://peterhcharlton.github.io/project/screening-af/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
-    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/project/vascular-ageing/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -55,9 +97,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/post/wd_armstrong_funding/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/open_bsp/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
@@ -71,16 +110,7 @@
     <loc>https://peterhcharlton.github.io/tag/engagement/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2022-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/best_practices_ppg/</loc>
-    <lastmod>2022-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2022-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
     <lastmod>2022-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/patient-monitoring/</loc>
@@ -101,13 +131,7 @@
     <loc>https://peterhcharlton.github.io/publication-type/1/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/prioritising_ecgs/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/screening/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/developing-software-to-monitor-respiratory-rate-using-wearable-sensors/</loc>
@@ -127,9 +151,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/opportunities-for-photoplethysmography-in-public-health/</loc>
     <lastmod>2022-02-25T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/understanding-ppg/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
@@ -151,12 +172,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/kotzen-2022/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/beat-detection/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/ppg-beats/</loc>
     <lastmod>2022-01-18T00:00:00+00:00</lastmod>
