@@ -986,8 +986,44 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><h2 id="accompanying-resources">Accompanying Resources</h2>
-<p>The <a href="https://ppg-beats.readthedocs.io/" target="_blank" rel="noopener">&lsquo;ppg-beats&rsquo;</a> toolbox of algorithms and code was used in this study.</p>
+    <div class="article-style"><hr>
+<h2 id="accompanying-resources">Accompanying Resources</h2>
+<p>This study used two key resources:</p>
+<ul>
+<li>The <a href="https://ppg-beats.readthedocs.io/en/latest/datasets/summary/" target="_blank" rel="noopener">MIMIC PERform</a> datasets.</li>
+<li>The <a href="https://ppg-beats.readthedocs.io/" target="_blank" rel="noopener">&lsquo;ppg-beats&rsquo;</a> toolbox of PPG beat detection algorithms and code to assess their performance.</li>
+</ul>
+<hr>
+<h2 id="reproducing-the-analysis">Reproducing the analysis</h2>
+<p>The analysis reported in this study can be reproduced by following these steps:</p>
+<h3 id="download-the-required-datasets">Download the required datasets</h3>
+<p>The datasets used in the study are listed on <a href="https://ppg-beats.readthedocs.io/en/latest/datasets/summary/" target="_blank" rel="noopener">this page</a>. Download each dataset in turn by following the instructions provided on each dataset&rsquo;s page.</p>
+<h3 id="install-the-ppg-beats-toolbox">Install the PPG-beats toolbox</h3>
+<p>Install the <strong>PPG-beats</strong> toolbox by following the instructions on <a href="https://ppg-beats.readthedocs.io/en/latest/toolbox/getting_started/" target="_blank" rel="noopener">this page</a>.</p>
+<h3 id="assess-the-performance-of-ppg-beat-detectors-across-all-the-datasets">Assess the performance of PPG beat detectors across all the datasets</h3>
+<p>Use the <code>assess_multiple_datasets.m</code> script (within <strong>PPG-beats</strong>) to assess the performance of PPG beat detectors across all of the datasets. To do so:</p>
+<ol>
+<li>Edit the <code>assess_multiple_datasets.m</code> script:
+<ul>
+<li>Specify the path of the Matlab file for each dataset in the <code>specify_path_of_dataset_file</code> function within the <code>assess_multiple_datasets.m</code> script.</li>
+<li>Specify the folder in which to save results figures by modifying the <code>up.paths.plots_root_folder</code> variable within the <code>setup_universal_params</code> function within the <code>assess_multiple_datasets.m</code> script.</li>
+</ul>
+</li>
+<li>Run the <code>assess_multiple_datasets.m</code> script, which will:
+<ul>
+<li>Analyse each dataset in turn</li>
+<li>Generate results (in the command window) and results figures (saved in the specified folder)</li>
+</ul>
+</li>
+</ol>
+<h3 id="generate-additional-figures">Generate additional figures</h3>
+<p>The additional figures in the manuscript can be generated as follows:</p>
+<ul>
+<li><strong>Fig. 1</strong> (Detecting beats in the photoplethysmogram): - run the <code>create_ppg_beat_detection_fig.m</code> script.</li>
+<li><strong>Fig. 2</strong> (Comparing PPG-derived beats with reference beats): - run the <code>make_plot_of_ecg_ppg_time_alignment.m</code> script.</li>
+<li><strong>Fig. 5</strong> (PPG beat detection during different activities): - run the <code>make_plot_of_ppg_beat_detection_challenges.m</code> script.</li>
+</ul>
+<hr>
 </div>
 
     

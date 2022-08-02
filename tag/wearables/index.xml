@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
@@ -13,19 +13,9 @@
     </image>
     
     <item>
-      <title>Detecting beats in the photoplethysmogram: benchmarking open-source algorithms</title>
-      <link>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</guid>
-      <description>&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;ppg-beats&amp;rsquo;&lt;/a&gt; toolbox of algorithms and code was used in this study.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Photoplethysmography Datasets</title>
       <link>https://peterhcharlton.github.io/post/ppg_datasets/</link>
-      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/ppg_datasets/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This table provides a list of publicly available datasets containing photoplethysmogram signals. Further details are available in: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
@@ -68,6 +58,13 @@
 &lt;td&gt;2,056&lt;/td&gt;
 &lt;td&gt;ECG, resp, others&lt;/td&gt;
 &lt;td&gt;Finger PPG recordings from adults undergoing polysomnography.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.5281/zenodo.6807402&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIMIC PERform Training and Testing&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac826d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;400&lt;/td&gt;
+&lt;td&gt;ECG, resp&lt;/td&gt;
+&lt;td&gt;Recordings from critically-ill adults and neonates, lasting 10 minutes. Typically at finger.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;SOMNIA Database&lt;/td&gt;
@@ -131,6 +128,13 @@
 &lt;td&gt;40&lt;/td&gt;
 &lt;td&gt;ECG, BCG, BP&lt;/td&gt;
 &lt;td&gt;Recordings from adults whilst at rest.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.5281/zenodo.6807402&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIMIC PERform AF Dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac826d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;ECG, resp&lt;/td&gt;
+&lt;td&gt;Recordings from critically-ill adults categorised as either AF (19 subjects) or normal sinus rhythm (16 subjects), lasting 10 minutes. Typically at finger.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.17632/yynb8t9x3d.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Real-World PPG dataset&lt;/a&gt;&lt;/td&gt;
@@ -304,13 +308,59 @@
 &lt;/table&gt;
 &lt;p&gt;&lt;em&gt;Defintions: resp - respiratory signal; PCG - phonocardiogram; accel - acceleromertry; gyro - gyroscope; EDA - electrodermal activity; EMG - electromyogram; GSR - galvanic skin response; ICP - intracranial pressure.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
-&lt;p&gt;Original source (reproduced under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;Original source (adapted under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;P. H. Charlton &lt;em&gt;et al.&lt;/em&gt;, &amp;lsquo;Wearable Photoplethysmography for Cardiovascular Monitoring&amp;rsquo;, &lt;em&gt;Proceedings of the IEEE&lt;/em&gt;, vol.110(3), pp.355-381, 2022. DOI: &lt;a href=&#34;https://doi.org/10.1109/JPROC.2022.3149785&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1109/JPROC.2022.3149785&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Version: 15 March 2022&lt;/p&gt;
 &lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
 &lt;p&gt;For further information on photoplethysmography, please see the following review paper: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detecting beats in the photoplethysmogram: benchmarking open-source algorithms</title>
+      <link>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
+&lt;p&gt;This study used two key resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/datasets/summary/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIMIC PERform&lt;/a&gt; datasets.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;ppg-beats&amp;rsquo;&lt;/a&gt; toolbox of PPG beat detection algorithms and code to assess their performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reproducing-the-analysis&#34;&gt;Reproducing the analysis&lt;/h2&gt;
+&lt;p&gt;The analysis reported in this study can be reproduced by following these steps:&lt;/p&gt;
+&lt;h3 id=&#34;download-the-required-datasets&#34;&gt;Download the required datasets&lt;/h3&gt;
+&lt;p&gt;The datasets used in the study are listed on &lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/datasets/summary/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;. Download each dataset in turn by following the instructions provided on each dataset&amp;rsquo;s page.&lt;/p&gt;
+&lt;h3 id=&#34;install-the-ppg-beats-toolbox&#34;&gt;Install the PPG-beats toolbox&lt;/h3&gt;
+&lt;p&gt;Install the &lt;strong&gt;PPG-beats&lt;/strong&gt; toolbox by following the instructions on &lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/getting_started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;assess-the-performance-of-ppg-beat-detectors-across-all-the-datasets&#34;&gt;Assess the performance of PPG beat detectors across all the datasets&lt;/h3&gt;
+&lt;p&gt;Use the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script (within &lt;strong&gt;PPG-beats&lt;/strong&gt;) to assess the performance of PPG beat detectors across all of the datasets. To do so:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script:
+&lt;ul&gt;
+&lt;li&gt;Specify the path of the Matlab file for each dataset in the &lt;code&gt;specify_path_of_dataset_file&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;Specify the folder in which to save results figures by modifying the &lt;code&gt;up.paths.plots_root_folder&lt;/code&gt; variable within the &lt;code&gt;setup_universal_params&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script, which will:
+&lt;ul&gt;
+&lt;li&gt;Analyse each dataset in turn&lt;/li&gt;
+&lt;li&gt;Generate results (in the command window) and results figures (saved in the specified folder)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;generate-additional-figures&#34;&gt;Generate additional figures&lt;/h3&gt;
+&lt;p&gt;The additional figures in the manuscript can be generated as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fig. 1&lt;/strong&gt; (Detecting beats in the photoplethysmogram): - run the &lt;code&gt;create_ppg_beat_detection_fig.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fig. 2&lt;/strong&gt; (Comparing PPG-derived beats with reference beats): - run the &lt;code&gt;make_plot_of_ecg_ppg_time_alignment.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fig. 5&lt;/strong&gt; (PPG beat detection during different activities): - run the &lt;code&gt;make_plot_of_ppg_beat_detection_challenges.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </description>
     </item>
     

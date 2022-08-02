@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/post/</link>
       <atom:link href="https://peterhcharlton.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
@@ -13,24 +13,9 @@
     </image>
     
     <item>
-      <title>Engineering in Medicine and Biology Conference</title>
-      <link>https://peterhcharlton.github.io/post/embc_2022/</link>
-      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/post/embc_2022/</guid>
-      <description>&lt;p&gt;Peter Charlton participated in three sessions at the 2022 &lt;a href=&#34;https://embc.embs.org/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Engineering in Medicine and Biology Conference&lt;/a&gt;:&lt;/p&gt;
-&lt;h3 id=&#34;workshop-on-open-research-in-biomedical-signal-processing&#34;&gt;Workshop on Open research in Biomedical Signal Processing&lt;/h3&gt;
-&lt;p&gt;Peter presented a workshop on &amp;lsquo;Open research in Biomedical Signal Processing - Cuffless Blood Pressure Estimation Using the MIMIC-IV Database&amp;rsquo;, working with colleagues at MIT and City, University of Cambridge. The workshop provided participants with the knowledge, skills and tools required to conduct open research in the field of Biomedical Signal Processing. It included a formal announcement of the release of the MIMIC-IV Waveform Database, and hands-on experience of using MIMIC data for cuffless blood pressure estimation.&lt;/p&gt;
-&lt;h3 id=&#34;presentation-on-wearable-photoplethysmography-devices-for-cardiovascular-monitoring&#34;&gt;Presentation on &amp;lsquo;Wearable photoplethysmography devices for cardiovascular monitoring&amp;rsquo;&lt;/h3&gt;
-&lt;p&gt;Peter was invited to present at a mini-symposium on &amp;lsquo;Innovations in Photoplethysmography&amp;rsquo;, organised by Prof. John Allen and Prof. Panicos Kyriacou. Peter&amp;rsquo;s presentation provided an introduction to the fundamentals of photoplethysmography, summarised emerging clinical applications, and highlighted pressing areas for future research. Further details of the talk are available &lt;a href=&#34;https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/&#34;&gt;here&lt;/a&gt;, including the slides.&lt;/p&gt;
-&lt;h3 id=&#34;presentation-on-prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening&#34;&gt;Presentation on &amp;lsquo;Prioritising ECGs for manual review in atrial fibrillation screening&amp;rsquo;&lt;/h3&gt;
-&lt;p&gt;Peter presented work by members of the Department of Public Health and Primary Care on &amp;lsquo;Prioritising ECGs for manual review in atrial fibrillation (AF) screening&amp;rsquo;. The presentation focused on a novel approach to identify ECGs for clinical review in screening for AF, which is designed to minimise the number of ECGs sent for review (and therefore the reviewing workload), whilst still ensuring accurate AF diagnoses. Further details of the talk are available &lt;a href=&#34;https://peterhcharlton.github.io/talk/prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Photoplethysmography Datasets</title>
       <link>https://peterhcharlton.github.io/post/ppg_datasets/</link>
-      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/post/ppg_datasets/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This table provides a list of publicly available datasets containing photoplethysmogram signals. Further details are available in: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
@@ -73,6 +58,13 @@
 &lt;td&gt;2,056&lt;/td&gt;
 &lt;td&gt;ECG, resp, others&lt;/td&gt;
 &lt;td&gt;Finger PPG recordings from adults undergoing polysomnography.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.5281/zenodo.6807402&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIMIC PERform Training and Testing&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac826d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;400&lt;/td&gt;
+&lt;td&gt;ECG, resp&lt;/td&gt;
+&lt;td&gt;Recordings from critically-ill adults and neonates, lasting 10 minutes. Typically at finger.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;SOMNIA Database&lt;/td&gt;
@@ -136,6 +128,13 @@
 &lt;td&gt;40&lt;/td&gt;
 &lt;td&gt;ECG, BCG, BP&lt;/td&gt;
 &lt;td&gt;Recordings from adults whilst at rest.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.5281/zenodo.6807402&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIMIC PERform AF Dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ac826d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;ECG, resp&lt;/td&gt;
+&lt;td&gt;Recordings from critically-ill adults categorised as either AF (19 subjects) or normal sinus rhythm (16 subjects), lasting 10 minutes. Typically at finger.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.17632/yynb8t9x3d.2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Real-World PPG dataset&lt;/a&gt;&lt;/td&gt;
@@ -309,13 +308,28 @@
 &lt;/table&gt;
 &lt;p&gt;&lt;em&gt;Defintions: resp - respiratory signal; PCG - phonocardiogram; accel - acceleromertry; gyro - gyroscope; EDA - electrodermal activity; EMG - electromyogram; GSR - galvanic skin response; ICP - intracranial pressure.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
-&lt;p&gt;Original source (reproduced under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;Original source (adapted under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY 4.0&lt;/a&gt;):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;P. H. Charlton &lt;em&gt;et al.&lt;/em&gt;, &amp;lsquo;Wearable Photoplethysmography for Cardiovascular Monitoring&amp;rsquo;, &lt;em&gt;Proceedings of the IEEE&lt;/em&gt;, vol.110(3), pp.355-381, 2022. DOI: &lt;a href=&#34;https://doi.org/10.1109/JPROC.2022.3149785&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.1109/JPROC.2022.3149785&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Version: 15 March 2022&lt;/p&gt;
 &lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
 &lt;p&gt;For further information on photoplethysmography, please see the following review paper: &lt;a href=&#34;https://peterhcharlton.github.io/publication/wearable_ppg_review/&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Engineering in Medicine and Biology Conference</title>
+      <link>https://peterhcharlton.github.io/post/embc_2022/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/embc_2022/</guid>
+      <description>&lt;p&gt;Peter Charlton participated in three sessions at the 2022 &lt;a href=&#34;https://embc.embs.org/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Engineering in Medicine and Biology Conference&lt;/a&gt;:&lt;/p&gt;
+&lt;h3 id=&#34;workshop-on-open-research-in-biomedical-signal-processing&#34;&gt;Workshop on Open research in Biomedical Signal Processing&lt;/h3&gt;
+&lt;p&gt;Peter presented a workshop on &amp;lsquo;Open research in Biomedical Signal Processing - Cuffless Blood Pressure Estimation Using the MIMIC-IV Database&amp;rsquo;, working with colleagues at MIT and City, University of Cambridge. The workshop provided participants with the knowledge, skills and tools required to conduct open research in the field of Biomedical Signal Processing. It included a formal announcement of the release of the MIMIC-IV Waveform Database, and hands-on experience of using MIMIC data for cuffless blood pressure estimation.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-on-wearable-photoplethysmography-devices-for-cardiovascular-monitoring&#34;&gt;Presentation on &amp;lsquo;Wearable photoplethysmography devices for cardiovascular monitoring&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Peter was invited to present at a mini-symposium on &amp;lsquo;Innovations in Photoplethysmography&amp;rsquo;, organised by Prof. John Allen and Prof. Panicos Kyriacou. Peter&amp;rsquo;s presentation provided an introduction to the fundamentals of photoplethysmography, summarised emerging clinical applications, and highlighted pressing areas for future research. Further details of the talk are available &lt;a href=&#34;https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/&#34;&gt;here&lt;/a&gt;, including the slides.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-on-prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening&#34;&gt;Presentation on &amp;lsquo;Prioritising ECGs for manual review in atrial fibrillation screening&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Peter presented work by members of the Department of Public Health and Primary Care on &amp;lsquo;Prioritising ECGs for manual review in atrial fibrillation (AF) screening&amp;rsquo;. The presentation focused on a novel approach to identify ECGs for clinical review in screening for AF, which is designed to minimise the number of ECGs sent for review (and therefore the reviewing workload), whilst still ensuring accurate AF diagnoses. Further details of the talk are available &lt;a href=&#34;https://peterhcharlton.github.io/talk/prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

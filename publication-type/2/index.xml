@@ -17,8 +17,44 @@
       <link>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/</guid>
-      <description>&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;ppg-beats&amp;rsquo;&lt;/a&gt; toolbox of algorithms and code was used in this study.&lt;/p&gt;
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
+&lt;p&gt;This study used two key resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/datasets/summary/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIMIC PERform&lt;/a&gt; datasets.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;ppg-beats&amp;rsquo;&lt;/a&gt; toolbox of PPG beat detection algorithms and code to assess their performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reproducing-the-analysis&#34;&gt;Reproducing the analysis&lt;/h2&gt;
+&lt;p&gt;The analysis reported in this study can be reproduced by following these steps:&lt;/p&gt;
+&lt;h3 id=&#34;download-the-required-datasets&#34;&gt;Download the required datasets&lt;/h3&gt;
+&lt;p&gt;The datasets used in the study are listed on &lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/datasets/summary/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;. Download each dataset in turn by following the instructions provided on each dataset&amp;rsquo;s page.&lt;/p&gt;
+&lt;h3 id=&#34;install-the-ppg-beats-toolbox&#34;&gt;Install the PPG-beats toolbox&lt;/h3&gt;
+&lt;p&gt;Install the &lt;strong&gt;PPG-beats&lt;/strong&gt; toolbox by following the instructions on &lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/getting_started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;assess-the-performance-of-ppg-beat-detectors-across-all-the-datasets&#34;&gt;Assess the performance of PPG beat detectors across all the datasets&lt;/h3&gt;
+&lt;p&gt;Use the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script (within &lt;strong&gt;PPG-beats&lt;/strong&gt;) to assess the performance of PPG beat detectors across all of the datasets. To do so:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Edit the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script:
+&lt;ul&gt;
+&lt;li&gt;Specify the path of the Matlab file for each dataset in the &lt;code&gt;specify_path_of_dataset_file&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;Specify the folder in which to save results figures by modifying the &lt;code&gt;up.paths.plots_root_folder&lt;/code&gt; variable within the &lt;code&gt;setup_universal_params&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script, which will:
+&lt;ul&gt;
+&lt;li&gt;Analyse each dataset in turn&lt;/li&gt;
+&lt;li&gt;Generate results (in the command window) and results figures (saved in the specified folder)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;generate-additional-figures&#34;&gt;Generate additional figures&lt;/h3&gt;
+&lt;p&gt;The additional figures in the manuscript can be generated as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fig. 1&lt;/strong&gt; (Detecting beats in the photoplethysmogram): - run the &lt;code&gt;create_ppg_beat_detection_fig.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fig. 2&lt;/strong&gt; (Comparing PPG-derived beats with reference beats): - run the &lt;code&gt;make_plot_of_ecg_ppg_time_alignment.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fig. 5&lt;/strong&gt; (PPG beat detection during different activities): - run the &lt;code&gt;make_plot_of_ppg_beat_detection_challenges.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </description>
     </item>
     
