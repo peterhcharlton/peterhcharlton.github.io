@@ -496,35 +496,24 @@
 
 &lt;hr&gt;
 &lt;h2 id=&#34;upcoming-webinars&#34;&gt;Upcoming Webinars&lt;/h2&gt;
-&lt;h3 id=&#34;developments-in-photoplethysmography&#34;&gt;Developments in Photoplethysmography&lt;/h3&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;7 July 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-07-07&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;photoplethysmography-signal-processing&#34;&gt;Photoplethysmography signal processing&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;15 September 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-06-09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;&lt;a href=&#34;https://www.ipem.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute of Physics and Engineering in Medicine&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul class=&#34;cta-group&#34;&gt;
   
   &lt;li&gt;
-    &lt;a href=&#34;https://www.ipem.ac.uk/what-s-on/ipem-events/webinar-developments-in-photoplethysmography/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;btn btn-primary px-3 py-3&#34;&gt;Book now&lt;/a&gt;
+    &lt;a href=&#34;https://www.ipem.ac.uk/what-s-on/ipem-events/webinar-photoplethysmography-signal-processing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;btn btn-primary px-3 py-3&#34;&gt;Book now&lt;/a&gt;
   &lt;/li&gt;
   
   
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Photoplethysmography is an optical sensing technique that is widely used in clinical and consumer devices. It is a highly active area of research, with many important developments being made each year. In this webinar leaders in the field will present their latest research. Topics include extracting measurements of pulse rate variability from the photoplethysmogram (PPG) for applications such as stress monitoring, and using phantoms to investigate the origins of the PPG and develop new PPG sensing technologies.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;James May (City, University of London)&lt;/strong&gt; will present on &lt;em&gt;Phantoms for In Vitro Investigations of PPG and PPG technology Development&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Elisa Mejia-Mejia (City, University of London)&lt;/strong&gt; will present on &lt;em&gt;Photoplethysmography-based pulse rate variability: standardisation of the technique using simulated signals&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;James Anibal (University of Oxford)&lt;/strong&gt; will present on &lt;em&gt;Attention methods for longer PPG sequences&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;photoplethysmography-signal-processing&#34;&gt;Photoplethysmography signal processing&lt;/h3&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;15 September 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-06-09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;&lt;a href=&#34;https://www.ipem.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute of Physics and Engineering in Medicine&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The photoplethysmogram (PPG) signal contains a wealth of information. However, there are several challenges to extracting physiological measurements from the PPG. Firstly, the PPG is highly susceptible to noise, which can corrupt the information in the signal. Consequently, much research has focused on assessing PPG signal quality and reducing motion artifact. Secondly, the PPG is often only indirectly affected by the physiology of interest, making it a challenge to extract physiological measurements such as blood pressure. This webinar will feature talks from researchers in the field of PPG signal processing, providing an overview of current work in the field and future research directions.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Xiaorong Ding (University of Electronic Science and Technology of China)&lt;/strong&gt; will present on &lt;em&gt;Exploiting Photoplethysmogram Features for Cuffless Blood Pressure Estimation&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Serena Zanelli (Paris Sorbonne Nord University)&lt;/strong&gt; will present on &lt;em&gt;Deep learning approach to detect signal quality from clinical to non-clinical PPG devices&lt;/em&gt; (&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9629640&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;accompanying paper&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Serena Zanelli (Paris Sorbonne Nord University)&lt;/strong&gt; will present a &lt;em&gt;Deep learning approach to detect signal quality from clinical to non-clinical PPG devices&lt;/em&gt; (&lt;a href=&#34;https://doi.org/10.1109/EMBC46164.2021.9629640&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;accompanying paper&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;previous-webinars&#34;&gt;Previous Webinars&lt;/h2&gt;
@@ -569,17 +558,27 @@
   &lt;p&gt;&lt;h3 id=&#34;clinical-applications-of-photoplethysmography&#34;&gt;Clinical applications of photoplethysmography&lt;/h3&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;28 April 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-04-28&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;&lt;a href=&#34;https://www.ipem.ac.uk/&#34;&gt;Institute of Physics and Engineering in Medicine&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;ul class=&#34;cta-group&#34;&gt;
-  &lt;li&gt;
-    &lt;a href=&#34;https://www.ipem.ac.uk/what-s-on/ipem-events/webinar-clinical-applications-of-photoplethysmography/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;btn btn-primary px-3 py-3&#34;&gt;Book now&lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This webinar highlighted emerging clinical applications of photoplethysmography. Photoplethysmography has traditionally been used in pulse oximeters for oxygen saturation and heart rate monitoring. Recently, several additional clinical applications have been proposed, ranging from screening newborn infants for critical congenital heart disease, to sleep apnea assessment, to identifying atrial fibrillation in everyday life. This webinar featured talks from researchers who are pushing the boundaries of photoplethysmography, developing approaches to use it to enhance healthcare in a range of settings.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;John Allen (Coventry University)&lt;/strong&gt; presented on &lt;em&gt;Further explorations in photoplethysmography for the detection of occlusive peripheral arterial disease&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Panicos Kyriacou (City University of London)&lt;/strong&gt; presented on &lt;em&gt;Non-invasive optical monitoring of Intracranial Pressure in Traumatic Brain Injury patients&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;&lt;strong&gt;Webinar 4: Developments in Photoplethysmography&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;h3 id=&#34;developments-in-photoplethysmography&#34;&gt;Developments in Photoplethysmography&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt; &lt;em&gt;7 July 2022, 14:00 British Summer Time (&lt;a href=&#34;https://dateful.com/convert/british-summer-time-bst?t=14&amp;amp;d=2022-07-07&#34;&gt;other time zones&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-user-tie&#34;&gt;&lt;/i&gt; Hosted by the &lt;em&gt;&lt;a href=&#34;https://www.ipem.ac.uk/&#34;&gt;Institute of Physics and Engineering in Medicine&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Photoplethysmography is an optical sensing technique that is widely used in clinical and consumer devices. It is a highly active area of research, with many important developments being made each year. In this webinar leaders in the field will present their latest research. Topics include extracting measurements of pulse rate variability from the photoplethysmogram (PPG) for applications such as stress monitoring, and using phantoms to investigate the origins of the PPG and develop new PPG sensing technologies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;James May (City, University of London)&lt;/strong&gt; presented on &lt;em&gt;Phantoms for In Vitro Investigations of PPG and PPG technology Development&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elisa Mejia-Mejia (City, University of London)&lt;/strong&gt; presented on &lt;em&gt;Photoplethysmography-based pulse rate variability: standardisation of the technique using simulated signals&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;James Anibal (University of Oxford)&lt;/strong&gt; presented on &lt;em&gt;Attention methods for longer PPG sequences&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/details&gt;
