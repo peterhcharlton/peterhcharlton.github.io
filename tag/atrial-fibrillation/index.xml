@@ -138,7 +138,11 @@
 &lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
 &lt;p&gt;The performance of existing PPG beat detection algorithms was assessed in different use cases, when using the algorithms with clinical monitoring data, and also wearable data. In addition, the impact of patient demographics and physiology was also assessed.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;The results are currently under review in &lt;a href=&#34;./publication/assess_ppg_beat_detectors&#34;&gt;this publication&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The results are available in detail in &lt;a href=&#34;./publication/assess_ppg_beat_detectors&#34;&gt;this publication&lt;/a&gt;. They are summarised in the following leaderboards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-beat-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG beat detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-heart-rate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG heart rate estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;The study is accompanied by the following resources, which are being made available &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
 &lt;ol&gt;
@@ -151,8 +155,6 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/tutorials/summary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tutorials&lt;/a&gt;&lt;/strong&gt; on how to use the algorithms, datasets, and code.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
-&lt;p&gt;The project is ongoing. Both this page and the accompanying resources will be updated further as the project progresses.&lt;/p&gt;
 </description>
     </item>
     

@@ -151,7 +151,8 @@
 &lt;h3 id=&#34;signal-processing&#34;&gt;Signal processing&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;A comprehensive overview of PPG signal processing:&lt;/strong&gt; Our &lt;a href=&#34;https://peterhcharlton.github.io/publication/ppg_sig_proc_chapter/&#34;&gt;book chapter on photoplethysmography signal processing&lt;/a&gt; provides an overview of a wide range of techniques for processing the photoplethysmogram (PPG) signal.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Respiratory rate estimation:&lt;/strong&gt; If you&amp;rsquo;re interested in estimating respiratory rate from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;review paper&lt;/a&gt; on the topic.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Detecting heartbeats in PPG signals:&lt;/strong&gt; If you&amp;rsquo;re interested in detecting beats in PPG signals, then see our &lt;a href=&#34;https://peterhcharlton.github.io/project/ppg-beats/&#34;&gt;project&lt;/a&gt; on PPG beat detection, including open-source algorithms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respiratory rate estimation:&lt;/strong&gt; If you&amp;rsquo;re interested in estimating respiratory rate from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/rr_review/&#34;&gt;review paper&lt;/a&gt; on the topic for an introduction, and our &lt;a href=&#34;https://peterhcharlton.github.io/project/rr-wearables/&#34;&gt;project&lt;/a&gt; on respiratory rate estimation algorithms.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Vascular age:&lt;/strong&gt; If you&amp;rsquo;re interested in assessing vascular age from the PPG, then see our &lt;a href=&#34;https://peterhcharlton.github.io/publication/vascagenet_ppg_review/&#34;&gt;review paper&lt;/a&gt; on the topic. Includes: blood pressure estimation, assessing arterial stiffness, and identifying peripheral arterial disease. If you&amp;rsquo;re interested in this topic, then you might consider joining &lt;a href=&#34;https://peterhcharlton.github.io/post/vascagenet_ppg_group/&#34;&gt;this working group&lt;/a&gt;, part of &lt;a href=&#34;https://vascagenet.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VascAgeNet&lt;/a&gt;, a network for research into vascular ageing.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;clinical-applications&#34;&gt;Clinical applications&lt;/h3&gt;
@@ -179,7 +180,11 @@
 &lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
 &lt;p&gt;The performance of existing PPG beat detection algorithms was assessed in different use cases, when using the algorithms with clinical monitoring data, and also wearable data. In addition, the impact of patient demographics and physiology was also assessed.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;The results are currently under review in &lt;a href=&#34;./publication/assess_ppg_beat_detectors&#34;&gt;this publication&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The results are available in detail in &lt;a href=&#34;./publication/assess_ppg_beat_detectors&#34;&gt;this publication&lt;/a&gt;. They are summarised in the following leaderboards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-beat-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG beat detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-heart-rate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG heart rate estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;p&gt;The study is accompanied by the following resources, which are being made available &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
 &lt;ol&gt;
@@ -192,8 +197,6 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/tutorials/summary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tutorials&lt;/a&gt;&lt;/strong&gt; on how to use the algorithms, datasets, and code.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
-&lt;p&gt;The project is ongoing. Both this page and the accompanying resources will be updated further as the project progresses.&lt;/p&gt;
 </description>
     </item>
     

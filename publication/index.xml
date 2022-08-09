@@ -38,23 +38,28 @@
 &lt;ul&gt;
 &lt;li&gt;Specify the path of the Matlab file for each dataset in the &lt;code&gt;specify_path_of_dataset_file&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script.&lt;/li&gt;
 &lt;li&gt;Specify the folder in which to save results figures by modifying the &lt;code&gt;up.paths.plots_root_folder&lt;/code&gt; variable within the &lt;code&gt;setup_universal_params&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script.&lt;/li&gt;
+&lt;li&gt;Specify the datasets to be analysed in the &lt;code&gt;setup_universal_params&lt;/code&gt; function within the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Run the &lt;code&gt;assess_multiple_datasets.m&lt;/code&gt; script, which will:
-&lt;ul&gt;
-&lt;li&gt;Analyse each dataset in turn&lt;/li&gt;
-&lt;li&gt;Generate results (in the command window) and results figures (saved in the specified folder)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;up.assessment_datasets = {&#39;capnobase&#39;, &#39;bidmc&#39;, &#39;mimic_train_all&#39;, &#39;mimic_test_all&#39;, &#39;wesad_meditation&#39;, &#39;wesad_amusement&#39;, &#39;wesad_baseline&#39;, &#39;wesad_stress&#39;, &#39;ppg_dalia_sitting&#39;, &#39;ppg_dalia_working&#39;, &#39;ppg_dalia_cycling&#39;, &#39;ppg_dalia_walking&#39;, &#39;ppg_dalia_lunch_break&#39;, &#39;ppg_dalia_car_driving&#39;, &#39;ppg_dalia_stair_climbing&#39;, &#39;ppg_dalia_table_soccer&#39;}; 
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;generate-additional-figures&#34;&gt;Generate additional figures&lt;/h3&gt;
-&lt;p&gt;The additional figures in the manuscript can be generated as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fig. 1&lt;/strong&gt; (Detecting beats in the photoplethysmogram): - run the &lt;code&gt;create_ppg_beat_detection_fig.m&lt;/code&gt; script.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fig. 2&lt;/strong&gt; (Comparing PPG-derived beats with reference beats): - run the &lt;code&gt;make_plot_of_ecg_ppg_time_alignment.m&lt;/code&gt; script.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fig. 5&lt;/strong&gt; (PPG beat detection during different activities): - run the &lt;code&gt;make_plot_of_ppg_beat_detection_challenges.m&lt;/code&gt; script.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;p&gt;up.comparison_datasets = {&amp;lsquo;mimic_B&amp;rsquo;, &amp;lsquo;mimic_W&amp;rsquo;, &amp;lsquo;mimic_test_a&amp;rsquo;, &amp;lsquo;mimic_test_n&amp;rsquo;, &amp;lsquo;mimic_non_af&amp;rsquo;, &amp;lsquo;mimic_af&amp;rsquo;};&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Specify the beat detectors to be used in the `specify_options` function within the `assess_multiple_datasets.m` script:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;options.beat_detectors = {&amp;lsquo;SWT&amp;rsquo;, &amp;lsquo;ATmax&amp;rsquo;, &amp;lsquo;SPAR&amp;rsquo;, &amp;lsquo;IMS&amp;rsquo;, &amp;lsquo;AMPD&amp;rsquo;, &amp;lsquo;MSPTD&amp;rsquo;, &amp;lsquo;ABD&amp;rsquo;, &amp;lsquo;qppgfast&amp;rsquo;, &amp;lsquo;HeartPy&amp;rsquo;, &amp;lsquo;COppg&amp;rsquo;, &amp;lsquo;PPGPulses&amp;rsquo;, &amp;lsquo;ERMA&amp;rsquo;, &amp;lsquo;PWD&amp;rsquo;, &amp;lsquo;PDA&amp;rsquo;, &amp;lsquo;WFD&amp;rsquo;};&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2. Run the `assess_multiple_datasets.m` script, which will:
+- Analyse each dataset in turn
+- Generate results (in the command window) and results figures (saved in the specified folder)
+
+### Generate additional figures
+
+The additional figures in the manuscript can be generated as follows:
+- **Fig. 1** (Detecting beats in the photoplethysmogram): - run the `create_ppg_beat_detection_fig.m` script.
+- **Fig. 2** (Comparing PPG-derived beats with reference beats): - run the `make_plot_of_ecg_ppg_time_alignment.m` script.
+- **Fig. 5** (PPG beat detection during different activities): - run the `make_plot_of_ppg_beat_detection_challenges.m` script.
+
+---&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
