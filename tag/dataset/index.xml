@@ -256,10 +256,17 @@
 &lt;td&gt;Finger recordings acquired at rest for $\approx$ 20-40 minutes from healthy adults.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/arianesasso/aime-2020&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HYPE Dataset&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://doi.org/10.1007/978-3-030-59137-3_29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;intermittent BP&lt;/td&gt;
+&lt;td&gt;Wrist recordings from hypertensive subjects: 8 subjects during stress tests, and 9 subjects during 24-hour monitoring.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.13026/C2PQ1X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wrist PPG During Exercise&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://doi.org/10.3390/data2010001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ref&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;ECG, gyro, accel&lt;/td&gt;
+&lt;td&gt;BP, accel&lt;/td&gt;
 &lt;td&gt;Wrist recordings acquired from adults aged 22-32 during walking, running and bike riding.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
