@@ -5,12 +5,46 @@
     <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>signal processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Mon, 11 Jul 2022 08:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>signal processing</title>
       <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
     </image>
+    
+    <item>
+      <title>PPG Beat Detection</title>
+      <link>https://peterhcharlton.github.io/project/ppg-beats/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/project/ppg-beats/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to develop a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals - the signals measured by smartwatches and pulse oximeters.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Smart wearables such as smartwatches and wrist-worn fitness trackers use photoplethysmography to monitor heart rate and rhythm. They do so by using an optical sensor to measure the photoplethysmogram (PPG) signal, and then analysing this signal to obtain heart rate or rhythm. A key step in analysing the signal is to identify individual heartbeats in the signal. Several approaches have previously been proposed to identify heartbeats in the signal, although it is not yet clear how well they perform, and whether they perform sufficiently well for clinical use.&lt;/p&gt;
+&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
+&lt;p&gt;The aim of this project is to identify, or develop, a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals.&lt;/p&gt;
+&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;p&gt;The performance of existing PPG beat detection algorithms was assessed in different use cases, when using the algorithms with clinical monitoring data, and also wearable data. In addition, the impact of patient demographics and physiology was also assessed.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The results are available in detail in &lt;a href=&#34;https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors&#34;&gt;this publication&lt;/a&gt;. They are summarised in the following leaderboards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-beat-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG beat detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-heart-rate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG heart rate estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;The study is accompanied by the following resources, which are being made available &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/ppg_beat_detectors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG Beat Detection Algorithms&lt;/a&gt;&lt;/strong&gt;: A selection of open-source algorithms for detecting beats in PPG signals.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/performance_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Performance Assessment Resources&lt;/a&gt;&lt;/strong&gt;: Resources to assess the performance of PPG beat detectors, including:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/datasets/summary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Datasets&lt;/a&gt;&lt;/strong&gt;: several publicly available datasets containing PPG and reference electrocardiogram (ECG) signals.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/performance_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/strong&gt;: MATLAB code with which to assess performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/tutorials/summary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tutorials&lt;/a&gt;&lt;/strong&gt; on how to use the algorithms, datasets, and code.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Open research in Biomedical Signal Processing - Cuffless Blood Pressure Estimation Using the MIMIC-IV Database</title>
@@ -64,40 +98,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Webinars:&lt;/strong&gt; To stay up to date with the latest developments in photoplethysmography by attending this &lt;a href=&#34;https://peterhcharlton.github.io/post/ppg_webinars/&#34;&gt;free webinar series&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PPG Beat Detection</title>
-      <link>https://peterhcharlton.github.io/project/ppg-beats/</link>
-      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/project/ppg-beats/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;The aim of this project is to develop a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals - the signals measured by smartwatches and pulse oximeters.&lt;/p&gt;
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Smart wearables such as smartwatches and wrist-worn fitness trackers use photoplethysmography to monitor heart rate and rhythm. They do so by using an optical sensor to measure the photoplethysmogram (PPG) signal, and then analysing this signal to obtain heart rate or rhythm. A key step in analysing the signal is to identify individual heartbeats in the signal. Several approaches have previously been proposed to identify heartbeats in the signal, although it is not yet clear how well they perform, and whether they perform sufficiently well for clinical use.&lt;/p&gt;
-&lt;h2 id=&#34;aim&#34;&gt;Aim&lt;/h2&gt;
-&lt;p&gt;The aim of this project is to identify, or develop, a high-performance algorithm to detect heartbeats in photoplethysmogram (PPG) signals.&lt;/p&gt;
-&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
-&lt;p&gt;The performance of existing PPG beat detection algorithms was assessed in different use cases, when using the algorithms with clinical monitoring data, and also wearable data. In addition, the impact of patient demographics and physiology was also assessed.&lt;/p&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;The results are available in detail in &lt;a href=&#34;./publication/assess_ppg_beat_detectors&#34;&gt;this publication&lt;/a&gt;. They are summarised in the following leaderboards:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-beat-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG beat detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://paperswithcode.com/task/photoplethysmography-ppg-heart-rate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG heart rate estimation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-&lt;p&gt;The study is accompanied by the following resources, which are being made available &lt;a href=&#34;https://ppg-beats.readthedocs.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/ppg_beat_detectors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPG Beat Detection Algorithms&lt;/a&gt;&lt;/strong&gt;: A selection of open-source algorithms for detecting beats in PPG signals.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/performance_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Performance Assessment Resources&lt;/a&gt;&lt;/strong&gt;: Resources to assess the performance of PPG beat detectors, including:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/datasets/summary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Datasets&lt;/a&gt;&lt;/strong&gt;: several publicly available datasets containing PPG and reference electrocardiogram (ECG) signals.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/toolbox/performance_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/strong&gt;: MATLAB code with which to assess performance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://ppg-beats.readthedocs.io/en/latest/tutorials/summary&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tutorials&lt;/a&gt;&lt;/strong&gt; on how to use the algorithms, datasets, and code.&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
