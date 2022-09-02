@@ -67,9 +67,9 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.ukbiobank.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UK Biobank&lt;/a&gt; (Field 4205)&lt;/td&gt;
-&lt;td&gt;No simultaneous. BP in same visit&lt;/td&gt;
-&lt;td&gt;205,357&lt;/td&gt;
 &lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;205,357&lt;/td&gt;
+&lt;td&gt;None simultaneous. BP in same visit&lt;/td&gt;
 &lt;td&gt;Single finger PPG waves from middle-aged subjects.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -450,6 +450,12 @@ up.comparison_datasets = {&#39;mimic_B&#39;, &#39;mimic_W&#39;, &#39;mimic_test_
 &lt;p&gt;Wearable photoplethysmography devices, such as smartwatches and fitness bands, are now widely used. The photoplethysmogram (PPG) signal measured by these devices provides a unique opportunity to monitor cardiovascular health, as it contains a wealth of physiological information, and can be measured frequently in daily life. This talk will firstly summarise current evidence on the clinical utility of such devices, including perspectives on their use for atrial fibrillation detection. Secondly, emerging clinical use cases will be presented, such as infectious disease monitoring and sleep apnea detection. Thirdly, pressing directions for future work will be highlighted, including the need for standardisation of each stage of the PPG measurement process to ensure devices meet the standards required for clinical use.&lt;/p&gt;
 &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 &lt;p&gt;Slides are available &lt;a href=&#34;https://doi.org/10.5281/zenodo.6826342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/qnN39k26ymw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
