@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmography</title>
@@ -1380,6 +1380,14 @@ up.comparison_datasets = {&#39;mimic_B&#39;, &#39;mimic_W&#39;, &#39;mimic_test_
 &lt;p&gt;&lt;a href=&#34;https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;peterhcharlton.github.io&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;See this website for resources.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Toward a robust estimation of respiratory rate from pulse oximeters</title>
+      <link>https://peterhcharlton.github.io/publication/pimentel-2017/</link>
+      <pubDate>Fri, 18 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/pimentel-2017/</guid>
+      <description></description>
     </item>
     
     <item>

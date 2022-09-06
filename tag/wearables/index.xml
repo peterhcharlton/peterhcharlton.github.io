@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Peter Charlton</copyright><lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
@@ -1292,6 +1292,14 @@ up.comparison_datasets = {&#39;mimic_B&#39;, &#39;mimic_W&#39;, &#39;mimic_test_
       <description>&lt;h3 id=&#34;recognition&#34;&gt;Recognition&lt;/h3&gt;
 &lt;p&gt;Featured in &lt;em&gt;Physiological Measurement&amp;rsquo;s&lt;/em&gt; &lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334/page/Highlights_of_2017&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Highlights of 2017&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Toward a robust estimation of respiratory rate from pulse oximeters</title>
+      <link>https://peterhcharlton.github.io/publication/pimentel-2017/</link>
+      <pubDate>Fri, 18 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/pimentel-2017/</guid>
+      <description></description>
     </item>
     
     <item>
