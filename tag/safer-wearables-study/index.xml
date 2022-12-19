@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/safer-wearables-study/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/safer-wearables-study/index.xml" rel="self" type="application/rss+xml" />
     <description>SAFER Wearables Study</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>SAFER Wearables Study</title>
@@ -13,11 +13,26 @@
     </image>
     
     <item>
+      <title>Smart wearable devices - gadgets or goldmines?</title>
+      <link>https://peterhcharlton.github.io/post/wearables_gadgets_goldmines/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/wearables_gadgets_goldmines/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This piece was originally published in the newsletter of the Department of Public Health and Primary Care at the University of Cambridge (Oct 2022).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Over the past decade smart wearable devices such as smartwatches and fitness trackers have become widely used. From the early days, these gadgets could provide interesting physiological information, such as your heart rate, your sleeping patterns, and the number of steps you take. They make for interesting and healthy leisure activities, such as enabling leaderboards of the fastest runners on Strava, and even a recent Primary Care Unit step challenge.&lt;/p&gt;
+&lt;p&gt;Then smart wearables started appearing in high-profile publications ? the Lancet Digital Health reported on their potential utility for infectious disease surveillance; the New England Journal of Medicine presented impressive results on their use for detecting atrial fibrillation; and they have underpinned research from our Department on physical activity. So are these devices simply gadgets which might be confined to a drawer of discarded birthday presents, or are they goldmines of physiological information which could improve patient outcomes?&lt;/p&gt;
+&lt;p&gt;In &amp;lsquo;&lt;a href=&#34;https://doi.org/10.1109/jproc.2022.3149785&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;&amp;rsquo;, we explore the potential for one particular type of wearable to transform physiological monitoring. Photoplethysmography is the optical sensing technology used in smartwatches for heart rate monitoring. You might have seen little light sensor on the underside of a smartwatch. The sensor can be used to monitor heart rate and heart rhythm, which is of particular interest to us in the context of screening for atrial fibrillation. It can also be used to monitor stress, breathing, blood pressure, and blood oxygen saturation to name a few, with potential applications in identifying obstructive sleep apnea, identifying preeclampsia, and mental health assessment.&lt;/p&gt;
+&lt;p&gt;So how do we realise the potential for wearables to improve patient outcomes? &amp;lsquo;&lt;a href=&#34;https://doi.org/10.1109/jproc.2022.3149785&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wearable Photoplethysmography for Cardiovascular Monitoring&lt;/a&gt;&amp;rsquo; is our summary of: (i) the engineering principles behind photoplethysmography; (ii) its potential clinical applications; and (iii) pressing directions for future research in order to realise its full potential. The work is also summarised in &lt;a href=&#34;https://www.youtube.com/watch?v=qnN39k26ymw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this video&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Wearable photoplethysmography for cardiovascular monitoring</title>
       <link>https://peterhcharlton.github.io/publication/wearable_ppg_review/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/wearable_ppg_review/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;accompanying-blog-post&#34;&gt;Accompanying blog post&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://peterhcharlton.github.io/post/wearables_gadgets_goldmines/&#34;&gt;This blog post&lt;/a&gt; provides a brief overview of this article.&lt;/p&gt;
+</description>
     </item>
     
     <item>

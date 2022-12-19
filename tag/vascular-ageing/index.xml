@@ -5,12 +5,24 @@
     <link>https://peterhcharlton.github.io/tag/vascular-ageing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/vascular-ageing/index.xml" rel="self" type="application/rss+xml" />
     <description>vascular ageing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 13 Jul 2022 10:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 08 Nov 2022 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>vascular ageing</title>
       <link>https://peterhcharlton.github.io/tag/vascular-ageing/</link>
     </image>
+    
+    <item>
+      <title>Wearable devices for health monitoring</title>
+      <link>https://peterhcharlton.github.io/talk/wearable-devices-for-health-monitoring/</link>
+      <pubDate>Tue, 08 Nov 2022 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/wearable-devices-for-health-monitoring/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;In the future, wearable photoplethysmography devices could be used to monitor the population&amp;rsquo;s health unobtrusively, helping prevent, identify and treat disease. Potential clinical applications for such devices have emerged in only ten years since they entered the consumer market, including detecting atrial fibrillation. Whilst the developments to date are a great achievement, there is potential for wearable photoplethysmography devices to be used for many more clinical applications. In this talk, Peter Charlton will firstly discuss potential future applications such as blood pressure monitoring, sleep apnea detection, and infectious disease surveillance. Second, he will outline key steps required to make these applications a reality: obtaining high quality photoplethysmogram (PPG) signals; reliably extracting physiological information from PPG signals; and using such information wisely to inform clinical decision making. Third, he will discuss challenges in the development of wearable photoplethysmography devices for clinical applications, and potential solutions. It is hoped that this vision will prompt dialogue about how to develop wearable photoplethysmography devices to be of the greatest possible benefit to society.&lt;/p&gt;
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+&lt;p&gt;Slides are available &lt;a href=&#34;https://doi.org/10.5281/zenodo.7301838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Wearable photoplethysmography devices for cardiovascular monitoring</title>
@@ -28,6 +40,14 @@
 &lt;/div&gt;
 
 </description>
+    </item>
+    
+    <item>
+      <title>Assessing vascular age from the photoplethysmogram</title>
+      <link>https://peterhcharlton.github.io/talk/assessing-vascular-age-from-the-photoplethysmogram/</link>
+      <pubDate>Wed, 06 Jul 2022 15:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/assessing-vascular-age-from-the-photoplethysmogram/</guid>
+      <description></description>
     </item>
     
     <item>

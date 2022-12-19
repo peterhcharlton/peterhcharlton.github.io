@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/publication-type/2/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 29 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://peterhcharlton.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>SleepPPG-Net: a deep learning algorithm for robust sleep staging from continuous photoplethysmography</title>
+      <link>https://peterhcharlton.github.io/publication/kotzen-2022/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/kotzen-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Detecting beats in the photoplethysmogram: benchmarking open-source algorithms</title>
@@ -88,7 +96,9 @@ up.comparison_datasets = {&#39;mimic_B&#39;, &#39;mimic_W&#39;, &#39;mimic_test_
       <link>https://peterhcharlton.github.io/publication/wearable_ppg_review/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/wearable_ppg_review/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;accompanying-blog-post&#34;&gt;Accompanying blog post&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://peterhcharlton.github.io/post/wearables_gadgets_goldmines/&#34;&gt;This blog post&lt;/a&gt; provides a brief overview of this article.&lt;/p&gt;
+</description>
     </item>
     
     <item>
