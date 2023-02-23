@@ -5,12 +5,38 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 15 Mar 2023 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>Multimodal signal processing and learning for wearables</title>
+      <link>https://peterhcharlton.github.io/talk/multimodal-signal-processing-and-learning-for-wearables/</link>
+      <pubDate>Wed, 15 Mar 2023 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/multimodal-signal-processing-and-learning-for-wearables/</guid>
+      <description>&lt;h3 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h3&gt;
+&lt;p&gt;The resources used in this workshop will be made available here in due course.&lt;/p&gt;
+&lt;h3 id=&#34;workshop-synopsis&#34;&gt;Workshop Synopsis&lt;/h3&gt;
+&lt;p&gt;An interactive, online workshop providing an introduction to the fundamentals of biomedical signal processing and learning for wearable signals of multiple modalities.&lt;/p&gt;
+&lt;p&gt;Digital wearable devices have great potential to improve health and wellbeing by monitoring physiology in daily life. A key challenge is making wearable data as rich and accurate as possible. The aim of this workshop is to equip attendees with knowledge and skills in processing wearable data, benefiting researchers in academia, device designers in industry, and ultimately the millions of people who use wearables to monitor their health and fitness.&lt;/p&gt;
+&lt;p&gt;The workshop will consist of three parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participants will be introduced to the signals measured by wearables, including photoplethysmogram and electrocardiogram signals.&lt;/li&gt;
+&lt;li&gt;Participants will learn fundamental techniques for processing wearable signals through interactive tutorials.&lt;/li&gt;
+&lt;li&gt;Participants will gain hands-on experience of signal processing and machine learning with wearable data through a group exercise, applying data analysis to real-world problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The workshop will use pre-prepared teaching materials consisting of online Jupyter notebooks running Python code on the cloud, so no installation is required on participants&#39; computers. The teaching materials are designed to be highly accessible to the non-specialist, while also providing opportunity for people with experience in the field to explore the topic more deeply.&lt;/p&gt;
+&lt;h3 id=&#34;aiuk-2023&#34;&gt;AIUK 2023&lt;/h3&gt;
+&lt;p&gt;This event is part of AI UK 2023. The Alan Turing Institute&amp;rsquo;s national showcase of data science, machine learning and artificial intelligence research and innovation.&lt;/p&gt;
+&lt;p&gt;At a series of events between 6 - 31 March 2023, AI UK Fringe brings together leaders in academia from across the UK&amp;rsquo;s AI ecosystem to demonstrate, exhibit and update on their ground-breaking work.&lt;/p&gt;
+&lt;p&gt;Examining the current and future landscapes of data science and AI in real-world settings, leadings minds discuss solutions to the most pressing concerns of our times, from environmental sustainability and health and life sciences to national security, defence and a data-driven economy.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re excited to be part of AI UK Fringe this March and can&amp;rsquo;t wait for you to join our community and contribute to key conversations.&lt;/p&gt;
+&lt;p&gt;Find out more about AI UK at &lt;a href=&#34;ai-uk.turing.ac.uk&#34;&gt;ai-uk.turing.ac.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Influence of Photoplethysmogram Signal Quality on Pulse Arrival Time during Polysomnography</title>

@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/multimodal-signal-processing-and-learning-for-wearables/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/rinkevicius-2023/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication_types/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
@@ -62,12 +77,6 @@
     <loc>https://peterhcharlton.github.io/publication/kotzen-2022/</loc>
     <lastmod>2022-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
-    <lastmod>2022-11-08T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2022-11-08T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/talk/wearable-devices-for-health-monitoring/</loc>
     <lastmod>2022-11-08T10:00:00+00:00</lastmod>
   </url><url>
@@ -75,9 +84,6 @@
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/dataset/</loc>
@@ -112,9 +118,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</loc>
     <lastmod>2022-07-13T10:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
-    <lastmod>2022-07-11T08:30:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/open-research-in-biomedical-signal-processing-cuffless-blood-pressure-estimation-using-the-mimic-iv-database/</loc>
     <lastmod>2022-07-11T08:30:00+00:00</lastmod>
