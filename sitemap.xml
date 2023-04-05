@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/using-consumer-wearables-for-clinical-decision-making/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/wearable-sensors/</loc>
+    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/vascagenet_modelling_review/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/modelling/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
     <lastmod>2023-03-15T10:00:00+00:00</lastmod>
   </url><url>
@@ -14,41 +59,14 @@
     <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
     <lastmod>2023-03-15T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
     <lastmod>2023-03-15T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/rinkevicius-2023/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
-    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/climie-2023/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/categories/</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
@@ -127,9 +145,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiography/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
-    <lastmod>2022-09-06T16:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/rr-wearables/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
@@ -230,9 +245,6 @@
     <loc>https://peterhcharlton.github.io/tag/atherosclerosis/</loc>
     <lastmod>2021-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
-    <lastmod>2021-12-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/post/ppg_webinars/</loc>
     <lastmod>2022-08-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -268,9 +280,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/extras/screening_for_af_q_a_transcript/</loc>
     <lastmod>2021-09-20T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearable-sensors/</loc>
-    <lastmod>2022-01-12T22:36:42+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/arterial-stiffness/</loc>
     <lastmod>2021-09-07T17:00:00+00:00</lastmod>

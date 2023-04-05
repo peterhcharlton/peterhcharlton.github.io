@@ -5,12 +5,22 @@
     <link>https://peterhcharlton.github.io/event/</link>
       <atom:link href="https://peterhcharlton.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 15 Mar 2023 10:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 02 May 2023 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://peterhcharlton.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Using consumer wearables for clinical decision making</title>
+      <link>https://peterhcharlton.github.io/talk/using-consumer-wearables-for-clinical-decision-making/</link>
+      <pubDate>Tue, 02 May 2023 16:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/using-consumer-wearables-for-clinical-decision-making/</guid>
+      <description>&lt;h2 id=&#34;registration-link&#34;&gt;Registration link&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://talks.cam.ac.uk/talk/index/195481&#34;&gt;https://talks.cam.ac.uk/talk/index/195481&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Multimodal signal processing and learning for wearables</title>
