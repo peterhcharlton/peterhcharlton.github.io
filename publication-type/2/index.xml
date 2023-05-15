@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/publication-type/2/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Fri, 31 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Fri, 12 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>A review of the effect of skin pigmentation on pulse oximeter accuracy</title>
+      <link>https://peterhcharlton.github.io/publication/skin_pigmentation/</link>
+      <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/skin_pigmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arterial pulse wave modelling and analysis for vascular age studies: a review from VascAgeNet</title>
       <link>https://peterhcharlton.github.io/publication/vascagenet_modelling_review/</link>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/vascagenet_modelling_review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An artificial intelligence-based model for prediction of atrial fibrillation from single-lead sinus rhythm electrocardiograms facilitating screening</title>
+      <link>https://peterhcharlton.github.io/publication/predict_af_sr/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/predict_af_sr/</guid>
       <description></description>
     </item>
     

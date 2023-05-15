@@ -2,22 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/skin_pigmentation/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/pulse-oximetry/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/analysing-cardiovascular-signals-to-assess-vascular-age/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/electrocardiography/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
+    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
     <lastmod>2023-05-02T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/respiratory-rate/</loc>
-    <lastmod>2023-05-02T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2023-05-02T16:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/using-consumer-wearables-for-clinical-decision-making/</loc>
@@ -26,25 +56,13 @@
     <loc>https://peterhcharlton.github.io/tag/wearable-sensors/</loc>
     <lastmod>2023-05-02T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/vascagenet_modelling_review/</loc>
     <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/modelling/</loc>
     <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
-    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
     <lastmod>2023-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
@@ -56,11 +74,11 @@
     <loc>https://peterhcharlton.github.io/talk/multimodal-signal-processing-and-learning-for-wearables/</loc>
     <lastmod>2023-03-15T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/publication/predict_af_sr/</loc>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/tag/screening/</loc>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/rinkevicius-2023/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
@@ -131,9 +149,6 @@
     <loc>https://peterhcharlton.github.io/talk/prioritising-ecgs-for-manual-review-in-atrial-fibrillation-screening/</loc>
     <lastmod>2022-07-14T10:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/screening/</loc>
-    <lastmod>2022-07-14T10:30:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-devices-for-cardiovascular-monitoring/</loc>
     <lastmod>2022-07-13T10:30:00+00:00</lastmod>
   </url><url>
@@ -142,9 +157,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/assessing-vascular-age-from-the-photoplethysmogram/</loc>
     <lastmod>2022-07-06T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/electrocardiography/</loc>
-    <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/project/rr-wearables/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
@@ -186,9 +198,6 @@
     <lastmod>2022-04-26T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/inaccuracy_pulse_oximetry/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/pulse-oximetry/</loc>
     <lastmod>2022-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/wearable-photoplethysmography-for-health-monitoring/</loc>

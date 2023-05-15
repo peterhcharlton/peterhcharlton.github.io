@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/tag/pulse-oximetry/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/pulse-oximetry/index.xml" rel="self" type="application/rss+xml" />
     <description>pulse oximetry</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Fri, 12 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>pulse oximetry</title>
       <link>https://peterhcharlton.github.io/tag/pulse-oximetry/</link>
     </image>
+    
+    <item>
+      <title>A review of the effect of skin pigmentation on pulse oximeter accuracy</title>
+      <link>https://peterhcharlton.github.io/publication/skin_pigmentation/</link>
+      <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/skin_pigmentation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inaccuracy of pulse oximetry with dark skin pigmentation: clinical implications and need for improvement</title>
