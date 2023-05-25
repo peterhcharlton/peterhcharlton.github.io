@@ -5,12 +5,22 @@
     <link>https://peterhcharlton.github.io/tag/engagement/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/engagement/index.xml" rel="self" type="application/rss+xml" />
     <description>engagement</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>engagement</title>
       <link>https://peterhcharlton.github.io/tag/engagement/</link>
     </image>
+    
+    <item>
+      <title>Media coverage on atrial fibrillation</title>
+      <link>https://peterhcharlton.github.io/post/sky_news_2023/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/sky_news_2023/</guid>
+      <description>&lt;p&gt;In 2023, Sky News featured the British Heart Foundation&amp;rsquo;s finding of an astonishing rise in the number of cases of atrial fibrillation, including my views on the potential role of wearables in detecting atrial fibrillation.&lt;/p&gt;
+&lt;p&gt;Read about it &lt;a href=&#34;https://news.sky.com/story/astonishing-rise-in-britons-with-an-irregular-heartbeat-these-are-the-main-warning-signs-12883566&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Bedtime stories for very young engineers</title>
@@ -19,15 +29,40 @@
       <guid>https://peterhcharlton.github.io/post/bedtime_stories/</guid>
       <description>&lt;h2 id=&#34;turning-toddlers-onto-engineering-through-storytelling&#34;&gt;Turning toddlers onto engineering through storytelling&lt;/h2&gt;
 &lt;p&gt;In 2021, I participated in this project, which aimed &amp;lsquo;to turn toddlers onto engineering through the power of storytelling&amp;rsquo; &lt;a href=&#34;https://www.storytellingengineers.com/about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;detailed here&lt;/a&gt;. Funded by the Royal Academy of Engineering, I was part of a cohort of engineers who were given the opportunity to write a story for 2-5 year olds to introduce them to Engineering. We were given training, feedback throughout the writing process, and the opportunity to be professionally recorded reading our story.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Further details of the project are available &lt;a href=&#34;https://www.storytellingengineers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including a &lt;a href=&#34;https://www.storytellingengineers.com/blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt; reflecting on the process of writing a story.&lt;/p&gt;
 &lt;h2 id=&#34;sally-and-the-snotbuster&#34;&gt;Sally and the Snotbuster&lt;/h2&gt;
 &lt;p&gt;I wrote a story about Sally, a young girl who likes making machines to help people. When her brother is sick and cannot sleep because of the snot blocking his airways, she starts working on a machine to detect the presence of snot, and then (gently) such it out without waking him up. Her broother is not impressed, and neither are her parents. Will she overcome the challenges? Find out in the story, available here:&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/H2qQ_6V7LsU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;further-resources&#34;&gt;Further resources&lt;/h2&gt;
-&lt;p&gt;Further details of the project are available &lt;a href=&#34;https://www.storytellingengineers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including a &lt;a href=&#34;https://www.storytellingengineers.com/blog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt; reflecting on the process of writing a story.&lt;/p&gt;
+&lt;h3 id=&#34;the-story&#34;&gt;The Story&lt;/h3&gt;
+&lt;p&gt;Sally loves making machines to help people. She has a workshop in the garden shed, where she makes machines that go &lt;em&gt;fizzzz, pop, kerchink&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;One day, Sally&amp;rsquo;s brother Ben got sick. Ben&amp;rsquo;s nose was filled with snot, and sometimes he struggled to breathe. Day and night, his parents had to suck out the snot.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Slluuurroofffubpt&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sally wanted to help. She wanted to make a machine to suck out the snot - a snot buster.&lt;/p&gt;
+&lt;p&gt;Sally sneaked into the cupboard under the stairs, and took the vaccuum to the shed. She sawed off the nozzle, and attached two small tubes. &amp;ldquo;Let&amp;rsquo;s try this!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That night, she crept into Ben&amp;rsquo;s bedroom, and gently placed the tubes into his nose. She turned on the vaccuum, and&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Slluuurroofffubpt&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The snot came out, but it sucked too hard. Ben woke up and bashed the tubes away. Their parents came racing in, &amp;ldquo;That&amp;rsquo;ll keep him up all night!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The next morning Sally went back to the shed with the snot buster and some toilet roll. &amp;ldquo;I can&amp;rsquo;t give up&amp;rdquo;, she thought. She pushed the toilet roll into the nozzle so it only sucked very lightly. &amp;ldquo;How about this!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That night, she crept into Ben&amp;rsquo;s bedroom, and gently placed the tubes into his nose. She turned on the vaccuum and&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Slluuurroofffubpt&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The snot came out, but it was too noisy. Ben woke up and yanked the vaccuum&amp;rsquo;s plug out. Their parents came racing in, &amp;ldquo;That&amp;rsquo;ll keep him up all night!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The next morning Sally went back to the shed with the snot buster and her duvet. &amp;ldquo;I can&amp;rsquo;t give up&amp;rdquo;, she thought. She wrapped the duvet around the vaccuum to make sure it was very quiet. &amp;ldquo;That&amp;rsquo;ll sort it!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That night, she crept into Ben&amp;rsquo;s bedroom, and gently placed the tubes into his nose. She turned on the vaccuum and&lt;/p&gt;
+&lt;p&gt;Slluuurroofffubpt&lt;/p&gt;
+&lt;p&gt;The snot came out, but it tickled Ben&amp;rsquo;s nose. He woke up sneezing. &lt;em&gt;&amp;ldquo;A- Aaa- Atch-oooo!&amp;quot;&lt;/em&gt; Their parents came racing in, &amp;ldquo;That&amp;rsquo;ll keep him up all night!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Sally was disappointed. The next morning she went back to the shed with the snot buster and needles and wool. &amp;ldquo;I can&amp;rsquo;t give up&amp;rdquo;, she thought. She knitted little cushions for the tubes to stop them tickling. &amp;ldquo;Surely this time?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That night, she crept into Ben&amp;rsquo;s bedroom, and gently placed the tubes into his nose. She turned on the vaccuum and&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Slluuurroofffubpt&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The snot came out, and out, and out. &lt;em&gt;&amp;ldquo;hooorr shiirr, hooorr shiirr&amp;rdquo;&lt;/em&gt;. Ben just slept. &amp;ldquo;Hooray!&amp;rdquo; whispered Sally.&lt;/p&gt;
+&lt;p&gt;The next morning their parents came in, and looked in amazement, &amp;ldquo;That&amp;rsquo;ll help him out all right!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Ben slept well, night, after night, after night. He got better, and doesn&amp;rsquo;t need the snot buster any more.&lt;/p&gt;
+&lt;p&gt;To this day, Sally makes machines to help people. Now, she has a teapot in her shed. She invites people round, gives them a cup of tea, and chats with them to understand what they need. And when a machine doesn&amp;rsquo;t work at first, she never gives up.&lt;/p&gt;
 </description>
     </item>
     

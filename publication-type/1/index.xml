@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/publication-type/1/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://peterhcharlton.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Development and Evaluation of a Contactless Heart Rate Measurement Device Based on rPPG</title>
+      <link>https://peterhcharlton.github.io/publication/ahmadi-2022/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/ahmadi-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Prioritising Electrocardiograms for Manual Review to Improve the Efficiency of Atrial Fibrillation Screening</title>
