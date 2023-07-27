@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/cardiovascular/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/fitness/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/physiological-monitoring/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/sensor/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/smartwatch/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/wearable_ppg_roadmap/</loc>
+    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/tag/engagement/</loc>
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,12 +48,6 @@
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
@@ -35,16 +68,7 @@
     <loc>https://peterhcharlton.github.io/tag/wearable-sensors/</loc>
     <lastmod>2023-05-17T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/skin_pigmentation/</loc>
-    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2023-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
     <lastmod>2023-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/pulse-oximetry/</loc>
@@ -57,9 +81,6 @@
     <lastmod>2023-05-09T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
-    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/signal-processing/</loc>
     <lastmod>2023-05-09T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
@@ -76,9 +97,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
     <lastmod>2023-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
-    <lastmod>2023-03-15T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
     <lastmod>2023-03-15T10:00:00+00:00</lastmod>
@@ -190,9 +208,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/awards/</loc>
     <lastmod>2022-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/cardiovascular/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/post/wd_armstrong_funding/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
@@ -498,9 +513,6 @@
     <lastmod>2022-01-12T22:53:19+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/charlton-2014-a/</loc>
-    <lastmod>2022-01-12T22:53:19+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/physiological-monitoring/</loc>
     <lastmod>2022-01-12T22:53:19+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/charlton-2012/</loc>
