@@ -5,12 +5,26 @@
     <link>https://peterhcharlton.github.io/tag/awards/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/awards/index.xml" rel="self" type="application/rss+xml" />
     <description>awards</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>awards</title>
       <link>https://peterhcharlton.github.io/tag/awards/</link>
     </image>
+    
+    <item>
+      <title>2023 Martin Black Prize</title>
+      <link>https://peterhcharlton.github.io/post/martin_black_prize/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/martin_black_prize/</guid>
+      <description>&lt;h2 id=&#34;recognition-from-the-institute-of-physics-iop-and-institute-of-physics-in-engineering-and-medicine-ipem&#34;&gt;Recognition from the Institute of Physics (IOP) and Institute of Physics in Engineering and Medicine (IPEM)&lt;/h2&gt;
+&lt;p&gt;In 2023, Peter Charlton and his colleagues received the &lt;a href=&#34;https://iopscience.iop.org/journal/0967-3334/page/Martin_Black_award&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Martin Black Prize&lt;/a&gt; for the best paper published in &lt;em&gt;Physiological Measurement&lt;/em&gt; during the previous year. This award recognises the outstanding contribution made by their paper titled:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&#34;&gt;Detecting beats in the photoplethysmogram: benchmarking open-source algorithms&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;further-details&#34;&gt;Further details&lt;/h2&gt;
+&lt;p&gt;To find out more, see &lt;a href=&#34;https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&#34;&gt;the paper&lt;/a&gt;, and the wider &lt;a href=&#34;https://peterhcharlton.github.io/project/ppg-beats/&#34;&gt;Project&lt;/a&gt; in which this paper sits, developing algorithms to detect heartbeats in photoplethysmography signals.&lt;/p&gt;
+&lt;p&gt;The award was covered by the Institute of Physics and Engineering in Medicine &lt;a href=&#34;https://www.ipem.ac.uk/news/winners-of-ipem-s-international-journal-prizes-for-2023-announced/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Funded PhD position</title>

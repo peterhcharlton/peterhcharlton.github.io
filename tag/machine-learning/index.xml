@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/machine-learning/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>machine learning</title>
+      <link>https://peterhcharlton.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Clustered photoplethysmogram pulse wave shapes and their associations with clinical data</title>
+      <link>https://peterhcharlton.github.io/publication/pulse_wave_clusters/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/pulse_wave_clusters/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

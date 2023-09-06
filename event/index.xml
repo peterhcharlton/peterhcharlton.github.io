@@ -5,12 +5,22 @@
     <link>https://peterhcharlton.github.io/event/</link>
       <atom:link href="https://peterhcharlton.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 06 Sep 2023 14:30:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://peterhcharlton.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Research-based Student Selected Components</title>
+      <link>https://peterhcharlton.github.io/talk/research-based-student-selected-components/</link>
+      <pubDate>Wed, 06 Sep 2023 14:30:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/research-based-student-selected-components/</guid>
+      <description>&lt;h2 id=&#34;accompanying-slides&#34;&gt;Accompanying slides&lt;/h2&gt;
+&lt;p&gt;Download directly from &lt;a href=&#34;https://zenodo.org/record/8321579/files/20230906%20research_based_SSCs.pdf?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Available on &lt;a href=&#34;https://doi.org/10.5281/zenodo.8321578&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using consumer wearables for clinical decisions</title>
