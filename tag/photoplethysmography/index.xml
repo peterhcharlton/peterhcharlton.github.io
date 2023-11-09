@@ -5,12 +5,28 @@
     <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/photoplethysmography/index.xml" rel="self" type="application/rss+xml" />
     <description>photoplethysmography</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 03 Oct 2023 12:45:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 06 Nov 2023 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>photoplethysmography</title>
       <link>https://peterhcharlton.github.io/tag/photoplethysmography/</link>
     </image>
+    
+    <item>
+      <title>Using consumer wearables in healthcare and research</title>
+      <link>https://peterhcharlton.github.io/talk/using-consumer-wearables-in-healthcare-and-research/</link>
+      <pubDate>Mon, 06 Nov 2023 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/using-consumer-wearables-in-healthcare-and-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noninvasive hemodynamic indices of vascular aging: an in silico assessment</title>
+      <link>https://peterhcharlton.github.io/publication/hong-2023/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/hong-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Accelerometry-Guided Inter-Beat-Interval Assessment from Wrist Photoplethysmography</title>
@@ -43,6 +59,17 @@
   &lt;iframe src=&#34;https://www.youtube.com/embed/qCWupnVhpS4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis</title>
+      <link>https://peterhcharlton.github.io/publication/goda-2023/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/goda-2023/</guid>
+      <description>&lt;h2 id=&#34;the-toolbox&#34;&gt;The toolbox&lt;/h2&gt;
+&lt;p&gt;The pyPPG toolbox is available &lt;a href=&#34;https://pyppg.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
 </description>
     </item>
     

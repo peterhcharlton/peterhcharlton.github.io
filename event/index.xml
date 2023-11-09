@@ -5,12 +5,20 @@
     <link>https://peterhcharlton.github.io/event/</link>
       <atom:link href="https://peterhcharlton.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 03 Oct 2023 12:45:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 06 Nov 2023 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://peterhcharlton.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Using consumer wearables in healthcare and research</title>
+      <link>https://peterhcharlton.github.io/talk/using-consumer-wearables-in-healthcare-and-research/</link>
+      <pubDate>Mon, 06 Nov 2023 10:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/using-consumer-wearables-in-healthcare-and-research/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Accelerometry-Guided Inter-Beat-Interval Assessment from Wrist Photoplethysmography</title>
