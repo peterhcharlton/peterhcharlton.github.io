@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>telehealth | Peter Charlton</title>
+    <link>https://peterhcharlton.github.io/tag/telehealth/</link>
+      <atom:link href="https://peterhcharlton.github.io/tag/telehealth/index.xml" rel="self" type="application/rss+xml" />
+    <description>telehealth</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
+      <title>telehealth</title>
+      <link>https://peterhcharlton.github.io/tag/telehealth/</link>
+    </image>
+    
+    <item>
+      <title>Telephone training to improve ECG quality in remote screening for atrial fibrillation</title>
+      <link>https://peterhcharlton.github.io/publication/bhayankaram-2024/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/bhayankaram-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
