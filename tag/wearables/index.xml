@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
@@ -13,9 +13,24 @@
     </image>
     
     <item>
+      <title>QRS detection in single-lead, telehealth electrocardiogram signals: benchmarking open-source algorithms </title>
+      <link>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
+&lt;p&gt;The code used in this study is available &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including QRS detectors and the evaluation framework.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reproducing-the-analysis&#34;&gt;Reproducing the analysis&lt;/h2&gt;
+&lt;p&gt;The analysis reported in this study can be reproduced by following the steps &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment/blob/publication/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Reliability of single-lead electrocardiogram interpretation to detect atrial fibrillation: insights from the SAFER Feasibility Study</title>
       <link>https://peterhcharlton.github.io/publication/hibbitt-2024/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/hibbitt-2024/</guid>
       <description></description>
     </item>
@@ -29,21 +44,6 @@
 &lt;p&gt;The &lt;a href=&#34;https://doi.org/10.1088/1361-6579/acead2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;2023 Wearable Photoplethysmography Roadmap&amp;rsquo;&lt;/a&gt;, which explores the full potential of wearable photoplethysmography and outlines directions for research and development, was published today in Physiological Measurement. The work draws together contributions from over 50 experts, covering 24 key topics within the areas of sensor design, signal processing, clinical applications, and research directions. It is free to download and we hope you will find it a useful guide to future research and development.&lt;/p&gt;
 &lt;h2 id=&#34;link-to-full-text&#34;&gt;Link to full text&lt;/h2&gt;
 &lt;p&gt;The Roadmap article is available to download &lt;a href=&#34;https://doi.org/10.1088/1361-6579/acead2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>QRS detection in single-lead, telehealth electrocardiogram signals: benchmarking open-source algorithms </title>
-      <link>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</link>
-      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
-&lt;p&gt;The code used in this study is available &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including QRS detectors and the evaluation framework.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;reproducing-the-analysis&#34;&gt;Reproducing the analysis&lt;/h2&gt;
-&lt;p&gt;The analysis reported in this study can be reproduced by following the steps &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment/blob/publication/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
 </description>
     </item>
     

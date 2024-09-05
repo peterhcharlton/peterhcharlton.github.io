@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/publication-type/3/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
@@ -13,34 +13,19 @@
     </image>
     
     <item>
-      <title>Telephone training to improve ECG quality in remote screening for atrial fibrillation</title>
-      <link>https://peterhcharlton.github.io/publication/bhayankaram-2024/</link>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/bhayankaram-2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Reliability of single-lead electrocardiogram interpretation to detect atrial fibrillation: insights from the SAFER Feasibility Study</title>
       <link>https://peterhcharlton.github.io/publication/hibbitt-2024/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/hibbitt-2024/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>QRS detection in single-lead, telehealth electrocardiogram signals: benchmarking open-source algorithms </title>
-      <link>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</link>
-      <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
-&lt;p&gt;The code used in this study is available &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including QRS detectors and the evaluation framework.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;reproducing-the-analysis&#34;&gt;Reproducing the analysis&lt;/h2&gt;
-&lt;p&gt;The analysis reported in this study can be reproduced by following the steps &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment/blob/publication/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-</description>
+      <title>Telephone training to improve ECG quality in remote screening for atrial fibrillation</title>
+      <link>https://peterhcharlton.github.io/publication/bhayankaram-2024/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/bhayankaram-2024/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -57,17 +42,6 @@
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/charlton-2023-cinc-ppg/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis</title>
-      <link>https://peterhcharlton.github.io/publication/goda-2023/</link>
-      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/goda-2023/</guid>
-      <description>&lt;h2 id=&#34;the-toolbox&#34;&gt;The toolbox&lt;/h2&gt;
-&lt;p&gt;The pyPPG toolbox is available &lt;a href=&#34;https://pyppg.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
-</description>
     </item>
     
     <item>

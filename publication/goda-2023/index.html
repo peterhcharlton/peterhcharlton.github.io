@@ -295,16 +295,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Peter Charlton" />
   <meta property="og:url" content="https://peterhcharlton.github.io/publication/goda-2023/" />
   <meta property="og:title" content="pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis | Peter Charlton" />
-  <meta property="og:description" content="A Python toolbox for comprehensive photoplethysmography signal analysis" /><meta property="og:image" content="https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png" />
-    <meta property="twitter:image" content="https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="A Python toolbox for comprehensive photoplethysmography signal analysis" /><meta property="og:image" content="https://peterhcharlton.github.io/publication/goda-2023/featured.jpg" />
+    <meta property="twitter:image" content="https://peterhcharlton.github.io/publication/goda-2023/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -312,7 +311,7 @@
         content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-09-24T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-04-08T00:00:00&#43;00:00">
   
 
   
@@ -338,8 +337,12 @@
   },
   "headline": "pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis",
   
+  "image": [
+    "https://peterhcharlton.github.io/publication/goda-2023/featured.jpg"
+  ],
+  
   "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2023-09-24T00:00:00Z",
+  "dateModified": "2024-04-08T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -815,18 +818,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -852,7 +863,7 @@
     
       
     
-    September 2023
+    April 2024
   </span>
   
 
@@ -872,7 +883,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -894,7 +905,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2309.13767.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://iopscience.iop.org/article/10.1088/1361-6579/ad33a2/pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -924,7 +935,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.48550/arXiv.2309.13767" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1088/1361-6579/ad33a2" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -949,7 +960,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 190px;">
+  <div style="position: relative">
+    <img src="/publication/goda-2023/featured_huefbcf315800c7ac5d7c5dd4265651245_194190_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <strong>M.A. Goda et al.</strong> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</span>
+  </div>
 </div>
 
 
@@ -958,7 +976,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Photoplethysmography is a non-invasive optical technique that measures changes in blood volume within tissues. It is commonly and increasingly used for in a variety of research and clinical application to assess vascular dynamics and physiological parameters. Yet, contrary to heart rate variability measures, a field which has seen the development of stable standards and advanced toolboxes and software, no such standards and open tools exist for continuous photoplethysmogram (PPG) analysis. Consequently, the primary objective of this research was to identify, standardize, implement and validate key digital PPG biomarkers. This work describes the creation of a standard Python toolbox, denoted pyPPG, for long-term continuous PPG time series analysis recorded using a standard finger-based transmission pulse oximeter. The improved PPG peak detector had an F1-score of 88.19% for the state-of-the-art benchmark when evaluated on 2,054 adult polysomnography recordings totaling over 91 million reference beats. This algorithm outperformed the open-source original Matlab implementation by ~5% when benchmarked on a subset of 100 randomly selected MESA recordings. More than 3,000 fiducial points were manually annotated by two annotators in order to validate the fiducial points detector. The detector consistently demonstrated high performance, with a mean absolute error of less than 10 ms for all fiducial points. Based on these fiducial points, pyPPG engineers a set of 74 PPG biomarkers. Studying the PPG time series variability using pyPPG can enhance our understanding of the manifestations and etiology of diseases. This toolbox can also be used for biomarker engineering in training data-driven models. pyPPG is available on this http URL</p>
+    <p class="pub-abstract">Objective: Photoplethysmography is a non-invasive optical technique that measures changes in blood volume within tissues. It is commonly and being increasingly used for a variety of research and clinical applications to assess vascular dynamics and physiological parameters. Yet, contrary to heart rate variability measures, a field which has seen the development of stable standards and advanced toolboxes and software, no such standards and limited open tools exist for continuous photoplethysmogram (PPG) analysis. Consequently, the primary objective of this research was to identify, standardize, implement and validate key digital PPG biomarkers. Approach: This work describes the creation of a standard Python toolbox, denoted pyPPG, for long-term continuous PPG time-series analysis and demonstrates the detection and computation of a high number of fiducial points and digital biomarkers using a standard fingerbased transmission pulse oximeter. Main results: The improved PPG peak detector had an F1-score of 88.19% for the state-of-the-art benchmark when evaluated on 2054 adult polysomnography recordings totaling over 91 million reference beats. The algorithm outperformed the open-source original Matlab implementation by approximately 5% when benchmarked on a subset of 100 randomly selected MESA recordings. More than 3000 fiducial points were manually annotated by two annotators in order to validate the fiducial points detector. The detector consistently demonstrated high performance, with a mean absolute error of less than 10 ms for all fiducial points. Significance: Based on these fiducial points, pyPPG engineered a set of 74 PPG biomarkers. Studying PPG time-series variability using pyPPG can enhance our understanding of the manifestations and etiology of diseases. This toolbox can also be used for biomarker engineering in training data-driven models. pyPPG is available on <a href="https://physiozoo.com/">https://physiozoo.com/</a>.</p>
     
 
     
@@ -969,8 +987,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#2">
+              Journal article
             </a>
           </div>
         </div>
@@ -986,7 +1004,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">arXiv</div>
+          <div class="col-12 col-md-9">Physiological Measurement</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1252,7 +1270,7 @@
       
       <li><a href="/publication/rr_framework/">A new framework to estimate breathing rate from electrocardiogram, photoplethysmogram, and blood pressure signals</a></li>
       
-      <li><a href="/talk/analysing-cardiovascular-signals-to-assess-vascular-age/">Analysing cardiovascular signals to assess vascular age</a></li>
+      <li><a href="/publication/mathieu-2024/">Advanced waveform analysis of the photoplethysmogram signal using complementary signal processing techniques for the extraction of biomarkers of cardiovascular function</a></li>
       
     </ul>
   </div>

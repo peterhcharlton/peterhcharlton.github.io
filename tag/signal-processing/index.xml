@@ -5,7 +5,7 @@
     <link>https://peterhcharlton.github.io/tag/signal-processing/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/signal-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>signal processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>signal processing</title>
@@ -13,22 +13,30 @@
     </image>
     
     <item>
-      <title>Characterising RR Intervals in Atrial Fibrillation Detected through Screening</title>
-      <link>https://peterhcharlton.github.io/publication/akande-2023/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/akande-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis</title>
       <link>https://peterhcharlton.github.io/publication/goda-2023/</link>
-      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/publication/goda-2023/</guid>
       <description>&lt;h2 id=&#34;the-toolbox&#34;&gt;The toolbox&lt;/h2&gt;
 &lt;p&gt;The pyPPG toolbox is available &lt;a href=&#34;https://pyppg.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Advanced waveform analysis of the photoplethysmogram signal using complementary signal processing techniques for the extraction of biomarkers of cardiovascular function</title>
+      <link>https://peterhcharlton.github.io/publication/mathieu-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/mathieu-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterising RR Intervals in Atrial Fibrillation Detected through Screening</title>
+      <link>https://peterhcharlton.github.io/publication/akande-2023/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/akande-2023/</guid>
+      <description></description>
     </item>
     
     <item>

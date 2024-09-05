@@ -5,12 +5,46 @@
     <link>https://peterhcharlton.github.io/publication-type/2/</link>
       <atom:link href="https://peterhcharlton.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Peter Charlton</copyright><lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://peterhcharlton.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>QRS detection in single-lead, telehealth electrocardiogram signals: benchmarking open-source algorithms </title>
+      <link>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;accompanying-resources&#34;&gt;Accompanying Resources&lt;/h2&gt;
+&lt;p&gt;The code used in this study is available &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, including QRS detectors and the evaluation framework.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;reproducing-the-analysis&#34;&gt;Reproducing the analysis&lt;/h2&gt;
+&lt;p&gt;The analysis reported in this study can be reproduced by following the steps &lt;a href=&#34;https://github.com/floriankri/ecg_detector_assessment/blob/publication/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis</title>
+      <link>https://peterhcharlton.github.io/publication/goda-2023/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/goda-2023/</guid>
+      <description>&lt;h2 id=&#34;the-toolbox&#34;&gt;The toolbox&lt;/h2&gt;
+&lt;p&gt;The pyPPG toolbox is available &lt;a href=&#34;https://pyppg.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced waveform analysis of the photoplethysmogram signal using complementary signal processing techniques for the extraction of biomarkers of cardiovascular function</title>
+      <link>https://peterhcharlton.github.io/publication/mathieu-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/mathieu-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Noninvasive hemodynamic indices of vascular aging: an in silico assessment</title>
