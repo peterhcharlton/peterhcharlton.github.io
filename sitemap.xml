@@ -2,7 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
+    <lastmod>2024-09-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/</loc>
+    <lastmod>2024-09-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2024-09-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/event/</loc>
+    <lastmod>2024-09-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2024-09-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/the-acceptability-of-wearables-for-atrial-fibrillation-screening-interim-analysis-of-the-safer-wearables-study/</loc>
+    <lastmod>2024-09-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/beat-detection/</loc>
+    <lastmod>2024-09-10T13:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/</loc>
+    <lastmod>2024-09-10T13:15:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/1/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/ho-2024/</loc>
@@ -14,7 +41,7 @@
     <loc>https://peterhcharlton.github.io/tag/electrocardiography/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/</loc>
+    <loc>https://peterhcharlton.github.io/publication/cinc-2024-msptdfast/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication_types/</loc>
@@ -23,14 +50,14 @@
     <loc>https://peterhcharlton.github.io/publication/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tags/</loc>
+    <loc>https://peterhcharlton.github.io/publication/cinc-2024-safer-wearables/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/beat-detection/</loc>
-    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
     <lastmod>2024-08-13T00:00:00+00:00</lastmod>
@@ -38,17 +65,11 @@
     <loc>https://peterhcharlton.github.io/publication/assess_ecg_beat_detectors/</loc>
     <lastmod>2024-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/wearables/</loc>
-    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication-type/3/</loc>
     <lastmod>2024-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/hibbitt-2024/</loc>
     <lastmod>2024-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
-    <lastmod>2024-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/publication/goda-2023/</loc>
     <lastmod>2024-04-08T00:00:00+00:00</lastmod>
@@ -70,12 +91,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/post/</loc>
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/atrial-fibrillation/</loc>
-    <lastmod>2023-11-06T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/event/</loc>
-    <lastmod>2023-11-06T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/using-consumer-wearables-in-healthcare-and-research/</loc>
     <lastmod>2023-11-06T10:00:00+00:00</lastmod>
