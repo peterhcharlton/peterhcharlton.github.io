@@ -5,12 +5,31 @@
     <link>https://peterhcharlton.github.io/tag/conferences/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/conferences/index.xml" rel="self" type="application/rss+xml" />
     <description>conferences</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Mon, 18 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>conferences</title>
       <link>https://peterhcharlton.github.io/tag/conferences/</link>
     </image>
+    
+    <item>
+      <title>Computing in Cardiology Conference</title>
+      <link>https://peterhcharlton.github.io/post/cinc_2024/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/cinc_2024/</guid>
+      <description>&lt;p&gt;Peter Charlton and his colleagues at the University of Cambridge will give four presentations and run a Special Session at the 2024 &lt;a href=&#34;https://www.cinc2024.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computing in Cardiology Conference&lt;/a&gt;:&lt;/p&gt;
+&lt;h3 id=&#34;special-session-on-open-questions-in-open-research-in-cardiovascular-data-science&#34;&gt;Special Session on &amp;lsquo;Open Questions in Open Research in Cardiovascular Data Science&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Peter and Sharon Ho will chair a special session on &amp;lsquo;Open Questions in Open Research in Cardiovascular Data Science&amp;rsquo;, featuring presentations from leaders in the field: Prof Gari Clifford, Dr Nils Strodthoff, Dr Erika Bondareva, and Mantas Rinkevicius. The special session will also include a debate and discussion on the topic, encouraging audience participation.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-on-msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm&#34;&gt;Presentation on &amp;lsquo;MSPTDfast: An Efficient Photoplethysmography Beat Detection Algorithm&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Peter will present work on developing a more efficient, open-source implementation of the MSPTD photoplethysmography beat detection algorithm. Briefly, the MSPTD algorithm has previously been found (in our work &lt;a href=&#34;https://peterhcharlton.github.io/publication/assess_ppg_beat_detectors/&#34;&gt;here&lt;/a&gt;) to be one of the most accurate PPG beat detection algorithms. However, it is substantially slower than other leading algorithms. In this work we refined the MSPTD implementation to develop &amp;lsquo;MSPTDfast&amp;rsquo; - an algorithm which is much faster than the original MSPTD algorithm, whilst retaining the high beat detection accuracy. Further details of the talk are available &lt;a href=&#34;https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/&#34;&gt;here&lt;/a&gt;, including the slides. The accompanying conference paper is available &lt;a href=&#34;https://peterhcharlton.github.io/publication/cinc-2024-msptdfast/&#34;&gt;here&lt;/a&gt;, whilst the subsequent journal paper is available &lt;a href=&#34;https://peterhcharlton.github.io/publication/charlton2024-msptdfast/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-on-the-acceptability-of-wearables-for-atrial-fibrillation-screening-interim-analysis-of-the-safer-wearables-study&#34;&gt;Presentation on &amp;lsquo;The Acceptability of Wearables for Atrial Fibrillation Screening: Interim Analysis of the SAFER Wearables Study&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Peter will present an interim analysis of data collected in the SAFER Wearables Study. In this interim analysis, Peter and his colleagues report participant feedback on the acceptability of wearable for atrial fibrillation screening, identifying factors which influence the acceptability of wearables, and strategies to improve acceptability. Further details of the talk are available &lt;a href=&#34;https://peterhcharlton.github.io/talk/the-acceptability-of-wearables-for-atrial-fibrillation-screening-interim-analysis-of-the-safer-wearables-study/&#34;&gt;here&lt;/a&gt;, including the slides. The accompanying conference paper is available &lt;a href=&#34;https://peterhcharlton.github.io/publication/cinc-2024-safer-wearables/&#34;&gt;here&lt;/a&gt;, and further details of the study are available &lt;a href=&#34;https://peterhcharlton.github.io/project/safer-wearables/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-on-comparing-rr-interval-based-and-whole-signal-based-machine-learning-models-for-atrial-fibrillation-detection-from-single-lead-electrocardiograms&#34;&gt;Presentation on &amp;lsquo;Comparing RR-Interval-Based and Whole-Signal-Based Machine Learning Models for Atrial Fibrillation Detection from Single-lead Electrocardiograms&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Zixuan Ding will present work comparing the performance of RR-interval and whole-signal based ECG analysis methods for detection of atrial fibrillation. The accompanying conference paper is available &lt;a href=&#34;https://peterhcharlton.github.io/publication/ding-2024/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;presentation-on-automated-rr-interval-detection-and-quality-assessment-in-telehealth-electrocardiograms&#34;&gt;Presentation on &amp;lsquo;Automated RR Interval Detection and Quality Assessment in Telehealth Electrocardiograms&amp;rsquo;&lt;/h3&gt;
+&lt;p&gt;Sharon Ho will present work developing algorithms to automatically predict whether or not RR-intervals can be accurately extracted from an ECG signal. The accompanying conference paper is available &lt;a href=&#34;https://peterhcharlton.github.io/publication/ho-2024/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Engineering in Medicine and Biology Conference</title>
