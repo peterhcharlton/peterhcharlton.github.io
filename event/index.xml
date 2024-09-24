@@ -5,12 +5,28 @@
     <link>https://peterhcharlton.github.io/event/</link>
       <atom:link href="https://peterhcharlton.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Wed, 11 Sep 2024 12:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Tue, 24 Sep 2024 14:30:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://peterhcharlton.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Equitable photoplethysmography in wearables</title>
+      <link>https://peterhcharlton.github.io/talk/equitable-photoplethysmography-in-wearables/</link>
+      <pubDate>Tue, 24 Sep 2024 14:30:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/equitable-photoplethysmography-in-wearables/</guid>
+      <description>&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/La7l9n3GHoI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+&lt;p&gt;Slides from the accompanying presentation are available &lt;a href=&#34;https://zenodo.org/doi/10.5281/zenodo.13833789&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Acceptability of Wearables for Atrial Fibrillation Screening - Interim Analysis of the SAFER Wearables Study</title>
@@ -35,7 +51,13 @@
       <link>https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/</link>
       <pubDate>Tue, 10 Sep 2024 13:15:00 +0000</pubDate>
       <guid>https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/</guid>
-      <description>&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ZnIQAWJgHBQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 &lt;p&gt;Slides from the accompanying presentation are available &lt;a href=&#34;https://doi.org/10.5281/zenodo.13696047&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;accompanying-publication&#34;&gt;Accompanying publication&lt;/h3&gt;
 &lt;p&gt;The accompanying conference paper is available &lt;a href=&#34;https://peterhcharlton.github.io/publication/cinc-2024-msptdfast/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;

@@ -5,12 +5,28 @@
     <link>https://peterhcharlton.github.io/tag/wearables/</link>
       <atom:link href="https://peterhcharlton.github.io/tag/wearables/index.xml" rel="self" type="application/rss+xml" />
     <description>wearables</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Tue, 24 Sep 2024 14:30:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>wearables</title>
       <link>https://peterhcharlton.github.io/tag/wearables/</link>
     </image>
+    
+    <item>
+      <title>Equitable photoplethysmography in wearables</title>
+      <link>https://peterhcharlton.github.io/talk/equitable-photoplethysmography-in-wearables/</link>
+      <pubDate>Tue, 24 Sep 2024 14:30:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/talk/equitable-photoplethysmography-in-wearables/</guid>
+      <description>&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/La7l9n3GHoI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
+&lt;p&gt;Slides from the accompanying presentation are available &lt;a href=&#34;https://zenodo.org/doi/10.5281/zenodo.13833789&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The acceptability of wearables for atrial fibrillation screening: Interim analysis of the SAFER Wearables Study</title>
