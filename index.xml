@@ -5,12 +5,24 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Tue, 24 Sep 2024 14:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>UKOMAIN, the UK Open Multimodal AI Network</title>
+      <link>https://peterhcharlton.github.io/post/ukomain_2025/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/ukomain_2025/</guid>
+      <description>&lt;h3 id=&#34;a-new-network-for-research-into-multimodal-ai&#34;&gt;A new network for research into multimodal AI&lt;/h3&gt;
+&lt;p&gt;The UK Open Multimodal AI Network (UKOMAIN) is a national initiative funded by the EPSRC with a £1.8 million grant, led by the University of Sheffield. It aims to advance innovation in multimodal AI by integrating diverse data types - such as electronic health record, imaging, and wearable data to name but a few - to address pressing societal challenges, including in healthcare.&lt;/p&gt;
+&lt;p&gt;The network will provide funding for collaborative research; opportunities to network and develop multidisciplinary collaborations; events to showcase your work; and workshops and resources to help learn more about multimodal AI.&lt;/p&gt;
+&lt;p&gt;Anyone interested can find out more at &lt;a href=&#34;https://multimodalai.github.io/&#34;&gt;https://multimodalai.github.io/&lt;/a&gt; and follow updates on LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company/ukomain&#34;&gt;https://www.linkedin.com/company/ukomain&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Equitable photoplethysmography in wearables</title>
