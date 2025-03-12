@@ -5,12 +5,34 @@
     <link>https://peterhcharlton.github.io/</link>
       <atom:link href="https://peterhcharlton.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peter Charlton</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Peter Charlton</copyright><lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Peter Charlton</title>
       <link>https://peterhcharlton.github.io/</link>
     </image>
+    
+    <item>
+      <title>Announcing a Roadmap for developing technologies to assess vascular ageing</title>
+      <link>https://peterhcharlton.github.io/post/vasc_age_roadmap/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/vasc_age_roadmap/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ad548e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A new roadmap paper&lt;/a&gt; on technologies to assess vascular ageing has recently been published. The Roadmap explores measurement technologies, the development pipeline, clinical applications, and future research directions. It was recently published in Physiological Measurement. The work draws together contributions from an international group of experts, covering 24 key topics. It is free to download and we hope you will find it a useful guide to future research and development.&lt;/p&gt;
+&lt;h2 id=&#34;link-to-full-text&#34;&gt;Link to full text&lt;/h2&gt;
+&lt;p&gt;The Roadmap article is available to download &lt;a href=&#34;https://doi.org/10.1088/1361-6579/ad548e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The MSPTDfast photoplethysmography beat detection algorithm - Design, benchmarking, and open-source distribution</title>
+      <link>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</guid>
+      <description>&lt;h3 id=&#34;accompanying-presentation&#34;&gt;Accompanying presentation&lt;/h3&gt;
+&lt;p&gt;The presentation which accompanies this paper is available &lt;a href=&#34;https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>UKOMAIN, the UK Open Multimodal AI Network</title>
@@ -22,6 +44,22 @@
 &lt;p&gt;The network will provide funding for collaborative research; opportunities to network and develop multidisciplinary collaborations; events to showcase your work; and workshops and resources to help learn more about multimodal AI.&lt;/p&gt;
 &lt;p&gt;Anyone interested can find out more at &lt;a href=&#34;https://multimodalai.github.io/&#34;&gt;https://multimodalai.github.io/&lt;/a&gt; and follow updates on LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company/ukomain&#34;&gt;https://www.linkedin.com/company/ukomain&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Machine learning-based pulse wave analysis for classification of circle of Willis topology - An in silico study with 30,618 virtual subjects</title>
+      <link>https://peterhcharlton.github.io/publication/sen-2025-ml/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/sen-2025-ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing technologies to assess vascular ageing - a roadmap from VascAgeNet</title>
+      <link>https://peterhcharlton.github.io/publication/vasc_age_roadmap/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/vasc_age_roadmap/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -128,16 +166,6 @@
       <guid>https://peterhcharlton.github.io/publication/cinc-2024-safer-wearables/</guid>
       <description>&lt;h3 id=&#34;accompanying-presentation&#34;&gt;Accompanying presentation&lt;/h3&gt;
 &lt;p&gt;The presentation which accompanies this paper is available &lt;a href=&#34;https://peterhcharlton.github.io/talk/the-acceptability-of-wearables-for-atrial-fibrillation-screening-interim-analysis-of-the-safer-wearables-study/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The MSPTDfast photoplethysmography beat detection algorithm - Design, benchmarking, and open-source distribution</title>
-      <link>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</link>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</guid>
-      <description>&lt;h3 id=&#34;accompanying-presentation&#34;&gt;Accompanying presentation&lt;/h3&gt;
-&lt;p&gt;The presentation which accompanies this paper is available &lt;a href=&#34;https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

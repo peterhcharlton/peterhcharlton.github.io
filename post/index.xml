@@ -5,12 +5,24 @@
     <link>https://peterhcharlton.github.io/post/</link>
       <atom:link href="https://peterhcharlton.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Peter Charlton</copyright><lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>News</title>
       <link>https://peterhcharlton.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Announcing a Roadmap for developing technologies to assess vascular ageing</title>
+      <link>https://peterhcharlton.github.io/post/vasc_age_roadmap/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/post/vasc_age_roadmap/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1088/1361-6579/ad548e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A new roadmap paper&lt;/a&gt; on technologies to assess vascular ageing has recently been published. The Roadmap explores measurement technologies, the development pipeline, clinical applications, and future research directions. It was recently published in Physiological Measurement. The work draws together contributions from an international group of experts, covering 24 key topics. It is free to download and we hope you will find it a useful guide to future research and development.&lt;/p&gt;
+&lt;h2 id=&#34;link-to-full-text&#34;&gt;Link to full text&lt;/h2&gt;
+&lt;p&gt;The Roadmap article is available to download &lt;a href=&#34;https://doi.org/10.1088/1361-6579/ad548e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>UKOMAIN, the UK Open Multimodal AI Network</title>

@@ -5,12 +5,38 @@
     <link>https://peterhcharlton.github.io/publication/</link>
       <atom:link href="https://peterhcharlton.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Peter Charlton</copyright><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Peter Charlton</copyright><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://peterhcharlton.github.io/media/icon_hu5d370b2f3224e8711b194d151b733caa_16531_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://peterhcharlton.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>The MSPTDfast photoplethysmography beat detection algorithm - Design, benchmarking, and open-source distribution</title>
+      <link>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</guid>
+      <description>&lt;h3 id=&#34;accompanying-presentation&#34;&gt;Accompanying presentation&lt;/h3&gt;
+&lt;p&gt;The presentation which accompanies this paper is available &lt;a href=&#34;https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine learning-based pulse wave analysis for classification of circle of Willis topology - An in silico study with 30,618 virtual subjects</title>
+      <link>https://peterhcharlton.github.io/publication/sen-2025-ml/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/sen-2025-ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing technologies to assess vascular ageing - a roadmap from VascAgeNet</title>
+      <link>https://peterhcharlton.github.io/publication/vasc_age_roadmap/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://peterhcharlton.github.io/publication/vasc_age_roadmap/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automated RR Interval Detection and Quality Assessment in Telehealth Electrocardiograms</title>
@@ -45,16 +71,6 @@
       <guid>https://peterhcharlton.github.io/publication/cinc-2024-safer-wearables/</guid>
       <description>&lt;h3 id=&#34;accompanying-presentation&#34;&gt;Accompanying presentation&lt;/h3&gt;
 &lt;p&gt;The presentation which accompanies this paper is available &lt;a href=&#34;https://peterhcharlton.github.io/talk/the-acceptability-of-wearables-for-atrial-fibrillation-screening-interim-analysis-of-the-safer-wearables-study/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The MSPTDfast photoplethysmography beat detection algorithm - Design, benchmarking, and open-source distribution</title>
-      <link>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</link>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</guid>
-      <description>&lt;h3 id=&#34;accompanying-presentation&#34;&gt;Accompanying presentation&lt;/h3&gt;
-&lt;p&gt;The presentation which accompanies this paper is available &lt;a href=&#34;https://peterhcharlton.github.io/talk/msptdfast-an-efficient-photoplethysmography-beat-detection-algorithm/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://peterhcharlton.github.io/post/vasc_age_roadmap/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://peterhcharlton.github.io/post/</loc>
-    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/</loc>
-    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tags/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication_types/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/ukomain/</loc>
@@ -17,10 +38,28 @@
     <loc>https://peterhcharlton.github.io/post/ukomain_2025/</loc>
     <lastmod>2025-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/talk/equitable-photoplethysmography-in-wearables/</loc>
-    <lastmod>2024-09-24T14:30:00+00:00</lastmod>
+    <loc>https://peterhcharlton.github.io/publication/sen-2025-ml/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/photoplethysmography/</loc>
+    <loc>https://peterhcharlton.github.io/tag/pwdb/</loc>
+    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/arterial-stiffness/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/cardiovascular/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/publication/vasc_age_roadmap/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://peterhcharlton.github.io/talk/equitable-photoplethysmography-in-wearables/</loc>
     <lastmod>2024-09-24T14:30:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/event/</loc>
@@ -50,9 +89,6 @@
     <loc>https://peterhcharlton.github.io/publication-type/1/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication-type/2/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/ho-2024/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -65,16 +101,7 @@
     <loc>https://peterhcharlton.github.io/publication/cinc-2024-msptdfast/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/publication_types/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/publication/cinc-2024-safer-wearables/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/publication/charlton2024-msptdfast/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/electrocardiogram/</loc>
@@ -119,9 +146,6 @@
     <loc>https://peterhcharlton.github.io/publication/hong-2023/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://peterhcharlton.github.io/tag/pulse-wave/</loc>
-    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://peterhcharlton.github.io/talk/accelerometry-guided-inter-beat-interval-assessment-from-wrist-photoplethysmography/</loc>
     <lastmod>2023-10-03T12:45:00+00:00</lastmod>
   </url><url>
@@ -157,12 +181,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/machine-learning/</loc>
     <lastmod>2023-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/blood-pressure/</loc>
-    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/cardiovascular/</loc>
-    <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/fitness/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
@@ -207,9 +225,6 @@
     <lastmod>2023-05-09T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/tag/open-research/</loc>
-    <lastmod>2023-05-09T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/vascular-ageing/</loc>
     <lastmod>2023-05-09T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/using-consumer-wearables-for-clinical-decision-making/</loc>
@@ -421,9 +436,6 @@
   </url><url>
     <loc>https://peterhcharlton.github.io/extras/screening_for_af_q_a_transcript/</loc>
     <lastmod>2021-09-20T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://peterhcharlton.github.io/tag/arterial-stiffness/</loc>
-    <lastmod>2021-09-07T17:00:00+00:00</lastmod>
   </url><url>
     <loc>https://peterhcharlton.github.io/talk/introduction-to-modelling-arterial-pulse-waves/</loc>
     <lastmod>2021-09-07T17:00:00+00:00</lastmod>
